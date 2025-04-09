@@ -1,0 +1,9 @@
+name: "NewSerpuloBalanceTest"
+displayName: "NewSerpuloBalanceReal"
+author: "blackberry2093 (community help)"
+description: "Test mode for balance"
+subtitle: "uwu."
+version: "0.1"
+minGameVersion: 147
+hidden: false
+repo: "https://github.com/StalkerBaran/NewSerpuloBalanceYet"
