@@ -53,3 +53,6 @@ UnitTypes.corvus.weapons.get(0).shoot.shots = 6;
 UnitTypes.corvus.weapons.get(0).shoot.shotDelay = 14;
 UnitTypes.corvus.weapons.get(0).bullet.damage = 70;
 UnitTypes.corvus.weapons.get(0).bullet.lightningDamage = 12
+
+
+//Пофиксить скорость тсрельбы
