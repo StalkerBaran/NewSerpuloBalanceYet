@@ -61,7 +61,7 @@ UnitTypes.corvus.weapons.get(0).bullet.lightningDamage = 18;
 // Атрах. Реал
 UnitTypes.atrax.speed = 0.95;
 
-//spiroct
+//spiroct //мб тут сломано, завтра глянуть
 UnitTypes.spiroct.speed = 0.89;
 UnitTypes.spiroct.armor = 4;
 UnitTypes.spiroct.health = 1100;
