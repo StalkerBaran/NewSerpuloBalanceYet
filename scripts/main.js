@@ -29,7 +29,6 @@ UnitTypes.reign.health = 27000;
 //nova
 UnitTypes.nova.weapons.get(0).bullet.damage = 19;
 UnitTypes.nova.weapons.get(0).reload = 31;
-UnitTypes.nova.weapons.get(1).reload = 31;
 UnitTypes.nova.speed = 0.59;
 UnitTypes.nova.health = 200;
 UnitTypes.nova.armor = 3;
