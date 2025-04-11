@@ -18,8 +18,10 @@ UnitTypes.scepter.weapons.get(0).bullet.lifetime = 27;
 UnitTypes.scepter.speed = 0.51;
 UnitTypes.scepter.armor = 13;
 UnitTypes.scepter.health = 11000;
-UnitTypes.scepter.weapons.get(0).bullet.lifetime = 27; //нет
-UnitTypes.scepter.weapons.get(2).bullet.lifetime = 67; //нет
+UnitTypes.scepter.weapons.get(0).bullet.lifetime = 27;
+UnitTypes.scepter.weapons.get(1).bullet.lifetime = 27;//нет
+UnitTypes.scepter.weapons.get(2).bullet.lifetime = 67;
+UnitTypes.scepter.weapons.get(3).bullet.lifetime = 67;//нет
 
 //reign
 UnitTypes.reign.speed = 0.5;
