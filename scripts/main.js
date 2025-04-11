@@ -17,8 +17,8 @@ UnitTypes.fortress.speed = 0.52;
 UnitTypes.scepter.speed = 0.51;
 UnitTypes.scepter.armor = 13;
 UnitTypes.scepter.health = 11000;
-UnitTypes.scepter.weapons.get(1).bullet.lifetime = 59;
-UnitTypes.scepter.weapons.get(0).bullet.lifetime = 24;
+UnitTypes.scepter.weapons.get(1).bullet.lifetime = 57;
+UnitTypes.scepter.weapons.get(0).bullet.lifetime = 23;
 
 //reign
 UnitTypes.reign.speed = 0.5;
@@ -103,10 +103,10 @@ UnitTypes.zenith.weapons.get(0).bullet.lifetime = 58;
 UnitTypes.zenith.crashDamageMultiplier = 0.7;
 
 //antumbra
-UnitTypes.antumbra.health = 9100;
-UnitTypes.antumbra.speed = 0.86;
-UnitTypes.antumbra.weapons.get(0).bullet.splashDamage = 71;
-UnitTypes.antumbra.weapons.get(0).bullet.splashDamageRadius = 30;
+UnitTypes.antumbra.health = 9200;
+UnitTypes.antumbra.speed = 0.87;
+UnitTypes.antumbra.weapons.get(0).bullet.splashDamage = 67;
+UnitTypes.antumbra.weapons.get(0).bullet.splashDamageRadius = 32;
 UnitTypes.antumbra.crashDamageMultiplier = 0.9;
 
 //eclipse
@@ -176,3 +176,23 @@ UnitTypes.aegires.armor = 11;
 //navanax
 UnitTypes.navanax.speed = 0.43;
 UnitTypes.navanax.health = 26000;
+
+
+
+// Turret rework
+
+
+
+//duo
+Blocks.duo.ammoTypes.get(Items.copper).damage = 12;
+
+//scatter
+
+
+//scorch
+Blocks.scorch.ammoTypes.get(Items.coal).damage = 13;
+Blocks.scorch.ammoTypes.get(Items.pyratite).damage = 47;
+
+//hail
+Blocks.hail.ammoTypes.get(Items.pyratite).splashDamage = 55;
+Blocks.hail.ammoTypes.get(Items.pyratite).splashDamageRadius = 30;
