@@ -141,7 +141,7 @@ UnitTypes.risso.weapons.get(0).bullet.lifetime = 50;
 
 //minke
 UnitTypes.minke.speed = 0.84;
-UnitTypes.minke.weapons.get(1).bullet.lifetime = 68;
+UnitTypes.minke.weapons.get(1).bullet.lifetime = 63;
 
 
 //bryde
@@ -174,5 +174,5 @@ UnitTypes.aegires.speed = 0.76;
 UnitTypes.aegires.armor = 11;
 
 //navanax
-UnitTypes.aegires.speed = 0.43;
-UnitTypes.aegires.health = 26000;
+UnitTypes.navanax.speed = 0.43;
+UnitTypes.navanax.health = 26000;
