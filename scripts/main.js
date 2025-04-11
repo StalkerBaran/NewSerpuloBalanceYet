@@ -86,7 +86,7 @@ UnitTypes.flare.speed = 2.5;
 UnitTypes.flare.weapons.get(0).reload = 14;
 UnitTypes.flare.drag = 0.07;
 UnitTypes.flare.rotateSpeed = 9;
-UnitTypes.flare.damage = 6;
+UnitTypes.flare.weapons.get(0).bullet.damage = 6;
 UnitTypes.flare.crashDamageMultiplier = 0.75;
 
 //horizon
