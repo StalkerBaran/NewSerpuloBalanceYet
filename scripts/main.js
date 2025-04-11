@@ -1,5 +1,5 @@
 //dagger
-UnitTypes.dagger.weapons.get(0).reload = 62; //хз
+UnitTypes.dagger.weapons.get(0).reload = 15; 
 UnitTypes.dagger.weapons.get(0).bullet.damage = 14;
 UnitTypes.dagger.speed = 0.58;
 UnitTypes.dagger.health = 180;
@@ -18,8 +18,8 @@ UnitTypes.scepter.weapons.get(0).bullet.lifetime = 27;
 UnitTypes.scepter.speed = 0.51;
 UnitTypes.scepter.armor = 13;
 UnitTypes.scepter.health = 11000;
-UnitTypes.scepter.weapons.get(0).bullet.lifetime = 27;
-UnitTypes.scepter.weapons.get(2).bullet.lifetime = 67;
+UnitTypes.scepter.weapons.get(0).bullet.lifetime = 27; //нет
+UnitTypes.scepter.weapons.get(2).bullet.lifetime = 67; //нет
 
 //reign
 UnitTypes.reign.speed = 0.5;
@@ -40,7 +40,7 @@ UnitTypes.pulsar.speed = 0.61;
 
 //quasar
 UnitTypes.quasar.speed = 0.53;
-UnitTypes.quasar.weapons.get(0).reload = 130; //хз
+UnitTypes.quasar.weapons.get(0).reload = 32; 
 UnitTypes.quasar.health = 830;
 
 //vela
@@ -67,19 +67,22 @@ UnitTypes.atrax.speed = 0.95;
 UnitTypes.spiroct.speed = 0.89;
 UnitTypes.spiroct.armor = 4;
 UnitTypes.spiroct.health = 1100;
-UnitTypes.spiroct.weapons.get(2).reload = 36; //хз
+UnitTypes.spiroct.weapons.get(2).reload = 9;
+UnitTypes.spiroct.weapons.get(3).reload = 9;
 
 //arkiyd
 UnitTypes.arkyid.speed = 0.87;
 UnitTypes.arkyid.armor = 8;
-UnitTypes.arkyid.weapons.get(5).bullet.splashDamage = 42; //нет
-UnitTypes.arkyid.weapons.get(7).bullet.splashDamage = 75; //нет
+UnitTypes.arkyid.weapons.get(6).bullet.splashDamage = 75;
+UnitTypes.arkyid.weapons.get(7).bullet.splashDamage = 75;
 
 //toxopидор
 UnitTypes.toxopid.speed = 0.93;
 UnitTypes.toxopid.health = 18000;
-UnitTypes.toxopid.weapons.get(2).bullet.damage = 130; //нет
-UnitTypes.toxopid.weapons.get(0).bullet.damage = 170; //нет
+UnitTypes.toxopid.weapons.get(2).bullet.damage = 130;
+UnitTypes.toxopid.weapons.get(3).bullet.damage = 130;
+UnitTypes.toxopid.weapons.get(0).bullet.damage = 170;
+UnitTypes.toxopid.weapons.get(1).bullet.damage = 170;
 
 
 //flare
