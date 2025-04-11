@@ -28,6 +28,8 @@ UnitTypes.reign.health = 27000;
 
 //nova
 UnitTypes.nova.weapons.get(0).bullet.damage = 19;
+UnitTypes.nova.weapons.get(0).reload = 31;
+UnitTypes.nova.weapons.get(1).reload = 31;
 UnitTypes.nova.speed = 0.59;
 UnitTypes.nova.health = 200;
 UnitTypes.nova.armor = 3;
@@ -69,19 +71,17 @@ UnitTypes.spiroct.health = 1100;
 UnitTypes.spiroct.weapons.get(2).reload = 9;
 UnitTypes.spiroct.weapons.get(3).reload = 9;
 
-//arkiyd
+//arkyid
 UnitTypes.arkyid.speed = 0.87;
 UnitTypes.arkyid.armor = 8;
-UnitTypes.arkyid.weapons.get(6).bullet.splashDamage = 75;
-UnitTypes.arkyid.weapons.get(7).bullet.splashDamage = 75;
+UnitTypes.arkyid.weapons.get(0).bullet.splashDamage = 75;
+UnitTypes.arkyid.weapons.get(1).bullet.splashDamage = 75;
 
 //toxopидор
 UnitTypes.toxopid.speed = 0.93;
 UnitTypes.toxopid.health = 18000;
-UnitTypes.toxopid.weapons.get(2).bullet.damage = 130;
-UnitTypes.toxopid.weapons.get(3).bullet.damage = 130;
+UnitTypes.toxopid.weapons.get(1).bullet.damage = 130;
 UnitTypes.toxopid.weapons.get(0).bullet.damage = 170;
-UnitTypes.toxopid.weapons.get(1).bullet.damage = 170;
 
 
 //flare
