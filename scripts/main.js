@@ -140,7 +140,7 @@ UnitTypes.risso.weapons.get(0).bullet.lifetime = 50;
 
 //minke
 UnitTypes.minke.speed = 0.84;
-UnitTypes.minke.weapons.get(2).bullet.lifetime = 68;
+UnitTypes.minke.weapons.get(1).bullet.lifetime = 68;
 
 
 //bryde
@@ -149,8 +149,8 @@ UnitTypes.bryde.weapons.get(0).bullet.lifetime = 79;
 
 //sei
 UnitTypes.sei.speed = 0.77;
-UnitTypes.sei.weapons.get(1).bullet.lifetime = 58;
-UnitTypes.sei.weapons.get(2).bullet.lifetime = 33;
+UnitTypes.sei.weapons.get(0).bullet.lifetime = 58;
+UnitTypes.sei.weapons.get(1).bullet.lifetime = 33;
 UnitTypes.sei.armor = 13;
 
 //omura
