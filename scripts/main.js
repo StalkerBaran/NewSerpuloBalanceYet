@@ -63,7 +63,7 @@ UnitTypes.corvus.weapons.get(0).bullet.lightningDamage = 18;
 // Атрах. Реал
 UnitTypes.atrax.speed = 0.95;
 
-//spiroct //мб тут сломано, завтра глянуть
+//spiroct
 UnitTypes.spiroct.speed = 0.89;
 UnitTypes.spiroct.armor = 4;
 UnitTypes.spiroct.health = 1100;
@@ -93,17 +93,18 @@ UnitTypes.flare.crashDamageMultiplier = 0.75;
 UnitTypes.horizon.speed = 2.2;
 UnitTypes.horizon.health = 470;
 UnitTypes.horizon.armor = 2;
+UnitTypes.horizon.itemCapacity = 30;
 
 //zenith
-UnitTypes.zenith.speed = 1,64;
-UnitTypes.zenith.health = 810;
+UnitTypes.zenith.speed = 1.64;
+UnitTypes.zenith.health = 990;
 UnitTypes.zenith.armor = 3;
-UnitTypes.zenith.weapons.get(0).bullet.lifetime = 61;
+UnitTypes.zenith.weapons.get(0).bullet.lifetime = 58;
 UnitTypes.zenith.crashDamageMultiplier = 0.7;
 
 //antumbra
 UnitTypes.antumbra.health = 9100;
-UnitTypes.antumbra.speed = 0.84;
+UnitTypes.antumbra.speed = 0.86;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamage = 71;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamageRadius = 30;
 UnitTypes.antumbra.crashDamageMultiplier = 0.9;
