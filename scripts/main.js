@@ -268,3 +268,51 @@ Blocks.cyclone.ammoTypes.get(Items.blastCompound).damage = 12;
 
 Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.65;
 Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 31;
+
+//spectre
+Blocks.spectre.reload = 8;
+Blocks.spectre.rotateSpeed = 1.3;
+Blocks.spectre.range = 270;
+
+Blocks.spectre.ammoTypes.get(Items.graphite).ammoMultiplier = 3;
+Blocks.spectre.ammoTypes.get(Items.graphite).damage = 80;
+Blocks.spectre.ammoTypes.get(Items.graphite).knockback = 1.1;
+
+Blocks.spectre.ammoTypes.get(Items.thorium).damage = 120;
+Blocks.spectre.ammoTypes.get(Items.thorium).ammoMultiplier = 2;
+Blocks.spectre.ammoTypes.get(Items.thorium).knockback = 1.2;
+
+Blocks.spectre.ammoTypes.get(Items.pyratite).damage = 110;
+Blocks.spectre.ammoTypes.get(Items.pyratite).ammoMultiplier = 3;
+Blocks.spectre.ammoTypes.get(Items.pyratite).splashDamage = 30;
+Blocks.spectre.ammoTypes.get(Items.pyratite).knockback = 0.7;
+
+//meltdown
+Blocks.meltdown.rotateSpeed = 1.4;
+Blocks.meltdown.reload = 110;
+Blocks.meltdown.shootType.damage = 180;
+
+
+
+//Effect rework
+
+
+
+//shocked
+StatusEffects.wet.transitionDamage = 12;
+
+//freezing
+StatusEffects.freezing.transitionDamage = 15;
+
+//burning
+StatusEffects.burning.reloadMultiplier = 0.9;
+StatusEffects.burning.speedMultiplier = 0.9;
+
+
+
+//Reconstructors fr
+
+
+
+//Blocks.additiveReconstructor.consumeItems.UnitTypes i cant understand how change cost production
+Blocks.exponentialReconstructor.constructTime = 7200; //very test feature. Idk how good or bad is it
