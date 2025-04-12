@@ -201,8 +201,8 @@ Blocks.lancer.shootType.pierceCap = 6;
 Blocks.lancer.shootType.damage = 90;
 
 //arc
-Blocks.arc.shootType.damage = 12;
-Blocks.arc.reload = 25;
+Blocks.arc.shootType.damage = 13;
+Blocks.arc.reload = 31;
 
 //swarmer
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamage = 35;
