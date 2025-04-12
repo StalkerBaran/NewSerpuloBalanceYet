@@ -208,7 +208,6 @@ Blocks.arc.reload = 31;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamage = 35;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamageRadius = 38;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).fragBullets = 3;
-Blocks.swarmer.ammoTypes.get(Items.blastCompound).fragBullets.hitEffect = Fx.blastExplosion;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).fragBullets.width = 10;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).fragBullets.height = 12;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).fragBullets.shrinkY = 1;
