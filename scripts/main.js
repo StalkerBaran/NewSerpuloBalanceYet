@@ -97,7 +97,7 @@ UnitTypes.horizon.itemCapacity = 30;
 
 //zenith
 UnitTypes.zenith.speed = 1.41;
-UnitTypes.zenith.health = 990;
+UnitTypes.zenith.health = 790;
 UnitTypes.zenith.armor = 3;
 UnitTypes.zenith.weapons.get(0).bullet.lifetime = 57;
 UnitTypes.zenith.crashDamageMultiplier = 0.7;
@@ -128,12 +128,13 @@ UnitTypes.mega.crashDamageMultiplier = 0.8;
 //quad
 UnitTypes.quad.speed = 1.4;
 UnitTypes.quad.buildSpeed = 3.5;
+UnitTypes.quad.crashDamageMultiplier = 0.9;
 
 //oct
 UnitTypes.oct.speed = 0.94;
 UnitTypes.oct.armor = 18;
 UnitTypes.oct.crashDamageMultiplier = 0.7;
-
+UnitTypes.oct.crashDamageMultiplier = 0.9;
 
 //risso
 UnitTypes.risso.speed = 1.06;
@@ -205,12 +206,14 @@ Blocks.arc.shootType.damage = 11;
 Blocks.arc.reload = 31;
 
 //swarmer
-Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamage = 23;
-Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamageRadius = 36;
+Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamage = 22;
+Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamageRadius = 39;
 
-Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamage = 20;
-Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamageRadius = 39;
+Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamage = 21;
+Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamageRadius = 41;
 
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamage = 32;
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 23;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamage = 28;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 19;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.7;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).ammoMultiplier = 2;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightningDamage = 7;
