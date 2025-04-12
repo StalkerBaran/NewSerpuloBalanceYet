@@ -201,9 +201,19 @@ Blocks.lancer.shootType.pierceCap = 6;
 Blocks.lancer.shootType.damage = 90;
 
 //arc
-Blocks.arc.shootType.damage = 13;
+Blocks.arc.shootType.damage = 11;
 Blocks.arc.reload = 31;
 
 //swarmer
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamage = 35;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamageRadius = 38;
+Blocks.swarmer.ammoTypes.get(Items.blastCompound).fragBullets = 3;
+Blocks.swarmer.ammoTypes.get(Items.blastCompound).fragBullets.hitEffect = Fx.blastExplosion;
+Blocks.swarmer.ammoTypes.get(Items.blastCompound).fragBullets.width = 10;
+Blocks.swarmer.ammoTypes.get(Items.blastCompound).fragBullets.height = 12;
+Blocks.swarmer.ammoTypes.get(Items.blastCompound).fragBullets.shrinkY = 1;
+Blocks.swarmer.ammoTypes.get(Items.blastCompound).fragBullets.lifetime = 15;
+Blocks.swarmer.ammoTypes.get(Items.blastCompound).fragBullets.backColor = Pal.plastaniumBack;
+Blocks.swarmer.ammoTypes.get(Items.blastCompound).fragBullets.frontColor = Pal.plastaniumFront;
+Blocks.swarmer.ammoTypes.get(Items.blastCompound).fragBullets.collidesAir = false;
+Blocks.swarmer.ammoTypes.get(Items.blastCompound).fragBullets.damage = 10;
