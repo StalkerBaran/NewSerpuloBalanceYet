@@ -208,5 +208,4 @@ Blocks.arc.reload = 31;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamage = 35;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamageRadius = 38;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).fragBullets = 3;
-Blocks.swarmer.ammoTypes.get(Items.blastCompound).fragBullets.lifetime = 15;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).fragBullets.damage = 10;
