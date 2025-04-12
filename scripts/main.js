@@ -8,14 +8,14 @@ UnitTypes.dagger.rotateSpeed = 8;
 
 //mace
 UnitTypes.mace.speed = 0.57;
-UnitTypes.mace.armor = 6;
+UnitTypes.mace.armor = 5;
 
 //fortress
 UnitTypes.fortress.speed = 0.52;
 
 //scepter
 UnitTypes.scepter.speed = 0.51;
-UnitTypes.scepter.armor = 13;
+UnitTypes.scepter.armor = 12;
 UnitTypes.scepter.health = 11000;
 UnitTypes.scepter.weapons.get(1).bullet.lifetime = 55;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 22;
@@ -50,11 +50,11 @@ UnitTypes.vela.armor = 11;
 
 //corvus (my changes)
 UnitTypes.corvus.speed = 0.29;
-UnitTypes.corvus.armor = 12;
+UnitTypes.corvus.armor = 13;
 UnitTypes.corvus.weapons.get(0).reload = 510;
-UnitTypes.corvus.weapons.get(0).shoot.shots = 6;
+UnitTypes.corvus.weapons.get(0).shoot.shots = 7;
 UnitTypes.corvus.weapons.get(0).shoot.shotDelay = 14;
-UnitTypes.corvus.weapons.get(0).bullet.damage = 70;
+UnitTypes.corvus.weapons.get(0).bullet.damage = 52;
 UnitTypes.corvus.weapons.get(0).bullet.lightningDamage = 18;
 
 
@@ -83,10 +83,10 @@ UnitTypes.toxopid.weapons.get(0).bullet.damage = 170;
 
 //flare
 UnitTypes.flare.speed = 2.5;
-UnitTypes.flare.weapons.get(0).reload = 14;
+UnitTypes.flare.weapons.get(0).reload = 16;
 UnitTypes.flare.drag = 0.07;
 UnitTypes.flare.rotateSpeed = 9;
-UnitTypes.flare.weapons.get(0).bullet.damage = 6;
+UnitTypes.flare.weapons.get(0).bullet.damage = 7;
 UnitTypes.flare.crashDamageMultiplier = 0.75;
 
 //horizon
@@ -96,23 +96,23 @@ UnitTypes.horizon.armor = 2;
 UnitTypes.horizon.itemCapacity = 30;
 
 //zenith
-UnitTypes.zenith.speed = 1.4;
+UnitTypes.zenith.speed = 1.41;
 UnitTypes.zenith.health = 990;
 UnitTypes.zenith.armor = 3;
-UnitTypes.zenith.weapons.get(0).bullet.lifetime = 58;
+UnitTypes.zenith.weapons.get(0).bullet.lifetime = 57;
 UnitTypes.zenith.crashDamageMultiplier = 0.7;
 
 //antumbra
-UnitTypes.antumbra.health = 9200;
+UnitTypes.antumbra.health = 9100;
 UnitTypes.antumbra.speed = 0.87;
-UnitTypes.antumbra.weapons.get(0).bullet.splashDamage = 67;
+UnitTypes.antumbra.weapons.get(0).bullet.splashDamage = 63;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamageRadius = 32;
 UnitTypes.antumbra.crashDamageMultiplier = 0.9;
 
 //eclipse
 UnitTypes.eclipse.health = 23000;
-UnitTypes.eclipse.speed = 0.77;
-UnitTypes.eclipse.armor = 19;
+UnitTypes.eclipse.speed = 0.78;
+UnitTypes.eclipse.armor = 18;
 
 
 //mono
@@ -184,10 +184,9 @@ UnitTypes.navanax.health = 26000;
 
 
 //duo
-Blocks.duo.ammoTypes.get(Items.copper).damage = 12;
+Blocks.duo.ammoTypes.get(Items.copper).damage = 10;
 
 //scatter
-
 
 //scorch
 Blocks.scorch.ammoTypes.get(Items.coal).damage = 13;
@@ -195,4 +194,16 @@ Blocks.scorch.ammoTypes.get(Items.pyratite).damage = 47;
 
 //hail
 Blocks.hail.ammoTypes.get(Items.pyratite).splashDamage = 55;
-Blocks.hail.ammoTypes.get(Items.pyratite).splashDamageRadius = 30;
+Blocks.hail.ammoTypes.get(Items.pyratite).splashDamageRadius = 31;
+
+//lancer
+Blocks.lancer.shootType.pierceCap = 6;
+Blocks.lancer.shootType.damage = 90;
+
+//arc
+Blocks.arc.shootType.damage = 12;
+Blocks.arc.reload = 25;
+
+//swarmer
+Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamage = 35;
+Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamageRadius = 38;
