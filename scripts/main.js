@@ -16,7 +16,7 @@ UnitTypes.fortress.speed = 0.52;
 //scepter
 UnitTypes.scepter.speed = 0.51;
 UnitTypes.scepter.armor = 11;
-UnitTypes.scepter.health = 11000;
+UnitTypes.scepter.health = 12000;
 UnitTypes.scepter.weapons.get(1).bullet.lifetime = 55;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 22;
 
@@ -44,7 +44,7 @@ UnitTypes.quasar.weapons.get(0).reload = 32;
 UnitTypes.quasar.health = 830;
 
 //vela
-UnitTypes.vela.health = 8900;
+UnitTypes.vela.health = 9300;
 UnitTypes.vela.speed = 0.64;
 UnitTypes.vela.armor = 11;
 
@@ -107,12 +107,12 @@ UnitTypes.zenith.crashDamageMultiplier = 0.7;
 UnitTypes.antumbra.health = 9100;
 UnitTypes.antumbra.speed = 0.87;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamage = 63;
-UnitTypes.antumbra.weapons.get(0).bullet.splashDamageRadius = 32;
+UnitTypes.antumbra.weapons.get(0).bullet.splashDamageRadius = 35;
 UnitTypes.antumbra.crashDamageMultiplier = 0.9;
 
 //eclipse
 UnitTypes.eclipse.health = 23000;
-UnitTypes.eclipse.speed = 0.78;
+UnitTypes.eclipse.speed = 0.8;
 UnitTypes.eclipse.armor = 18;
 
 
@@ -127,15 +127,13 @@ UnitTypes.mega.health = 510;
 UnitTypes.mega.crashDamageMultiplier = 0.8;
 
 //quad
-UnitTypes.quad.speed = 1.4;
+UnitTypes.quad.speed = 1.42;
 UnitTypes.quad.buildSpeed = 3.5;
-UnitTypes.quad.crashDamageMultiplier = 0.9;
 
 //oct
 UnitTypes.oct.speed = 0.94;
 UnitTypes.oct.armor = 18;
-UnitTypes.oct.crashDamageMultiplier = 0.7;
-UnitTypes.oct.crashDamageMultiplier = 0.9;
+UnitTypes.oct.crashDamageMultiplier = 0.8;
 
 //risso
 UnitTypes.risso.speed = 1.06;
@@ -305,8 +303,8 @@ StatusEffects.wet.transitionDamage = 12;
 StatusEffects.freezing.transitionDamage = 15;
 
 //burning
-StatusEffects.burning.reloadMultiplier = 0.9;
-StatusEffects.burning.speedMultiplier = 0.9;
+StatusEffects.burning.reloadMultiplier = 0.9; //very test
+StatusEffects.burning.speedMultiplier = 0.9; //very test
 
 
 
