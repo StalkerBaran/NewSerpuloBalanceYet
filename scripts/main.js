@@ -210,12 +210,12 @@ Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamageRadius = 41;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).ammoMultiplier = 5;
 
 Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamage = 22;
-Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamageRadius = 43;
+Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamageRadius = 42;
 Blocks.swarmer.ammoTypes.get(Items.pyratite).ammoMultiplier = 5;
 
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamage = 29;
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 17;
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.65;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 18;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.7;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).ammoMultiplier = 3;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightningDamage = 9;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightning = 3
@@ -247,11 +247,11 @@ Blocks.ripple.ammoTypes.get(Items.pyratite).height = 17;
 Blocks.ripple.ammoTypes.get(Items.blastCompound).width = 16;
 Blocks.ripple.ammoTypes.get(Items.blastCompound).height = 16;
 Blocks.ripple.ammoTypes.get(Items.blastCompound).splashDamageRadius = 35;
-Blocks.ripple.ammoTypes.get(Items.blastCompound).splashDamage = 65;
-Blocks.ripple.ammoTypes.get(Items.blastCompound).reloadMultiplier = 0.9;
+Blocks.ripple.ammoTypes.get(Items.blastCompound).splashDamage = 75;
+Blocks.ripple.ammoTypes.get(Items.blastCompound).reloadMultiplier = 0.85;
 
 //cyclone
-Blocks.cyclone.reload = 12;
+Blocks.cyclone.reload = 11;
 
 Blocks.cyclone.ammoTypes.get(Items.metaglass).damage = 13;
 Blocks.cyclone.ammoTypes.get(Items.metaglass).splashDamage = 27;
@@ -259,13 +259,13 @@ Blocks.cyclone.ammoTypes.get(Items.metaglass).reloadMultiplier = 1.2;
 Blocks.cyclone.ammoTypes.get(Items.metaglass).fragBullets = 9;
 Blocks.cyclone.ammoTypes.get(Items.metaglass).fragBullet.damage = 8;
 
-Blocks.cyclone.ammoTypes.get(Items.plastanium).splashDamage = 34;
+Blocks.cyclone.ammoTypes.get(Items.plastanium).splashDamage = 35;
 Blocks.cyclone.ammoTypes.get(Items.plastanium).damage = 11;
 
 Blocks.cyclone.ammoTypes.get(Items.blastCompound).damage = 12;
 
-Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.65;
-Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 31;
+Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.7;
+Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 33;
 
 //spectre
 Blocks.spectre.reload = 6.7;
