@@ -215,20 +215,20 @@ Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamage = 22;
 Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamageRadius = 42;
 Blocks.swarmer.ammoTypes.get(Items.pyratite).ammoMultiplier = 5;
 
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamage = 29;
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 18;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamage = 30;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 21;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.7;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).ammoMultiplier = 3;
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightningDamage = 9;
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightning = 3
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightningDamage = 12;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightning = 2
 
 //salvo 
-Blocks.salvo.ammoTypes.get(Items.copper).damage = 13;
-Blocks.salvo.ammoTypes.get(Items.graphite).damage = 23;
-Blocks.salvo.ammoTypes.get(Items.pyratite).damage = 22;
-Blocks.salvo.ammoTypes.get(Items.pyratite).splashDamage = 27;
-Blocks.salvo.ammoTypes.get(Items.silicon).splashDamageRadius = 23;
-Blocks.salvo.reload = 26;
+Blocks.salvo.ammoTypes.get(Items.copper).damage = 14;
+Blocks.salvo.ammoTypes.get(Items.graphite).damage = 27;
+Blocks.salvo.ammoTypes.get(Items.pyratite).damage = 23;
+Blocks.salvo.ammoTypes.get(Items.pyratite).splashDamage = 24;
+Blocks.salvo.ammoTypes.get(Items.silicon).splashDamageRadius = 24;
+Blocks.salvo.reload = 25;
 
 //fuse
 Blocks.fuse.reload = 47;
@@ -270,7 +270,7 @@ Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.7;
 Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 33;
 
 //spectre
-Blocks.spectre.reload = 6.7;
+Blocks.spectre.reload = 6.6;
 Blocks.spectre.rotateSpeed = 1.3;
 Blocks.spectre.range = 270;
 
