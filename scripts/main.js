@@ -270,7 +270,7 @@ Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.7;
 Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 33;
 
 //spectre
-Blocks.spectre.reload = 6.6;
+Blocks.spectre.reload = 6.7;
 Blocks.spectre.rotateSpeed = 1.3;
 Blocks.spectre.range = 270;
 
@@ -305,7 +305,7 @@ Blocks.meltdown.shootType.damage = 180;
 StatusEffects.wet.transitionDamage = 12;
 
 //freezing
-StatusEffects.freezing.transitionDamage = 15;
+StatusEffects.freezing.transitionDamage = 13;
 
 //burning
 StatusEffects.burning.reloadMultiplier = 0.9; //very test
