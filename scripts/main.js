@@ -86,7 +86,7 @@ UnitTypes.toxopid.weapons.get(0).bullet.damage = 170;
 
 //flare
 UnitTypes.flare.speed = 2.5;
-UnitTypes.flare.weapons.get(1).reload = 14;
+UnitTypes.flare.weapons.get(0).reload = 13;
 UnitTypes.flare.drag = 0.07;
 UnitTypes.flare.rotateSpeed = 9;
 UnitTypes.flare.weapons.get(0).bullet.damage = 7;
