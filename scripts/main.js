@@ -15,14 +15,14 @@ UnitTypes.fortress.speed = 0.52;
 
 //scepter
 UnitTypes.scepter.speed = 0.51;
-UnitTypes.scepter.armor = 12;
+UnitTypes.scepter.armor = 11;
 UnitTypes.scepter.health = 11000;
 UnitTypes.scepter.weapons.get(1).bullet.lifetime = 55;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 22;
 
 //reign
 UnitTypes.reign.speed = 0.5;
-UnitTypes.reign.armor = 21;
+UnitTypes.reign.armor = 20;
 UnitTypes.reign.health = 27000;
 
 
@@ -36,7 +36,7 @@ UnitTypes.nova.abilities.get(0).reload = 90;
 UnitTypes.nova.rotateSpeed = 7.5;
 
 //pulsar
-UnitTypes.pulsar.speed = 0.61;
+UnitTypes.pulsar.speed = 0.62;
 
 //quasar
 UnitTypes.quasar.speed = 0.53;
@@ -270,7 +270,7 @@ Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.65;
 Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 31;
 
 //spectre
-Blocks.spectre.reload = 8;
+Blocks.spectre.reload = 6.7;
 Blocks.spectre.rotateSpeed = 1.3;
 Blocks.spectre.range = 270;
 
