@@ -1,27 +1,27 @@
 //dagger
 UnitTypes.dagger.weapons.get(0).reload = 15; 
 UnitTypes.dagger.weapons.get(0).bullet.damage = 14;
-UnitTypes.dagger.speed = 0.58;
+UnitTypes.dagger.speed = 0.59;
 UnitTypes.dagger.health = 170;
 UnitTypes.dagger.armor = 1;
 UnitTypes.dagger.rotateSpeed = 8;
 
 //mace
-UnitTypes.mace.speed = 0.57;
+UnitTypes.mace.speed = 0.58;
 UnitTypes.mace.armor = 5;
 
 //fortress
-UnitTypes.fortress.speed = 0.52;
+UnitTypes.fortress.speed = 0.53;
 
 //scepter
-UnitTypes.scepter.speed = 0.51;
+UnitTypes.scepter.speed = 0.52;
 UnitTypes.scepter.armor = 11;
 UnitTypes.scepter.health = 12000;
 UnitTypes.scepter.weapons.get(1).bullet.lifetime = 55;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 22;
 
 //reign
-UnitTypes.reign.speed = 0.5;
+UnitTypes.reign.speed = 0.51;
 UnitTypes.reign.armor = 20;
 UnitTypes.reign.health = 27000;
 
@@ -29,23 +29,23 @@ UnitTypes.reign.health = 27000;
 //nova
 UnitTypes.nova.weapons.get(0).bullet.damage = 21;
 UnitTypes.nova.weapons.get(0).reload = 18;
-UnitTypes.nova.speed = 0.59;
+UnitTypes.nova.speed = 0.6;
 UnitTypes.nova.health = 200;
 UnitTypes.nova.armor = 3;
 UnitTypes.nova.abilities.get(0).reload = 90;
 UnitTypes.nova.rotateSpeed = 7.5;
 
 //pulsar
-UnitTypes.pulsar.speed = 0.62;
+UnitTypes.pulsar.speed = 0.63;
 
 //quasar
-UnitTypes.quasar.speed = 0.53;
-UnitTypes.quasar.weapons.get(0).reload = 32; 
+UnitTypes.quasar.speed = 0.54;
+UnitTypes.quasar.weapons.get(0).reload = 33; 
 UnitTypes.quasar.health = 830;
 
 //vela
 UnitTypes.vela.health = 9300;
-UnitTypes.vela.speed = 0.64;
+UnitTypes.vela.speed = 0.65;
 UnitTypes.vela.armor = 11;
 
 //corvus (my changes)
@@ -65,8 +65,8 @@ UnitTypes.atrax.speed = 0.95;
 UnitTypes.atrax.health = 520;
 
 //spiroct
-UnitTypes.spiroct.speed = 0.89;
-UnitTypes.spiroct.armor = 4;
+UnitTypes.spiroct.speed = 0.9;
+UnitTypes.spiroct.armor = 6;
 UnitTypes.spiroct.health = 1100;
 UnitTypes.spiroct.weapons.get(1).reload = 9;
 
@@ -93,15 +93,15 @@ UnitTypes.flare.weapons.get(0).bullet.damage = 7;
 UnitTypes.flare.crashDamageMultiplier = 0.75;
 
 //horizon
-UnitTypes.horizon.speed = 2.2;
+UnitTypes.horizon.speed = 2.16;
 UnitTypes.horizon.health = 470;
 UnitTypes.horizon.armor = 2;
 UnitTypes.horizon.itemCapacity = 30;
 
 //zenith
-UnitTypes.zenith.speed = 1.41;
+UnitTypes.zenith.speed = 1.44;
 UnitTypes.zenith.health = 790;
-UnitTypes.zenith.armor = 3;
+UnitTypes.zenith.armor = 4;
 UnitTypes.zenith.weapons.get(0).bullet.lifetime = 57;
 UnitTypes.zenith.crashDamageMultiplier = 0.7;
 
@@ -189,7 +189,6 @@ UnitTypes.navanax.health = 26000;
 Blocks.duo.ammoTypes.get(Items.copper).damage = 13;
 Blocks.duo.ammoTypes.get(Items.silicon).damage = 14;
 
-//scatter
 
 //scorch
 Blocks.scorch.ammoTypes.get(Items.coal).damage = 13;
@@ -257,10 +256,11 @@ Blocks.ripple.ammoTypes.get(Items.blastCompound).reloadMultiplier = 0.85;
 Blocks.cyclone.reload = 11;
 
 Blocks.cyclone.ammoTypes.get(Items.metaglass).damage = 13;
-Blocks.cyclone.ammoTypes.get(Items.metaglass).splashDamage = 27;
+Blocks.cyclone.ammoTypes.get(Items.metaglass).splashDamage = 32;
 Blocks.cyclone.ammoTypes.get(Items.metaglass).reloadMultiplier = 1.2;
-Blocks.cyclone.ammoTypes.get(Items.metaglass).fragBullets = 9;
+Blocks.cyclone.ammoTypes.get(Items.metaglass).fragBullets = 10;
 Blocks.cyclone.ammoTypes.get(Items.metaglass).fragBullet.damage = 8;
+Blocks.cyclone.ammoTypes.get(Items.metaglass).ammoMultiplier = 5;
 
 Blocks.cyclone.ammoTypes.get(Items.plastanium).splashDamage = 35;
 Blocks.cyclone.ammoTypes.get(Items.plastanium).damage = 11;
@@ -320,3 +320,24 @@ StatusEffects.burning.speedMultiplier = 0.9; //very test
 
 //Blocks.additiveReconstructor.consumeItems.UnitTypes i cant understand how change cost production
 Blocks.exponentialReconstructor.constructTime = 7200; //very test feature. Idk how good or bad is it, may be removed
+
+
+
+//Walls and cores buffs (very questionable, but why not)
+
+
+
+Blocks.coreShard.armor = 1;
+Blocks.coreFoundation.armor = 2;
+Blocks.coreNucleus.armor = 3;
+
+Blocks.titaniumWall.armor = 1;
+Blocks.titaniumWallLarge.armor = 1;
+Blocks.thoriumWall.armor = 1;
+Blocks.thoriumWallLarge.armor = 1;
+Blocks.plastaniumWall.armor = 2;
+Blocks.plastaniumWallLarge.armor = 2;
+Blocks.phaseWall.armor = 2;
+Blocks.phaseWallLarge.armor = 2;
+Blocks.surgeWall.armor = 3;
+Blocks.surgeWallLarge.armor = 3;
