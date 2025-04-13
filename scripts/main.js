@@ -71,13 +71,15 @@ UnitTypes.spiroct.health = 1100;
 UnitTypes.spiroct.weapons.get(1).reload = 9;
 
 //arkyid
-UnitTypes.arkyid.speed = 0.87;
+UnitTypes.arkyid.speed = 0.88;
+UnitTypes.arkyid.health = 9000;
 UnitTypes.arkyid.armor = 8;
 UnitTypes.arkyid.weapons.get(3).bullet.splashDamage = 75;
 
 //toxopидор
 UnitTypes.toxopid.speed = 0.93;
-UnitTypes.toxopid.health = 18000;
+UnitTypes.toxopid.health = 22000;
+UnitTypes.toxopid.armor = 15;
 UnitTypes.toxopid.weapons.get(1).bullet.damage = 130;
 UnitTypes.toxopid.weapons.get(0).bullet.damage = 170;
 
@@ -104,7 +106,7 @@ UnitTypes.zenith.weapons.get(0).bullet.lifetime = 57;
 UnitTypes.zenith.crashDamageMultiplier = 0.7;
 
 //antumbra
-UnitTypes.antumbra.health = 9100;
+UnitTypes.antumbra.health = 9700;
 UnitTypes.antumbra.speed = 0.87;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamage = 63;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamageRadius = 35;
@@ -152,7 +154,7 @@ UnitTypes.bryde.weapons.get(0).bullet.lifetime = 79;
 UnitTypes.sei.speed = 0.77;
 UnitTypes.sei.weapons.get(0).bullet.lifetime = 58;
 UnitTypes.sei.weapons.get(1).bullet.lifetime = 33;
-UnitTypes.sei.armor = 13;
+UnitTypes.sei.armor = 12;
 
 //omura
 UnitTypes.omura.speed = 0.42;
@@ -226,10 +228,10 @@ Blocks.salvo.ammoTypes.get(Items.graphite).damage = 23;
 Blocks.salvo.ammoTypes.get(Items.pyratite).damage = 22;
 Blocks.salvo.ammoTypes.get(Items.pyratite).splashDamage = 27;
 Blocks.salvo.ammoTypes.get(Items.silicon).splashDamageRadius = 23;
-Blocks.salvo.reload = 26
+Blocks.salvo.reload = 26;
 
 //fuse
-Blocks.fuse.reload = 43
+Blocks.fuse.reload = 47;
 
 //ripple
 Blocks.ripple.ammoTypes.get(Items.graphite).splashDamageRadius = 33;
@@ -275,15 +277,18 @@ Blocks.spectre.range = 270;
 Blocks.spectre.ammoTypes.get(Items.graphite).ammoMultiplier = 3;
 Blocks.spectre.ammoTypes.get(Items.graphite).damage = 80;
 Blocks.spectre.ammoTypes.get(Items.graphite).knockback = 1.1;
+Blocks.spectre.ammoTypes.get(Items.pyratite).pierceCap = 2;
 
 Blocks.spectre.ammoTypes.get(Items.thorium).damage = 120;
 Blocks.spectre.ammoTypes.get(Items.thorium).ammoMultiplier = 2;
 Blocks.spectre.ammoTypes.get(Items.thorium).knockback = 1.2;
+Blocks.spectre.ammoTypes.get(Items.pyratite).pierceCap = 3;
 
 Blocks.spectre.ammoTypes.get(Items.pyratite).damage = 110;
 Blocks.spectre.ammoTypes.get(Items.pyratite).ammoMultiplier = 3;
 Blocks.spectre.ammoTypes.get(Items.pyratite).splashDamage = 30;
 Blocks.spectre.ammoTypes.get(Items.pyratite).knockback = 0.7;
+Blocks.spectre.ammoTypes.get(Items.pyratite).pierceCap = 2;
 
 //meltdown
 Blocks.meltdown.rotateSpeed = 1.4;
@@ -313,4 +318,24 @@ StatusEffects.burning.speedMultiplier = 0.9; //very test
 
 
 //Blocks.additiveReconstructor.consumeItems.UnitTypes i cant understand how change cost production
-Blocks.exponentialReconstructor.constructTime = 7200; //very test feature. Idk how good or bad is it
+Blocks.exponentialReconstructor.constructTime = 7200; //very test feature. Idk how good or bad is it, may be removed
+
+additiveReconstructor = new Reconstructor("additive-reconstructor"){{
+    requirements(Category.units, with(Items.copper, 200, Items.lead, 120, Items.silicon, 90));
+
+    size = 3;
+    consumePower(3f);
+    consumeItems(with(Items.silicon, 30, Items.graphite, 30));
+
+    constructTime = 60f * 10f;
+
+    upgrades.addAll(
+        new UnitType[]{UnitTypes.nova, UnitTypes.pulsar},
+        new UnitType[]{UnitTypes.dagger, UnitTypes.mace},
+        new UnitType[]{UnitTypes.crawler, UnitTypes.atrax},
+        new UnitType[]{UnitTypes.flare, UnitTypes.horizon},
+        new UnitType[]{UnitTypes.mono, UnitTypes.poly},
+        new UnitType[]{UnitTypes.risso, UnitTypes.minke},
+        new UnitType[]{UnitTypes.retusa, UnitTypes.oxynoe}
+    );
+}};
