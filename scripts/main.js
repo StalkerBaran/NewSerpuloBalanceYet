@@ -2,7 +2,7 @@
 UnitTypes.dagger.weapons.get(0).reload = 15; 
 UnitTypes.dagger.weapons.get(0).bullet.damage = 14;
 UnitTypes.dagger.speed = 0.58;
-UnitTypes.dagger.health = 180;
+UnitTypes.dagger.health = 170;
 UnitTypes.dagger.armor = 1;
 UnitTypes.dagger.rotateSpeed = 8;
 
@@ -86,7 +86,7 @@ UnitTypes.toxopid.weapons.get(0).bullet.damage = 170;
 
 //flare
 UnitTypes.flare.speed = 2.5;
-UnitTypes.flare.weapons.get(0).reload = 16;
+UnitTypes.flare.weapons.get(1).reload = 14;
 UnitTypes.flare.drag = 0.07;
 UnitTypes.flare.rotateSpeed = 9;
 UnitTypes.flare.weapons.get(0).bullet.damage = 7;
@@ -186,7 +186,8 @@ UnitTypes.navanax.health = 26000;
 
 
 //duo
-Blocks.duo.ammoTypes.get(Items.copper).damage = 10;
+Blocks.duo.ammoTypes.get(Items.copper).damage = 13;
+Blocks.duo.ammoTypes.get(Items.silicon).damage = 14;
 
 //scatter
 
@@ -302,10 +303,10 @@ Blocks.meltdown.shootType.damage = 180;
 
 
 //shocked
-StatusEffects.wet.transitionDamage = 12;
+StatusEffects.wet.transitionDamage = 13;
 
 //freezing
-StatusEffects.freezing.transitionDamage = 13;
+StatusEffects.freezing.transitionDamage = 14;
 
 //burning
 StatusEffects.burning.reloadMultiplier = 0.9; //very test
