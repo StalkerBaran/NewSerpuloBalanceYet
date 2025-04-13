@@ -319,23 +319,3 @@ StatusEffects.burning.speedMultiplier = 0.9; //very test
 
 //Blocks.additiveReconstructor.consumeItems.UnitTypes i cant understand how change cost production
 Blocks.exponentialReconstructor.constructTime = 7200; //very test feature. Idk how good or bad is it, may be removed
-
-additiveReconstructor = new Reconstructor("additive-reconstructor"){{
-    requirements(Category.units, with(Items.copper, 200, Items.lead, 120, Items.silicon, 90));
-
-    size = 3;
-    consumePower(3f);
-    consumeItems(with(Items.silicon, 30, Items.graphite, 30));
-
-    constructTime = 60f * 10f;
-
-    upgrades.addAll(
-        new UnitType[]{UnitTypes.nova, UnitTypes.pulsar},
-        new UnitType[]{UnitTypes.dagger, UnitTypes.mace},
-        new UnitType[]{UnitTypes.crawler, UnitTypes.atrax},
-        new UnitType[]{UnitTypes.flare, UnitTypes.horizon},
-        new UnitType[]{UnitTypes.mono, UnitTypes.poly},
-        new UnitType[]{UnitTypes.risso, UnitTypes.minke},
-        new UnitType[]{UnitTypes.retusa, UnitTypes.oxynoe}
-    );
-}};
