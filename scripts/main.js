@@ -9,9 +9,11 @@ UnitTypes.dagger.rotateSpeed = 8;
 //mace
 UnitTypes.mace.speed = 0.58;
 UnitTypes.mace.armor = 5;
+UnitTypes.mace.rotateSpeed = 5;
 
 //fortress
 UnitTypes.fortress.speed = 0.53;
+UnitTypes.fortress.rotateSpeed = 4;
 
 //scepter
 UnitTypes.scepter.speed = 0.52;
@@ -19,11 +21,14 @@ UnitTypes.scepter.armor = 12;
 UnitTypes.scepter.health = 11000;
 UnitTypes.scepter.weapons.get(1).bullet.lifetime = 55;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 22;
+UnitTypes.scepter.rotateSpeed = 4;
 
 //reign
 UnitTypes.reign.speed = 0.51;
-UnitTypes.reign.armor = 20;
+UnitTypes.reign.armor = 21;
 UnitTypes.reign.health = 27000;
+UnitTypes.reign.rotateSpeed = 3.5;
+UnitTypes.reign.range = 32;
 
 
 //nova
@@ -33,7 +38,7 @@ UnitTypes.nova.speed = 0.6;
 UnitTypes.nova.health = 200;
 UnitTypes.nova.armor = 3;
 UnitTypes.nova.abilities.get(0).reload = 90;
-UnitTypes.nova.rotateSpeed = 7.5;
+UnitTypes.nova.rotateSpeed = 8;
 
 //pulsar
 UnitTypes.pulsar.speed = 0.63;
@@ -77,10 +82,10 @@ UnitTypes.arkyid.armor = 10;
 UnitTypes.arkyid.weapons.get(3).bullet.splashDamage = 75;
 
 //toxopидор
-UnitTypes.toxopid.speed = 0.93;
-UnitTypes.toxopid.health = 22000;
+UnitTypes.toxopid.speed = 0.92;
+UnitTypes.toxopid.health = 21000;
 UnitTypes.toxopid.armor = 15;
-UnitTypes.toxopid.weapons.get(1).bullet.damage = 130;
+UnitTypes.toxopid.weapons.get(1).bullet.damage = 110;
 UnitTypes.toxopid.weapons.get(0).bullet.damage = 170;
 
 
