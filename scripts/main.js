@@ -53,7 +53,7 @@ UnitTypes.corvus.speed = 0.29;
 UnitTypes.corvus.armor = 13;
 UnitTypes.corvus.weapons.get(0).reload = 510;
 UnitTypes.corvus.weapons.get(0).shoot.shots = 7;
-UnitTypes.corvus.weapons.get(0).shoot.shotDelay = 14;
+UnitTypes.corvus.weapons.get(0).shoot.shotDelay = 15;
 UnitTypes.corvus.weapons.get(0).bullet.damage = 52;
 UnitTypes.corvus.weapons.get(0).bullet.lightningDamage = 18;
 
@@ -65,15 +65,15 @@ UnitTypes.atrax.speed = 0.95;
 UnitTypes.atrax.health = 520;
 
 //spiroct
-UnitTypes.spiroct.speed = 0.9;
-UnitTypes.spiroct.armor = 6;
+UnitTypes.spiroct.speed = 0.89;
+UnitTypes.spiroct.armor = 7;
 UnitTypes.spiroct.health = 1100;
 UnitTypes.spiroct.weapons.get(1).reload = 9;
 
 //arkyid
 UnitTypes.arkyid.speed = 0.88;
 UnitTypes.arkyid.health = 9000;
-UnitTypes.arkyid.armor = 8;
+UnitTypes.arkyid.armor = 10;
 UnitTypes.arkyid.weapons.get(3).bullet.splashDamage = 75;
 
 //toxopидор
@@ -85,7 +85,7 @@ UnitTypes.toxopid.weapons.get(0).bullet.damage = 170;
 
 
 //flare
-UnitTypes.flare.speed = 2.5;
+UnitTypes.flare.speed = 2.6;
 UnitTypes.flare.weapons.get(0).reload = 13;
 UnitTypes.flare.drag = 0.07;
 UnitTypes.flare.rotateSpeed = 9;
@@ -100,8 +100,8 @@ UnitTypes.horizon.itemCapacity = 30;
 
 //zenith
 UnitTypes.zenith.speed = 1.44;
-UnitTypes.zenith.health = 790;
-UnitTypes.zenith.armor = 4;
+UnitTypes.zenith.health = 810;
+UnitTypes.zenith.armor = 5;
 UnitTypes.zenith.weapons.get(0).bullet.lifetime = 57;
 UnitTypes.zenith.crashDamageMultiplier = 0.7;
 
@@ -124,12 +124,12 @@ UnitTypes.mono.speed = 1.7;
 //poly. Everything is fine
 
 //mega
-UnitTypes.mega.speed = 2.54;
+UnitTypes.mega.speed = 2.57;
 UnitTypes.mega.health = 510;
 UnitTypes.mega.crashDamageMultiplier = 0.8;
 
 //quad
-UnitTypes.quad.speed = 1.42;
+UnitTypes.quad.speed = 1.43;
 UnitTypes.quad.buildSpeed = 3.5;
 
 //oct
@@ -148,6 +148,7 @@ UnitTypes.minke.weapons.get(1).bullet.lifetime = 63;
 
 //bryde
 UnitTypes.bryde.speed = 0.79;
+UnitTypes.bryde.armor = 9;
 UnitTypes.bryde.weapons.get(0).bullet.lifetime = 79;
 
 //sei
@@ -164,12 +165,13 @@ UnitTypes.omura.weapons.get(0).bullet.length = 470;
 //retusa. Its fine
 
 //oxynoe
-UnitTypes.oxynoe.weapons.get(0).reload = 18
+UnitTypes.oxynoe.weapons.get(0).reload = 18;
 
 //cyerce
 UnitTypes.cyerce.speed = 0.795;
 UnitTypes.cyerce.health = 810;
 UnitTypes.cyerce.weapons.get(0).repairSpeed = 0.57;
+UnitTypes.cyerce.armor = 8;
 
 //aegires 
 UnitTypes.aegires.speed = 0.76;
@@ -207,18 +209,18 @@ Blocks.arc.shootType.damage = 11;
 Blocks.arc.reload = 31;
 
 //swarmer
-Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamage = 23;
+Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamage = 22;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamageRadius = 41;
-Blocks.swarmer.ammoTypes.get(Items.blastCompound).ammoMultiplier = 5;
+Blocks.swarmer.ammoTypes.get(Items.blastCompound).ammoMultiplier = 3;
 
-Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamage = 22;
+Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamage = 21;
 Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamageRadius = 42;
-Blocks.swarmer.ammoTypes.get(Items.pyratite).ammoMultiplier = 5;
+Blocks.swarmer.ammoTypes.get(Items.pyratite).ammoMultiplier = 3;
 
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamage = 30;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamage = 29;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 21;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.7;
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).ammoMultiplier = 3;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).ammoMultiplier = 2;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightningDamage = 12;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightning = 2
 
@@ -234,12 +236,12 @@ Blocks.salvo.reload = 25;
 Blocks.fuse.reload = 47;
 
 //ripple
-Blocks.ripple.ammoTypes.get(Items.graphite).splashDamageRadius = 33;
+Blocks.ripple.ammoTypes.get(Items.graphite).splashDamageRadius = 32;
 Blocks.ripple.ammoTypes.get(Items.graphite).knockback = 1.2;
 Blocks.ripple.ammoTypes.get(Items.graphite).width = 16;
 Blocks.ripple.ammoTypes.get(Items.graphite).height = 16;
 
-Blocks.ripple.ammoTypes.get(Items.plastanium).fragBullets = 4;
+Blocks.ripple.ammoTypes.get(Items.plastanium).fragBullets = 7;
 
 Blocks.ripple.ammoTypes.get(Items.pyratite).splashDamage = 55;
 Blocks.ripple.ammoTypes.get(Items.pyratite).splashDamageRadius = 37;
@@ -248,7 +250,7 @@ Blocks.ripple.ammoTypes.get(Items.pyratite).height = 17;
 
 Blocks.ripple.ammoTypes.get(Items.blastCompound).width = 16;
 Blocks.ripple.ammoTypes.get(Items.blastCompound).height = 16;
-Blocks.ripple.ammoTypes.get(Items.blastCompound).splashDamageRadius = 35;
+Blocks.ripple.ammoTypes.get(Items.blastCompound).splashDamageRadius = 34;
 Blocks.ripple.ammoTypes.get(Items.blastCompound).splashDamage = 75;
 Blocks.ripple.ammoTypes.get(Items.blastCompound).reloadMultiplier = 0.85;
 
