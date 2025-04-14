@@ -103,13 +103,13 @@ UnitTypes.flare.weapons.get(0).bullet.damage = 6;
 UnitTypes.flare.crashDamageMultiplier = 0.75;
 
 //horizon
-UnitTypes.horizon.speed = 2.16;
+UnitTypes.horizon.speed = 2.03;
 UnitTypes.horizon.health = 470;
 UnitTypes.horizon.armor = 2;
 UnitTypes.horizon.itemCapacity = 30;
 
 //zenith
-UnitTypes.zenith.speed = 1.47;
+UnitTypes.zenith.speed = 1.62;
 UnitTypes.zenith.health = 810;
 UnitTypes.zenith.armor = 5;
 UnitTypes.zenith.weapons.get(0).bullet.lifetime = 57;
@@ -292,7 +292,7 @@ Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 33;
 //spectre
 Blocks.spectre.reload = 6.7;
 Blocks.spectre.rotateSpeed = 1.3;
-Blocks.spectre.range = 270;
+Blocks.spectre.range = 272;
 
 Blocks.spectre.ammoTypes.get(Items.graphite).ammoMultiplier = 3;
 Blocks.spectre.ammoTypes.get(Items.graphite).damage = 80;
@@ -360,3 +360,11 @@ Blocks.phaseWall.armor = 2;
 Blocks.phaseWallLarge.armor = 2;
 Blocks.surgeWall.armor = 3;
 Blocks.surgeWallLarge.armor = 3;
+
+
+//anuke fix issue
+
+
+Blocks.itemBridge.buildTime = 12;
+Blocks.itemBridge.requirements = ItemStack.with(Items.copper, 6, Items.lead, 6);
+
