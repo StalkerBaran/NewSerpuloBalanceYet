@@ -201,28 +201,28 @@ Blocks.hail.ammoTypes.get(Items.pyratite).splashDamage = 55;
 Blocks.hail.ammoTypes.get(Items.pyratite).splashDamageRadius = 31;
 
 //lancer
-Blocks.lancer.shootType.pierceCap = 6;
-Blocks.lancer.shootType.damage = 90;
+Blocks.lancer.shootType.pierceCap = 4;
+Blocks.lancer.shootType.damage = 110;
 
 //arc
-Blocks.arc.shootType.damage = 11;
+Blocks.arc.shootType.damage = 12;
 Blocks.arc.reload = 31;
 
 //swarmer
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamage = 22;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamageRadius = 41;
-Blocks.swarmer.ammoTypes.get(Items.blastCompound).ammoMultiplier = 3;
+Blocks.swarmer.ammoTypes.get(Items.blastCompound).ammoMultiplier = 4;
 
 Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamage = 21;
 Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamageRadius = 42;
-Blocks.swarmer.ammoTypes.get(Items.pyratite).ammoMultiplier = 3;
+Blocks.swarmer.ammoTypes.get(Items.pyratite).ammoMultiplier = 4;
 
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamage = 29;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamage = 31;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 21;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.7;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).ammoMultiplier = 2;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightningDamage = 12;
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightning = 2
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightning = 3
 
 //salvo 
 Blocks.salvo.ammoTypes.get(Items.copper).damage = 14;
