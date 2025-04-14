@@ -28,7 +28,7 @@ UnitTypes.reign.speed = 0.51;
 UnitTypes.reign.armor = 21;
 UnitTypes.reign.health = 27000;
 UnitTypes.reign.rotateSpeed = 3.5;
-UnitTypes.reign.range = 32;
+UnitTypes.reign.weapons.get(0).bullet.lifetime = 20;
 
 
 //nova
