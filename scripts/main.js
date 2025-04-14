@@ -360,5 +360,3 @@ Blocks.phaseWall.armor = 2;
 Blocks.phaseWallLarge.armor = 2;
 Blocks.surgeWall.armor = 3;
 Blocks.surgeWallLarge.armor = 3;
-
-Blocks.itemBridge.buildCostMultiplier = 1.2;
