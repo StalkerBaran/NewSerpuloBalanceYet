@@ -15,8 +15,8 @@ UnitTypes.fortress.speed = 0.53;
 
 //scepter
 UnitTypes.scepter.speed = 0.52;
-UnitTypes.scepter.armor = 11;
-UnitTypes.scepter.health = 12000;
+UnitTypes.scepter.armor = 12;
+UnitTypes.scepter.health = 11000;
 UnitTypes.scepter.weapons.get(1).bullet.lifetime = 55;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 22;
 
@@ -155,7 +155,7 @@ UnitTypes.bryde.weapons.get(0).bullet.lifetime = 79;
 UnitTypes.sei.speed = 0.77;
 UnitTypes.sei.weapons.get(0).bullet.lifetime = 58;
 UnitTypes.sei.weapons.get(1).bullet.lifetime = 33;
-UnitTypes.sei.armor = 12;
+UnitTypes.sei.armor = 13;
 
 //omura
 UnitTypes.omura.speed = 0.42;
