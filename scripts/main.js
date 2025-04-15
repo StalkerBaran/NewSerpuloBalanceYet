@@ -90,6 +90,7 @@ UnitTypes.toxopid.speed = 0.9;
 UnitTypes.toxopid.health = 21000;
 UnitTypes.toxopid.armor = 15;
 UnitTypes.toxopid.weapons.get(1).bullet.damage = 110;
+UnitTypes.toxopid.weapons.get(1).bullet.lifetime = 70;
 UnitTypes.toxopid.weapons.get(0).bullet.damage = 170;
 UnitTypes.toxopid.rotateSpeed = 3;
 
@@ -260,18 +261,18 @@ Blocks.ripple.ammoTypes.get(Items.graphite).knockback = 1.2;
 Blocks.ripple.ammoTypes.get(Items.graphite).width = 16;
 Blocks.ripple.ammoTypes.get(Items.graphite).height = 16;
 
-Blocks.ripple.ammoTypes.get(Items.plastanium).fragBullets = 7;
+Blocks.ripple.ammoTypes.get(Items.plastanium).fragBullets = 8;
 
-Blocks.ripple.ammoTypes.get(Items.pyratite).splashDamage = 55;
-Blocks.ripple.ammoTypes.get(Items.pyratite).splashDamageRadius = 37;
-Blocks.ripple.ammoTypes.get(Items.pyratite).width = 17;
-Blocks.ripple.ammoTypes.get(Items.pyratite).height = 17;
+Blocks.ripple.ammoTypes.get(Items.pyratite).splashDamage = 52;
+Blocks.ripple.ammoTypes.get(Items.pyratite).splashDamageRadius = 38;
+Blocks.ripple.ammoTypes.get(Items.pyratite).width = 18;
+Blocks.ripple.ammoTypes.get(Items.pyratite).height = 18;
 
 Blocks.ripple.ammoTypes.get(Items.blastCompound).width = 16;
 Blocks.ripple.ammoTypes.get(Items.blastCompound).height = 16;
-Blocks.ripple.ammoTypes.get(Items.blastCompound).splashDamageRadius = 34;
-Blocks.ripple.ammoTypes.get(Items.blastCompound).splashDamage = 75;
-Blocks.ripple.ammoTypes.get(Items.blastCompound).reloadMultiplier = 0.85;
+Blocks.ripple.ammoTypes.get(Items.blastCompound).splashDamageRadius = 33;
+Blocks.ripple.ammoTypes.get(Items.blastCompound).splashDamage = 70;
+Blocks.ripple.ammoTypes.get(Items.blastCompound).reloadMultiplier = 0.7;
 
 //cyclone
 Blocks.cyclone.reload = 11;
