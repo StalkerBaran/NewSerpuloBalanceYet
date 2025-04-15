@@ -109,12 +109,12 @@ UnitTypes.horizon.armor = 2;
 UnitTypes.horizon.itemCapacity = 30;
 
 //zenith
-UnitTypes.zenith.speed = 1.71;
-UnitTypes.zenith.health = 710;
-UnitTypes.zenith.armor = 5;
+UnitTypes.zenith.speed = 1.72;
+UnitTypes.zenith.health = 630;
+UnitTypes.zenith.armor = 4;
 UnitTypes.zenith.weapons.get(0).bullet.lifetime = 56;
 UnitTypes.zenith.weapons.get(0).bullet.splashDamage = 19;
-UnitTypes.zenith.crashDamageMultiplier = 0.75;
+UnitTypes.zenith.crashDamageMultiplier = 0.7;
 UnitTypes.zenith.rotateSpeed = 6.5;
 UnitTypes.zenith.drag = 0.03;
 
@@ -292,9 +292,9 @@ Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.7;
 Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 33;
 
 //spectre
-Blocks.spectre.reload = 6.7;
+Blocks.spectre.reload = 6.8;
 Blocks.spectre.rotateSpeed = 1.3;
-Blocks.spectre.range = 272;
+Blocks.spectre.range = 273;
 
 Blocks.spectre.ammoTypes.get(Items.graphite).ammoMultiplier = 3;
 Blocks.spectre.ammoTypes.get(Items.graphite).damage = 80;
