@@ -28,7 +28,7 @@ UnitTypes.reign.speed = 0.51;
 UnitTypes.reign.armor = 21;
 UnitTypes.reign.health = 27000;
 UnitTypes.reign.rotateSpeed = 3.5;
-UnitTypes.reign.weapons.get(0).bullet.lifetime = 19;
+UnitTypes.reign.weapons.get(0).bullet.lifetime = 18;
 
 
 //nova
@@ -58,10 +58,10 @@ UnitTypes.vela.rotateSpeed = 3.5;
 UnitTypes.corvus.speed = 0.29;
 UnitTypes.corvus.armor = 13;
 UnitTypes.corvus.weapons.get(0).reload = 510;
-UnitTypes.corvus.weapons.get(0).shoot.shots = 7;
-UnitTypes.corvus.weapons.get(0).shoot.shotDelay = 15;
-UnitTypes.corvus.weapons.get(0).bullet.damage = 52;
-UnitTypes.corvus.weapons.get(0).bullet.lightningDamage = 18;
+UnitTypes.corvus.weapons.get(0).shoot.shots = 4;
+UnitTypes.corvus.weapons.get(0).shoot.shotDelay = 16;
+UnitTypes.corvus.weapons.get(0).bullet.damage = 110;
+UnitTypes.corvus.weapons.get(0).bullet.lightningDamage = 21;
 
 
 //crawler. Nope
@@ -109,13 +109,13 @@ UnitTypes.horizon.armor = 2;
 UnitTypes.horizon.itemCapacity = 30;
 
 //zenith
-UnitTypes.zenith.speed = 1.62;
-UnitTypes.zenith.health = 810;
+UnitTypes.zenith.speed = 1.71;
+UnitTypes.zenith.health = 710;
 UnitTypes.zenith.armor = 5;
-UnitTypes.zenith.weapons.get(0).bullet.lifetime = 57;
-UnitTypes.zenith.weapons.get(0).bullet.splashDamage = 21;
+UnitTypes.zenith.weapons.get(0).bullet.lifetime = 56;
+UnitTypes.zenith.weapons.get(0).bullet.splashDamage = 19;
 UnitTypes.zenith.crashDamageMultiplier = 0.75;
-UnitTypes.zenith.rotateSpeed = 6;
+UnitTypes.zenith.rotateSpeed = 6.5;
 UnitTypes.zenith.drag = 0.03;
 
 //antumbra
@@ -130,7 +130,7 @@ UnitTypes.antumbra.rotateSpeed = 3.5;
 UnitTypes.eclipse.health = 23000;
 UnitTypes.eclipse.speed = 0.8;
 UnitTypes.eclipse.armor = 18;
-UnitTypes.eclipse.rotateSpeed = 2.5;
+UnitTypes.eclipse.rotateSpeed = 2.7;
 
 //mono
 UnitTypes.mono.speed = 1.7;
@@ -147,11 +147,13 @@ UnitTypes.mega.drag = 0.04;
 //quad
 UnitTypes.quad.speed = 1.43;
 UnitTypes.quad.buildSpeed = 3.5;
+UnitTypes.quad.rotateSpeed = 3.3;
 
 //oct
 UnitTypes.oct.speed = 0.94;
 UnitTypes.oct.armor = 18;
 UnitTypes.oct.crashDamageMultiplier = 0.8;
+UnitTypes.oct.rotateSpeed = 3;
 
 //risso
 UnitTypes.risso.speed = 1.06;
@@ -302,7 +304,7 @@ Blocks.spectre.ammoTypes.get(Items.pyratite).pierceCap = 2;
 Blocks.spectre.ammoTypes.get(Items.thorium).damage = 120;
 Blocks.spectre.ammoTypes.get(Items.thorium).ammoMultiplier = 2;
 Blocks.spectre.ammoTypes.get(Items.thorium).knockback = 1.2;
-Blocks.spectre.ammoTypes.get(Items.pyratite).pierceCap = 3;
+Blocks.spectre.ammoTypes.get(Items.pyratite).pierceCap = 2;
 
 Blocks.spectre.ammoTypes.get(Items.pyratite).damage = 110;
 Blocks.spectre.ammoTypes.get(Items.pyratite).ammoMultiplier = 3;
