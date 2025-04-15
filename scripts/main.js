@@ -90,7 +90,7 @@ UnitTypes.toxopid.speed = 0.9;
 UnitTypes.toxopid.health = 21000;
 UnitTypes.toxopid.armor = 15;
 UnitTypes.toxopid.weapons.get(1).bullet.damage = 110;
-UnitTypes.toxopid.weapons.get(1).bullet.lifetime = 70;
+UnitTypes.toxopid.weapons.get(1).bullet.lifetime = 74;
 UnitTypes.toxopid.weapons.get(0).bullet.damage = 170;
 UnitTypes.toxopid.rotateSpeed = 3;
 
