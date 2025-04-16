@@ -184,7 +184,7 @@ UnitTypes.sei.rotateSpeed = 3.2;
 //omura
 UnitTypes.omura.speed = 0.42;
 UnitTypes.omura.weapons.get(0).bullet.length = 470;
-UnitTypes.omura.rotateSpeed = 2.4;
+UnitTypes.omura.rotateSpeed = 2.5;
 
 
 //retusa. Its fine (rotate speed upgrade only)
