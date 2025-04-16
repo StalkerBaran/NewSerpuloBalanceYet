@@ -24,10 +24,10 @@ UnitTypes.scepter.weapons.get(0).bullet.lifetime = 23;
 UnitTypes.scepter.rotateSpeed = 4;
 
 //reign
-UnitTypes.reign.speed = 0.51;
+UnitTypes.reign.speed = 0.5;
 UnitTypes.reign.armor = 21;
 UnitTypes.reign.health = 27000;
-UnitTypes.reign.rotateSpeed = 3.5;
+UnitTypes.reign.rotateSpeed = 3.4;
 UnitTypes.reign.weapons.get(0).bullet.lifetime = 18;
 
 
@@ -130,8 +130,8 @@ UnitTypes.antumbra.rotateSpeed = 3.5;
 //eclipse
 UnitTypes.eclipse.health = 23000;
 UnitTypes.eclipse.speed = 0.8;
-UnitTypes.eclipse.armor = 18;
-UnitTypes.eclipse.rotateSpeed = 2.7;
+UnitTypes.eclipse.armor = 21;
+UnitTypes.eclipse.rotateSpeed = 2.8;
 
 //mono
 UnitTypes.mono.speed = 1.7;
@@ -157,49 +157,59 @@ UnitTypes.oct.crashDamageMultiplier = 0.8;
 UnitTypes.oct.rotateSpeed = 3;
 
 //risso
-UnitTypes.risso.speed = 1.06;
-UnitTypes.risso.weapons.get(0).bullet.lifetime = 50;
+UnitTypes.risso.speed = 1.12;
+UnitTypes.risso.weapons.get(0).bullet.lifetime = 53;
+UnitTypes.risso.rotateSpeed = 8;
 
 //minke
 UnitTypes.minke.speed = 0.84;
-UnitTypes.minke.weapons.get(1).bullet.lifetime = 63;
-
+UnitTypes.minke.weapons.get(1).bullet.lifetime = 73;
+UnitTypes.minke.weapons.get(0).bullet.lifetime = 51;
+UnitTypes.minke.rotateSpeed = 7;
+UnitTypes.minke.armor = 6;
 
 //bryde
 UnitTypes.bryde.speed = 0.79;
 UnitTypes.bryde.armor = 9;
 UnitTypes.bryde.weapons.get(0).bullet.lifetime = 79;
+UnitTypes.bryde.rotateSpeed = 5.5;
 
 //sei
 UnitTypes.sei.speed = 0.77;
 UnitTypes.sei.weapons.get(0).bullet.lifetime = 58;
 UnitTypes.sei.weapons.get(1).bullet.lifetime = 33;
 UnitTypes.sei.armor = 13;
+UnitTypes.sei.rotateSpeed = 3.2;
 
 //omura
 UnitTypes.omura.speed = 0.42;
 UnitTypes.omura.weapons.get(0).bullet.length = 470;
+UnitTypes.omura.rotateSpeed = 2.4;
 
 
-//retusa. Its fine
+//retusa. Its fine (rotate speed upgrade only)
+UnitTypes.retusa.rotateSpeed = 9;
 
 //oxynoe
 UnitTypes.oxynoe.weapons.get(0).reload = 18;
+UnitTypes.oxynoe.rotateSpeed = 8;
 
 //cyerce
 UnitTypes.cyerce.speed = 0.795;
 UnitTypes.cyerce.health = 810;
 UnitTypes.cyerce.weapons.get(0).repairSpeed = 0.57;
 UnitTypes.cyerce.armor = 8;
+UnitTypes.cyerce.rotateSpeed = 6.5;
 
 //aegires 
 UnitTypes.aegires.speed = 0.76;
 UnitTypes.aegires.armor = 11;
+UnitTypes.aegires.rotateSpeed = 3;
 
 //navanax
 UnitTypes.navanax.speed = 0.43;
 UnitTypes.navanax.health = 26000;
-
+UnitTypes.navanax.rotateSpeed = 3;
 
 
 // Turret rework
