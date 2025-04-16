@@ -5,5 +5,5 @@ description: "Test mode for new balance"
 subtitle: "uwu."
 version: "1.2.1"
 minGameVersion: 147
-hidden: false
+hidden: true
 repo: "https://github.com/StalkerBaran/NewSerpuloBalanceYet"
