@@ -393,7 +393,7 @@ Blocks.surgeWallLarge.armor = 3;
 
             size = 3;
             consumePower(3f);
-            consumeItems(with(Items.silicon, 40, Items.graphite, 40));
+            consumeItems(with(Items.silicon, 30, Items.graphite, 30));
 
             constructTime = 60f * 10f;
 
