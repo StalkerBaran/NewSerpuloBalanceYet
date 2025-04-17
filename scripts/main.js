@@ -106,11 +106,11 @@ UnitTypes.flare.weapons.get(0).reload = 13;
 UnitTypes.flare.drag = 0.07;
 UnitTypes.flare.rotateSpeed = 9;
 UnitTypes.flare.weapons.get(0).bullet.damage = 6;
-UnitTypes.flare.crashDamageMultiplier = 0.75;
+UnitTypes.flare.crashDamageMultiplier = 0.85;
 
 //horizon
 UnitTypes.horizon.speed = 2.01;
-UnitTypes.horizon.health = 430;
+UnitTypes.horizon.health = 410;
 UnitTypes.horizon.armor = 2;
 UnitTypes.horizon.itemCapacity = 30;
 
@@ -165,14 +165,14 @@ UnitTypes.oct.rotateSpeed = 3;
 //risso
 UnitTypes.risso.speed = 1.04;
 UnitTypes.risso.health = 210;
-UnitTypes.risso.weapons.get(0).bullet.lifetime = 52;
+UnitTypes.risso.weapons.get(0).bullet.lifetime = 48;
 UnitTypes.risso.rotateSpeed = 8;
 
 //minke
 UnitTypes.minke.speed = 0.82;
 UnitTypes.minke.health = 510;
-UnitTypes.minke.weapons.get(1).bullet.lifetime = 68;
-UnitTypes.minke.weapons.get(0).bullet.lifetime = 47;
+UnitTypes.minke.weapons.get(1).bullet.lifetime = 67;
+UnitTypes.minke.weapons.get(0).bullet.lifetime = 46;
 UnitTypes.minke.rotateSpeed = 7;
 UnitTypes.minke.armor = 6;
 
@@ -180,18 +180,19 @@ UnitTypes.minke.armor = 6;
 UnitTypes.bryde.speed = 0.79;
 UnitTypes.bryde.health = 810;
 UnitTypes.bryde.armor = 9;
-UnitTypes.bryde.weapons.get(0).bullet.lifetime = 77;
+UnitTypes.bryde.weapons.get(0).bullet.lifetime = 75;
 UnitTypes.bryde.rotateSpeed = 5.5;
 
 //sei
 UnitTypes.sei.speed = 0.77;
-UnitTypes.sei.weapons.get(0).bullet.lifetime = 58;
-UnitTypes.sei.weapons.get(1).bullet.lifetime = 33;
+UnitTypes.sei.weapons.get(0).bullet.lifetime = 56;
+UnitTypes.sei.weapons.get(1).bullet.lifetime = 32;
 UnitTypes.sei.armor = 13;
 UnitTypes.sei.rotateSpeed = 3.2;
 
 //omura
-UnitTypes.omura.speed = 0.42;
+UnitTypes.omura.speed = 0.47;
+UnitTypes.omura.health = 19000;
 UnitTypes.omura.weapons.get(0).bullet.length = 470;
 UnitTypes.omura.rotateSpeed = 2.5;
 
@@ -216,7 +217,7 @@ UnitTypes.aegires.armor = 11;
 UnitTypes.aegires.rotateSpeed = 3;
 
 //navanax
-UnitTypes.navanax.speed = 0.43;
+UnitTypes.navanax.speed = 0.48;
 UnitTypes.navanax.health = 26000;
 UnitTypes.navanax.rotateSpeed = 3;
 
@@ -351,7 +352,7 @@ Blocks.foreshadow.reload = 270;
 StatusEffects.wet.transitionDamage = 12;
 
 //freezing
-StatusEffects.freezing.transitionDamage = 14;
+StatusEffects.freezing.transitionDamage = 15;
 
 //burning
 StatusEffects.burning.reloadMultiplier = 0.9; //very test
