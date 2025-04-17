@@ -7,7 +7,7 @@ UnitTypes.dagger.armor = 1;
 UnitTypes.dagger.rotateSpeed = 8;
 
 //mace
-UnitTypes.mace.speed = 0.62;
+UnitTypes.mace.speed = 0.61;
 UnitTypes.mace.armor = 5;
 UnitTypes.mace.rotateSpeed = 5;
 
