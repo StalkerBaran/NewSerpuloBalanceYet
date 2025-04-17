@@ -386,24 +386,5 @@ Blocks.surgeWallLarge.armor = 3;
 
 
 //anuke fix issue
-
-
-        additiveReconstructor = new Reconstructor("additive-reconstructor"){{
-            requirements(Category.units, with(Items.copper, 200, Items.lead, 120, Items.silicon, 90));
-
-            size = 3;
-            consumePower(3f);
-            consumeItems(with(Items.silicon, 30, Items.graphite, 30));
-
-            constructTime = 60f * 10f;
-
-            upgrades.addAll(
-                new UnitType[]{UnitTypes.nova, UnitTypes.pulsar},
-                new UnitType[]{UnitTypes.dagger, UnitTypes.mace},
-                new UnitType[]{UnitTypes.crawler, UnitTypes.atrax},
-                new UnitType[]{UnitTypes.flare, UnitTypes.horizon},
-                new UnitType[]{UnitTypes.mono, UnitTypes.poly},
-                new UnitType[]{UnitTypes.risso, UnitTypes.minke},
-                new UnitType[]{UnitTypes.retusa, UnitTypes.oxynoe}
-            );
-        }};
+Blocks.itemBridge.requirements = ItemStack.with(Items.copper, 6, Items.lead, 6);
+Blocks.itemBridge.buildTime = 12;
