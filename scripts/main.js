@@ -109,8 +109,8 @@ UnitTypes.flare.weapons.get(0).bullet.damage = 6;
 UnitTypes.flare.crashDamageMultiplier = 0.75;
 
 //horizon
-UnitTypes.horizon.speed = 2.03;
-UnitTypes.horizon.health = 470;
+UnitTypes.horizon.speed = 2.02;
+UnitTypes.horizon.health = 430;
 UnitTypes.horizon.armor = 2;
 UnitTypes.horizon.itemCapacity = 30;
 
