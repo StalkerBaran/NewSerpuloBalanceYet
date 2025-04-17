@@ -24,7 +24,7 @@ UnitTypes.scepter.weapons.get(0).bullet.lifetime = 23;
 UnitTypes.scepter.rotateSpeed = 4;
 
 //reign
-UnitTypes.reign.speed = 0.5;
+UnitTypes.reign.speed = 0.51;
 UnitTypes.reign.armor = 21;
 UnitTypes.reign.health = 27000;
 UnitTypes.reign.rotateSpeed = 3.4;
@@ -55,13 +55,18 @@ UnitTypes.vela.armor = 11;
 UnitTypes.vela.rotateSpeed = 3.5;
 
 //corvus (my changes)
-UnitTypes.corvus.speed = 0.29;
+UnitTypes.corvus.speed = 0.34;
+UnitTypes.corvus.rotateSpeed = 2.3;
 UnitTypes.corvus.armor = 13;
 UnitTypes.corvus.weapons.get(0).reload = 510;
-UnitTypes.corvus.weapons.get(0).shoot.shots = 4;
-UnitTypes.corvus.weapons.get(0).shoot.shotDelay = 16;
-UnitTypes.corvus.weapons.get(0).bullet.damage = 110;
-UnitTypes.corvus.weapons.get(0).bullet.lightningDamage = 21;
+UnitTypes.corvus.weapons.get(0).shoot.shots = 3;
+UnitTypes.corvus.weapons.get(0).shoot.shotDelay = 21;
+UnitTypes.corvus.weapons.get(0).bullet.damage = 52;
+UnitTypes.corvus.weapons.get(0).bullet.lightningDamage = 11;
+UnitTypes.corvus.weapons.get(0).bullet.buildingDamageMultiplier = 3;
+UnitTypes.corvus.weapons.get(0).bullet.healPercent = 17;
+UnitTypes.corvus.weapons.get(0).bullet.lifetime = 62;
+UnitTypes.corvus.weapons.get(0).shootStatusDuration = 70 * 2;
 
 
 //crawler. Nope
@@ -86,8 +91,8 @@ UnitTypes.arkyid.weapons.get(3).bullet.splashDamage = 75;
 UnitTypes.arkyid.rotateSpeed = 4;
 
 //toxopидор
-UnitTypes.toxopid.speed = 0.9;
-UnitTypes.toxopid.health = 21000;
+UnitTypes.toxopid.speed = 0.92;
+UnitTypes.toxopid.health = 19000;
 UnitTypes.toxopid.armor = 15;
 UnitTypes.toxopid.weapons.get(1).bullet.damage = 110;
 UnitTypes.toxopid.weapons.get(1).bullet.lifetime = 74;
@@ -113,7 +118,7 @@ UnitTypes.horizon.itemCapacity = 30;
 UnitTypes.zenith.speed = 1.72;
 UnitTypes.zenith.health = 630;
 UnitTypes.zenith.armor = 4;
-UnitTypes.zenith.weapons.get(0).bullet.lifetime = 56;
+UnitTypes.zenith.weapons.get(0).bullet.lifetime = 53;
 UnitTypes.zenith.weapons.get(0).bullet.splashDamage = 19;
 UnitTypes.zenith.crashDamageMultiplier = 0.7;
 UnitTypes.zenith.rotateSpeed = 6.5;
@@ -124,14 +129,15 @@ UnitTypes.antumbra.health = 9700;
 UnitTypes.antumbra.speed = 0.87;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamage = 63;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamageRadius = 35;
+UnitTypes.antumbra.weapons.get(0).bullet.lifetime = 56;
 UnitTypes.antumbra.crashDamageMultiplier = 0.9;
-UnitTypes.antumbra.rotateSpeed = 3.5;
+UnitTypes.antumbra.rotateSpeed = 3.7;
 
 //eclipse
-UnitTypes.eclipse.health = 23000;
+UnitTypes.eclipse.health = 24000;
 UnitTypes.eclipse.speed = 0.8;
 UnitTypes.eclipse.armor = 21;
-UnitTypes.eclipse.rotateSpeed = 2.8;
+UnitTypes.eclipse.rotateSpeed = 2.9;
 
 //mono
 UnitTypes.mono.speed = 1.7;
@@ -328,6 +334,14 @@ Blocks.meltdown.rotateSpeed = 1.4;
 Blocks.meltdown.reload = 110;
 Blocks.meltdown.shootType.damage = 180;
 
+//foreshadow
+
+Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).pierceCap = 10;
+Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).pierce = true;
+Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).pierceBuilding = true;
+Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).pierceDamageFactor = 1;
+Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).maxDamageFraction = 0.7;
+Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).buildingDamageMultiplier = 0.2;
 
 
 //Effect rework
@@ -359,9 +373,9 @@ Blocks.exponentialReconstructor.constructTime = 7200; //very test feature. Idk h
 
 
 
-Blocks.coreShard.armor = 1;
-Blocks.coreFoundation.armor = 2;
-Blocks.coreNucleus.armor = 3;
+Blocks.coreShard.armor = 2;
+Blocks.coreFoundation.armor = 3;
+Blocks.coreNucleus.armor = 5;
 
 Blocks.titaniumWall.armor = 1;
 Blocks.titaniumWallLarge.armor = 1;
@@ -380,4 +394,5 @@ Blocks.surgeWallLarge.armor = 3;
 
 Blocks.itemBridge.buildTime = 12;
 Blocks.itemBridge.requirements = ItemStack.with(Items.copper, 6, Items.lead, 6);
+//Blocks.additiveReconstructor.requirements = ItemStack.with(Items.silicon, 6, Items.lead, 6); хз как это написать
 
