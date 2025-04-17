@@ -336,13 +336,13 @@ Blocks.meltdown.shootType.damage = 180;
 
 //foreshadow
 
-Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).pierceCap = 5;
+Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).pierceCap = 3;
 Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).pierce = true;
 Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).pierceBuilding = true;
 Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).pierceDamageFactor = 0;
 Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).maxDamageFraction = 0.7;
 Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).buildingDamageMultiplier = 0.2;
-Blocks.foreshadow.reload = 240;
+Blocks.foreshadow.reload = 270;
 
 
 //Effect rework
