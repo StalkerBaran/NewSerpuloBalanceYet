@@ -1,22 +1,22 @@
 //dagger
 UnitTypes.dagger.weapons.get(0).reload = 15; 
 UnitTypes.dagger.weapons.get(0).bullet.damage = 14;
-UnitTypes.dagger.speed = 0.59;
+UnitTypes.dagger.speed = 0.61;
 UnitTypes.dagger.health = 170;
 UnitTypes.dagger.armor = 1;
 UnitTypes.dagger.rotateSpeed = 8;
 
 //mace
-UnitTypes.mace.speed = 0.59;
+UnitTypes.mace.speed = 0.62;
 UnitTypes.mace.armor = 5;
 UnitTypes.mace.rotateSpeed = 5;
 
 //fortress
-UnitTypes.fortress.speed = 0.53;
+UnitTypes.fortress.speed = 0.55;
 UnitTypes.fortress.rotateSpeed = 4;
 
 //scepter
-UnitTypes.scepter.speed = 0.52;
+UnitTypes.scepter.speed = 0.54;
 UnitTypes.scepter.armor = 12;
 UnitTypes.scepter.health = 11000;
 UnitTypes.scepter.weapons.get(1).bullet.lifetime = 56;
@@ -24,7 +24,7 @@ UnitTypes.scepter.weapons.get(0).bullet.lifetime = 23;
 UnitTypes.scepter.rotateSpeed = 4;
 
 //reign
-UnitTypes.reign.speed = 0.51;
+UnitTypes.reign.speed = 0.53;
 UnitTypes.reign.armor = 21;
 UnitTypes.reign.health = 27000;
 UnitTypes.reign.rotateSpeed = 3.4;
@@ -34,14 +34,14 @@ UnitTypes.reign.weapons.get(0).bullet.lifetime = 18;
 //nova
 UnitTypes.nova.weapons.get(0).bullet.damage = 21;
 UnitTypes.nova.weapons.get(0).reload = 18;
-UnitTypes.nova.speed = 0.6;
+UnitTypes.nova.speed = 0.61;
 UnitTypes.nova.health = 200;
 UnitTypes.nova.armor = 3;
 UnitTypes.nova.abilities.get(0).reload = 90;
 UnitTypes.nova.rotateSpeed = 8;
 
 //pulsar
-UnitTypes.pulsar.speed = 0.63;
+UnitTypes.pulsar.speed = 0.64;
 
 //quasar
 UnitTypes.quasar.speed = 0.54;
@@ -78,14 +78,14 @@ UnitTypes.atrax.rotateSpeed = 7.5;
 
 //spiroct
 UnitTypes.spiroct.speed = 0.91;
-UnitTypes.spiroct.armor = 6;
+UnitTypes.spiroct.armor = 7;
 UnitTypes.spiroct.health = 1100;
-UnitTypes.spiroct.weapons.get(1).reload = 9;
+UnitTypes.spiroct.weapons.get(1).reload = 8;
 UnitTypes.spiroct.rotateSpeed = 7.8;
 
 //arkyid
 UnitTypes.arkyid.speed = 0.88;
-UnitTypes.arkyid.health = 9000;
+UnitTypes.arkyid.health = 9300;
 UnitTypes.arkyid.armor = 10;
 UnitTypes.arkyid.weapons.get(3).bullet.splashDamage = 75;
 UnitTypes.arkyid.rotateSpeed = 4;
@@ -101,7 +101,7 @@ UnitTypes.toxopid.rotateSpeed = 3;
 
 
 //flare
-UnitTypes.flare.speed = 2.62;
+UnitTypes.flare.speed = 2.63;
 UnitTypes.flare.weapons.get(0).reload = 13;
 UnitTypes.flare.drag = 0.07;
 UnitTypes.flare.rotateSpeed = 9;
@@ -109,7 +109,7 @@ UnitTypes.flare.weapons.get(0).bullet.damage = 6;
 UnitTypes.flare.crashDamageMultiplier = 0.75;
 
 //horizon
-UnitTypes.horizon.speed = 2.02;
+UnitTypes.horizon.speed = 2.01;
 UnitTypes.horizon.health = 430;
 UnitTypes.horizon.armor = 2;
 UnitTypes.horizon.itemCapacity = 30;
