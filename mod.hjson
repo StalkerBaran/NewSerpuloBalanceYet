@@ -1,8 +1,8 @@
 name: "NewSerpuloBalanceTest"
-displayName: "NewSerpuloBalanceReal"
+displayName: "NewSerpuloBalanceTest"
 author: "blackberry2093 (community help)"
-description: "Test mode for new balance"
-subtitle: "uwu."
+description: "Test mode for new balance. This banace might be accepted in v8 (after neoplasma)!"
+subtitle: "uwu"
 version: "1.3"
 minGameVersion: 147
 hidden: false
