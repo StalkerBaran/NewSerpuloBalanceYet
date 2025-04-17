@@ -336,12 +336,13 @@ Blocks.meltdown.shootType.damage = 180;
 
 //foreshadow
 
-Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).pierceCap = 10;
+Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).pierceCap = 5;
 Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).pierce = true;
 Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).pierceBuilding = true;
-Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).pierceDamageFactor = 1;
+Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).pierceDamageFactor = 0;
 Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).maxDamageFraction = 0.7;
 Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).buildingDamageMultiplier = 0.2;
+Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).reload = 240;
 
 
 //Effect rework
@@ -349,7 +350,7 @@ Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).buildingDamageMultiplier = 0.2
 
 
 //shocked
-StatusEffects.wet.transitionDamage = 13;
+StatusEffects.wet.transitionDamage = 12;
 
 //freezing
 StatusEffects.freezing.transitionDamage = 14;
@@ -395,4 +396,3 @@ Blocks.surgeWallLarge.armor = 3;
 Blocks.itemBridge.buildTime = 12;
 Blocks.itemBridge.requirements = ItemStack.with(Items.copper, 6, Items.lead, 6);
 //Blocks.additiveReconstructor.requirements = ItemStack.with(Items.silicon, 6, Items.lead, 6); хз как это написать
-
