@@ -342,7 +342,7 @@ Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).pierceBuilding = true;
 Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).pierceDamageFactor = 0;
 Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).maxDamageFraction = 0.7;
 Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).buildingDamageMultiplier = 0.2;
-Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).reload = 240;
+Blocks.foreshadow.reload = 240;
 
 
 //Effect rework
