@@ -55,13 +55,13 @@ UnitTypes.vela.armor = 11;
 UnitTypes.vela.rotateSpeed = 3.5;
 
 //corvus (my changes)
-UnitTypes.corvus.speed = 0.34;
+UnitTypes.corvus.speed = 0.43;
 UnitTypes.corvus.rotateSpeed = 2.3;
 UnitTypes.corvus.armor = 13;
 UnitTypes.corvus.weapons.get(0).reload = 510;
 UnitTypes.corvus.weapons.get(0).shoot.shots = 3;
 UnitTypes.corvus.weapons.get(0).shoot.shotDelay = 21;
-UnitTypes.corvus.weapons.get(0).bullet.damage = 52;
+UnitTypes.corvus.weapons.get(0).bullet.damage = 47;
 UnitTypes.corvus.weapons.get(0).bullet.lightningDamage = 11;
 UnitTypes.corvus.weapons.get(0).bullet.buildingDamageMultiplier = 3;
 UnitTypes.corvus.weapons.get(0).bullet.healPercent = 17;
@@ -163,21 +163,24 @@ UnitTypes.oct.crashDamageMultiplier = 0.8;
 UnitTypes.oct.rotateSpeed = 3;
 
 //risso
-UnitTypes.risso.speed = 1.12;
-UnitTypes.risso.weapons.get(0).bullet.lifetime = 53;
+UnitTypes.risso.speed = 1.04;
+UnitTypes.risso.health = 210;
+UnitTypes.risso.weapons.get(0).bullet.lifetime = 52;
 UnitTypes.risso.rotateSpeed = 8;
 
 //minke
-UnitTypes.minke.speed = 0.84;
-UnitTypes.minke.weapons.get(1).bullet.lifetime = 73;
-UnitTypes.minke.weapons.get(0).bullet.lifetime = 51;
+UnitTypes.minke.speed = 0.82;
+UnitTypes.minke.health = 510;
+UnitTypes.minke.weapons.get(1).bullet.lifetime = 68;
+UnitTypes.minke.weapons.get(0).bullet.lifetime = 47;
 UnitTypes.minke.rotateSpeed = 7;
 UnitTypes.minke.armor = 6;
 
 //bryde
 UnitTypes.bryde.speed = 0.79;
+UnitTypes.bryde.health = 810;
 UnitTypes.bryde.armor = 9;
-UnitTypes.bryde.weapons.get(0).bullet.lifetime = 79;
+UnitTypes.bryde.weapons.get(0).bullet.lifetime = 77;
 UnitTypes.bryde.rotateSpeed = 5.5;
 
 //sei
@@ -201,8 +204,8 @@ UnitTypes.oxynoe.weapons.get(0).reload = 18;
 UnitTypes.oxynoe.rotateSpeed = 8;
 
 //cyerce
-UnitTypes.cyerce.speed = 0.795;
-UnitTypes.cyerce.health = 810;
+UnitTypes.cyerce.speed = 0.78;
+UnitTypes.cyerce.health = 730;
 UnitTypes.cyerce.weapons.get(0).repairSpeed = 0.57;
 UnitTypes.cyerce.armor = 8;
 UnitTypes.cyerce.rotateSpeed = 6.5;
