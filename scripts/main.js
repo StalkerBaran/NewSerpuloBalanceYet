@@ -19,8 +19,8 @@ UnitTypes.fortress.rotateSpeed = 4;
 UnitTypes.scepter.speed = 0.6;
 UnitTypes.scepter.armor = 13;
 UnitTypes.scepter.health = 12000;
-UnitTypes.scepter.weapons.get(1).bullet.lifetime = 58;
-UnitTypes.scepter.weapons.get(0).bullet.lifetime = 25;
+UnitTypes.scepter.weapons.get(1).bullet.lifetime = 57;
+UnitTypes.scepter.weapons.get(0).bullet.lifetime = 24.5;
 UnitTypes.scepter.rotateSpeed = 4;
 
 //reign
@@ -139,6 +139,11 @@ UnitTypes.eclipse.speed = 0.89;
 UnitTypes.eclipse.armor = 21;
 UnitTypes.eclipse.rotateSpeed = 2.9;
 UnitTypes.eclipse.crashDamageMultiplier = 0.75;
+UnitTypes.eclipse.weapons.get(0).bullet.damage = 170;
+UnitTypes.eclipse.weapons.get(1).bullet.damage = 25;
+UnitTypes.eclipse.weapons.get(2).bullet.damage = 25;
+UnitTypes.eclipse.weapons.get(1).bullet.lifetime = 51;
+UnitTypes.eclipse.weapons.get(2).bullet.lifetime = 51;
 
 //mono
 UnitTypes.mono.speed = 1.7;
