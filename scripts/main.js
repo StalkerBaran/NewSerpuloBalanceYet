@@ -126,7 +126,7 @@ UnitTypes.zenith.drag = 0.03;
 
 //antumbra
 UnitTypes.antumbra.health = 9700;
-UnitTypes.antumbra.speed = 0.91;
+UnitTypes.antumbra.speed = 0.88;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamage = 63;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamageRadius = 35;
 UnitTypes.antumbra.weapons.get(0).bullet.lifetime = 56;
@@ -135,7 +135,7 @@ UnitTypes.antumbra.rotateSpeed = 3.7;
 
 //eclipse
 UnitTypes.eclipse.health = 25000;
-UnitTypes.eclipse.speed = 0.92;
+UnitTypes.eclipse.speed = 0.89;
 UnitTypes.eclipse.armor = 21;
 UnitTypes.eclipse.rotateSpeed = 2.9;
 UnitTypes.eclipse.crashDamageMultiplier = 0.75;
