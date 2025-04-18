@@ -272,7 +272,7 @@ Blocks.salvo.ammoTypes.get(Items.silicon).splashDamageRadius = 24;
 Blocks.salvo.reload = 25;
 
 //fuse
-Blocks.fuse.reload = 35;
+Blocks.fuse.reload = 38;
 
 //ripple
 Blocks.ripple.ammoTypes.get(Items.graphite).splashDamageRadius = 32;
