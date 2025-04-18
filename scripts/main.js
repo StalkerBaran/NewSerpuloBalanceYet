@@ -84,15 +84,15 @@ UnitTypes.spiroct.weapons.get(1).reload = 8;
 UnitTypes.spiroct.rotateSpeed = 7.8;
 
 //arkyid
-UnitTypes.arkyid.speed = 0.9;
+UnitTypes.arkyid.speed = 0.93;
 UnitTypes.arkyid.health = 9300;
-UnitTypes.arkyid.armor = 10;
+UnitTypes.arkyid.armor = 11;
 UnitTypes.arkyid.weapons.get(3).bullet.splashDamage = 95;
 UnitTypes.arkyid.rotateSpeed = 4;
 
 //toxopидор
 UnitTypes.toxopid.speed = 0.92;
-UnitTypes.toxopid.health = 19000;
+UnitTypes.toxopid.health = 21000;
 UnitTypes.toxopid.armor = 15;
 UnitTypes.toxopid.weapons.get(1).bullet.damage = 110;
 UnitTypes.toxopid.weapons.get(1).bullet.lifetime = 74;
