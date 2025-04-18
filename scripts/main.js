@@ -237,7 +237,6 @@ Blocks.scorch.ammoTypes.get(Items.pyratite).damage = 52;
 Blocks.scorch.range = 72.5;
 
 //hail
-Blocks.hail.ammoTypes.get(Items.pyratite).splashDamage = 49;
 Blocks.hail.ammoTypes.get(Items.pyratite).splashDamageRadius = 31;
 
 //lancer
@@ -246,14 +245,14 @@ Blocks.lancer.shootType.damage = 110;
 
 //arc
 Blocks.arc.shootType.damage = 12;
-Blocks.arc.reload = 31;
+Blocks.arc.reload = 30;
 
 //swarmer
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamage = 22;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamageRadius = 41;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).ammoMultiplier = 4;
 
-Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamage = 21;
+Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamage = 19;
 Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamageRadius = 42;
 Blocks.swarmer.ammoTypes.get(Items.pyratite).ammoMultiplier = 4;
  
@@ -261,7 +260,7 @@ Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamage = 29;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 22;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.7;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).ammoMultiplier = 2;
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightningDamage = 11;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightningDamage = 12;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightning = 3
 
 //salvo 
@@ -273,7 +272,7 @@ Blocks.salvo.ammoTypes.get(Items.silicon).splashDamageRadius = 24;
 Blocks.salvo.reload = 25;
 
 //fuse
-Blocks.fuse.reload = 48;
+Blocks.fuse.reload = 35;
 
 //ripple
 Blocks.ripple.ammoTypes.get(Items.graphite).splashDamageRadius = 32;
@@ -320,12 +319,12 @@ Blocks.spectre.range = 273;
 Blocks.spectre.ammoTypes.get(Items.graphite).ammoMultiplier = 3;
 Blocks.spectre.ammoTypes.get(Items.graphite).damage = 80;
 Blocks.spectre.ammoTypes.get(Items.graphite).knockback = 1.1;
-Blocks.spectre.ammoTypes.get(Items.pyratite).pierceCap = 2;
+Blocks.spectre.ammoTypes.get(Items.graphite).pierceCap = 2;
 
 Blocks.spectre.ammoTypes.get(Items.thorium).damage = 120;
 Blocks.spectre.ammoTypes.get(Items.thorium).ammoMultiplier = 2;
 Blocks.spectre.ammoTypes.get(Items.thorium).knockback = 1.2;
-Blocks.spectre.ammoTypes.get(Items.pyratite).pierceCap = 2;
+Blocks.spectre.ammoTypes.get(Items.thorium).pierceCap = 2;
 
 Blocks.spectre.ammoTypes.get(Items.pyratite).damage = 110;
 Blocks.spectre.ammoTypes.get(Items.pyratite).ammoMultiplier = 3;
