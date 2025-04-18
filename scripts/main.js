@@ -135,9 +135,10 @@ UnitTypes.antumbra.rotateSpeed = 3.7;
 
 //eclipse
 UnitTypes.eclipse.health = 24000;
-UnitTypes.eclipse.speed = 0.8;
+UnitTypes.eclipse.speed = 0.88;
 UnitTypes.eclipse.armor = 21;
 UnitTypes.eclipse.rotateSpeed = 2.9;
+UnitTypes.eclipse.crashDamageMultiplier = 0.75;
 
 //mono
 UnitTypes.mono.speed = 1.7;
@@ -159,7 +160,7 @@ UnitTypes.quad.rotateSpeed = 3.3;
 //oct
 UnitTypes.oct.speed = 0.94;
 UnitTypes.oct.armor = 18;
-UnitTypes.oct.crashDamageMultiplier = 0.8;
+UnitTypes.oct.crashDamageMultiplier = 0.7;
 UnitTypes.oct.rotateSpeed = 3;
 
 //risso
