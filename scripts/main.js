@@ -153,12 +153,12 @@ UnitTypes.mega.rotateSpeed = 7;
 UnitTypes.mega.drag = 0.04;
 
 //quad
-UnitTypes.quad.speed = 1.43;
+UnitTypes.quad.speed = 1.47;
 UnitTypes.quad.buildSpeed = 3.5;
 UnitTypes.quad.rotateSpeed = 3.3;
 
 //oct
-UnitTypes.oct.speed = 0.94;
+UnitTypes.oct.speed = 0.96;
 UnitTypes.oct.armor = 18;
 UnitTypes.oct.crashDamageMultiplier = 0.7;
 UnitTypes.oct.rotateSpeed = 3;
@@ -295,7 +295,7 @@ Blocks.ripple.ammoTypes.get(Items.blastCompound).splashDamage = 70;
 Blocks.ripple.ammoTypes.get(Items.blastCompound).reloadMultiplier = 0.7;
 
 //cyclone
-Blocks.cyclone.reload = 11;
+Blocks.cyclone.reload = 10;
 
 Blocks.cyclone.ammoTypes.get(Items.metaglass).damage = 13;
 Blocks.cyclone.ammoTypes.get(Items.metaglass).splashDamage = 32;
