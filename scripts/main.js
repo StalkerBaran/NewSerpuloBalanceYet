@@ -9,11 +9,11 @@ UnitTypes.dagger.rotateSpeed = 8;
 //mace
 UnitTypes.mace.speed = 0.63;
 UnitTypes.mace.armor = 5;
-UnitTypes.mace.rotateSpeed = 5;
+UnitTypes.mace.rotateSpeed = 5.5;
 
 //fortress
 UnitTypes.fortress.speed = 0.61;
-UnitTypes.fortress.rotateSpeed = 4;
+UnitTypes.fortress.rotateSpeed = 5;
 
 //scepter
 UnitTypes.scepter.speed = 0.6;
@@ -21,13 +21,13 @@ UnitTypes.scepter.armor = 13;
 UnitTypes.scepter.health = 12000;
 UnitTypes.scepter.weapons.get(1).bullet.lifetime = 57;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 24.5;
-UnitTypes.scepter.rotateSpeed = 4;
+UnitTypes.scepter.rotateSpeed = 5;
 
 //reign
 UnitTypes.reign.speed = 0.595;
 UnitTypes.reign.armor = 21;
 UnitTypes.reign.health = 27000;
-UnitTypes.reign.rotateSpeed = 3.4;
+UnitTypes.reign.rotateSpeed = 4;
 UnitTypes.reign.weapons.get(0).bullet.lifetime = 19;
 
 
@@ -47,12 +47,13 @@ UnitTypes.pulsar.speed = 0.67;
 UnitTypes.quasar.speed = 0.6;
 UnitTypes.quasar.weapons.get(0).reload = 33; 
 UnitTypes.quasar.health = 810;
+UnitTypes.quasar.rotateSpeed = 5.5;
 
 //vela
 UnitTypes.vela.health = 9300;
 UnitTypes.vela.speed = 0.62;
 UnitTypes.vela.armor = 12;
-UnitTypes.vela.rotateSpeed = 3.5;
+UnitTypes.vela.rotateSpeed = 4;
 
 //corvus (my changes)
 UnitTypes.corvus.speed = 0.43;
@@ -61,11 +62,11 @@ UnitTypes.corvus.armor = 13;
 UnitTypes.corvus.weapons.get(0).reload = 510;
 UnitTypes.corvus.weapons.get(0).shoot.shots = 3;
 UnitTypes.corvus.weapons.get(0).shoot.shotDelay = 21;
-UnitTypes.corvus.weapons.get(0).bullet.damage = 47;
+UnitTypes.corvus.weapons.get(0).bullet.damage = 46;
 UnitTypes.corvus.weapons.get(0).bullet.lightningDamage = 11;
 UnitTypes.corvus.weapons.get(0).bullet.buildingDamageMultiplier = 3;
 UnitTypes.corvus.weapons.get(0).bullet.healPercent = 17;
-UnitTypes.corvus.weapons.get(0).bullet.lifetime = 62;
+UnitTypes.corvus.weapons.get(0).bullet.lifetime = 53;
 UnitTypes.corvus.weapons.get(0).shootStatusDuration = 70 * 2;
 
 
@@ -88,7 +89,7 @@ UnitTypes.arkyid.speed = 0.93;
 UnitTypes.arkyid.health = 9300;
 UnitTypes.arkyid.armor = 11;
 UnitTypes.arkyid.weapons.get(3).bullet.splashDamage = 95;
-UnitTypes.arkyid.rotateSpeed = 4;
+UnitTypes.arkyid.rotateSpeed = 6;
 
 //toxopидор
 UnitTypes.toxopid.speed = 0.92;
@@ -97,15 +98,15 @@ UnitTypes.toxopid.armor = 15;
 UnitTypes.toxopid.weapons.get(1).bullet.damage = 110;
 UnitTypes.toxopid.weapons.get(1).bullet.lifetime = 74;
 UnitTypes.toxopid.weapons.get(0).bullet.damage = 170;
-UnitTypes.toxopid.rotateSpeed = 3;
+UnitTypes.toxopid.rotateSpeed = 4;
 
 
 //flare
 UnitTypes.flare.speed = 2.64;
-UnitTypes.flare.weapons.get(0).reload = 13;
+UnitTypes.flare.weapons.get(0).reload = 14;
 UnitTypes.flare.drag = 0.07;
 UnitTypes.flare.rotateSpeed = 9;
-UnitTypes.flare.weapons.get(0).bullet.damage = 6;
+UnitTypes.flare.weapons.get(0).bullet.damage = 7;
 UnitTypes.flare.crashDamageMultiplier = 0.75;
 
 //horizon
@@ -200,7 +201,7 @@ UnitTypes.sei.rotateSpeed = 3.2;
 //omura
 UnitTypes.omura.speed = 0.47;
 UnitTypes.omura.health = 19000;
-UnitTypes.omura.weapons.get(0).bullet.length = 470;
+UnitTypes.omura.weapons.get(0).bullet.length = 450;
 UnitTypes.omura.rotateSpeed = 2.5;
 
 
