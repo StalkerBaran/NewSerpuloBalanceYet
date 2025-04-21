@@ -4,21 +4,17 @@ UnitTypes.dagger.speed = 0.64;
 UnitTypes.dagger.health = 170;
 UnitTypes.dagger.armor = 1;
 UnitTypes.dagger.rotateSpeed = 8;
-
 UnitTypes.mace.speed = 0.62;
 UnitTypes.mace.armor = 5;
 UnitTypes.mace.rotateSpeed = 5.5; 
-
 UnitTypes.fortress.speed = 0.61;
 UnitTypes.fortress.rotateSpeed = 5; 
-
 UnitTypes.scepter.speed = 0.6;
 UnitTypes.scepter.armor = 13;
 UnitTypes.scepter.health = 12000;
 UnitTypes.scepter.weapons.get(1).bullet.lifetime = 59.5;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 24;
 UnitTypes.scepter.rotateSpeed = 5; 
-
 UnitTypes.reign.speed = 0.595;
 UnitTypes.reign.armor = 21;
 UnitTypes.reign.health = 27000;
