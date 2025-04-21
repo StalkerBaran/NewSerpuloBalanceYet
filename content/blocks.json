@@ -1,8 +1,0 @@
-# additive-reconstructor.hjson
-
-consumes: {
-  # requirements: [
-    silicon/30
-    graphite/30
-  ]
-}
