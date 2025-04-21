@@ -3,26 +3,26 @@ UnitTypes.dagger.weapons.get(0).bullet.damage = 13;
 UnitTypes.dagger.speed = 0.64;
 UnitTypes.dagger.health = 170;
 UnitTypes.dagger.armor = 1;
-UnitTypes.dagger.rotateSpeed = 8; //dagger
+UnitTypes.dagger.rotateSpeed = 7; //dagger
 
 UnitTypes.mace.speed = 0.62;
 UnitTypes.mace.armor = 5;
-UnitTypes.mace.rotateSpeed = 5.5; //mace
+UnitTypes.mace.rotateSpeed = 5.2; //mace
 
 UnitTypes.fortress.speed = 0.61;
-UnitTypes.fortress.rotateSpeed = 5; //fortress
+UnitTypes.fortress.rotateSpeed = 4; //fortress
 
 UnitTypes.scepter.speed = 0.6;
 UnitTypes.scepter.armor = 13;
 UnitTypes.scepter.health = 12000;
 UnitTypes.scepter.weapons.get(1).bullet.lifetime = 59.5;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 24;
-UnitTypes.scepter.rotateSpeed = 5; //scepter
+UnitTypes.scepter.rotateSpeed = 3.5; //scepter
 
 UnitTypes.reign.speed = 0.595;
 UnitTypes.reign.armor = 21;
 UnitTypes.reign.health = 27000;
-UnitTypes.reign.rotateSpeed = 4;
+UnitTypes.reign.rotateSpeed = 3;
 UnitTypes.reign.weapons.get(0).bullet.lifetime = 19; //reign
 
 
@@ -32,7 +32,7 @@ UnitTypes.nova.speed = 0.63;
 UnitTypes.nova.health = 200;
 UnitTypes.nova.armor = 3;
 UnitTypes.nova.abilities.get(0).reload = 90;
-UnitTypes.nova.rotateSpeed = 8; //nova
+UnitTypes.nova.rotateSpeed = 7; //nova
 
 UnitTypes.pulsar.speed = 0.68; //pulsar
 
@@ -76,7 +76,7 @@ UnitTypes.arkyid.speed = 0.93;
 UnitTypes.arkyid.health = 9300;
 UnitTypes.arkyid.armor = 11;
 UnitTypes.arkyid.weapons.get(3).bullet.splashDamage = 95;
-UnitTypes.arkyid.rotateSpeed = 6; //arkyid
+UnitTypes.arkyid.rotateSpeed = 4; //arkyid
 
 UnitTypes.toxopid.speed = 0.92;
 UnitTypes.toxopid.health = 21000;
@@ -84,7 +84,7 @@ UnitTypes.toxopid.armor = 15;
 UnitTypes.toxopid.weapons.get(1).bullet.damage = 110;
 UnitTypes.toxopid.weapons.get(1).bullet.lifetime = 74;
 UnitTypes.toxopid.weapons.get(0).bullet.damage = 170;
-UnitTypes.toxopid.rotateSpeed = 4; //toxopидор
+UnitTypes.toxopid.rotateSpeed = 2.9; //toxopидор
 
 
 
@@ -120,7 +120,7 @@ UnitTypes.antumbra.rotateSpeed = 3.7; //antumbra
 UnitTypes.eclipse.health = 25000;
 UnitTypes.eclipse.speed = 0.89;
 UnitTypes.eclipse.armor = 21;
-UnitTypes.eclipse.rotateSpeed = 2.9;
+UnitTypes.eclipse.rotateSpeed = 3.1;
 UnitTypes.eclipse.crashDamageMultiplier = 0.75;
 UnitTypes.eclipse.weapons.get(0).bullet.damage = 170;
 UnitTypes.eclipse.weapons.get(1).bullet.damage = 25;
@@ -302,7 +302,7 @@ Blocks.meltdown.reload = 110;
 Blocks.meltdown.shootType.damage = 180; //meltdown
 
 Blocks.foreshadow.reload = 280; //foreshadow
-
+Blocks.foreshadow.rotateSpeed = 1.3;
 
 
 
