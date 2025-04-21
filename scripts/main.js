@@ -1,13 +1,13 @@
 //dagger
 UnitTypes.dagger.weapons.get(0).reload = 15; 
-UnitTypes.dagger.weapons.get(0).bullet.damage = 14;
+UnitTypes.dagger.weapons.get(0).bullet.damage = 13;
 UnitTypes.dagger.speed = 0.64;
 UnitTypes.dagger.health = 170;
 UnitTypes.dagger.armor = 1;
 UnitTypes.dagger.rotateSpeed = 8;
 
 //mace
-UnitTypes.mace.speed = 0.63;
+UnitTypes.mace.speed = 0.62;
 UnitTypes.mace.armor = 5;
 UnitTypes.mace.rotateSpeed = 5.5;
 
@@ -75,6 +75,7 @@ UnitTypes.corvus.weapons.get(0).shootStatusDuration = 70 * 2;
 // Атрах. Реал
 UnitTypes.atrax.speed = 0.87;
 UnitTypes.atrax.health = 510;
+UnitTypes.atrax.armor = 2;
 UnitTypes.atrax.rotateSpeed = 7.5;
 
 //spiroct
@@ -367,35 +368,17 @@ StatusEffects.burning.speedMultiplier = 0.9; //very test
 
 
 
-//Reconstructors fr
-
-
-
-//Blocks.additiveReconstructor.consumeItems.UnitTypes i cant understand how change cost production
-Blocks.exponentialReconstructor.constructTime = 7200; //very test feature. Idk how good or bad is it, may be removed
-
-
-
 //Walls and cores buffs (very questionable, but why not)
 
 
 
-Blocks.coreShard.armor = 2;
-Blocks.coreFoundation.armor = 3;
-Blocks.coreNucleus.armor = 5;
+Blocks.coreShard.armor = 3;
+Blocks.coreFoundation.armor = 5;
+Blocks.coreNucleus.armor = 8;
 
-Blocks.titaniumWall.armor = 1;
-Blocks.titaniumWallLarge.armor = 1;
-Blocks.thoriumWall.armor = 1;
-Blocks.thoriumWallLarge.armor = 1;
-Blocks.plastaniumWall.armor = 2;
-Blocks.plastaniumWallLarge.armor = 2;
-Blocks.phaseWall.armor = 2;
-Blocks.phaseWallLarge.armor = 2;
-Blocks.surgeWall.armor = 3;
-Blocks.surgeWallLarge.armor = 3;
-
-
-//anuke fix issue
-Blocks.itemBridge.requirements = ItemStack.with(Items.copper, 6, Items.lead, 6);
-Blocks.itemBridge.buildTime = 12;
+Blocks.plastaniumWall.health = 640;
+Blocks.plastaniumWallLarge.health = 2560;
+Blocks.phaseWall.health = 720;
+Blocks.phaseWallLarge.health = 2880;
+Blocks.surgeWall.health = 980;
+Blocks.surgeWallLarge.health = 3920;
