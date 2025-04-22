@@ -101,11 +101,11 @@ UnitTypes.horizon.health = 370;
 UnitTypes.horizon.armor = 2;
 UnitTypes.horizon.itemCapacity = 30; //horizon
 
-UnitTypes.zenith.speed = 1.81;
+UnitTypes.zenith.speed = 1.8;
 UnitTypes.zenith.health = 530;
 UnitTypes.zenith.armor = 5;
 UnitTypes.zenith.weapons.get(0).bullet.lifetime = 54;
-UnitTypes.zenith.weapons.get(0).bullet.splashDamage = 23;
+UnitTypes.zenith.weapons.get(0).bullet.splashDamage = 21;
 UnitTypes.zenith.crashDamageMultiplier = 0.7;
 UnitTypes.zenith.rotateSpeed = 7;
 UnitTypes.zenith.drag = 0.03; //zenith
