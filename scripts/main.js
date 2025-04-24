@@ -9,8 +9,8 @@ UnitTypes.mace.speed = 0.62;
 UnitTypes.mace.armor = 5;
 UnitTypes.mace.rotateSpeed = 5.2; //mace
 
-UnitTypes.fortress.speed = 0.58;
-UnitTypes.fortress.health = 870;
+UnitTypes.fortress.speed = 0.59;
+UnitTypes.fortress.health = 900;
 UnitTypes.fortress.rotateSpeed = 3.6; //fortress
 
 UnitTypes.scepter.speed = 0.6;
@@ -22,7 +22,7 @@ UnitTypes.scepter.rotateSpeed = 3.5; //scepter
 
 UnitTypes.reign.speed = 0.595;
 UnitTypes.reign.armor = 21;
-UnitTypes.reign.health = 27000;
+UnitTypes.reign.health = 23000;
 UnitTypes.reign.rotateSpeed = 3;
 UnitTypes.reign.weapons.get(0).bullet.lifetime = 19; //reign
 
@@ -80,7 +80,7 @@ UnitTypes.arkyid.weapons.get(3).bullet.splashDamage = 95;
 UnitTypes.arkyid.rotateSpeed = 4; //arkyid
 
 UnitTypes.toxopid.speed = 0.92;
-UnitTypes.toxopid.health = 21000;
+UnitTypes.toxopid.health = 19000;
 UnitTypes.toxopid.armor = 15;
 UnitTypes.toxopid.weapons.get(1).bullet.damage = 110;
 UnitTypes.toxopid.weapons.get(1).bullet.lifetime = 74;
@@ -101,9 +101,9 @@ UnitTypes.horizon.health = 370;
 UnitTypes.horizon.armor = 2;
 UnitTypes.horizon.itemCapacity = 30; //horizon
 
-UnitTypes.zenith.speed = 1.8;
-UnitTypes.zenith.health = 530;
-UnitTypes.zenith.armor = 5;
+UnitTypes.zenith.speed = 1.7;
+UnitTypes.zenith.health = 570;
+UnitTypes.zenith.armor = 3;
 UnitTypes.zenith.weapons.get(0).bullet.lifetime = 54;
 UnitTypes.zenith.weapons.get(0).bullet.splashDamage = 21;
 UnitTypes.zenith.crashDamageMultiplier = 0.7;
@@ -118,7 +118,7 @@ UnitTypes.antumbra.weapons.get(0).bullet.lifetime = 56;
 UnitTypes.antumbra.crashDamageMultiplier = 0.9;
 UnitTypes.antumbra.rotateSpeed = 3.7; //antumbra
 
-UnitTypes.eclipse.health = 25000;
+UnitTypes.eclipse.health = 22000;
 UnitTypes.eclipse.speed = 0.89;
 UnitTypes.eclipse.armor = 21;
 UnitTypes.eclipse.rotateSpeed = 3.1;
@@ -175,7 +175,7 @@ UnitTypes.sei.armor = 13;
 UnitTypes.sei.rotateSpeed = 3.2; //sei
 
 UnitTypes.omura.speed = 0.47;
-UnitTypes.omura.health = 19000;
+UnitTypes.omura.health = 18000;
 UnitTypes.omura.weapons.get(0).bullet.length = 450;
 UnitTypes.omura.rotateSpeed = 2.5; //omura
 
@@ -197,7 +197,7 @@ UnitTypes.aegires.armor = 11;
 UnitTypes.aegires.rotateSpeed = 3; //aegires 
 
 UnitTypes.navanax.speed = 0.48;
-UnitTypes.navanax.health = 26000;
+UnitTypes.navanax.health = 24000;
 UnitTypes.navanax.rotateSpeed = 3; //navanax
 
 
@@ -219,20 +219,20 @@ Blocks.lancer.shootType.damage = 110; //lancer
 Blocks.arc.shootType.damage = 12;
 Blocks.arc.reload = 30; //arc
 
-Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamage = 26;
-Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamageRadius = 41;
+Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamage = 29;
+Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamageRadius = 42;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).ammoMultiplier = 3; //swarmer
 
 Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamage = 24;
-Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamageRadius = 42;
+Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamageRadius = 44;
 Blocks.swarmer.ammoTypes.get(Items.pyratite).ammoMultiplier = 3; //swarmer
  
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamage = 37;
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 23;
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.75;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamage = 33;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 24;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.7;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).ammoMultiplier = 2;
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightningDamage = 10;
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightning = 4 //swarmer
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightningDamage = 9;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightning = 3 //swarmer
 
 Blocks.salvo.ammoTypes.get(Items.copper).damage = 14;
 Blocks.salvo.ammoTypes.get(Items.graphite).damage = 27;
@@ -310,7 +310,7 @@ Blocks.foreshadow.rotateSpeed = 1.3;
 
 StatusEffects.wet.transitionDamage = 13; //shocked
 
-StatusEffects.freezing.transitionDamage = 16; //freezing
+StatusEffects.freezing.transitionDamage = 18; //freezing
 
 StatusEffects.burning.reloadMultiplier = 0.9;
 StatusEffects.burning.speedMultiplier = 0.9; //burning
