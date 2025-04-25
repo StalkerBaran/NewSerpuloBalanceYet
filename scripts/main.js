@@ -37,10 +37,13 @@ UnitTypes.nova.rotateSpeed = 7; //nova
 
 UnitTypes.pulsar.speed = 0.68; //pulsar
 
-UnitTypes.quasar.speed = 0.6;
+UnitTypes.quasar.speed = 0.61;
 UnitTypes.quasar.weapons.get(0).reload = 33; 
 UnitTypes.quasar.health = 810;
-UnitTypes.quasar.rotateSpeed = 5.5; //quasar
+UnitTypes.quasar.rotateSpeed = 5.5;
+UnitTypes.quasar.abilities.get(0).cooldown = 180;
+UnitTypes.quasar.abilities.get(0).regen = 1.2;
+UnitTypes.quasar.abilities.get(0).max = 512;//quasar
 
 UnitTypes.vela.health = 9300;
 UnitTypes.vela.speed = 0.62;
