@@ -53,11 +53,11 @@ UnitTypes.corvus.armor = 13;
 UnitTypes.corvus.weapons.get(0).reload = 510;
 UnitTypes.corvus.weapons.get(0).shoot.shots = 3;
 UnitTypes.corvus.weapons.get(0).shoot.shotDelay = 21;
-UnitTypes.corvus.weapons.get(0).bullet.damage = 51;
+UnitTypes.corvus.weapons.get(0).bullet.damage = 59;
 UnitTypes.corvus.weapons.get(0).bullet.lightningDamage = 17;
 UnitTypes.corvus.weapons.get(0).bullet.buildingDamageMultiplier = 3;
 UnitTypes.corvus.weapons.get(0).bullet.healPercent = 17;
-UnitTypes.corvus.weapons.get(0).bullet.lifetime = 53;
+UnitTypes.corvus.weapons.get(0).bullet.lifetime = 51;
 UnitTypes.corvus.weapons.get(0).shootStatusDuration = 70 * 2; //corvus
 
 
@@ -102,10 +102,10 @@ UnitTypes.horizon.armor = 2;
 UnitTypes.horizon.itemCapacity = 30; //horizon
 
 UnitTypes.zenith.speed = 1.7;
-UnitTypes.zenith.health = 570;
-UnitTypes.zenith.armor = 3;
-UnitTypes.zenith.weapons.get(0).bullet.lifetime = 54;
-UnitTypes.zenith.weapons.get(0).bullet.splashDamage = 21;
+UnitTypes.zenith.health = 510;
+UnitTypes.zenith.armor = 5;
+UnitTypes.zenith.weapons.get(0).bullet.lifetime = 51;
+UnitTypes.zenith.weapons.get(0).bullet.splashDamage = 17;
 UnitTypes.zenith.crashDamageMultiplier = 0.7;
 UnitTypes.zenith.rotateSpeed = 7;
 UnitTypes.zenith.drag = 0.03; //zenith
@@ -134,9 +134,10 @@ UnitTypes.eclipse.weapons.get(2).bullet.lifetime = 54; //eclipse
 UnitTypes.mono.speed = 1.7; //mono
 
 UnitTypes.mega.speed = 2.57;
-UnitTypes.mega.health = 510;
-UnitTypes.mega.crashDamageMultiplier = 0.8;
+UnitTypes.mega.health = 530;
+UnitTypes.mega.crashDamageMultiplier = 0.7;
 UnitTypes.mega.rotateSpeed = 7;
+UnitTypes.mega.armor = 3;
 UnitTypes.mega.drag = 0.04; //mega
 
 UnitTypes.quad.speed = 1.47;
@@ -213,6 +214,11 @@ Blocks.scorch.range = 72.5; //scorch
 
 Blocks.hail.ammoTypes.get(Items.pyratite).splashDamageRadius = 31; //hail
 
+Blocks.wave.ammoTypes.get(Liquids.slag).rangeChange = 24;
+Blocks.wave.ammoTypes.get(Liquids.slag).lifetime = 44;
+Blocks.wave.ammoTypes.get(Liquids.oil).rangeChange = 24;
+Blocks.wave.ammoTypes.get(Liquids.oil).lifetime = 44; //wave
+
 Blocks.lancer.shootType.pierceCap = 4;
 Blocks.lancer.shootType.damage = 110; //lancer
 
@@ -238,8 +244,15 @@ Blocks.salvo.ammoTypes.get(Items.copper).damage = 14;
 Blocks.salvo.ammoTypes.get(Items.graphite).damage = 27;
 Blocks.salvo.ammoTypes.get(Items.pyratite).damage = 23;
 Blocks.salvo.ammoTypes.get(Items.pyratite).splashDamage = 24;
-Blocks.salvo.ammoTypes.get(Items.silicon).splashDamageRadius = 24;
+Blocks.salvo.ammoTypes.get(Items.pyratite).splashDamageRadius = 24;
 Blocks.salvo.reload = 25; //salvo 
+
+Blocks.tsunami.ammoTypes.get(Liquids.slag).rangeChange = 32;
+Blocks.tsunami.ammoTypes.get(Liquids.slag).lifetime = 58;
+Blocks.tsunami.ammoTypes.get(Liquids.oil).rangeChange = 32;
+Blocks.tsunami.ammoTypes.get(Liquids.oil).lifetime = 58; 
+Blocks.tsunami.ammoTypes.get(Liquids.cryofluid).rangeChange = 28;
+Blocks.tsunami.ammoTypes.get(Liquids.cryofluid).lifetime = 56;//tsunami
 
 Blocks.fuse.reload = 37; //fuse
 
