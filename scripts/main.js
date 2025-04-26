@@ -201,6 +201,7 @@ UnitTypes.cyerce.rotateSpeed = 6.5; //cyerce
 
 UnitTypes.aegires.speed = 0.76;
 UnitTypes.aegires.armor = 11;
+UnitTypes.aegires.health = 9000;
 UnitTypes.aegires.rotateSpeed = 3; //aegires 
 
 UnitTypes.navanax.speed = 0.48;
