@@ -143,7 +143,7 @@ UnitTypes.mega.rotateSpeed = 7;
 UnitTypes.mega.armor = 3;
 UnitTypes.mega.drag = 0.04; //mega
 
-UnitTypes.quad.speed = 1.47;
+UnitTypes.quad.speed = 1.49;
 UnitTypes.quad.buildSpeed = 3.5;
 UnitTypes.quad.rotateSpeed = 3.3; //quad
 
@@ -333,10 +333,10 @@ StatusEffects.wet.transitionDamage = 13; //shocked
 StatusEffects.freezing.transitionDamage = 18; //freezing
 
 StatusEffects.burning.reloadMultiplier = 0.9;
-StatusEffects.burning.speedMultiplier = 0.9;
+StatusEffects.burning.speedMultiplier = 0.9; //burning
 
 StatusEffects.melting.healthMultiplier = 0.7;
-StatusEffects.melting.speedMultiplier = 0.7; //burning
+StatusEffects.melting.speedMultiplier = 0.7; //melting. Questionable changes
 
 
 
