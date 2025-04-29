@@ -234,8 +234,8 @@ Blocks.scatter.ammoTypes.get(Items.metaglass).fragBullet.damage = 5;
 Blocks.scatter.ammoTypes.get(Items.metaglass).fragBullets = 5;
 Blocks.scatter.ammoTypes.get(Items.metaglass).width = 6;
 Blocks.scatter.ammoTypes.get(Items.metaglass).height = 13; //scatter
-Blocks.scatter.coolantMultiplier = 1.2;
 
+Blocks.scatter.coolantMultiplier = 1.5;
 Blocks.scatter.reload = 14;
 Blocks.scatter.shoot.shots = 3;
 Blocks.scatter.shoot.shotDelay = 3; //scatter
