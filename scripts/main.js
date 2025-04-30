@@ -39,7 +39,7 @@ UnitTypes.pulsar.speed = 0.68; //pulsar
 
 UnitTypes.quasar.speed = 0.61;
 UnitTypes.quasar.weapons.get(0).reload = 33; 
-UnitTypes.quasar.health = 810;
+UnitTypes.quasar.health = 710;
 UnitTypes.quasar.rotateSpeed = 5.5;
 UnitTypes.quasar.abilities.get(0).cooldown = 180;
 UnitTypes.quasar.abilities.get(0).regen = 0.6;
@@ -73,7 +73,7 @@ UnitTypes.atrax.rotateSpeed = 7.5; // Атрах
 UnitTypes.spiroct.speed = 0.94;
 UnitTypes.spiroct.armor = 8;
 UnitTypes.spiroct.health = 1100;
-UnitTypes.spiroct.weapons.get(1).reload = 8;
+UnitTypes.spiroct.weapons.get(1).reload = 7;
 UnitTypes.spiroct.rotateSpeed = 7.8; //spiroct
 
 UnitTypes.arkyid.speed = 0.93;
@@ -100,8 +100,8 @@ UnitTypes.flare.weapons.get(0).bullet.damage = 11;
 UnitTypes.flare.crashDamageMultiplier = 0.7; //flare
 
 UnitTypes.horizon.speed = 2.21;
-UnitTypes.horizon.health = 170;
-UnitTypes.horizon.armor = 3;
+UnitTypes.horizon.health = 270;
+UnitTypes.horizon.armor = 2;
 UnitTypes.horizon.itemCapacity = 30; //horizon
 
 UnitTypes.zenith.speed = 1.7;
@@ -136,11 +136,11 @@ UnitTypes.eclipse.weapons.get(2).bullet.lifetime = 54; //eclipse
 
 UnitTypes.mono.speed = 1.7; //mono
 
-UnitTypes.poly.health = 270;
+UnitTypes.poly.health = 310;
 UnitTypes.poly.armor = 1; //poly
 
 UnitTypes.mega.speed = 2.57;
-UnitTypes.mega.health = 330;
+UnitTypes.mega.health = 370;
 UnitTypes.mega.crashDamageMultiplier = 0.5;
 UnitTypes.mega.rotateSpeed = 7;
 UnitTypes.mega.armor = 2;
