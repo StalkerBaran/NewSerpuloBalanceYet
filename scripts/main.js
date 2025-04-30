@@ -92,23 +92,23 @@ UnitTypes.toxopid.rotateSpeed = 2.9; //toxopидор
 
 
 
-UnitTypes.flare.speed = 2.63;
-UnitTypes.flare.weapons.get(0).reload = 14;
+UnitTypes.flare.weapons.get(0).reload = 15;
 UnitTypes.flare.drag = 0.07;
+UnitTypes.flare.health = 30;
 UnitTypes.flare.rotateSpeed = 9;
-UnitTypes.flare.weapons.get(0).bullet.damage = 7;
-UnitTypes.flare.crashDamageMultiplier = 0.75; //flare
+UnitTypes.flare.weapons.get(0).bullet.damage = 11;
+UnitTypes.flare.crashDamageMultiplier = 0.7; //flare
 
 UnitTypes.horizon.speed = 2.21;
-UnitTypes.horizon.health = 230;
+UnitTypes.horizon.health = 170;
 UnitTypes.horizon.armor = 3;
 UnitTypes.horizon.itemCapacity = 30; //horizon
 
 UnitTypes.zenith.speed = 1.7;
 UnitTypes.zenith.health = 510;
-UnitTypes.zenith.armor = 4;
-UnitTypes.zenith.weapons.get(0).bullet.lifetime = 52;
-UnitTypes.zenith.weapons.get(0).bullet.splashDamage = 19;
+UnitTypes.zenith.armor = 3;
+UnitTypes.zenith.weapons.get(0).bullet.lifetime = 51;
+UnitTypes.zenith.weapons.get(0).bullet.splashDamage = 18;
 UnitTypes.zenith.crashDamageMultiplier = 0.7;
 UnitTypes.zenith.rotateSpeed = 7;
 UnitTypes.zenith.drag = 0.03; //zenith
@@ -136,11 +136,11 @@ UnitTypes.eclipse.weapons.get(2).bullet.lifetime = 54; //eclipse
 
 UnitTypes.mono.speed = 1.7; //mono
 
-UnitTypes.poly.health = 370;
+UnitTypes.poly.health = 270;
 UnitTypes.poly.armor = 1; //poly
 
 UnitTypes.mega.speed = 2.57;
-UnitTypes.mega.health = 530;
+UnitTypes.mega.health = 330;
 UnitTypes.mega.crashDamageMultiplier = 0.5;
 UnitTypes.mega.rotateSpeed = 7;
 UnitTypes.mega.armor = 2;
