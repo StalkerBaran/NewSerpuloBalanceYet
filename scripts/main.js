@@ -236,7 +236,7 @@ Blocks.scatter.ammoTypes.get(Items.metaglass).width = 6;
 Blocks.scatter.ammoTypes.get(Items.metaglass).height = 13; 
 Blocks.scatter.ammoTypes.get(Items.metaglass).reloadMultiplier = 0.7 //scatter
 
-Blocks.scatter.coolantMultiplier = 5;
+Blocks.scatter.coolantMultiplier = 8;
 Blocks.scatter.reload = 12;
 Blocks.scatter.shoot.shots = 3;
 Blocks.scatter.shoot.shotDelay = 4; //scatter
