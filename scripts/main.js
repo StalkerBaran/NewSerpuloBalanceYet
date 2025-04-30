@@ -230,8 +230,8 @@ Blocks.scatter.ammoTypes.get(Items.lead).height = 13;
 
 Blocks.scatter.ammoTypes.get(Items.metaglass).splashDamageRadius = 24; 
 Blocks.scatter.ammoTypes.get(Items.metaglass).splashDamage = 9  * 1.5;
-Blocks.scatter.ammoTypes.get(Items.metaglass).fragBullet.damage = 4; 
-Blocks.scatter.ammoTypes.get(Items.metaglass).fragBullets = 5;
+Blocks.scatter.ammoTypes.get(Items.metaglass).fragBullet.damage = 5; 
+Blocks.scatter.ammoTypes.get(Items.metaglass).fragBullets = 4;
 Blocks.scatter.ammoTypes.get(Items.metaglass).width = 6;
 Blocks.scatter.ammoTypes.get(Items.metaglass).height = 13; 
 Blocks.scatter.ammoTypes.get(Items.metaglass).reloadMultiplier = 0.7 //scatter
