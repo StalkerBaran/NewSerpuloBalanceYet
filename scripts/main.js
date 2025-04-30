@@ -218,27 +218,28 @@ UnitTypes.navanax.rotateSpeed = 3; //navanax
 Blocks.duo.ammoTypes.get(Items.copper).damage = 13;
 Blocks.duo.ammoTypes.get(Items.silicon).damage = 14; //duo
 
-Blocks.scatter.ammoTypes.get(Items.scrap).splashDamage = 15 * 1.5; 
-Blocks.scatter.ammoTypes.get(Items.scrap).splashDamageRadius = 25; //scatter
+Blocks.scatter.ammoTypes.get(Items.scrap).splashDamage = 13 * 1.5; 
+Blocks.scatter.ammoTypes.get(Items.scrap).splashDamageRadius = 26; //scatter
 Blocks.scatter.ammoTypes.get(Items.scrap).width = 6;
 Blocks.scatter.ammoTypes.get(Items.scrap).height = 13;
 
-Blocks.scatter.ammoTypes.get(Items.lead).splashDamage = 13  * 1.5; 
-Blocks.scatter.ammoTypes.get(Items.lead).splashDamageRadius = 22; //scatter
+Blocks.scatter.ammoTypes.get(Items.lead).splashDamage = 11  * 1.5; 
+Blocks.scatter.ammoTypes.get(Items.lead).splashDamageRadius = 23; //scatter
 Blocks.scatter.ammoTypes.get(Items.lead).width = 6;
 Blocks.scatter.ammoTypes.get(Items.lead).height = 13;
 
-Blocks.scatter.ammoTypes.get(Items.metaglass).splashDamageRadius = 23; 
-Blocks.scatter.ammoTypes.get(Items.metaglass).splashDamage = 12  * 1.5;
-Blocks.scatter.ammoTypes.get(Items.metaglass).fragBullet.damage = 5; 
+Blocks.scatter.ammoTypes.get(Items.metaglass).splashDamageRadius = 24; 
+Blocks.scatter.ammoTypes.get(Items.metaglass).splashDamage = 9  * 1.5;
+Blocks.scatter.ammoTypes.get(Items.metaglass).fragBullet.damage = 4; 
 Blocks.scatter.ammoTypes.get(Items.metaglass).fragBullets = 5;
 Blocks.scatter.ammoTypes.get(Items.metaglass).width = 6;
-Blocks.scatter.ammoTypes.get(Items.metaglass).height = 13; //scatter
+Blocks.scatter.ammoTypes.get(Items.metaglass).height = 13; 
+Blocks.scatter.ammoTypes.get(Items.metaglass).reloadMultiplier = 0.7 //scatter
 
-Blocks.scatter.coolantMultiplier = 1.5;
-Blocks.scatter.reload = 14;
+Blocks.scatter.coolantMultiplier = 4;
+Blocks.scatter.reload = 12;
 Blocks.scatter.shoot.shots = 3;
-Blocks.scatter.shoot.shotDelay = 3; //scatter
+Blocks.scatter.shoot.shotDelay = 4; //scatter
 
 
 Blocks.scorch.ammoTypes.get(Items.coal).damage = 13;
