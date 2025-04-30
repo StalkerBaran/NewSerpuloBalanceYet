@@ -261,9 +261,11 @@ Blocks.arc.reload = 30; //arc
 
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamage = 35;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamageRadius = 42;
+Blocks.swarmer.ammoTypes.get(Items.blastCompound).damage = 12;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).ammoMultiplier = 5; //swarmer
 
 Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamage = 32;
+Blocks.swarmer.ammoTypes.get(Items.pyratite).damage = 12;
 Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamageRadius = 43;
 Blocks.swarmer.ammoTypes.get(Items.pyratite).ammoMultiplier = 5; //swarmer
  
