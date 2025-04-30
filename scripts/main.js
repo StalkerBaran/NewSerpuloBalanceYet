@@ -223,7 +223,7 @@ Blocks.scatter.ammoTypes.get(Items.scrap).splashDamageRadius = 26; //scatter
 Blocks.scatter.ammoTypes.get(Items.scrap).width = 6;
 Blocks.scatter.ammoTypes.get(Items.scrap).height = 13;
 
-Blocks.scatter.ammoTypes.get(Items.lead).splashDamage = 11  * 1.5; 
+Blocks.scatter.ammoTypes.get(Items.lead).splashDamage = 10  * 1.5; 
 Blocks.scatter.ammoTypes.get(Items.lead).splashDamageRadius = 23; //scatter
 Blocks.scatter.ammoTypes.get(Items.lead).width = 6;
 Blocks.scatter.ammoTypes.get(Items.lead).height = 13;
@@ -236,7 +236,7 @@ Blocks.scatter.ammoTypes.get(Items.metaglass).width = 6;
 Blocks.scatter.ammoTypes.get(Items.metaglass).height = 13; 
 Blocks.scatter.ammoTypes.get(Items.metaglass).reloadMultiplier = 0.7 //scatter
 
-Blocks.scatter.coolantMultiplier = 4;
+Blocks.scatter.coolantMultiplier = 5;
 Blocks.scatter.reload = 12;
 Blocks.scatter.shoot.shots = 3;
 Blocks.scatter.shoot.shotDelay = 4; //scatter
