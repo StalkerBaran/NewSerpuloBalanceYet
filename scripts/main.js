@@ -152,12 +152,12 @@ UnitTypes.quad.rotateSpeed = 3.3; //quad
 
 UnitTypes.oct.speed = 0.96;
 UnitTypes.oct.armor = 18;
-UnitTypes.oct.health = 23000;
+UnitTypes.oct.health = 19000;
 UnitTypes.oct.crashDamageMultiplier = 0.7;
 UnitTypes.oct.rotateSpeed = 3;
 UnitTypes.oct.abilities.get(0).regen = 12;
-UnitTypes.oct.abilities.get(0).max = 7200;
-UnitTypes.oct.abilities.get(1).amount = 512; //oct
+UnitTypes.oct.abilities.get(0).max = 11000;
+UnitTypes.oct.abilities.get(1).amount = 700; //oct
 
 
 UnitTypes.risso.speed = 1.04;
@@ -269,12 +269,13 @@ Blocks.swarmer.ammoTypes.get(Items.pyratite).damage = 12;
 Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamageRadius = 43;
 Blocks.swarmer.ammoTypes.get(Items.pyratite).ammoMultiplier = 5; //swarmer
  
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamage = 33;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamage = 32;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 31;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.85;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).ammoMultiplier = 3;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightningDamage = 10;
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightning = 4; //swarmer
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).damage = 13;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightning = 3; //swarmer
 
 Blocks.salvo.ammoTypes.get(Items.copper).damage = 14;
 Blocks.salvo.ammoTypes.get(Items.graphite).damage = 27;
@@ -363,7 +364,7 @@ Blocks.foreshadow.rotateSpeed = 1.3;
 
 StatusEffects.wet.transitionDamage = 13; //shocked
 
-StatusEffects.freezing.transitionDamage = 18; //freezing
+StatusEffects.freezing.transitionDamage = 16; //freezing
 
 StatusEffects.burning.reloadMultiplier = 0.9;
 StatusEffects.burning.speedMultiplier = 0.9; //burning
