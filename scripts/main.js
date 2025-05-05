@@ -211,18 +211,18 @@ UnitTypes.navanax.speed = 0.73;
 UnitTypes.navanax.health = 28000;
 UnitTypes.navanax.rotateSpeed = 3.2;
 UnitTypes.navanax.weapons.get(0).reload = 110;
-UnitTypes.navanax.weapons.get(0).bullet.length = 190;
+UnitTypes.navanax.weapons.get(0).bullet.length = 200;
 UnitTypes.navanax.weapons.get(1).reload = 110;
-UnitTypes.navanax.weapons.get(1).bullet.length = 190;
+UnitTypes.navanax.weapons.get(1).bullet.length = 200;
 UnitTypes.navanax.weapons.get(2).reload = 110;
-UnitTypes.navanax.weapons.get(2).bullet.length = 190;
+UnitTypes.navanax.weapons.get(2).bullet.length = 200;
 UnitTypes.navanax.weapons.get(3).reload = 110;
-UnitTypes.navanax.weapons.get(3).bullet.length = 190;
+UnitTypes.navanax.weapons.get(3).bullet.length = 200;
 UnitTypes.navanax.weapons.get(4).reload = 37;
 UnitTypes.navanax.weapons.get(4).bullet.damage = 80;
-UnitTypes.navanax.weapons.get(4).bullet.splashDamage = 310;//navanax
+UnitTypes.navanax.weapons.get(4).bullet.splashDamage = 330;//navanax
 UnitTypes.navanax.weapons.get(4).bullet.speed = 9;
-UnitTypes.navanax.weapons.get(4).bullet.lifetime = 32;
+UnitTypes.navanax.weapons.get(4).bullet.lifetime = 33;
 
 
 Blocks.duo.ammoTypes.get(Items.copper).damage = 13;
@@ -343,7 +343,7 @@ Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 33;
 Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).lightning = 3;
 Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).lightningDamage = 14;//cyclone
 
-Blocks.spectre.reload = 6.8;
+Blocks.spectre.reload = 6.9;
 Blocks.spectre.rotateSpeed = 1.3;
 Blocks.spectre.range = 273; //spectre
 
@@ -397,3 +397,9 @@ Blocks.phaseWallLarge.health = 2880;
 Blocks.surgeWall.health = 980;
 Blocks.surgeWallLarge.health = 3920; //walls
 
+
+
+
+Blocks.shockMine.damage = 12;
+Blocks.shockMine.tendrils = 7;
+Blocks.shockMine.health = 30;
