@@ -222,7 +222,7 @@ UnitTypes.navanax.weapons.get(4).reload = 37;
 UnitTypes.navanax.weapons.get(4).bullet.damage = 80;
 UnitTypes.navanax.weapons.get(4).bullet.splashDamage = 330;//navanax
 UnitTypes.navanax.weapons.get(4).bullet.speed = 9;
-UnitTypes.navanax.weapons.get(4).bullet.lifetime = 33;
+UnitTypes.navanax.weapons.get(4).bullet.lifetime = 37;
 
 
 Blocks.duo.ammoTypes.get(Items.copper).damage = 13;
