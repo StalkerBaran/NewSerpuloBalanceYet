@@ -55,13 +55,13 @@ UnitTypes.corvus.rotateSpeed = 2.4;
 UnitTypes.corvus.armor = 13;
 UnitTypes.corvus.weapons.get(0).reload = 510;
 UnitTypes.corvus.weapons.get(0).shoot.shots = 3;
-UnitTypes.corvus.weapons.get(0).shoot.shotDelay = 21;
-UnitTypes.corvus.weapons.get(0).bullet.damage = 61;
+UnitTypes.corvus.weapons.get(0).shoot.shotDelay = 24;
+UnitTypes.corvus.weapons.get(0).bullet.damage = 70;
 UnitTypes.corvus.weapons.get(0).bullet.lightningDamage = 14;
 UnitTypes.corvus.weapons.get(0).bullet.buildingDamageMultiplier = 3;
 UnitTypes.corvus.weapons.get(0).bullet.healPercent = 18;
-UnitTypes.corvus.weapons.get(0).bullet.lifetime = 52;
-UnitTypes.corvus.weapons.get(0).shootStatusDuration = 70 * 2; //corvus
+UnitTypes.corvus.weapons.get(0).bullet.lifetime = 47;
+UnitTypes.corvus.weapons.get(0).shootStatusDuration = 71 * 2; //corvus
 
 
 
@@ -211,13 +211,12 @@ UnitTypes.navanax.speed = 0.73;
 UnitTypes.navanax.health = 27000;
 UnitTypes.navanax.rotateSpeed = 3.2;
 UnitTypes.navanax.weapons.get(0).reload = 110;
-UnitTypes.navanax.weapons.get(0).bullet.maxRange = 180;
-UnitTypes.navanax.weapons.get(4).reload = 38;
+UnitTypes.navanax.weapons.get(0).bullet.maxRange = 230;
+UnitTypes.navanax.weapons.get(4).reload = 37;
 UnitTypes.navanax.weapons.get(4).bullet.damage = 70;
-UnitTypes.navanax.weapons.get(4).bullet.splashDamage = 130;//navanax
-UnitTypes.navanax.weapons.get(4).bullet.speed = 8;
-UnitTypes.navanax.weapons.get(4).bullet.lifetime = 47;
-UnitTypes.navanax.weapons.get(4).bullet.collidesTiles = false;
+UnitTypes.navanax.weapons.get(4).bullet.splashDamage = 220;//navanax
+UnitTypes.navanax.weapons.get(4).bullet.speed = 9;
+UnitTypes.navanax.weapons.get(4).bullet.lifetime = 48;
 
 
 Blocks.duo.ammoTypes.get(Items.copper).damage = 13;
