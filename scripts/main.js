@@ -220,7 +220,7 @@ UnitTypes.navanax.weapons.get(3).reload = 110;
 UnitTypes.navanax.weapons.get(3).bullet.length = 200;
 UnitTypes.navanax.weapons.get(4).reload = 37;
 UnitTypes.navanax.weapons.get(4).bullet.damage = 80;
-UnitTypes.navanax.weapons.get(4).bullet.splashDamage = 330;//navanax
+UnitTypes.navanax.weapons.get(4).bullet.splashDamage = 310;//navanax
 UnitTypes.navanax.weapons.get(4).bullet.speed = 9;
 UnitTypes.navanax.weapons.get(4).bullet.lifetime = 35;
 
