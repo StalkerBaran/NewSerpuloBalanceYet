@@ -211,18 +211,18 @@ UnitTypes.navanax.speed = 0.73;
 UnitTypes.navanax.health = 27000;
 UnitTypes.navanax.rotateSpeed = 3.2;
 UnitTypes.navanax.weapons.get(0).reload = 110;
-UnitTypes.navanax.weapons.get(0).bullet.length = 230;
+UnitTypes.navanax.weapons.get(0).bullet.length = 170;
 UnitTypes.navanax.weapons.get(1).reload = 110;
-UnitTypes.navanax.weapons.get(1).bullet.length = 230;
+UnitTypes.navanax.weapons.get(1).bullet.length = 170;
 UnitTypes.navanax.weapons.get(2).reload = 110;
-UnitTypes.navanax.weapons.get(2).bullet.length = 230;
+UnitTypes.navanax.weapons.get(2).bullet.length = 170;
 UnitTypes.navanax.weapons.get(3).reload = 110;
-UnitTypes.navanax.weapons.get(3).bullet.length = 230;
+UnitTypes.navanax.weapons.get(3).bullet.length = 170;
 UnitTypes.navanax.weapons.get(4).reload = 37;
-UnitTypes.navanax.weapons.get(4).bullet.damage = 30;
+UnitTypes.navanax.weapons.get(4).bullet.damage = 80;
 UnitTypes.navanax.weapons.get(4).bullet.splashDamage = 310;//navanax
 UnitTypes.navanax.weapons.get(4).bullet.speed = 9;
-UnitTypes.navanax.weapons.get(4).bullet.lifetime = 36;
+UnitTypes.navanax.weapons.get(4).bullet.lifetime = 32;
 
 
 Blocks.duo.ammoTypes.get(Items.copper).damage = 13;
