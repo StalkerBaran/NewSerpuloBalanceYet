@@ -184,7 +184,7 @@ UnitTypes.sei.weapons.get(1).bullet.lifetime = 32;
 UnitTypes.sei.armor = 13;
 UnitTypes.sei.rotateSpeed = 3.2; //sei
 
-UnitTypes.omura.speed = 0.47;
+UnitTypes.omura.speed = 0.53;
 UnitTypes.omura.health = 19000;
 UnitTypes.omura.weapons.get(0).bullet.length = 420;
 UnitTypes.omura.rotateSpeed = 2.5; //omura
@@ -207,17 +207,17 @@ UnitTypes.aegires.armor = 11;
 UnitTypes.aegires.health = 9000;
 UnitTypes.aegires.rotateSpeed = 3; //aegires 
 
-UnitTypes.navanax.speed = 0.48;
+UnitTypes.navanax.speed = 0.73;
 UnitTypes.navanax.health = 27000;
-UnitTypes.navanax.rotateSpeed = 3;
+UnitTypes.navanax.rotateSpeed = 3.2;
 UnitTypes.navanax.weapons.get(0).reload = 110;
-UnitTypes.navanax.weapons.get(1).reload = 110;
-UnitTypes.navanax.weapons.get(2).reload = 110;
-UnitTypes.navanax.weapons.get(3).reload = 110;
-UnitTypes.navanax.weapons.get(4).reload = 35; //navanax
-
-
-
+UnitTypes.navanax.weapons.get(0).bullet.maxRange = 180;
+UnitTypes.navanax.weapons.get(4).reload = 38;
+UnitTypes.navanax.weapons.get(4).bullet.damage = 70;
+UnitTypes.navanax.weapons.get(4).bullet.splashDamage = 130;//navanax
+UnitTypes.navanax.weapons.get(4).bullet.speed = 8;
+UnitTypes.navanax.weapons.get(4).bullet.lifetime = 47;
+UnitTypes.navanax.weapons.get(4).bullet.collidesTiles = false;
 
 
 Blocks.duo.ammoTypes.get(Items.copper).damage = 13;
