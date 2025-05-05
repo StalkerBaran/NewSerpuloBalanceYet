@@ -185,8 +185,8 @@ UnitTypes.sei.armor = 13;
 UnitTypes.sei.rotateSpeed = 3.2; //sei
 
 UnitTypes.omura.speed = 0.47;
-UnitTypes.omura.health = 21000;
-UnitTypes.omura.weapons.get(0).bullet.length = 450;
+UnitTypes.omura.health = 19000;
+UnitTypes.omura.weapons.get(0).bullet.length = 420;
 UnitTypes.omura.rotateSpeed = 2.5; //omura
 
 
@@ -208,8 +208,13 @@ UnitTypes.aegires.health = 9000;
 UnitTypes.aegires.rotateSpeed = 3; //aegires 
 
 UnitTypes.navanax.speed = 0.48;
-UnitTypes.navanax.health = 26000;
-UnitTypes.navanax.rotateSpeed = 3; //navanax
+UnitTypes.navanax.health = 27000;
+UnitTypes.navanax.rotateSpeed = 3;
+UnitTypes.navanax.weapons.get(0).reload = 110;
+UnitTypes.navanax.weapons.get(1).reload = 110;
+UnitTypes.navanax.weapons.get(2).reload = 110;
+UnitTypes.navanax.weapons.get(3).reload = 110;
+UnitTypes.navanax.weapons.get(4).reload = 35; //navanax
 
 
 
