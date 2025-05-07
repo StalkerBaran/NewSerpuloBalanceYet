@@ -234,8 +234,9 @@ UnitTypes.navanax.weapons.get(4).bullet.speed = 9;
 UnitTypes.navanax.weapons.get(4).bullet.lifetime = 35;
 
 
-Blocks.duo.ammoTypes.get(Items.copper).damage = 11;
-Blocks.duo.ammoTypes.get(Items.silicon).damage = 14; //duo
+Blocks.duo.ammoTypes.get(Items.copper).damage = 10;
+Blocks.duo.ammoTypes.get(Items.silicon).damage = 13;
+Blocks.duo.ammoTypes.get(Items.graphite).damage = 14;//duo
 
 Blocks.scatter.ammoTypes.get(Items.scrap).splashDamage = 13 * 1.5; 
 Blocks.scatter.ammoTypes.get(Items.scrap).splashDamageRadius = 26; //scatter
