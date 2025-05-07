@@ -59,9 +59,10 @@ UnitTypes.corvus.armor = 13;
 UnitTypes.corvus.weapons.get(0).reload = 510;
 UnitTypes.corvus.weapons.get(0).shoot.shots = 3;
 UnitTypes.corvus.weapons.get(0).shoot.shotDelay = 24;
-UnitTypes.corvus.weapons.get(0).bullet.damage = 70;
+UnitTypes.corvus.weapons.get(0).bullet.damage = 74;
 UnitTypes.corvus.weapons.get(0).bullet.lightningDamage = 14;
 UnitTypes.corvus.weapons.get(0).bullet.buildingDamageMultiplier = 3;
+UnitTypes.corvus.weapons.get(0).bullet.length = 370;
 UnitTypes.corvus.weapons.get(0).bullet.healPercent = 18;
 UnitTypes.corvus.weapons.get(0).bullet.lifetime = 45;
 UnitTypes.corvus.weapons.get(0).shootStatusDuration = 71 * 2; //corvus
@@ -195,7 +196,7 @@ UnitTypes.sei.rotateSpeed = 3.2; //sei
 
 UnitTypes.omura.speed = 0.53;
 UnitTypes.omura.health = 21000;
-UnitTypes.omura.weapons.get(0).bullet.length = 370;
+UnitTypes.omura.weapons.get(0).bullet.length = 330;
 UnitTypes.omura.rotateSpeed = 2.4; //omura
 
 
