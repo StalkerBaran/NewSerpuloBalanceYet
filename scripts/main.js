@@ -70,7 +70,7 @@ UnitTypes.corvus.weapons.get(0).shootStatusDuration = 71 * 2; //corvus
 
 
 UnitTypes.atrax.speed = 0.88;
-UnitTypes.atrax.health = 330;
+UnitTypes.atrax.health = 380;
 UnitTypes.atrax.armor = 2;
 UnitTypes.atrax.rotateSpeed = 7.5; // Атрах
 
@@ -96,7 +96,7 @@ UnitTypes.toxopid.rotateSpeed = 2.9; //toxopидор
 
 
 
-UnitTypes.flare.weapons.get(0).reload = 12;
+UnitTypes.flare.weapons.get(0).reload = 11;
 UnitTypes.flare.drag = 0.01;
 UnitTypes.flare.health = 110;
 UnitTypes.flare.rotateSpeed = 9;
@@ -350,7 +350,7 @@ Blocks.cyclone.ammoTypes.get(Items.plastanium).splashDamage = 35;
 Blocks.cyclone.ammoTypes.get(Items.plastanium).damage = 11; //cyclone
 
 Blocks.cyclone.ammoTypes.get(Items.blastCompound).damage = 13;
-Blocks.cyclone.ammoTypes.get(Items.blastCompound).splashDamage = 51;//cyclone
+Blocks.cyclone.ammoTypes.get(Items.blastCompound).splashDamage = 52;//cyclone
 
 Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.9;
 Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 33;
