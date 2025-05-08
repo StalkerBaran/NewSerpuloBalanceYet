@@ -1,7 +1,7 @@
 UnitTypes.dagger.weapons.get(0).reload = 14; 
 UnitTypes.dagger.weapons.get(0).bullet.damage = 12;
 UnitTypes.dagger.speed = 0.8;
-UnitTypes.dagger.health = 120;
+UnitTypes.dagger.health = 130;
 UnitTypes.dagger.armor = 1;
 UnitTypes.dagger.rotateSpeed = 7; //dagger
 
@@ -98,7 +98,7 @@ UnitTypes.toxopid.rotateSpeed = 2.9; //toxopидор
 
 UnitTypes.flare.weapons.get(0).reload = 12;
 UnitTypes.flare.drag = 0.01;
-UnitTypes.flare.health = 40;
+UnitTypes.flare.health = 110;
 UnitTypes.flare.rotateSpeed = 9;
 UnitTypes.flare.weapons.get(0).bullet.damage = 7;
 UnitTypes.flare.crashDamageMultiplier = 0.5; //flare
@@ -154,7 +154,6 @@ UnitTypes.mega.rotateSpeed = 7;
 UnitTypes.mega.armor = 2;
 UnitTypes.mega.drag = 0.04; //mega
 
-
 UnitTypes.quad.speed = 1.49;
 UnitTypes.quad.buildSpeed = 3.5;
 UnitTypes.quad.rotateSpeed = 3.3; //quad
@@ -168,6 +167,7 @@ UnitTypes.oct.abilities.get(0).regen = 12;
 UnitTypes.oct.abilities.get(0).max = 12000;
 UnitTypes.oct.abilities.get(1).amount = 700; //oct
 UnitTypes.oct.crashDamageMultiplier = 0.75;
+
 
 
 UnitTypes.risso.speed = 1.04;
@@ -235,22 +235,25 @@ UnitTypes.navanax.weapons.get(4).bullet.speed = 9;
 UnitTypes.navanax.weapons.get(4).bullet.lifetime = 35;
 
 
+
+
 Blocks.duo.ammoTypes.get(Items.copper).damage = 10;
-Blocks.duo.ammoTypes.get(Items.silicon).damage = 13;
-Blocks.duo.ammoTypes.get(Items.graphite).damage = 14;//duo
+Blocks.duo.ammoTypes.get(Items.silicon).damage = 12;
+Blocks.duo.ammoTypes.get(Items.graphite).damage = 14; //duo
+Blocks.duo.ammoTypes.get(Items.graphite).reloadMultiplier = 0.8;
 
 Blocks.scatter.ammoTypes.get(Items.scrap).splashDamage = 13 * 1.5; 
 Blocks.scatter.ammoTypes.get(Items.scrap).splashDamageRadius = 26; //scatter
 Blocks.scatter.ammoTypes.get(Items.scrap).width = 6;
 Blocks.scatter.ammoTypes.get(Items.scrap).height = 13;
 
-Blocks.scatter.ammoTypes.get(Items.lead).splashDamage = 10  * 1.5; 
+Blocks.scatter.ammoTypes.get(Items.lead).splashDamage = 12  * 1.5; 
 Blocks.scatter.ammoTypes.get(Items.lead).splashDamageRadius = 23; //scatter
 Blocks.scatter.ammoTypes.get(Items.lead).width = 6;
 Blocks.scatter.ammoTypes.get(Items.lead).height = 13;
 
 Blocks.scatter.ammoTypes.get(Items.metaglass).splashDamageRadius = 24; 
-Blocks.scatter.ammoTypes.get(Items.metaglass).splashDamage = 9  * 1.5;
+Blocks.scatter.ammoTypes.get(Items.metaglass).splashDamage = 10  * 1.5;
 Blocks.scatter.ammoTypes.get(Items.metaglass).fragBullet.damage = 5; 
 Blocks.scatter.ammoTypes.get(Items.metaglass).fragBullets = 4;
 Blocks.scatter.ammoTypes.get(Items.metaglass).width = 6;
