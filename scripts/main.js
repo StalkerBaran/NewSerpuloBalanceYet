@@ -2,7 +2,7 @@ UnitTypes.dagger.weapons.get(0).reload = 14;
 UnitTypes.dagger.weapons.get(0).bullet.damage = 12;
 UnitTypes.dagger.speed = 0.76;
 UnitTypes.dagger.health = 130;
-UnitTypes.dagger.armor = 1;
+UnitTypes.dagger.armor = 2;
 UnitTypes.dagger.rotateSpeed = 7; //dagger
 
 UnitTypes.mace.speed = 0.72;
@@ -15,9 +15,9 @@ UnitTypes.fortress.health = 910;
 UnitTypes.fortress.rotateSpeed = 3.6; //fortress
 
 UnitTypes.scepter.speed = 0.65;
-UnitTypes.scepter.armor = 13;
+UnitTypes.scepter.armor = 12;
 UnitTypes.scepter.health = 11000;
-UnitTypes.scepter.weapons.get(1).bullet.lifetime = 59.5;
+UnitTypes.scepter.weapons.get(1).bullet.lifetime = 59;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 24;
 UnitTypes.scepter.rotateSpeed = 3.5; //scepter
 
@@ -25,14 +25,14 @@ UnitTypes.reign.speed = 0.66;
 UnitTypes.reign.armor = 21;
 UnitTypes.reign.health = 23000;
 UnitTypes.reign.rotateSpeed = 3;
-UnitTypes.reign.weapons.get(0).bullet.lifetime = 19; //reign
+UnitTypes.reign.weapons.get(0).bullet.lifetime = 18.5; //reign
 
 
 UnitTypes.nova.weapons.get(0).bullet.damage = 12;
 UnitTypes.nova.weapons.get(0).reload = 19;
 UnitTypes.nova.speed = 0.77;
 UnitTypes.nova.health = 180;
-UnitTypes.nova.armor = 2;
+UnitTypes.nova.armor = 1;
 UnitTypes.nova.abilities.get(0).reload = 90;
 UnitTypes.nova.rotateSpeed = 7; //nova
 
@@ -48,10 +48,10 @@ UnitTypes.quasar.abilities.get(0).cooldown = 180;
 UnitTypes.quasar.abilities.get(0).regen = 0.6;
 UnitTypes.quasar.abilities.get(0).max = 512;//quasar
 
-UnitTypes.vela.health = 9200;
+UnitTypes.vela.health = 9100;
 UnitTypes.vela.speed = 0.67;
-UnitTypes.vela.armor = 13;
-UnitTypes.vela.rotateSpeed = 4; //vela
+UnitTypes.vela.armor = 11;
+UnitTypes.vela.rotateSpeed = 3.5; //vela
 
 UnitTypes.corvus.speed = 0.44;
 UnitTypes.corvus.rotateSpeed = 2.4;
@@ -64,7 +64,7 @@ UnitTypes.corvus.weapons.get(0).bullet.lightningDamage = 14;
 UnitTypes.corvus.weapons.get(0).bullet.buildingDamageMultiplier = 3;
 UnitTypes.corvus.weapons.get(0).bullet.length = 370;
 UnitTypes.corvus.weapons.get(0).bullet.healPercent = 18;
-UnitTypes.corvus.weapons.get(0).bullet.lifetime = 45;
+UnitTypes.corvus.weapons.get(0).bullet.lifetime = 47;
 UnitTypes.corvus.weapons.get(0).shootStatusDuration = 71 * 2; //corvus
 
 
@@ -96,7 +96,7 @@ UnitTypes.toxopid.rotateSpeed = 2.9; //toxopидор
 
 
 
-UnitTypes.flare.weapons.get(0).reload = 11;
+UnitTypes.flare.weapons.get(0).reload = 12;
 UnitTypes.flare.drag = 0.01;
 UnitTypes.flare.health = 110;
 UnitTypes.flare.rotateSpeed = 9;
@@ -109,20 +109,19 @@ UnitTypes.horizon.armor = 2;
 UnitTypes.horizon.itemCapacity = 30; //horizon
 UnitTypes.horizon.crashDamageMultiplier = 0.5;
 
-UnitTypes.zenith.speed = 1.7;
 UnitTypes.zenith.health = 510;
 UnitTypes.zenith.armor = 3;
-UnitTypes.zenith.weapons.get(0).bullet.lifetime = 51;
+UnitTypes.zenith.weapons.get(0).bullet.lifetime = 52;
 UnitTypes.zenith.weapons.get(0).bullet.splashDamage = 17;
 UnitTypes.zenith.crashDamageMultiplier = 0.5;
 UnitTypes.zenith.rotateSpeed = 7;
 UnitTypes.zenith.drag = 0.03; //zenith
 
-UnitTypes.antumbra.health = 9700;
+UnitTypes.antumbra.health = 9300;
 UnitTypes.antumbra.speed = 0.9;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamage = 63;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamageRadius = 35;
-UnitTypes.antumbra.weapons.get(0).bullet.lifetime = 56;
+UnitTypes.antumbra.weapons.get(0).bullet.lifetime = 57;
 UnitTypes.antumbra.crashDamageMultiplier = 0.75;
 UnitTypes.antumbra.rotateSpeed = 3.7; //antumbra
 
@@ -156,7 +155,7 @@ UnitTypes.mega.drag = 0.04; //mega
 
 UnitTypes.quad.speed = 1.49;
 UnitTypes.quad.buildSpeed = 3.5;
-UnitTypes.quad.rotateSpeed = 3.3; //quad
+UnitTypes.quad.rotateSpeed = 3; //quad
 UnitTypes.quad.crashDamageMultiplier = 0.75;
 
 UnitTypes.oct.speed = 0.97;
@@ -169,7 +168,6 @@ UnitTypes.oct.abilities.get(1).amount = 700; //oct
 UnitTypes.oct.crashDamageMultiplier = 0.75;
 
 
-
 UnitTypes.risso.speed = 1.04;
 UnitTypes.risso.health = 220;
 UnitTypes.risso.weapons.get(0).bullet.lifetime = 48;
@@ -179,8 +177,7 @@ UnitTypes.minke.speed = 0.84;
 UnitTypes.minke.health = 390;
 UnitTypes.minke.weapons.get(1).bullet.lifetime = 67;
 UnitTypes.minke.weapons.get(0).bullet.lifetime = 46;
-UnitTypes.minke.rotateSpeed = 7;
-UnitTypes.minke.armor = 6; //minke
+UnitTypes.minke.rotateSpeed = 7; //minke
 
 UnitTypes.bryde.speed = 0.79;
 UnitTypes.bryde.health = 780;
