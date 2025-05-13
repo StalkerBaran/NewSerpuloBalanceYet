@@ -1,4 +1,4 @@
-UnitTypes.dagger.weapons.get(0).reload = 15; 
+UnitTypes.dagger.weapons.get(0).reload = 16; 
 UnitTypes.dagger.weapons.get(0).bullet.damage = 12;
 UnitTypes.dagger.speed = 0.76;
 UnitTypes.dagger.health = 130;
@@ -62,7 +62,7 @@ UnitTypes.corvus.weapons.get(0).shoot.shotDelay = 24;
 UnitTypes.corvus.weapons.get(0).bullet.damage = 74;
 UnitTypes.corvus.weapons.get(0).bullet.lightningDamage = 14;
 UnitTypes.corvus.weapons.get(0).bullet.buildingDamageMultiplier = 3;
-UnitTypes.corvus.weapons.get(0).bullet.length = 370;
+UnitTypes.corvus.weapons.get(0).bullet.length = 390;
 UnitTypes.corvus.weapons.get(0).bullet.healPercent = 18;
 UnitTypes.corvus.weapons.get(0).bullet.lifetime = 47;
 UnitTypes.corvus.weapons.get(0).shootStatusDuration = 71 * 2; //corvus
@@ -96,7 +96,7 @@ UnitTypes.toxopid.rotateSpeed = 2.9; //toxopидор
 
 
 
-UnitTypes.flare.weapons.get(0).reload = 13;
+UnitTypes.flare.weapons.get(0).reload = 14;
 UnitTypes.flare.drag = 0.042;
 UnitTypes.flare.health = 80;
 UnitTypes.flare.rotateSpeed = 9;
@@ -109,10 +109,9 @@ UnitTypes.horizon.armor = 2;
 UnitTypes.horizon.itemCapacity = 30; //horizon
 UnitTypes.horizon.crashDamageMultiplier = 0.5;
 
-UnitTypes.zenith.health = 510;
+UnitTypes.zenith.health = 530;
 UnitTypes.zenith.armor = 3;
 UnitTypes.zenith.weapons.get(0).bullet.lifetime = 52;
-UnitTypes.zenith.weapons.get(0).bullet.splashDamage = 17;
 UnitTypes.zenith.crashDamageMultiplier = 0.5;
 UnitTypes.zenith.rotateSpeed = 7;
 UnitTypes.zenith.drag = 0.043; //zenith
@@ -193,7 +192,7 @@ UnitTypes.sei.rotateSpeed = 3.2; //sei
 
 UnitTypes.omura.speed = 0.53;
 UnitTypes.omura.health = 21000;
-UnitTypes.omura.weapons.get(0).bullet.length = 330;
+UnitTypes.omura.weapons.get(0).bullet.length = 380;
 UnitTypes.omura.rotateSpeed = 2.4; //omura
 
 
@@ -237,19 +236,19 @@ UnitTypes.navanax.weapons.get(4).bullet.lifetime = 35;
 Blocks.duo.ammoTypes.get(Items.copper).damage = 10;
 Blocks.duo.ammoTypes.get(Items.silicon).damage = 12;
 Blocks.duo.ammoTypes.get(Items.graphite).damage = 19; //duo
-Blocks.duo.ammoTypes.get(Items.graphite).reloadMultiplier = 0.8;
+Blocks.duo.ammoTypes.get(Items.graphite).reloadMultiplier = 0.7;
 
-Blocks.scatter.ammoTypes.get(Items.scrap).splashDamage = 15 * 1.5; 
-Blocks.scatter.ammoTypes.get(Items.scrap).splashDamageRadius = 26; //scatter
+Blocks.scatter.ammoTypes.get(Items.scrap).splashDamage = 13 * 1.5; 
+Blocks.scatter.ammoTypes.get(Items.scrap).splashDamageRadius = 27; //scatter
 Blocks.scatter.ammoTypes.get(Items.scrap).width = 6;
 Blocks.scatter.ammoTypes.get(Items.scrap).height = 13;
 
 Blocks.scatter.ammoTypes.get(Items.lead).splashDamage = 13  * 1.5; 
-Blocks.scatter.ammoTypes.get(Items.lead).splashDamageRadius = 23; //scatter
+Blocks.scatter.ammoTypes.get(Items.lead).splashDamageRadius = 24; //scatter
 Blocks.scatter.ammoTypes.get(Items.lead).width = 6;
 Blocks.scatter.ammoTypes.get(Items.lead).height = 13;
 
-Blocks.scatter.ammoTypes.get(Items.metaglass).splashDamageRadius = 24; 
+Blocks.scatter.ammoTypes.get(Items.metaglass).splashDamageRadius = 26; 
 Blocks.scatter.ammoTypes.get(Items.metaglass).splashDamage = 12  * 1.5;
 Blocks.scatter.ammoTypes.get(Items.metaglass).fragBullet.damage = 5; 
 Blocks.scatter.ammoTypes.get(Items.metaglass).fragBullets = 4;
@@ -397,7 +396,7 @@ StatusEffects.melting.speedMultiplier = 0.7; //melting. Questionable changes
 
 
 
-Blocks.coreShard.armor = 2;
+Blocks.coreShard.armor = 3;
 Blocks.coreFoundation.armor = 5;
 Blocks.coreNucleus.armor = 8; //armor 
 
