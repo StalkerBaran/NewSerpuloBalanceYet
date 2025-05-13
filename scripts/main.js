@@ -418,10 +418,9 @@ Blocks.shockMine.health = 30;
 
 
 
-Blocks.additiveReconstructor.consumers[1].items[0] = ItemStack(Items.silicon, 30);
-Blocks.additiveReconstructor.consumers[1].items[1] = ItemStack(Items.graphite, 30);
-Blocks.airFactory.requirements = [ItemStack(Items.copper, 70), ItemStack(Items.lead,80), ItemStack(Items.titanium, 40)];
-Blocks.groundFactory.requirements = [ItemStack(Items.copper, 50), ItemStack(Items.lead, 70), ItemStack(Items.silicon, 30)];
+Blocks.additiveReconstructor.consumers[1].items[0] = ItemStack(Items.silicon, 30),
+Blocks.additiveReconstructor.consumers[1].items[1] = ItemStack(Items.graphite, 30),
+Blocks.airFactory.requirements = [ItemStack(Items.copper, 70), ItemStack(Items.lead,80), ItemStack(Items.titanium, 40)],
+Blocks.groundFactory.requirements = [ItemStack(Items.copper, 50), ItemStack(Items.lead, 70), ItemStack(Items.silicon, 30)],
 Blocks.navalFactory.requirements = [ItemStack(Items.copper, 120), ItemStack(Items.lead, 90), ItemStack(Items.metaglass, 70)];
-
 //Blocks.airFactory.plans.requirements = [ItemStack(Items.silicon, 30)]о
