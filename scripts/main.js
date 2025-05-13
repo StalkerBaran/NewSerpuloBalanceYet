@@ -97,7 +97,7 @@ UnitTypes.toxopid.rotateSpeed = 2.9; //toxopидор
 
 
 UnitTypes.flare.weapons.get(0).reload = 13;
-UnitTypes.flare.drag = 0.01;
+UnitTypes.flare.drag = 0.042;
 UnitTypes.flare.health = 80;
 UnitTypes.flare.rotateSpeed = 9;
 UnitTypes.flare.weapons.get(0).bullet.damage = 7;
@@ -115,7 +115,7 @@ UnitTypes.zenith.weapons.get(0).bullet.lifetime = 52;
 UnitTypes.zenith.weapons.get(0).bullet.splashDamage = 17;
 UnitTypes.zenith.crashDamageMultiplier = 0.5;
 UnitTypes.zenith.rotateSpeed = 7;
-UnitTypes.zenith.drag = 0.03; //zenith
+UnitTypes.zenith.drag = 0.043; //zenith
 
 UnitTypes.antumbra.health = 9300;
 UnitTypes.antumbra.speed = 0.9;
