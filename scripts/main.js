@@ -423,8 +423,8 @@ Events.on(WorldLoadEvent, () => {
   Blocks.airFactory.requirements = [ItemStack(Items.copper, 70), ItemStack(Items.lead,80), ItemStack(Items.titanium, 40)],
   Blocks.groundFactory.requirements = [ItemStack(Items.copper, 50), ItemStack(Items.lead, 70), ItemStack(Items.silicon, 30)],
   Blocks.navalFactory.requirements = [ItemStack(Items.copper, 120), ItemStack(Items.lead, 90), ItemStack(Items.metaglass, 70)],
-  Blocks.airFactory.plans.get(0).time = 60 * 15,
-  Blocks.airFactory.plans.get(0).requirements = [new ItemStack(Items.silicon, 20)]
+  Blocks.airFactory.plans.get(0).time = 60 * 20,
+  Blocks.airFactory.plans.get(0).requirements = [ItemStack(Items.silicon, 20)]
  }
 )
 //Blocks.airFactory.plans.requirements = [ItemStack(Items.silicon, 30)]о
