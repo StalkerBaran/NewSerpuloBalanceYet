@@ -48,8 +48,8 @@ UnitTypes.quasar.abilities.get(0).cooldown = 180;
 UnitTypes.quasar.abilities.get(0).regen = 0.6;
 UnitTypes.quasar.abilities.get(0).max = 512;//quasar
 
-UnitTypes.vela.health = 9100;
-UnitTypes.vela.speed = 0.67;
+UnitTypes.vela.health = 8300;
+UnitTypes.vela.speed = 0.66;
 UnitTypes.vela.armor = 11;
 UnitTypes.vela.rotateSpeed = 3.5; //vela
 
