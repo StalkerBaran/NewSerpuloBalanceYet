@@ -1,4 +1,4 @@
-UnitTypes.dagger.weapons.get(0).reload = 14; 
+UnitTypes.dagger.weapons.get(0).reload = 15; 
 UnitTypes.dagger.weapons.get(0).bullet.damage = 12;
 UnitTypes.dagger.speed = 0.76;
 UnitTypes.dagger.health = 130;
@@ -29,7 +29,7 @@ UnitTypes.reign.weapons.get(0).bullet.lifetime = 18.5; //reign
 
 
 UnitTypes.nova.weapons.get(0).bullet.damage = 12;
-UnitTypes.nova.weapons.get(0).reload = 19;
+UnitTypes.nova.weapons.get(0).reload = 18;
 UnitTypes.nova.speed = 0.77;
 UnitTypes.nova.health = 180;
 UnitTypes.nova.armor = 1;
@@ -96,9 +96,9 @@ UnitTypes.toxopid.rotateSpeed = 2.9; //toxopидор
 
 
 
-UnitTypes.flare.weapons.get(0).reload = 12;
+UnitTypes.flare.weapons.get(0).reload = 13;
 UnitTypes.flare.drag = 0.01;
-UnitTypes.flare.health = 110;
+UnitTypes.flare.health = 80;
 UnitTypes.flare.rotateSpeed = 9;
 UnitTypes.flare.weapons.get(0).bullet.damage = 7;
 UnitTypes.flare.crashDamageMultiplier = 0.5; //flare
@@ -414,3 +414,14 @@ Blocks.surgeWallLarge.health = 3920; //walls
 Blocks.shockMine.damage = 12;
 Blocks.shockMine.tendrils = 7;
 Blocks.shockMine.health = 30;
+
+
+
+
+Blocks.additiveReconstructor.consumers[1].items[0] = ItemStack(Items.silicon, 30);
+Blocks.additiveReconstructor.consumers[1].items[1] = ItemStack(Items.graphite, 30);
+Blocks.airFactory.requirements = [ItemStack(Items.copper, 70), ItemStack(Items.lead,80), ItemStack(Items.titanium, 40)];
+Blocks.groundFactory.requirements = [ItemStack(Items.copper, 50), ItemStack(Items.lead, 70), ItemStack(Items.silicon, 30)];
+Blocks.navalFactory.requirements = [ItemStack(Items.copper, 120), ItemStack(Items.lead, 90), ItemStack(Items.metaglass, 70)];
+
+Blocks.airFactory.plans.requirements = [ItemStack(Items.silicon, 30)]
