@@ -97,19 +97,20 @@ UnitTypes.toxopid.rotateSpeed = 2.9; //toxopидор
 
 
 UnitTypes.flare.weapons.get(0).reload = 14;
-UnitTypes.flare.drag = 0.042;
+UnitTypes.flare.drag = 0.04;
 UnitTypes.flare.health = 80;
 UnitTypes.flare.rotateSpeed = 9;
 UnitTypes.flare.weapons.get(0).bullet.damage = 7;
 UnitTypes.flare.crashDamageMultiplier = 0.5; //flare
 
 UnitTypes.horizon.speed = 2.23;
-UnitTypes.horizon.health = 230;
+UnitTypes.horizon.health = 220;
 UnitTypes.horizon.armor = 2;
 UnitTypes.horizon.itemCapacity = 30; //horizon
 UnitTypes.horizon.crashDamageMultiplier = 0.5;
+UnitTypes.horizon.weapons.get(0).bullet.splashDamage = 21;
 
-UnitTypes.zenith.health = 530;
+UnitTypes.zenith.health = 510;
 UnitTypes.zenith.armor = 3;
 UnitTypes.zenith.weapons.get(0).bullet.lifetime = 52;
 UnitTypes.zenith.crashDamageMultiplier = 0.5;
