@@ -15,7 +15,7 @@ UnitTypes.fortress.health = 910;
 UnitTypes.fortress.rotateSpeed = 3.6; //fortress
 
 UnitTypes.scepter.speed = 0.65;
-UnitTypes.scepter.armor = 12;
+UnitTypes.scepter.armor = 13;
 UnitTypes.scepter.health = 11000;
 UnitTypes.scepter.weapons.get(1).bullet.lifetime = 59;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 24;
@@ -55,7 +55,7 @@ UnitTypes.vela.rotateSpeed = 3.5; //vela
 
 UnitTypes.corvus.speed = 0.44;
 UnitTypes.corvus.rotateSpeed = 2.4;
-UnitTypes.corvus.armor = 13;
+UnitTypes.corvus.armor = 15;
 UnitTypes.corvus.weapons.get(0).reload = 510;
 UnitTypes.corvus.weapons.get(0).shoot.shots = 3;
 UnitTypes.corvus.weapons.get(0).shoot.shotDelay = 24;
