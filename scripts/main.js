@@ -384,7 +384,7 @@ Blocks.foreshadow.rotateSpeed = 1.3;
 
 
 
-StatusEffects.wet.transitionDamage = 13; //shocked
+StatusEffects.wet.transitionDamage = 14; //shocked
 
 StatusEffects.freezing.transitionDamage = 15; //freezing
 
