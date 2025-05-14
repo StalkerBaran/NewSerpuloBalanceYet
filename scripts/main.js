@@ -195,7 +195,7 @@ UnitTypes.omura.speed = 0.53;
 UnitTypes.omura.health = 21000;
 UnitTypes.omura.weapons.get(0).bullet.length = 380;
 UnitTypes.omura.rotateSpeed = 2.4; //omura
-
+UnitTypes.omura.weapons.get(0).reload = 120;
 
 
 UnitTypes.retusa.rotateSpeed = 9; //retusa
@@ -235,8 +235,8 @@ UnitTypes.navanax.weapons.get(4).bullet.lifetime = 35;
 
 
 Blocks.duo.ammoTypes.get(Items.copper).damage = 10;
-Blocks.duo.ammoTypes.get(Items.silicon).damage = 12;
-Blocks.duo.ammoTypes.get(Items.graphite).damage = 19; //duo
+Blocks.duo.ammoTypes.get(Items.silicon).damage = 14;
+Blocks.duo.ammoTypes.get(Items.graphite).damage = 20; //duo
 Blocks.duo.ammoTypes.get(Items.graphite).reloadMultiplier = 0.7;
 
 Blocks.scatter.ammoTypes.get(Items.scrap).splashDamage = 13 * 1.5; 
