@@ -17,7 +17,7 @@ UnitTypes.fortress.rotateSpeed = 3.6; //fortress
 UnitTypes.scepter.speed = 0.65;
 UnitTypes.scepter.armor = 13;
 UnitTypes.scepter.health = 11000;
-UnitTypes.scepter.weapons.get(1).bullet.lifetime = 59;
+UnitTypes.scepter.weapons.get(1).bullet.lifetime = 58;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 24;
 UnitTypes.scepter.rotateSpeed = 3.5; //scepter
 
@@ -25,7 +25,7 @@ UnitTypes.reign.speed = 0.66;
 UnitTypes.reign.armor = 21;
 UnitTypes.reign.health = 23000;
 UnitTypes.reign.rotateSpeed = 3;
-UnitTypes.reign.weapons.get(0).bullet.lifetime = 18.5; //reign
+UnitTypes.reign.weapons.get(0).bullet.lifetime = 18.4; //reign
 
 
 UnitTypes.nova.weapons.get(0).bullet.damage = 12;
@@ -49,11 +49,11 @@ UnitTypes.quasar.abilities.get(0).regen = 0.6;
 UnitTypes.quasar.abilities.get(0).max = 512;//quasar
 
 UnitTypes.vela.health = 8300;
-UnitTypes.vela.speed = 0.66;
+UnitTypes.vela.speed = 0.64;
 UnitTypes.vela.armor = 11;
 UnitTypes.vela.rotateSpeed = 3.5; //vela
 
-UnitTypes.corvus.speed = 0.44;
+UnitTypes.corvus.speed = 0.43;
 UnitTypes.corvus.rotateSpeed = 2.4;
 UnitTypes.corvus.armor = 15;
 UnitTypes.corvus.weapons.get(0).reload = 510;
@@ -62,7 +62,7 @@ UnitTypes.corvus.weapons.get(0).shoot.shotDelay = 24;
 UnitTypes.corvus.weapons.get(0).bullet.damage = 74;
 UnitTypes.corvus.weapons.get(0).bullet.lightningDamage = 14;
 UnitTypes.corvus.weapons.get(0).bullet.buildingDamageMultiplier = 3;
-UnitTypes.corvus.weapons.get(0).bullet.length = 390;
+UnitTypes.corvus.weapons.get(0).bullet.length = 395;
 UnitTypes.corvus.weapons.get(0).bullet.healPercent = 18;
 UnitTypes.corvus.weapons.get(0).bullet.lifetime = 47;
 UnitTypes.corvus.weapons.get(0).shootStatusDuration = 71 * 2; //corvus
@@ -90,7 +90,7 @@ UnitTypes.toxopid.speed = 0.93;
 UnitTypes.toxopid.health = 19000;
 UnitTypes.toxopid.armor = 15;
 UnitTypes.toxopid.weapons.get(1).bullet.damage = 110;
-UnitTypes.toxopid.weapons.get(1).bullet.lifetime = 74;
+UnitTypes.toxopid.weapons.get(1).bullet.lifetime = 75;
 UnitTypes.toxopid.weapons.get(0).bullet.damage = 170;
 UnitTypes.toxopid.rotateSpeed = 2.9; //toxopидор
 
@@ -133,9 +133,9 @@ UnitTypes.eclipse.crashDamageMultiplier = 0.75;
 UnitTypes.eclipse.weapons.get(0).bullet.damage = 170;
 UnitTypes.eclipse.weapons.get(1).bullet.damage = 25;
 UnitTypes.eclipse.weapons.get(2).bullet.damage = 25;
-UnitTypes.eclipse.weapons.get(0).bullet.length = 252;
-UnitTypes.eclipse.weapons.get(1).bullet.lifetime = 54;
-UnitTypes.eclipse.weapons.get(2).bullet.lifetime = 54; //eclipse
+UnitTypes.eclipse.weapons.get(0).bullet.length = 253;
+UnitTypes.eclipse.weapons.get(1).bullet.lifetime = 55;
+UnitTypes.eclipse.weapons.get(2).bullet.lifetime = 55; //eclipse
 UnitTypes.eclipse.crashDamageMultiplier = 0.5;
 
 
@@ -384,9 +384,9 @@ Blocks.foreshadow.rotateSpeed = 1.3;
 
 
 
-StatusEffects.wet.transitionDamage = 14; //shocked
+StatusEffects.wet.transitionDamage = 13; //shocked
 
-StatusEffects.freezing.transitionDamage = 17; //freezing
+StatusEffects.freezing.transitionDamage = 15; //freezing
 
 StatusEffects.burning.reloadMultiplier = 0.9;
 StatusEffects.burning.speedMultiplier = 0.9; //burning
