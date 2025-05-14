@@ -117,8 +117,8 @@ UnitTypes.zenith.crashDamageMultiplier = 0.5;
 UnitTypes.zenith.rotateSpeed = 7;
 UnitTypes.zenith.drag = 0.043; //zenith
 
-UnitTypes.antumbra.health = 9300;
-UnitTypes.antumbra.speed = 0.9;
+UnitTypes.antumbra.health = 7200;
+UnitTypes.antumbra.speed = 1.16;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamage = 63;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamageRadius = 35;
 UnitTypes.antumbra.weapons.get(0).bullet.lifetime = 57;
