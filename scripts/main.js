@@ -68,6 +68,7 @@ UnitTypes.corvus.weapons.get(0).bullet.lifetime = 47;
 UnitTypes.corvus.weapons.get(0).shootStatusDuration = 71 * 2; //corvus
 
 
+UnitTypes.crawler.health = 120;
 
 UnitTypes.atrax.speed = 0.89;
 UnitTypes.atrax.health = 380;
