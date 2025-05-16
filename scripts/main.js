@@ -397,7 +397,7 @@ StatusEffects.melting.speedMultiplier = 0.7; //melting. Questionable changes
 
 
 
-Blocks.coreShard.armor = 3;
+Blocks.coreShard.armor = 2;
 Blocks.coreFoundation.armor = 5;
 Blocks.coreNucleus.armor = 8; //armor 
 
@@ -430,3 +430,4 @@ Events.on(WorldLoadEvent, () => {
  }
 )
 
+Blocks.coreShard.health = 1800;
