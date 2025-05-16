@@ -10,8 +10,8 @@ UnitTypes.mace.health = 330;
 UnitTypes.mace.armor = 5;
 UnitTypes.mace.rotateSpeed = 5.2; //mace
 
-UnitTypes.fortress.speed = 0.67;
-UnitTypes.fortress.health = 910;
+UnitTypes.fortress.speed = 0.66;
+UnitTypes.fortress.health = 970;
 UnitTypes.fortress.rotateSpeed = 3.6; //fortress
 
 UnitTypes.scepter.speed = 0.65;
@@ -42,13 +42,13 @@ UnitTypes.pulsar.mineSpeed = 3.5;
 
 UnitTypes.quasar.speed = 0.68;
 UnitTypes.quasar.weapons.get(0).reload = 33; 
-UnitTypes.quasar.health = 710;
+UnitTypes.quasar.health = 730;
 UnitTypes.quasar.rotateSpeed = 5.5;
 UnitTypes.quasar.abilities.get(0).cooldown = 180;
 UnitTypes.quasar.abilities.get(0).regen = 0.6;
 UnitTypes.quasar.abilities.get(0).max = 512;//quasar
 
-UnitTypes.vela.health = 8300;
+UnitTypes.vela.health = 8200;
 UnitTypes.vela.speed = 0.64;
 UnitTypes.vela.armor = 11;
 UnitTypes.vela.rotateSpeed = 3.5; //vela
