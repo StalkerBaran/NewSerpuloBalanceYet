@@ -29,10 +29,10 @@ UnitTypes.reign.weapons.get(0).bullet.lifetime = 18.4; //reign
 
 
 UnitTypes.nova.weapons.get(0).bullet.damage = 13;
-UnitTypes.nova.weapons.get(0).reload = 18;
-UnitTypes.nova.speed = 0.77;
-UnitTypes.nova.health = 120;
-UnitTypes.nova.armor = 1;
+UnitTypes.nova.weapons.get(0).reload = 19;
+UnitTypes.nova.speed = 0.75;
+UnitTypes.nova.health = 110;
+UnitTypes.nova.armor = 2;
 UnitTypes.nova.abilities.get(0).reload = 90;
 UnitTypes.nova.rotateSpeed = 7; //nova
 
