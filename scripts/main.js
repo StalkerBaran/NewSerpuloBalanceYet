@@ -108,7 +108,7 @@ UnitTypes.horizon.health = 190;
 UnitTypes.horizon.armor = 2;
 UnitTypes.horizon.itemCapacity = 30; //horizon
 UnitTypes.horizon.crashDamageMultiplier = 0.5;
-UnitTypes.horizon.weapons.get(0).bullet.splashDamage = 21;
+UnitTypes.horizon.weapons.get(0).bullet.splashDamage = 23;
 
 UnitTypes.zenith.health = 510;
 UnitTypes.zenith.armor = 3;
