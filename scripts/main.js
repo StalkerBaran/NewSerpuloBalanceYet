@@ -57,18 +57,18 @@ UnitTypes.vela.rotateSpeed = 3.5;
 UnitTypes.vela.weapons.get(1).repairSpeed = 1.94; //vela
 
 UnitTypes.corvus.speed = 0.43;
-UnitTypes.corvus.rotateSpeed = 2.4;
+UnitTypes.corvus.rotateSpeed = 2.42;
 UnitTypes.corvus.armor = 15;
-UnitTypes.corvus.weapons.get(0).reload = 510;
+UnitTypes.corvus.weapons.get(0).reload = 540;
 UnitTypes.corvus.weapons.get(0).shoot.shots = 3;
-UnitTypes.corvus.weapons.get(0).shoot.shotDelay = 24;
+UnitTypes.corvus.weapons.get(0).shoot.shotDelay = 25;
 UnitTypes.corvus.weapons.get(0).bullet.damage = 74;
-UnitTypes.corvus.weapons.get(0).bullet.lightningDamage = 14;
+UnitTypes.corvus.weapons.get(0).bullet.lightningDamage = 17;
 UnitTypes.corvus.weapons.get(0).bullet.buildingDamageMultiplier = 3;
 UnitTypes.corvus.weapons.get(0).bullet.length = 395;
 UnitTypes.corvus.weapons.get(0).bullet.healPercent = 18;
 UnitTypes.corvus.weapons.get(0).bullet.lifetime = 47;
-UnitTypes.corvus.weapons.get(0).shootStatusDuration = 71 * 2; //corvus
+UnitTypes.corvus.weapons.get(0).shootStatusDuration = 72 * 2; //corvus
 
 
 UnitTypes.crawler.health = 120;
@@ -92,7 +92,7 @@ UnitTypes.arkyid.rotateSpeed = 4; //arkyid
 
 UnitTypes.toxopid.speed = 0.93;
 UnitTypes.toxopid.health = 19000;
-UnitTypes.toxopid.armor = 15;
+UnitTypes.toxopid.armor = 16;
 UnitTypes.toxopid.weapons.get(1).bullet.damage = 110;
 UnitTypes.toxopid.weapons.get(1).bullet.lifetime = 75;
 UnitTypes.toxopid.weapons.get(0).bullet.damage = 170;
