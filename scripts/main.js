@@ -54,7 +54,7 @@ UnitTypes.vela.health = 7300;
 UnitTypes.vela.speed = 0.63;
 UnitTypes.vela.armor = 11;
 UnitTypes.vela.rotateSpeed = 3.5; 
-UnitTypes.vela.weapons.get(1).repairSpeed = 2.14; //vela
+UnitTypes.vela.weapons.get(1).repairSpeed = 1.94; //vela
 
 UnitTypes.corvus.speed = 0.43;
 UnitTypes.corvus.rotateSpeed = 2.4;
