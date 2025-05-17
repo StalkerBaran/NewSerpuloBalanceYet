@@ -23,7 +23,7 @@ UnitTypes.scepter.weapons.get(1).bullet.lifetime = 59;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 25;
 UnitTypes.scepter.rotateSpeed = 3.3; //scepter
 
-UnitTypes.reign.speed = 0.66;
+UnitTypes.reign.speed = 0.655;
 UnitTypes.reign.armor = 21;
 UnitTypes.reign.health = 23000;
 UnitTypes.reign.rotateSpeed = 3;
@@ -50,10 +50,11 @@ UnitTypes.quasar.abilities.get(0).cooldown = 180;
 UnitTypes.quasar.abilities.get(0).regen = 0.6;
 UnitTypes.quasar.abilities.get(0).max = 512;//quasar
 
-UnitTypes.vela.health = 8200;
-UnitTypes.vela.speed = 0.64;
+UnitTypes.vela.health = 7300;
+UnitTypes.vela.speed = 0.63;
 UnitTypes.vela.armor = 11;
-UnitTypes.vela.rotateSpeed = 3.5; //vela
+UnitTypes.vela.rotateSpeed = 3.5; 
+UnitTypes.vela.weapons.get(1).repairSpeed = 2.14; //vela
 
 UnitTypes.corvus.speed = 0.43;
 UnitTypes.corvus.rotateSpeed = 2.4;
