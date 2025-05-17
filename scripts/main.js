@@ -10,16 +10,18 @@ UnitTypes.mace.health = 330;
 UnitTypes.mace.armor = 5;
 UnitTypes.mace.rotateSpeed = 5.2; //mace
 
-UnitTypes.fortress.speed = 0.66;
-UnitTypes.fortress.health = 970;
-UnitTypes.fortress.rotateSpeed = 3.6; //fortress
+UnitTypes.fortress.speed = 0.64;
+UnitTypes.fortress.health = 900;
+UnitTypes.fortress.rotateSpeed = 3.4;
+UnitTypes.fortress.weapons.get(0).bullet.speed = 3;
+UnitTypes.fortress.weapons.get(0).bullet.lifetime = 86; //fortress
 
 UnitTypes.scepter.speed = 0.65;
 UnitTypes.scepter.armor = 13;
 UnitTypes.scepter.health = 11000;
-UnitTypes.scepter.weapons.get(1).bullet.lifetime = 58;
-UnitTypes.scepter.weapons.get(0).bullet.lifetime = 24;
-UnitTypes.scepter.rotateSpeed = 3.5; //scepter
+UnitTypes.scepter.weapons.get(1).bullet.lifetime = 59;
+UnitTypes.scepter.weapons.get(0).bullet.lifetime = 25;
+UnitTypes.scepter.rotateSpeed = 3.3; //scepter
 
 UnitTypes.reign.speed = 0.66;
 UnitTypes.reign.armor = 21;
@@ -42,7 +44,7 @@ UnitTypes.pulsar.mineSpeed = 3.5;
 
 UnitTypes.quasar.speed = 0.68;
 UnitTypes.quasar.weapons.get(0).reload = 33; 
-UnitTypes.quasar.health = 730;
+UnitTypes.quasar.health = 810;
 UnitTypes.quasar.rotateSpeed = 5.5;
 UnitTypes.quasar.abilities.get(0).cooldown = 180;
 UnitTypes.quasar.abilities.get(0).regen = 0.6;
@@ -240,18 +242,18 @@ Blocks.duo.ammoTypes.get(Items.silicon).damage = 14;
 Blocks.duo.ammoTypes.get(Items.graphite).damage = 20; //duo
 Blocks.duo.ammoTypes.get(Items.graphite).reloadMultiplier = 0.7;
 
-Blocks.scatter.ammoTypes.get(Items.scrap).splashDamage = 13 * 1.5; 
+Blocks.scatter.ammoTypes.get(Items.scrap).splashDamage = 14 * 1.5; 
 Blocks.scatter.ammoTypes.get(Items.scrap).splashDamageRadius = 27; //scatter
 Blocks.scatter.ammoTypes.get(Items.scrap).width = 6;
 Blocks.scatter.ammoTypes.get(Items.scrap).height = 13;
 
-Blocks.scatter.ammoTypes.get(Items.lead).splashDamage = 13  * 1.5; 
+Blocks.scatter.ammoTypes.get(Items.lead).splashDamage = 12  * 1.5; 
 Blocks.scatter.ammoTypes.get(Items.lead).splashDamageRadius = 24; //scatter
 Blocks.scatter.ammoTypes.get(Items.lead).width = 6;
 Blocks.scatter.ammoTypes.get(Items.lead).height = 13;
 
 Blocks.scatter.ammoTypes.get(Items.metaglass).splashDamageRadius = 26; 
-Blocks.scatter.ammoTypes.get(Items.metaglass).splashDamage = 12  * 1.5;
+Blocks.scatter.ammoTypes.get(Items.metaglass).splashDamage = 11  * 1.5;
 Blocks.scatter.ammoTypes.get(Items.metaglass).fragBullet.damage = 5; 
 Blocks.scatter.ammoTypes.get(Items.metaglass).fragBullets = 4;
 Blocks.scatter.ammoTypes.get(Items.metaglass).width = 6;
@@ -431,4 +433,4 @@ Events.on(WorldLoadEvent, () => {
  }
 )
 
-Blocks.coreShard.health = 1800;
+Blocks.coreShard.health = 1300;
