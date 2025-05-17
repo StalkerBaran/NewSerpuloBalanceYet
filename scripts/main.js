@@ -137,9 +137,9 @@ UnitTypes.eclipse.crashDamageMultiplier = 0.75;
 UnitTypes.eclipse.weapons.get(0).bullet.damage = 170;
 UnitTypes.eclipse.weapons.get(1).bullet.damage = 25;
 UnitTypes.eclipse.weapons.get(2).bullet.damage = 25;
-UnitTypes.eclipse.weapons.get(0).bullet.length = 253;
-UnitTypes.eclipse.weapons.get(1).bullet.lifetime = 55;
-UnitTypes.eclipse.weapons.get(2).bullet.lifetime = 55; //eclipse
+UnitTypes.eclipse.weapons.get(0).bullet.length = 250;
+UnitTypes.eclipse.weapons.get(1).bullet.lifetime = 57;
+UnitTypes.eclipse.weapons.get(2).bullet.lifetime = 57; //eclipse
 UnitTypes.eclipse.crashDamageMultiplier = 0.5;
 
 
