@@ -358,18 +358,18 @@ Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 33;
 Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).lightning = 3;
 Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).lightningDamage = 14;//cyclone
 
-Blocks.spectre.reload = 6.9;
+Blocks.spectre.reload = 7.1;
 Blocks.spectre.rotateSpeed = 1.3;
 Blocks.spectre.range = 273; //spectre
 
 Blocks.spectre.ammoTypes.get(Items.graphite).ammoMultiplier = 3;
 Blocks.spectre.ammoTypes.get(Items.graphite).damage = 80;
-Blocks.spectre.ammoTypes.get(Items.graphite).knockback = 1.1;
+Blocks.spectre.ammoTypes.get(Items.graphite).knockback = 1;
 Blocks.spectre.ammoTypes.get(Items.graphite).pierceCap = 2; //spectre
 
 Blocks.spectre.ammoTypes.get(Items.thorium).damage = 130;
 Blocks.spectre.ammoTypes.get(Items.thorium).ammoMultiplier = 2;
-Blocks.spectre.ammoTypes.get(Items.thorium).knockback = 1.2;
+Blocks.spectre.ammoTypes.get(Items.thorium).knockback = 1.1;
 Blocks.spectre.ammoTypes.get(Items.thorium).pierceCap = 2; //spectre
 
 Blocks.spectre.ammoTypes.get(Items.pyratite).damage = 110;
