@@ -55,6 +55,7 @@ UnitTypes.vela.speed = 0.63;
 UnitTypes.vela.armor = 11;
 UnitTypes.vela.rotateSpeed = 3.5; 
 UnitTypes.vela.weapons.get(1).repairSpeed = 1.94; //vela
+UnitTypes.vela.boostMultiplier = 1.6;
 
 UnitTypes.corvus.speed = 0.43;
 UnitTypes.corvus.rotateSpeed = 2.42;
@@ -123,10 +124,10 @@ UnitTypes.zenith.drag = 0.043; //zenith
 
 UnitTypes.antumbra.health = 7200;
 UnitTypes.antumbra.speed = 1.16;
-UnitTypes.antumbra.weapons.get(0).bullet.splashDamage = 63;
-UnitTypes.antumbra.weapons.get(0).bullet.splashDamageRadius = 35;
+UnitTypes.antumbra.weapons.get(0).bullet.splashDamage = 37;
+UnitTypes.antumbra.weapons.get(0).bullet.splashDamageRadius = 36;
 UnitTypes.antumbra.weapons.get(0).bullet.lifetime = 57;
-UnitTypes.antumbra.crashDamageMultiplier = 0.75;
+UnitTypes.antumbra.crashDamageMultiplier = 0.5;
 UnitTypes.antumbra.rotateSpeed = 3.7; //antumbra
 
 UnitTypes.eclipse.health = 23000;
@@ -160,7 +161,7 @@ UnitTypes.mega.drag = 0.04; //mega
 UnitTypes.quad.speed = 1.49;
 UnitTypes.quad.buildSpeed = 3.5;
 UnitTypes.quad.rotateSpeed = 3; //quad
-UnitTypes.quad.crashDamageMultiplier = 0.75;
+UnitTypes.quad.crashDamageMultiplier = 0.5;
 
 UnitTypes.oct.speed = 0.97;
 UnitTypes.oct.armor = 18;
@@ -169,7 +170,7 @@ UnitTypes.oct.rotateSpeed = 3;
 UnitTypes.oct.abilities.get(0).regen = 12;
 UnitTypes.oct.abilities.get(0).max = 13000;
 UnitTypes.oct.abilities.get(1).amount = 700; //oct
-UnitTypes.oct.crashDamageMultiplier = 0.75;
+UnitTypes.oct.crashDamageMultiplier = 0.5;
 
 
 UnitTypes.risso.speed = 1.04;
