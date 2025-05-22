@@ -304,19 +304,30 @@ Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightningDamage = 12;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).damage = 15;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightning = 3; //swarmer
 
-Blocks.salvo.ammoTypes.get(Items.copper).damage = 14;
+
+Blocks.salvo.ammoTypes.get(Items.copper).damage = 12;
+Blocks.salvo.ammoTypes.get(Items.thorium).reloadMultiplier = 0.9;
+
 Blocks.salvo.ammoTypes.get(Items.graphite).damage = 27;
-Blocks.salvo.ammoTypes.get(Items.pyratite).damage = 23;
+Blocks.salvo.ammoTypes.get(Items.graphite).reloadMultiplier = 0.7;
+
+Blocks.salvo.ammoTypes.get(Items.pyratite).damage = 21;
 Blocks.salvo.ammoTypes.get(Items.pyratite).splashDamage = 24;
-Blocks.salvo.ammoTypes.get(Items.pyratite).splashDamageRadius = 24;
-Blocks.salvo.reload = 32; //salvo 
+Blocks.salvo.ammoTypes.get(Items.pyratite).splashDamageRadius = 23;
+
+Blocks.salvo.ammoTypes.get(Items.thorium).damage = 32;
+Blocks.salvo.ammoTypes.get(Items.thorium).reloadMultiplier = 0.8;
+
+Blocks.salvo.reload = 32;
+Blocks.salvo.inaccuracy = 4; //salvo 
+
 
 Blocks.tsunami.ammoTypes.get(Liquids.slag).rangeChange = 32;
 Blocks.tsunami.ammoTypes.get(Liquids.slag).lifetime = 58;
 Blocks.tsunami.ammoTypes.get(Liquids.oil).rangeChange = 32;
 Blocks.tsunami.ammoTypes.get(Liquids.oil).lifetime = 58; 
 Blocks.tsunami.ammoTypes.get(Liquids.cryofluid).rangeChange = 20;
-Blocks.tsunami.ammoTypes.get(Liquids.cryofluid).lifetime = 56;//tsunami
+Blocks.tsunami.ammoTypes.get(Liquids.cryofluid).lifetime = 56; //tsunami
 
 Blocks.fuse.reload = 38; //fuse
 
@@ -352,12 +363,12 @@ Blocks.cyclone.ammoTypes.get(Items.plastanium).splashDamage = 35;
 Blocks.cyclone.ammoTypes.get(Items.plastanium).damage = 11; //cyclone
 
 Blocks.cyclone.ammoTypes.get(Items.blastCompound).damage = 13;
-Blocks.cyclone.ammoTypes.get(Items.blastCompound).splashDamage = 52;//cyclone
+Blocks.cyclone.ammoTypes.get(Items.blastCompound).splashDamage = 52; //cyclone
 
 Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.9;
 Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 33;
 Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).lightning = 3;
-Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).lightningDamage = 14;//cyclone
+Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).lightningDamage = 14; //cyclone
 
 Blocks.spectre.reload = 7.1;
 Blocks.spectre.rotateSpeed = 1.3;
@@ -383,8 +394,8 @@ Blocks.meltdown.rotateSpeed = 1.4;
 Blocks.meltdown.reload = 110;
 Blocks.meltdown.shootType.damage = 180; //meltdown
 
-Blocks.foreshadow.reload = 280; //foreshadow
-Blocks.foreshadow.rotateSpeed = 1.3;
+Blocks.foreshadow.reload = 280; 
+Blocks.foreshadow.rotateSpeed = 1.3; //foreshadow
 
 
 
