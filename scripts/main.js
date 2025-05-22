@@ -11,7 +11,7 @@ UnitTypes.mace.armor = 5;
 UnitTypes.mace.rotateSpeed = 5.2; //mace
 
 UnitTypes.fortress.speed = 0.665;
-UnitTypes.fortress.health = 930;
+UnitTypes.fortress.health = 910;
 UnitTypes.fortress.rotateSpeed = 3.4;
 UnitTypes.fortress.weapons.get(0).bullet.speed = 2.5;
 UnitTypes.fortress.weapons.get(0).bullet.lifetime = 95.5; //fortress
@@ -19,11 +19,11 @@ UnitTypes.fortress.weapons.get(0).bullet.lifetime = 95.5; //fortress
 UnitTypes.scepter.speed = 0.65;
 UnitTypes.scepter.armor = 12;
 UnitTypes.scepter.health = 11000;
-UnitTypes.scepter.weapons.get(1).bullet.lifetime = 59;
+UnitTypes.scepter.weapons.get(1).bullet.lifetime = 58;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 25;
-UnitTypes.scepter.rotateSpeed = 3.3; //scepter
+UnitTypes.scepter.rotateSpeed = 3.2; //scepter
 
-UnitTypes.reign.speed = 0.657;
+UnitTypes.reign.speed = 0.645;
 UnitTypes.reign.armor = 21;
 UnitTypes.reign.health = 23000;
 UnitTypes.reign.rotateSpeed = 3;
@@ -44,7 +44,7 @@ UnitTypes.pulsar.mineSpeed = 3.5;
 
 UnitTypes.quasar.speed = 0.68;
 UnitTypes.quasar.weapons.get(0).reload = 35; 
-UnitTypes.quasar.health = 810;
+UnitTypes.quasar.health = 780;
 UnitTypes.quasar.rotateSpeed = 5.5;
 UnitTypes.quasar.abilities.get(0).cooldown = 180;
 UnitTypes.quasar.abilities.get(0).regen = 0.6;
@@ -85,7 +85,7 @@ UnitTypes.spiroct.health = 1100;
 UnitTypes.spiroct.weapons.get(1).reload = 8;
 UnitTypes.spiroct.rotateSpeed = 7.9; //spiroct
 
-UnitTypes.arkyid.speed = 0.96;
+UnitTypes.arkyid.speed = 0.95;
 UnitTypes.arkyid.health = 8200;
 UnitTypes.arkyid.armor = 10;
 UnitTypes.arkyid.weapons.get(3).bullet.splashDamage = 75;
@@ -281,23 +281,23 @@ Blocks.wave.ammoTypes.get(Liquids.oil).rangeChange = 24;
 Blocks.wave.ammoTypes.get(Liquids.oil).lifetime = 44; //wave
 
 Blocks.lancer.shootType.pierceCap = 4;
-Blocks.lancer.shootType.damage = 110; //lancer
+Blocks.lancer.shootType.damage = 120; //lancer
 
 Blocks.arc.shootType.damage = 13;
 Blocks.arc.reload = 31; //arc
 
-Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamage = 31;
+Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamage = 23;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamageRadius = 42;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).damage = 12;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).ammoMultiplier = 5; //swarmer
 
-Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamage = 27;
+Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamage = 21;
 Blocks.swarmer.ammoTypes.get(Items.pyratite).damage = 12;
-Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamageRadius = 43;
+Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamageRadius = 44;
 Blocks.swarmer.ammoTypes.get(Items.pyratite).ammoMultiplier = 5; //swarmer
  
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamage = 28;
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 31;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamage = 18;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 32;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.8;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).ammoMultiplier = 3;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightningDamage = 12;
@@ -441,12 +441,13 @@ Blocks.shockMine.health = 30;
 Events.on(WorldLoadEvent, () => {
   Blocks.additiveReconstructor.consumers[1].items[0] = ItemStack(Items.silicon, 30),
   Blocks.additiveReconstructor.consumers[1].items[1] = ItemStack(Items.graphite, 30),
-  Blocks.airFactory.requirements = [ItemStack(Items.copper, 70), ItemStack(Items.lead,80), ItemStack(Items.titanium, 40)],
+  Blocks.airFactory.requirements = [ItemStack(Items.copper, 70), ItemStack(Items.lead, 80), ItemStack(Items.titanium, 40)],
   Blocks.groundFactory.requirements = [ItemStack(Items.copper, 50), ItemStack(Items.lead, 70), ItemStack(Items.silicon, 30)],
   Blocks.navalFactory.requirements = [ItemStack(Items.copper, 120), ItemStack(Items.lead, 90), ItemStack(Items.metaglass, 70)],
   Blocks.airFactory.plans.get(0).time = 60 * 20,
   Blocks.airFactory.plans.get(0).requirements = [ItemStack(Items.silicon, 20)],
   Blocks.groundFactory.plans.get(2).requirements = [ItemStack(Items.silicon, 25), ItemStack(Items.lead, 10), ItemStack(Items.titanium, 15)],
+  Blocks.salvo.requirements = [ItemStack(Items.copper, 70), ItemStack(Items.graphite, 30), ItemStack(Items.titanium, 35)],
   Blocks.groundFactory.plans.get(2).time = 60 * 25
  }
 )
