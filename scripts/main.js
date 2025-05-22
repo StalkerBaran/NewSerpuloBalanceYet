@@ -11,7 +11,7 @@ UnitTypes.mace.armor = 5;
 UnitTypes.mace.rotateSpeed = 5.2; //mace
 
 UnitTypes.fortress.speed = 0.665;
-UnitTypes.fortress.health = 970;
+UnitTypes.fortress.health = 930;
 UnitTypes.fortress.rotateSpeed = 3.4;
 UnitTypes.fortress.weapons.get(0).bullet.speed = 2.5;
 UnitTypes.fortress.weapons.get(0).bullet.lifetime = 95.5; //fortress
@@ -79,10 +79,10 @@ UnitTypes.atrax.health = 320;
 UnitTypes.atrax.armor = 2;
 UnitTypes.atrax.rotateSpeed = 7.5; // Атрах
 
-UnitTypes.spiroct.speed = 0.98;
+UnitTypes.spiroct.speed = 0.99;
 UnitTypes.spiroct.armor = 7;
 UnitTypes.spiroct.health = 1100;
-UnitTypes.spiroct.weapons.get(1).reload = 7;
+UnitTypes.spiroct.weapons.get(1).reload = 8;
 UnitTypes.spiroct.rotateSpeed = 7.9; //spiroct
 
 UnitTypes.arkyid.speed = 0.96;
@@ -309,7 +309,7 @@ Blocks.salvo.ammoTypes.get(Items.graphite).damage = 27;
 Blocks.salvo.ammoTypes.get(Items.pyratite).damage = 23;
 Blocks.salvo.ammoTypes.get(Items.pyratite).splashDamage = 24;
 Blocks.salvo.ammoTypes.get(Items.pyratite).splashDamageRadius = 24;
-Blocks.salvo.reload = 25; //salvo 
+Blocks.salvo.reload = 32; //salvo 
 
 Blocks.tsunami.ammoTypes.get(Liquids.slag).rangeChange = 32;
 Blocks.tsunami.ammoTypes.get(Liquids.slag).lifetime = 58;
