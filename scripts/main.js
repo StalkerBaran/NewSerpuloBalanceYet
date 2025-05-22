@@ -23,7 +23,7 @@ UnitTypes.scepter.weapons.get(1).bullet.lifetime = 59;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 25;
 UnitTypes.scepter.rotateSpeed = 3.3; //scepter
 
-UnitTypes.reign.speed = 0.655;
+UnitTypes.reign.speed = 0.657;
 UnitTypes.reign.armor = 21;
 UnitTypes.reign.health = 23000;
 UnitTypes.reign.rotateSpeed = 3;
@@ -43,7 +43,7 @@ UnitTypes.pulsar.health = 290;
 UnitTypes.pulsar.mineSpeed = 3.5;
 
 UnitTypes.quasar.speed = 0.68;
-UnitTypes.quasar.weapons.get(0).reload = 33; 
+UnitTypes.quasar.weapons.get(0).reload = 35; 
 UnitTypes.quasar.health = 810;
 UnitTypes.quasar.rotateSpeed = 5.5;
 UnitTypes.quasar.abilities.get(0).cooldown = 180;
@@ -306,18 +306,23 @@ Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightning = 3; //swarmer
 
 
 Blocks.salvo.ammoTypes.get(Items.copper).damage = 12;
-Blocks.salvo.ammoTypes.get(Items.thorium).reloadMultiplier = 0.9;
+Blocks.salvo.ammoTypes.get(Items.copper).knockback = 0.4;
 
-Blocks.salvo.ammoTypes.get(Items.graphite).damage = 27;
+Blocks.salvo.ammoTypes.get(Items.graphite).damage = 31;
 Blocks.salvo.ammoTypes.get(Items.graphite).reloadMultiplier = 0.7;
+Blocks.salvo.ammoTypes.get(Items.graphite).knockback = 1.1;
 
-Blocks.salvo.ammoTypes.get(Items.pyratite).damage = 21;
-Blocks.salvo.ammoTypes.get(Items.pyratite).splashDamage = 24;
-Blocks.salvo.ammoTypes.get(Items.pyratite).splashDamageRadius = 23;
+Blocks.salvo.ammoTypes.get(Items.pyratite).damage = 32;
+Blocks.salvo.ammoTypes.get(Items.pyratite).knockback = 0.7;
 
-Blocks.salvo.ammoTypes.get(Items.thorium).damage = 32;
+Blocks.salvo.ammoTypes.get(Items.silicon).damage = 23;
+Blocks.salvo.ammoTypes.get(Items.silicon).reloadMultiplier = 1.3;
+Blocks.salvo.ammoTypes.get(Items.silicon).knockback = 0.3;
+
+Blocks.salvo.ammoTypes.get(Items.thorium).damage = 37;
 Blocks.salvo.ammoTypes.get(Items.thorium).reloadMultiplier = 0.8;
-
+Blocks.salvo.ammoTypes.get(Items.thorium).knockback = 1.3;
+ 
 Blocks.salvo.reload = 32;
 Blocks.salvo.inaccuracy = 4; //salvo 
 
@@ -413,7 +418,7 @@ StatusEffects.melting.speedMultiplier = 0.7; //melting. Questionable changes
 
 
 
-Blocks.coreShard.armor = 2;
+Blocks.coreShard.armor = 3;
 Blocks.coreFoundation.armor = 5;
 Blocks.coreNucleus.armor = 8; //armor 
 
