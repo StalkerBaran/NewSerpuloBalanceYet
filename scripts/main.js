@@ -11,10 +11,10 @@ UnitTypes.mace.armor = 5;
 UnitTypes.mace.rotateSpeed = 5.2; //mace
 
 UnitTypes.fortress.speed = 0.665;
-UnitTypes.fortress.health = 930;
+UnitTypes.fortress.health = 970;
 UnitTypes.fortress.rotateSpeed = 3.4;
 UnitTypes.fortress.weapons.get(0).bullet.speed = 2.5;
-UnitTypes.fortress.weapons.get(0).bullet.lifetime = 96; //fortress
+UnitTypes.fortress.weapons.get(0).bullet.lifetime = 95.5; //fortress
 
 UnitTypes.scepter.speed = 0.65;
 UnitTypes.scepter.armor = 12;
@@ -80,20 +80,20 @@ UnitTypes.atrax.armor = 2;
 UnitTypes.atrax.rotateSpeed = 7.5; // Атрах
 
 UnitTypes.spiroct.speed = 0.97;
-UnitTypes.spiroct.armor = 8;
+UnitTypes.spiroct.armor = 4;
 UnitTypes.spiroct.health = 1100;
 UnitTypes.spiroct.weapons.get(1).reload = 7;
 UnitTypes.spiroct.rotateSpeed = 7.8; //spiroct
 
-UnitTypes.arkyid.speed = 0.95;
-UnitTypes.arkyid.health = 8100;
-UnitTypes.arkyid.armor = 10;
+UnitTypes.arkyid.speed = 0.96;
+UnitTypes.arkyid.health = 8200;
+UnitTypes.arkyid.armor = 9;
 UnitTypes.arkyid.weapons.get(3).bullet.splashDamage = 75;
 UnitTypes.arkyid.rotateSpeed = 4; //arkyid
 
 UnitTypes.toxopid.speed = 0.93;
 UnitTypes.toxopid.health = 19000;
-UnitTypes.toxopid.armor = 16;
+UnitTypes.toxopid.armor = 17;
 UnitTypes.toxopid.weapons.get(1).bullet.damage = 110;
 UnitTypes.toxopid.weapons.get(1).bullet.lifetime = 75;
 UnitTypes.toxopid.weapons.get(0).bullet.damage = 170;
@@ -283,8 +283,8 @@ Blocks.wave.ammoTypes.get(Liquids.oil).lifetime = 44; //wave
 Blocks.lancer.shootType.pierceCap = 4;
 Blocks.lancer.shootType.damage = 110; //lancer
 
-Blocks.arc.shootType.damage = 12;
-Blocks.arc.reload = 30; //arc
+Blocks.arc.shootType.damage = 13;
+Blocks.arc.reload = 31; //arc
 
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamage = 31;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamageRadius = 42;
@@ -389,9 +389,9 @@ Blocks.foreshadow.rotateSpeed = 1.3;
 
 
 
-StatusEffects.wet.transitionDamage = 9; //shocked
+StatusEffects.wet.transitionDamage = 10; //shocked
 
-StatusEffects.freezing.transitionDamage = 10; //freezing
+StatusEffects.freezing.transitionDamage = 12; //freezing
 
 StatusEffects.burning.reloadMultiplier = 0.9;
 StatusEffects.burning.speedMultiplier = 0.9; //burning
@@ -435,4 +435,4 @@ Events.on(WorldLoadEvent, () => {
  }
 )
 
-Blocks.coreShard.health = 1300;
+Blocks.coreShard.health = 1800;
