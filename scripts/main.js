@@ -296,13 +296,15 @@ Blocks.swarmer.ammoTypes.get(Items.pyratite).damage = 12;
 Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamageRadius = 44;
 Blocks.swarmer.ammoTypes.get(Items.pyratite).ammoMultiplier = 5; //swarmer
  
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamage = 21;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamage = 22;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 33;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.8;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).ammoMultiplier = 3;
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightningDamage = 12;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightningDamage = 10;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).damage = 15;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightning = 3; //swarmer
+
+Blocks.swarmer.rotateSpeed = 4;
 
 
 Blocks.salvo.ammoTypes.get(Items.copper).damage = 12;
@@ -355,6 +357,7 @@ Blocks.ripple.ammoTypes.get(Items.blastCompound).splashDamage = 75;
 Blocks.ripple.ammoTypes.get(Items.blastCompound).reloadMultiplier = 0.7; //ripple
 
 Blocks.cyclone.reload = 9; //cyclone
+Blocks.cyclone.rotateSpeed = 7;
 
 Blocks.cyclone.ammoTypes.get(Items.metaglass).damage = 13;
 Blocks.cyclone.ammoTypes.get(Items.metaglass).splashDamage = 32;
@@ -374,6 +377,7 @@ Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.9;
 Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 33;
 Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).lightning = 3;
 Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).lightningDamage = 14; //cyclone
+
 
 Blocks.spectre.reload = 7.1;
 Blocks.spectre.rotateSpeed = 1.3;
