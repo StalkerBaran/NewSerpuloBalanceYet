@@ -23,7 +23,7 @@ UnitTypes.scepter.weapons.get(1).bullet.lifetime = 57;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 24;
 UnitTypes.scepter.rotateSpeed = 3.2; //scepter
 
-UnitTypes.reign.speed = 0.645;
+UnitTypes.reign.speed = 0.635;
 UnitTypes.reign.armor = 20;
 UnitTypes.reign.health = 22000;
 UnitTypes.reign.rotateSpeed = 3;
@@ -57,7 +57,7 @@ UnitTypes.vela.rotateSpeed = 3.5;
 UnitTypes.vela.weapons.get(1).repairSpeed = 1.94; //vela
 UnitTypes.vela.boostMultiplier = 1.6;
 
-UnitTypes.corvus.speed = 0.43;
+UnitTypes.corvus.speed = 0.44;
 UnitTypes.corvus.rotateSpeed = 2.43;
 UnitTypes.corvus.armor = 15;
 UnitTypes.corvus.weapons.get(0).reload = 540;
@@ -91,7 +91,7 @@ UnitTypes.arkyid.armor = 10;
 UnitTypes.arkyid.weapons.get(3).bullet.splashDamage = 75;
 UnitTypes.arkyid.rotateSpeed = 4; //arkyid
 
-UnitTypes.toxopid.speed = 0.93;
+UnitTypes.toxopid.speed = 0.91;
 UnitTypes.toxopid.health = 18000;
 UnitTypes.toxopid.armor = 16;
 UnitTypes.toxopid.weapons.get(1).bullet.damage = 110;
@@ -134,7 +134,7 @@ UnitTypes.eclipse.health = 23000;
 UnitTypes.eclipse.speed = 0.89;
 UnitTypes.eclipse.armor = 21;
 UnitTypes.eclipse.rotateSpeed = 3.1;
-UnitTypes.eclipse.crashDamageMultiplier = 0.75;
+UnitTypes.eclipse.crashDamageMultiplier = 0.5;
 UnitTypes.eclipse.weapons.get(0).bullet.damage = 170;
 UnitTypes.eclipse.weapons.get(1).bullet.damage = 25;
 UnitTypes.eclipse.weapons.get(2).bullet.damage = 25;
@@ -174,7 +174,7 @@ UnitTypes.oct.crashDamageMultiplier = 0.5;
 
 
 UnitTypes.risso.speed = 1.04;
-UnitTypes.risso.health = 220;
+UnitTypes.risso.health = 230;
 UnitTypes.risso.weapons.get(0).bullet.lifetime = 48;
 UnitTypes.risso.rotateSpeed = 8; //risso
 
