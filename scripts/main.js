@@ -25,7 +25,7 @@ UnitTypes.scepter.rotateSpeed = 3.2; //scepter
 
 UnitTypes.reign.speed = 0.635;
 UnitTypes.reign.armor = 21;
-UnitTypes.reign.health = 23000;
+UnitTypes.reign.health = 24000;
 UnitTypes.reign.rotateSpeed = 3;
 UnitTypes.reign.weapons.get(0).bullet.lifetime = 18.1; //reign
 
@@ -59,15 +59,15 @@ UnitTypes.vela.boostMultiplier = 1.6;
 
 UnitTypes.corvus.speed = 0.43;
 UnitTypes.corvus.rotateSpeed = 2.44;
-UnitTypes.corvus.armor = 15;
-UnitTypes.corvus.health = 13000;
+UnitTypes.corvus.armor = 13;
+UnitTypes.corvus.health = 15000;
 UnitTypes.corvus.weapons.get(0).reload = 540;
 UnitTypes.corvus.weapons.get(0).shoot.shots = 3;
 UnitTypes.corvus.weapons.get(0).shoot.shotDelay = 25;
 UnitTypes.corvus.weapons.get(0).bullet.damage = 74;
 UnitTypes.corvus.weapons.get(0).bullet.lightningDamage = 17;
 UnitTypes.corvus.weapons.get(0).bullet.buildingDamageMultiplier = 3;
-UnitTypes.corvus.weapons.get(0).bullet.length = 395;
+UnitTypes.corvus.weapons.get(0).bullet.length = 415;
 UnitTypes.corvus.weapons.get(0).bullet.healPercent = 18;
 UnitTypes.corvus.weapons.get(0).bullet.lifetime = 47;
 UnitTypes.corvus.weapons.get(0).shootStatusDuration = 72 * 2; //corvus
