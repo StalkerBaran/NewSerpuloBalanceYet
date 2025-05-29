@@ -311,11 +311,11 @@ Blocks.swarmer.rotateSpeed = 4;
 Blocks.salvo.ammoTypes.get(Items.copper).damage = 13;
 Blocks.salvo.ammoTypes.get(Items.copper).knockback = 0.6;
 
-Blocks.salvo.ammoTypes.get(Items.graphite).damage = 29;
+Blocks.salvo.ammoTypes.get(Items.graphite).damage = 27;
 Blocks.salvo.ammoTypes.get(Items.graphite).reloadMultiplier = 0.7;
 Blocks.salvo.ammoTypes.get(Items.graphite).knockback = 1.1;
 
-Blocks.salvo.ammoTypes.get(Items.pyratite).damage = 31;
+Blocks.salvo.ammoTypes.get(Items.pyratite).damage = 29;
 Blocks.salvo.ammoTypes.get(Items.pyratite).knockback = 0.7;
 
 Blocks.salvo.ammoTypes.get(Items.silicon).damage = 21;
@@ -323,7 +323,7 @@ Blocks.salvo.ammoTypes.get(Items.silicon).reloadMultiplier = 1.3;
 Blocks.salvo.ammoTypes.get(Items.silicon).knockback = 0.3;
 
 Blocks.salvo.ammoTypes.get(Items.thorium).damage = 34;
-Blocks.salvo.ammoTypes.get(Items.thorium).reloadMultiplier = 0.8;
+Blocks.salvo.ammoTypes.get(Items.thorium).reloadMultiplier = 0.7;
 Blocks.salvo.ammoTypes.get(Items.thorium).knockback = 1.3;
  
 Blocks.salvo.reload = 32;
