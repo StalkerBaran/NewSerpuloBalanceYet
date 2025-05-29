@@ -23,11 +23,11 @@ UnitTypes.scepter.weapons.get(1).bullet.lifetime = 57;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 24;
 UnitTypes.scepter.rotateSpeed = 3.2; //scepter
 
-UnitTypes.reign.speed = 0.635;
-UnitTypes.reign.armor = 21;
+UnitTypes.reign.speed = 0.63;
+UnitTypes.reign.armor = 23;
 UnitTypes.reign.health = 24000;
-UnitTypes.reign.rotateSpeed = 3;
-UnitTypes.reign.weapons.get(0).bullet.lifetime = 18.1; //reign
+UnitTypes.reign.rotateSpeed = 3.1;
+UnitTypes.reign.weapons.get(0).bullet.lifetime = 17.8; //reign
 
 
 UnitTypes.nova.weapons.get(0).bullet.damage = 13;
@@ -97,7 +97,7 @@ UnitTypes.toxopid.health = 19000;
 UnitTypes.toxopid.armor = 17;
 UnitTypes.toxopid.weapons.get(1).bullet.damage = 110;
 UnitTypes.toxopid.weapons.get(1).bullet.lifetime = 75;
-UnitTypes.toxopid.weapons.get(0).bullet.damage = 170;
+UnitTypes.toxopid.weapons.get(0).bullet.damage = 180;
 UnitTypes.toxopid.rotateSpeed = 2.9; //toxopидор
 
 
