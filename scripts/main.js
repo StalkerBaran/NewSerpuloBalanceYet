@@ -23,11 +23,11 @@ UnitTypes.scepter.weapons.get(1).bullet.lifetime = 57;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 24;
 UnitTypes.scepter.rotateSpeed = 3.2; //scepter
 
-UnitTypes.reign.speed = 0.63;
+UnitTypes.reign.speed = 0.635;
 UnitTypes.reign.armor = 23;
-UnitTypes.reign.health = 24000;
+UnitTypes.reign.health = 23000;
 UnitTypes.reign.rotateSpeed = 3.1;
-UnitTypes.reign.weapons.get(0).bullet.lifetime = 17.8; //reign
+UnitTypes.reign.weapons.get(0).bullet.lifetime = 17.9; //reign
 
 
 UnitTypes.nova.weapons.get(0).bullet.damage = 13;
@@ -94,7 +94,7 @@ UnitTypes.arkyid.rotateSpeed = 4; //arkyid
 
 UnitTypes.toxopid.speed = 0.93;
 UnitTypes.toxopid.health = 19000;
-UnitTypes.toxopid.armor = 17;
+UnitTypes.toxopid.armor = 18;
 UnitTypes.toxopid.weapons.get(1).bullet.damage = 110;
 UnitTypes.toxopid.weapons.get(1).bullet.lifetime = 75;
 UnitTypes.toxopid.weapons.get(0).bullet.damage = 180;
@@ -116,25 +116,25 @@ UnitTypes.horizon.itemCapacity = 30; //horizon
 UnitTypes.horizon.crashDamageMultiplier = 0.5;
 UnitTypes.horizon.weapons.get(0).bullet.splashDamage = 23;
 
-UnitTypes.zenith.health = 510;
-UnitTypes.zenith.armor = 3;
+UnitTypes.zenith.health = 570;
+UnitTypes.zenith.armor = 4;
 UnitTypes.zenith.weapons.get(0).bullet.lifetime = 52;
 UnitTypes.zenith.crashDamageMultiplier = 0.5;
 UnitTypes.zenith.rotateSpeed = 7;
 UnitTypes.zenith.drag = 0.043; //zenith
 
-UnitTypes.antumbra.health = 7200;
-UnitTypes.antumbra.speed = 1.16;
+UnitTypes.antumbra.health = 7000;
+UnitTypes.antumbra.speed = 1.13;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamage = 51;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamageRadius = 34;
 UnitTypes.antumbra.weapons.get(0).bullet.lifetime = 57;
 UnitTypes.antumbra.crashDamageMultiplier = 0.5;
-UnitTypes.antumbra.rotateSpeed = 3.7; //antumbra
+UnitTypes.antumbra.rotateSpeed = 3.6; //antumbra
 
 UnitTypes.eclipse.health = 23000;
 UnitTypes.eclipse.speed = 0.91;
 UnitTypes.eclipse.armor = 21;
-UnitTypes.eclipse.rotateSpeed = 3.1;
+UnitTypes.eclipse.rotateSpeed = 3;
 UnitTypes.eclipse.crashDamageMultiplier = 0.5;
 UnitTypes.eclipse.weapons.get(0).bullet.damage = 170;
 UnitTypes.eclipse.weapons.get(1).bullet.damage = 32;
