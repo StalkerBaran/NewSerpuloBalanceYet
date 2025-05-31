@@ -24,10 +24,18 @@ UnitTypes.scepter.weapons.get(0).bullet.lifetime = 24;
 UnitTypes.scepter.rotateSpeed = 3.2; //scepter
 
 UnitTypes.reign.speed = 0.635;
-UnitTypes.reign.armor = 23;
+UnitTypes.reign.armor = 24;
 UnitTypes.reign.health = 23000;
 UnitTypes.reign.rotateSpeed = 3.1;
 UnitTypes.reign.weapons.get(0).bullet.lifetime = 17.9; //reign
+
+UnitTypes.reign.weapons.get(0).bullet.damage = 235;
+UnitTypes.reign.weapons.get(0).bullet.splashDamage = 68;
+UnitTypes.reign.weapons.get(0).bullet.splashDamageRadius = 27;
+UnitTypes.reign.weapons.get(0).bullet.pierceCap = 2;
+UnitTypes.reign.weapons.get(0).bullet.fragBullet.pierceCap = 2;
+UnitTypes.reign.weapons.get(0).bullet.fragBullet.damage = 30;
+UnitTypes.reign.weapons.get(0).bullet.fragBullet.splashDamage = 25;
 
 
 UnitTypes.nova.weapons.get(0).bullet.damage = 13;
@@ -133,8 +141,8 @@ UnitTypes.antumbra.crashDamageMultiplier = 0.5;
 UnitTypes.antumbra.rotateSpeed = 3.6; //antumbra
 
 UnitTypes.eclipse.health = 23000;
-UnitTypes.eclipse.speed = 0.91;
-UnitTypes.eclipse.armor = 21;
+UnitTypes.eclipse.speed = 0.94;
+UnitTypes.eclipse.armor = 22;
 UnitTypes.eclipse.rotateSpeed = 3;
 UnitTypes.eclipse.crashDamageMultiplier = 0.5;
 UnitTypes.eclipse.weapons.get(0).bullet.damage = 170;
@@ -166,8 +174,8 @@ UnitTypes.quad.rotateSpeed = 3; //quad
 UnitTypes.quad.crashDamageMultiplier = 0.5;
 
 UnitTypes.oct.speed = 0.97;
-UnitTypes.oct.armor = 18;
-UnitTypes.oct.health = 17000;
+UnitTypes.oct.armor = 15;
+UnitTypes.oct.health = 18000;
 UnitTypes.oct.rotateSpeed = 3;
 UnitTypes.oct.abilities.get(0).regen = 12;
 UnitTypes.oct.abilities.get(0).max = 13000;
@@ -223,6 +231,7 @@ UnitTypes.aegires.rotateSpeed = 3; //aegires
 
 UnitTypes.navanax.speed = 0.73;
 UnitTypes.navanax.health = 27000;
+UnitTypes.navanax.armor = 18;
 UnitTypes.navanax.rotateSpeed = 3.3;
 UnitTypes.navanax.weapons.get(0).reload = 110;
 UnitTypes.navanax.weapons.get(0).bullet.length = 170;
@@ -288,17 +297,17 @@ Blocks.lancer.shootType.damage = 120; //lancer
 Blocks.arc.shootType.damage = 13;
 Blocks.arc.reload = 31; //arc
 
-Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamage = 27;
+Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamage = 30;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamageRadius = 42;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).damage = 12;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).ammoMultiplier = 5; //swarmer
 
-Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamage = 23;
+Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamage = 25;
 Blocks.swarmer.ammoTypes.get(Items.pyratite).damage = 12;
 Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamageRadius = 44;
 Blocks.swarmer.ammoTypes.get(Items.pyratite).ammoMultiplier = 5; //swarmer
  
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamage = 22;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamage = 27;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 33;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.8;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).ammoMultiplier = 3;
