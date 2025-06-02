@@ -5,26 +5,26 @@ UnitTypes.dagger.health = 130;
 UnitTypes.dagger.armor = 2;
 UnitTypes.dagger.rotateSpeed = 7; //dagger
 
-UnitTypes.mace.speed = 0.72;
+UnitTypes.mace.speed = 0.71;
 UnitTypes.mace.health = 370;
 UnitTypes.mace.armor = 5;
 UnitTypes.mace.weapons.get(0).bullet.damage = 28;
 UnitTypes.mace.rotateSpeed = 5.2; //mace
 
-UnitTypes.fortress.speed = 0.63;
+UnitTypes.fortress.speed = 0.62;
 UnitTypes.fortress.health = 920;
 UnitTypes.fortress.rotateSpeed = 3.4;
 UnitTypes.fortress.weapons.get(0).bullet.speed = 2.5;
 UnitTypes.fortress.weapons.get(0).bullet.lifetime = 95.7; //fortress
 
-UnitTypes.scepter.speed = 0.65;
+UnitTypes.scepter.speed = 0.64;
 UnitTypes.scepter.armor = 12;
 UnitTypes.scepter.health = 9800;
 UnitTypes.scepter.weapons.get(1).bullet.lifetime = 57;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 24;
 UnitTypes.scepter.rotateSpeed = 3.2; //scepter
 
-UnitTypes.reign.speed = 0.635;
+UnitTypes.reign.speed = 0.625;
 UnitTypes.reign.armor = 24;
 UnitTypes.reign.health = 23000;
 UnitTypes.reign.rotateSpeed = 3.1;
@@ -33,33 +33,33 @@ UnitTypes.reign.weapons.get(0).bullet.lifetime = 17.6;  //reign
 
 UnitTypes.nova.weapons.get(0).bullet.damage = 13;
 UnitTypes.nova.weapons.get(0).reload = 19;
-UnitTypes.nova.speed = 0.75;
+UnitTypes.nova.speed = 0.74;
 UnitTypes.nova.health = 110;
 UnitTypes.nova.armor = 2;
 UnitTypes.nova.abilities.get(0).reload = 90;
 UnitTypes.nova.rotateSpeed = 7; //nova
 
-UnitTypes.pulsar.speed = 0.76; 
+UnitTypes.pulsar.speed = 0.75; 
 UnitTypes.pulsar.health = 280;
 UnitTypes.pulsar.mineSpeed = 3.5;
 UnitTypes.pulsar.weapons.get(0).bullet.damage = 12; //pulsar
 
-UnitTypes.quasar.speed = 0.68;
-UnitTypes.quasar.weapons.get(0).reload = 35; 
-UnitTypes.quasar.health = 780;
+UnitTypes.quasar.speed = 0.635;
+UnitTypes.quasar.weapons.get(0).reload = 34; 
+UnitTypes.quasar.health = 790;
 UnitTypes.quasar.rotateSpeed = 5.5;
 UnitTypes.quasar.abilities.get(0).cooldown = 180;
 UnitTypes.quasar.abilities.get(0).regen = 0.6;
 UnitTypes.quasar.abilities.get(0).max = 512;//quasar
 
 UnitTypes.vela.health = 7300;
-UnitTypes.vela.speed = 0.63;
+UnitTypes.vela.speed = 0.62;
 UnitTypes.vela.armor = 11;
 UnitTypes.vela.rotateSpeed = 3.5; 
 UnitTypes.vela.weapons.get(1).repairSpeed = 1.94; //vela
 UnitTypes.vela.boostMultiplier = 1.6;
 
-UnitTypes.corvus.speed = 0.43;
+UnitTypes.corvus.speed = 0.41;
 UnitTypes.corvus.rotateSpeed = 2.44;
 UnitTypes.corvus.armor = 13;
 UnitTypes.corvus.health = 15000;
@@ -77,25 +77,25 @@ UnitTypes.corvus.weapons.get(0).shootStatusDuration = 72 * 2; //corvus
 
 UnitTypes.crawler.health = 120;
 
-UnitTypes.atrax.speed = 0.89;
+UnitTypes.atrax.speed = 0.88;
 UnitTypes.atrax.health = 330;
 UnitTypes.atrax.armor = 2;
 UnitTypes.atrax.rotateSpeed = 7.5; 
 UnitTypes.atrax.weapons.get(0).bullet.damage = 11; // Атрах
 
-UnitTypes.spiroct.speed = 0.99;
+UnitTypes.spiroct.speed = 0.98;
 UnitTypes.spiroct.armor = 7;
 UnitTypes.spiroct.health = 1100;
-UnitTypes.spiroct.weapons.get(1).reload = 8;
+UnitTypes.spiroct.weapons.get(1).reload = 9;
 UnitTypes.spiroct.rotateSpeed = 7.9; //spiroct
 
-UnitTypes.arkyid.speed = 0.95;
+UnitTypes.arkyid.speed = 0.94;
 UnitTypes.arkyid.health = 8200;
 UnitTypes.arkyid.armor = 10;
 UnitTypes.arkyid.weapons.get(3).bullet.splashDamage = 75;
 UnitTypes.arkyid.rotateSpeed = 4; //arkyid
 
-UnitTypes.toxopid.speed = 0.93;
+UnitTypes.toxopid.speed = 0.92;
 UnitTypes.toxopid.health = 19000;
 UnitTypes.toxopid.armor = 18;
 UnitTypes.toxopid.weapons.get(1).bullet.damage = 110;
@@ -112,7 +112,7 @@ UnitTypes.flare.rotateSpeed = 9;
 UnitTypes.flare.weapons.get(0).bullet.damage = 8;
 UnitTypes.flare.crashDamageMultiplier = 0.5; //flare
 
-UnitTypes.horizon.speed = 2.23;
+UnitTypes.horizon.speed = 2.21;
 UnitTypes.horizon.health = 210;
 UnitTypes.horizon.armor = 2;
 UnitTypes.horizon.itemCapacity = 30; 
@@ -120,15 +120,15 @@ UnitTypes.horizon.crashDamageMultiplier = 0.5;
 UnitTypes.horizon.weapons.get(0).bullet.splashDamage = 23;
 UnitTypes.horizon.rotateSpeed = 7; //horizon
 
-UnitTypes.zenith.health = 570;
+UnitTypes.zenith.health = 580;
 UnitTypes.zenith.armor = 4;
-UnitTypes.zenith.weapons.get(0).bullet.lifetime = 53;
+UnitTypes.zenith.weapons.get(0).bullet.lifetime = 54;
 UnitTypes.zenith.crashDamageMultiplier = 0.5;
 UnitTypes.zenith.rotateSpeed = 6;
 UnitTypes.zenith.drag = 0.041; //zenith
 
 UnitTypes.antumbra.health = 7200;
-UnitTypes.antumbra.speed = 1.13;
+UnitTypes.antumbra.speed = 1.12;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamage = 31;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamageRadius = 34;
 UnitTypes.antumbra.weapons.get(0).bullet.lifetime = 56;
@@ -136,7 +136,7 @@ UnitTypes.antumbra.crashDamageMultiplier = 0.5;
 UnitTypes.antumbra.rotateSpeed = 3.6; //antumbra
 
 UnitTypes.eclipse.health = 23000;
-UnitTypes.eclipse.speed = 0.94;
+UnitTypes.eclipse.speed = 0.93;
 UnitTypes.eclipse.armor = 22;
 UnitTypes.eclipse.rotateSpeed = 3;
 UnitTypes.eclipse.crashDamageMultiplier = 0.5;
@@ -149,14 +149,14 @@ UnitTypes.eclipse.weapons.get(2).bullet.lifetime = 57; //eclipse
 UnitTypes.eclipse.crashDamageMultiplier = 0.5;
 
 
-UnitTypes.mono.speed = 1.77; //mono
+UnitTypes.mono.speed = 1.76; //mono
 UnitTypes.mono.crashDamageMultiplier = 0.5;
 
 UnitTypes.poly.health = 230;
 UnitTypes.poly.armor = 1; //poly
 UnitTypes.poly.crashDamageMultiplier = 0.5;
 
-UnitTypes.mega.speed = 2.57;
+UnitTypes.mega.speed = 2.56;
 UnitTypes.mega.health = 370;
 UnitTypes.mega.crashDamageMultiplier = 0.5;
 UnitTypes.mega.rotateSpeed = 7;
@@ -168,7 +168,7 @@ UnitTypes.quad.buildSpeed = 3.5;
 UnitTypes.quad.rotateSpeed = 3; //quad
 UnitTypes.quad.crashDamageMultiplier = 0.5;
 
-UnitTypes.oct.speed = 0.97;
+UnitTypes.oct.speed = 0.96;
 UnitTypes.oct.armor = 15;
 UnitTypes.oct.health = 18000;
 UnitTypes.oct.rotateSpeed = 3;
@@ -178,24 +178,24 @@ UnitTypes.oct.abilities.get(1).amount = 700; //oct
 UnitTypes.oct.crashDamageMultiplier = 0.5;
 
 
-UnitTypes.risso.speed = 1.04;
+UnitTypes.risso.speed = 1.03;
 UnitTypes.risso.health = 220;
 UnitTypes.risso.weapons.get(0).bullet.lifetime = 48;
 UnitTypes.risso.rotateSpeed = 8; //risso
 
-UnitTypes.minke.speed = 0.84;
+UnitTypes.minke.speed = 0.82;
 UnitTypes.minke.health = 370;
 UnitTypes.minke.weapons.get(1).bullet.lifetime = 67;
 UnitTypes.minke.weapons.get(0).bullet.lifetime = 46;
 UnitTypes.minke.rotateSpeed = 7; //minke
 
-UnitTypes.bryde.speed = 0.79;
+UnitTypes.bryde.speed = 0.78;
 UnitTypes.bryde.health = 730;
 UnitTypes.bryde.armor = 9;
 UnitTypes.bryde.weapons.get(0).bullet.lifetime = 75;
 UnitTypes.bryde.rotateSpeed = 5.5; //bryde
 
-UnitTypes.sei.speed = 0.77;
+UnitTypes.sei.speed = 0.76;
 UnitTypes.sei.weapons.get(0).bullet.lifetime = 56;
 UnitTypes.sei.weapons.get(1).bullet.lifetime = 32;
 UnitTypes.sei.armor = 13;
@@ -213,20 +213,20 @@ UnitTypes.retusa.rotateSpeed = 9; //retusa
 UnitTypes.oxynoe.weapons.get(0).reload = 16;
 UnitTypes.oxynoe.rotateSpeed = 8; //oxynoe
 
-UnitTypes.cyerce.speed = 0.78;
+UnitTypes.cyerce.speed = 0.775;
 UnitTypes.cyerce.health = 720;
 UnitTypes.cyerce.weapons.get(0).repairSpeed = 0.57;
 UnitTypes.cyerce.armor = 8;
 UnitTypes.cyerce.rotateSpeed = 6.5; //cyerce
 
-UnitTypes.aegires.speed = 0.77;
+UnitTypes.aegires.speed = 0.755;
 UnitTypes.aegires.armor = 11;
 UnitTypes.aegires.health = 9000;
 UnitTypes.aegires.rotateSpeed = 3; //aegires 
 
-UnitTypes.navanax.speed = 0.73;
+UnitTypes.navanax.speed = 0.74;
 UnitTypes.navanax.health = 27000;
-UnitTypes.navanax.armor = 18;
+UnitTypes.navanax.armor = 19;
 UnitTypes.navanax.rotateSpeed = 3.3;
 UnitTypes.navanax.weapons.get(0).reload = 110;
 UnitTypes.navanax.weapons.get(0).bullet.length = 170;
