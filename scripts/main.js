@@ -8,7 +8,7 @@ UnitTypes.dagger.rotateSpeed = 7; //dagger
 UnitTypes.mace.speed = 0.72;
 UnitTypes.mace.health = 370;
 UnitTypes.mace.armor = 5;
-UnitTypes.mace.weapons.get(0).damage = 28;
+UnitTypes.mace.weapons.get(0).bullet.damage = 28;
 UnitTypes.mace.rotateSpeed = 5.2; //mace
 
 UnitTypes.fortress.speed = 0.665;
@@ -49,7 +49,7 @@ UnitTypes.nova.rotateSpeed = 7; //nova
 UnitTypes.pulsar.speed = 0.76; 
 UnitTypes.pulsar.health = 280;
 UnitTypes.pulsar.mineSpeed = 3.5;
-UnitTypes.pulsar.weapons.get(0).damage = 12; //pulsar
+UnitTypes.pulsar.weapons.get(0).bullet.damage = 12; //pulsar
 
 UnitTypes.quasar.speed = 0.68;
 UnitTypes.quasar.weapons.get(0).reload = 35; 
@@ -88,7 +88,7 @@ UnitTypes.atrax.speed = 0.89;
 UnitTypes.atrax.health = 330;
 UnitTypes.atrax.armor = 2;
 UnitTypes.atrax.rotateSpeed = 7.5; 
-UnitTypes.atrax.weapons.get(0).damage = 11; // Атрах
+UnitTypes.atrax.weapons.get(0).bullet.damage = 11; // Атрах
 
 UnitTypes.spiroct.speed = 0.99;
 UnitTypes.spiroct.armor = 7;
