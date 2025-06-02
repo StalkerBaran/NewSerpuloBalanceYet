@@ -11,15 +11,15 @@ UnitTypes.mace.armor = 5;
 UnitTypes.mace.weapons.get(0).bullet.damage = 28;
 UnitTypes.mace.rotateSpeed = 5.2; //mace
 
-UnitTypes.fortress.speed = 0.665;
-UnitTypes.fortress.health = 910;
+UnitTypes.fortress.speed = 0.63;
+UnitTypes.fortress.health = 920;
 UnitTypes.fortress.rotateSpeed = 3.4;
 UnitTypes.fortress.weapons.get(0).bullet.speed = 2.5;
-UnitTypes.fortress.weapons.get(0).bullet.lifetime = 95.5; //fortress
+UnitTypes.fortress.weapons.get(0).bullet.lifetime = 95.7; //fortress
 
 UnitTypes.scepter.speed = 0.65;
 UnitTypes.scepter.armor = 12;
-UnitTypes.scepter.health = 11000;
+UnitTypes.scepter.health = 9800;
 UnitTypes.scepter.weapons.get(1).bullet.lifetime = 57;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 24;
 UnitTypes.scepter.rotateSpeed = 3.2; //scepter
@@ -28,14 +28,7 @@ UnitTypes.reign.speed = 0.635;
 UnitTypes.reign.armor = 24;
 UnitTypes.reign.health = 23000;
 UnitTypes.reign.rotateSpeed = 3.1;
-UnitTypes.reign.weapons.get(0).bullet.lifetime = 17.9;
-UnitTypes.reign.weapons.get(0).bullet.damage = 235;
-UnitTypes.reign.weapons.get(0).bullet.splashDamage = 68;
-UnitTypes.reign.weapons.get(0).bullet.splashDamageRadius = 27;
-UnitTypes.reign.weapons.get(0).bullet.pierceCap = 2;
-UnitTypes.reign.weapons.get(0).bullet.fragBullet.pierceCap = 2;
-UnitTypes.reign.weapons.get(0).bullet.fragBullet.damage = 30;
-UnitTypes.reign.weapons.get(0).bullet.fragBullet.splashDamage = 25; //reign
+UnitTypes.reign.weapons.get(0).bullet.lifetime = 17.6;  //reign
 
 
 UnitTypes.nova.weapons.get(0).bullet.damage = 13;
