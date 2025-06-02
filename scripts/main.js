@@ -117,7 +117,7 @@ UnitTypes.flare.rotateSpeed = 9;
 UnitTypes.flare.weapons.get(0).bullet.damage = 8;
 UnitTypes.flare.crashDamageMultiplier = 0.5; //flare
 
-UnitTypes.horizon.speed = 2.24;
+UnitTypes.horizon.speed = 2.23;
 UnitTypes.horizon.health = 210;
 UnitTypes.horizon.armor = 2;
 UnitTypes.horizon.itemCapacity = 30; 
@@ -132,11 +132,11 @@ UnitTypes.zenith.crashDamageMultiplier = 0.5;
 UnitTypes.zenith.rotateSpeed = 6;
 UnitTypes.zenith.drag = 0.041; //zenith
 
-UnitTypes.antumbra.health = 7000;
+UnitTypes.antumbra.health = 7200;
 UnitTypes.antumbra.speed = 1.13;
-UnitTypes.antumbra.weapons.get(0).bullet.splashDamage = 51;
+UnitTypes.antumbra.weapons.get(0).bullet.splashDamage = 31;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamageRadius = 34;
-UnitTypes.antumbra.weapons.get(0).bullet.lifetime = 57;
+UnitTypes.antumbra.weapons.get(0).bullet.lifetime = 56;
 UnitTypes.antumbra.crashDamageMultiplier = 0.5;
 UnitTypes.antumbra.rotateSpeed = 3.6; //antumbra
 
