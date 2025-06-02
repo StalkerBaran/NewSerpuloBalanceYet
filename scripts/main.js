@@ -17,11 +17,11 @@ UnitTypes.fortress.rotateSpeed = 3.4;
 UnitTypes.fortress.weapons.get(0).bullet.speed = 2.5;
 UnitTypes.fortress.weapons.get(0).bullet.lifetime = 95.7; //fortress
 
-UnitTypes.scepter.speed = 0.64;
+UnitTypes.scepter.speed = 0.63;
 UnitTypes.scepter.armor = 12;
 UnitTypes.scepter.health = 9800;
-UnitTypes.scepter.weapons.get(1).bullet.lifetime = 57;
-UnitTypes.scepter.weapons.get(0).bullet.lifetime = 24;
+UnitTypes.scepter.weapons.get(1).bullet.lifetime = 56;
+UnitTypes.scepter.weapons.get(0).bullet.lifetime = 23.5;
 UnitTypes.scepter.rotateSpeed = 3.2; //scepter
 
 UnitTypes.reign.speed = 0.625;
