@@ -1,5 +1,5 @@
 UnitTypes.dagger.weapons.get(0).reload = 16; 
-UnitTypes.dagger.weapons.get(0).bullet.damage = 11;
+UnitTypes.dagger.weapons.get(0).bullet.damage = 10;
 UnitTypes.dagger.speed = 0.76;
 UnitTypes.dagger.health = 130;
 UnitTypes.dagger.armor = 2;
@@ -8,6 +8,7 @@ UnitTypes.dagger.rotateSpeed = 7; //dagger
 UnitTypes.mace.speed = 0.72;
 UnitTypes.mace.health = 370;
 UnitTypes.mace.armor = 5;
+UnitTypes.mace.weapons.get(0).damage = 28;
 UnitTypes.mace.rotateSpeed = 5.2; //mace
 
 UnitTypes.fortress.speed = 0.665;
@@ -27,15 +28,14 @@ UnitTypes.reign.speed = 0.635;
 UnitTypes.reign.armor = 24;
 UnitTypes.reign.health = 23000;
 UnitTypes.reign.rotateSpeed = 3.1;
-UnitTypes.reign.weapons.get(0).bullet.lifetime = 17.9; //reign
-
+UnitTypes.reign.weapons.get(0).bullet.lifetime = 17.9;
 UnitTypes.reign.weapons.get(0).bullet.damage = 235;
 UnitTypes.reign.weapons.get(0).bullet.splashDamage = 68;
 UnitTypes.reign.weapons.get(0).bullet.splashDamageRadius = 27;
 UnitTypes.reign.weapons.get(0).bullet.pierceCap = 2;
 UnitTypes.reign.weapons.get(0).bullet.fragBullet.pierceCap = 2;
 UnitTypes.reign.weapons.get(0).bullet.fragBullet.damage = 30;
-UnitTypes.reign.weapons.get(0).bullet.fragBullet.splashDamage = 25;
+UnitTypes.reign.weapons.get(0).bullet.fragBullet.splashDamage = 25; //reign
 
 
 UnitTypes.nova.weapons.get(0).bullet.damage = 13;
@@ -46,9 +46,10 @@ UnitTypes.nova.armor = 2;
 UnitTypes.nova.abilities.get(0).reload = 90;
 UnitTypes.nova.rotateSpeed = 7; //nova
 
-UnitTypes.pulsar.speed = 0.76; //pulsar
-UnitTypes.pulsar.health = 290;
+UnitTypes.pulsar.speed = 0.76; 
+UnitTypes.pulsar.health = 280;
 UnitTypes.pulsar.mineSpeed = 3.5;
+UnitTypes.pulsar.weapons.get(0).damage = 12; //pulsar
 
 UnitTypes.quasar.speed = 0.68;
 UnitTypes.quasar.weapons.get(0).reload = 35; 
@@ -84,9 +85,10 @@ UnitTypes.corvus.weapons.get(0).shootStatusDuration = 72 * 2; //corvus
 UnitTypes.crawler.health = 120;
 
 UnitTypes.atrax.speed = 0.89;
-UnitTypes.atrax.health = 320;
+UnitTypes.atrax.health = 330;
 UnitTypes.atrax.armor = 2;
-UnitTypes.atrax.rotateSpeed = 7.5; // Атрах
+UnitTypes.atrax.rotateSpeed = 7.5; 
+UnitTypes.atrax.weapons.get(0).damage = 11; // Атрах
 
 UnitTypes.spiroct.speed = 0.99;
 UnitTypes.spiroct.armor = 7;
@@ -110,7 +112,7 @@ UnitTypes.toxopid.rotateSpeed = 2.9; //toxopидор
 
 
 
-UnitTypes.flare.weapons.get(0).reload = 14;
+UnitTypes.flare.weapons.get(0).reload = 15;
 UnitTypes.flare.drag = 0.04;
 UnitTypes.flare.health = 70;
 UnitTypes.flare.rotateSpeed = 9;
@@ -184,18 +186,18 @@ UnitTypes.oct.crashDamageMultiplier = 0.5;
 
 
 UnitTypes.risso.speed = 1.04;
-UnitTypes.risso.health = 230;
+UnitTypes.risso.health = 220;
 UnitTypes.risso.weapons.get(0).bullet.lifetime = 48;
 UnitTypes.risso.rotateSpeed = 8; //risso
 
 UnitTypes.minke.speed = 0.84;
-UnitTypes.minke.health = 390;
+UnitTypes.minke.health = 370;
 UnitTypes.minke.weapons.get(1).bullet.lifetime = 67;
 UnitTypes.minke.weapons.get(0).bullet.lifetime = 46;
 UnitTypes.minke.rotateSpeed = 7; //minke
 
 UnitTypes.bryde.speed = 0.79;
-UnitTypes.bryde.health = 780;
+UnitTypes.bryde.health = 730;
 UnitTypes.bryde.armor = 9;
 UnitTypes.bryde.weapons.get(0).bullet.lifetime = 75;
 UnitTypes.bryde.rotateSpeed = 5.5; //bryde
@@ -297,20 +299,20 @@ Blocks.lancer.shootType.damage = 120; //lancer
 Blocks.arc.shootType.damage = 13;
 Blocks.arc.reload = 31; //arc
 
-Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamage = 30;
+Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamage = 38;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamageRadius = 42;
-Blocks.swarmer.ammoTypes.get(Items.blastCompound).damage = 12;
+Blocks.swarmer.ammoTypes.get(Items.blastCompound).damage = 13;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).ammoMultiplier = 5; //swarmer
 
-Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamage = 25;
+Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamage = 32;
 Blocks.swarmer.ammoTypes.get(Items.pyratite).damage = 12;
 Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamageRadius = 44;
 Blocks.swarmer.ammoTypes.get(Items.pyratite).ammoMultiplier = 5; //swarmer
  
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamage = 27;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamage = 35;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 33;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.8;
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).ammoMultiplier = 3;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).ammoMultiplier = 4;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightningDamage = 10;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).damage = 15;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightning = 3; //swarmer
@@ -390,7 +392,7 @@ Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).lightning = 3;
 Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).lightningDamage = 14; //cyclone
 
 
-Blocks.spectre.reload = 7.1;
+Blocks.spectre.reload = 7;
 Blocks.spectre.rotateSpeed = 1.3;
 Blocks.spectre.range = 273; //spectre
 
@@ -399,7 +401,7 @@ Blocks.spectre.ammoTypes.get(Items.graphite).damage = 80;
 Blocks.spectre.ammoTypes.get(Items.graphite).knockback = 1;
 Blocks.spectre.ammoTypes.get(Items.graphite).pierceCap = 2; //spectre
 
-Blocks.spectre.ammoTypes.get(Items.thorium).damage = 130;
+Blocks.spectre.ammoTypes.get(Items.thorium).damage = 120;
 Blocks.spectre.ammoTypes.get(Items.thorium).ammoMultiplier = 2;
 Blocks.spectre.ammoTypes.get(Items.thorium).knockback = 1.1;
 Blocks.spectre.ammoTypes.get(Items.thorium).pierceCap = 2; //spectre
@@ -420,7 +422,7 @@ Blocks.foreshadow.rotateSpeed = 1.3; //foreshadow
 
 
 
-StatusEffects.wet.transitionDamage = 10; //shocked
+StatusEffects.wet.transitionDamage = 11; //shocked
 
 StatusEffects.freezing.transitionDamage = 12; //freezing
 
@@ -433,9 +435,9 @@ StatusEffects.melting.speedMultiplier = 0.7; //melting. Questionable changes
 
 
 
-Blocks.coreShard.armor = 3;
-Blocks.coreFoundation.armor = 5;
-Blocks.coreNucleus.armor = 8; //armor 
+Blocks.coreShard.armor = 5;
+Blocks.coreFoundation.armor = 8;
+Blocks.coreNucleus.armor = 12; //armor 
 
 Blocks.plastaniumWall.health = 640;
 Blocks.plastaniumWallLarge.health = 2560;
