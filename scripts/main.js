@@ -426,8 +426,8 @@ StatusEffects.melting.speedMultiplier = 0.7; //melting. Questionable changes
 
 
 
-Blocks.coreShard.armor = 5;
-Blocks.coreFoundation.armor = 8;
+Blocks.coreShard.armor = 3;
+Blocks.coreFoundation.armor = 5;
 Blocks.coreNucleus.armor = 12; //armor 
 
 Blocks.plastaniumWall.health = 640;
