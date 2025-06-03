@@ -25,7 +25,7 @@ UnitTypes.scepter.weapons.get(1).bullet.lifetime = 56;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 24;
 UnitTypes.scepter.rotateSpeed = 3.2; //scepter
 
-UnitTypes.reign.speed = 0.625;
+UnitTypes.reign.speed = 0.605;
 UnitTypes.reign.armor = 24;
 UnitTypes.reign.health = 23000;
 UnitTypes.reign.rotateSpeed = 3.1;
@@ -60,7 +60,7 @@ UnitTypes.vela.rotateSpeed = 3.5;
 UnitTypes.vela.weapons.get(1).repairSpeed = 1.94; //vela
 UnitTypes.vela.boostMultiplier = 1.6;
 
-UnitTypes.corvus.speed = 0.41;
+UnitTypes.corvus.speed = 0.4;
 UnitTypes.corvus.rotateSpeed = 2.44;
 UnitTypes.corvus.armor = 13;
 UnitTypes.corvus.health = 15000;
@@ -96,7 +96,7 @@ UnitTypes.arkyid.armor = 10;
 UnitTypes.arkyid.weapons.get(3).bullet.splashDamage = 75;
 UnitTypes.arkyid.rotateSpeed = 4; //arkyid
 
-UnitTypes.toxopid.speed = 0.92;
+UnitTypes.toxopid.speed = 0.905;
 UnitTypes.toxopid.health = 19000;
 UnitTypes.toxopid.armor = 18;
 UnitTypes.toxopid.weapons.get(1).bullet.damage = 110;
