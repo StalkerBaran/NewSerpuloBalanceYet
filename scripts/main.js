@@ -11,8 +11,8 @@ UnitTypes.mace.armor = 5;
 UnitTypes.mace.weapons.get(0).bullet.damage = 28;
 UnitTypes.mace.rotateSpeed = 5.2; //mace
 
-UnitTypes.fortress.speed = 0.62;
-UnitTypes.fortress.health = 920;
+UnitTypes.fortress.speed = 0.615;
+UnitTypes.fortress.health = 910;
 UnitTypes.fortress.armor = 10;
 UnitTypes.fortress.rotateSpeed = 3.4;
 UnitTypes.fortress.weapons.get(0).bullet.speed = 2.5;
