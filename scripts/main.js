@@ -5,8 +5,8 @@ UnitTypes.dagger.health = 130;
 UnitTypes.dagger.armor = 2;
 UnitTypes.dagger.rotateSpeed = 7; //dagger
 
-UnitTypes.mace.speed = 0.71;
-UnitTypes.mace.health = 370;
+UnitTypes.mace.speed = 0.72;
+UnitTypes.mace.health = 380;
 UnitTypes.mace.armor = 5;
 UnitTypes.mace.weapons.get(0).bullet.damage = 28;
 UnitTypes.mace.rotateSpeed = 5.2; //mace
