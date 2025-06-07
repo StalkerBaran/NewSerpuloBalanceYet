@@ -5,7 +5,7 @@ UnitTypes.dagger.health = 130;
 UnitTypes.dagger.armor = 2;
 UnitTypes.dagger.rotateSpeed = 7; //dagger
 
-UnitTypes.mace.speed = 0.72;
+UnitTypes.mace.speed = 0.73;
 UnitTypes.mace.health = 380;
 UnitTypes.mace.armor = 5;
 UnitTypes.mace.weapons.get(0).bullet.damage = 28;
@@ -41,7 +41,7 @@ UnitTypes.nova.armor = 2;
 UnitTypes.nova.abilities.get(0).reload = 90;
 UnitTypes.nova.rotateSpeed = 7; //nova
 
-UnitTypes.pulsar.speed = 0.75; 
+UnitTypes.pulsar.speed = 0.755; 
 UnitTypes.pulsar.health = 280;
 UnitTypes.pulsar.mineSpeed = 3.5;
 UnitTypes.pulsar.weapons.get(0).bullet.damage = 12; //pulsar
@@ -79,7 +79,7 @@ UnitTypes.corvus.weapons.get(0).shootStatusDuration = 72 * 2; //corvus
 
 UnitTypes.crawler.health = 120;
 
-UnitTypes.atrax.speed = 0.88;
+UnitTypes.atrax.speed = 0.89;
 UnitTypes.atrax.health = 330;
 UnitTypes.atrax.armor = 2;
 UnitTypes.atrax.rotateSpeed = 7.5; 
@@ -247,9 +247,9 @@ UnitTypes.navanax.weapons.get(4).bullet.lifetime = 35;
 
 
 
-Blocks.duo.ammoTypes.get(Items.copper).damage = 10;
-Blocks.duo.ammoTypes.get(Items.silicon).damage = 14;
-Blocks.duo.ammoTypes.get(Items.graphite).damage = 20; //duo
+Blocks.duo.ammoTypes.get(Items.copper).damage = 12;
+Blocks.duo.ammoTypes.get(Items.silicon).damage = 15;
+Blocks.duo.ammoTypes.get(Items.graphite).damage = 18; //duo
 Blocks.duo.ammoTypes.get(Items.graphite).reloadMultiplier = 0.7;
 
 Blocks.scatter.ammoTypes.get(Items.scrap).splashDamage = 14 * 1.5; 
@@ -318,18 +318,18 @@ Blocks.swarmer.rotateSpeed = 4;
 Blocks.salvo.ammoTypes.get(Items.copper).damage = 13;
 Blocks.salvo.ammoTypes.get(Items.copper).knockback = 0.6;
 
-Blocks.salvo.ammoTypes.get(Items.graphite).damage = 27;
+Blocks.salvo.ammoTypes.get(Items.graphite).damage = 24;
 Blocks.salvo.ammoTypes.get(Items.graphite).reloadMultiplier = 0.7;
 Blocks.salvo.ammoTypes.get(Items.graphite).knockback = 1.1;
 
-Blocks.salvo.ammoTypes.get(Items.pyratite).damage = 29;
+Blocks.salvo.ammoTypes.get(Items.pyratite).damage = 27;
 Blocks.salvo.ammoTypes.get(Items.pyratite).knockback = 0.7;
 
 Blocks.salvo.ammoTypes.get(Items.silicon).damage = 21;
 Blocks.salvo.ammoTypes.get(Items.silicon).reloadMultiplier = 1.3;
 Blocks.salvo.ammoTypes.get(Items.silicon).knockback = 0.3;
 
-Blocks.salvo.ammoTypes.get(Items.thorium).damage = 34;
+Blocks.salvo.ammoTypes.get(Items.thorium).damage = 32;
 Blocks.salvo.ammoTypes.get(Items.thorium).reloadMultiplier = 0.7;
 Blocks.salvo.ammoTypes.get(Items.thorium).knockback = 1.3;
  
