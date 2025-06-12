@@ -1,22 +1,22 @@
-UnitTypes.dagger.weapons.get(0).reload = 16; 
-UnitTypes.dagger.weapons.get(0).bullet.damage = 10;
-UnitTypes.dagger.speed = 0.76;
+UnitTypes.dagger.weapons.get(0).reload = 17; 
+UnitTypes.dagger.weapons.get(0).bullet.damage = 12;
+UnitTypes.dagger.speed = 0.694;
 UnitTypes.dagger.health = 130;
-UnitTypes.dagger.armor = 2;
+UnitTypes.dagger.armor = 3;
 UnitTypes.dagger.rotateSpeed = 7; //dagger
 
-UnitTypes.mace.speed = 0.73;
-UnitTypes.mace.health = 380;
+UnitTypes.mace.speed = 0.67;
+UnitTypes.mace.health = 390;
 UnitTypes.mace.armor = 5;
 UnitTypes.mace.weapons.get(0).bullet.damage = 28;
 UnitTypes.mace.rotateSpeed = 5.2; //mace
 
-UnitTypes.fortress.speed = 0.615;
+UnitTypes.fortress.speed = 0.61;
 UnitTypes.fortress.health = 910;
 UnitTypes.fortress.armor = 10;
 UnitTypes.fortress.rotateSpeed = 3.4;
 UnitTypes.fortress.weapons.get(0).bullet.speed = 2.5;
-UnitTypes.fortress.weapons.get(0).bullet.lifetime = 96.7; //fortress
+UnitTypes.fortress.weapons.get(0).bullet.lifetime = 96.8; //fortress
 
 UnitTypes.scepter.speed = 0.63;
 UnitTypes.scepter.armor = 12;
@@ -35,13 +35,13 @@ UnitTypes.reign.weapons.get(0).bullet.lifetime = 17.6;  //reign
 
 UnitTypes.nova.weapons.get(0).bullet.damage = 13;
 UnitTypes.nova.weapons.get(0).reload = 19;
-UnitTypes.nova.speed = 0.74;
-UnitTypes.nova.health = 110;
-UnitTypes.nova.armor = 2;
+UnitTypes.nova.speed = 0.694;
+UnitTypes.nova.health = 120;
+UnitTypes.nova.armor = 1;
 UnitTypes.nova.abilities.get(0).reload = 90;
 UnitTypes.nova.rotateSpeed = 7; //nova
 
-UnitTypes.pulsar.speed = 0.755; 
+UnitTypes.pulsar.speed = 0.73; 
 UnitTypes.pulsar.health = 280;
 UnitTypes.pulsar.mineSpeed = 3.5;
 UnitTypes.pulsar.weapons.get(0).bullet.damage = 12; //pulsar
@@ -80,7 +80,7 @@ UnitTypes.corvus.weapons.get(0).shootStatusDuration = 72 * 2; //corvus
 UnitTypes.crawler.health = 120;
 
 UnitTypes.atrax.speed = 0.89;
-UnitTypes.atrax.health = 330;
+UnitTypes.atrax.health = 350;
 UnitTypes.atrax.armor = 2;
 UnitTypes.atrax.rotateSpeed = 7.5; 
 UnitTypes.atrax.weapons.get(0).bullet.damage = 11; // Атрах
@@ -114,20 +114,20 @@ UnitTypes.flare.rotateSpeed = 9;
 UnitTypes.flare.weapons.get(0).bullet.damage = 8;
 UnitTypes.flare.crashDamageMultiplier = 0.5; //flare
 
-UnitTypes.horizon.speed = 2.21;
-UnitTypes.horizon.health = 210;
+UnitTypes.horizon.speed = 2.22;
+UnitTypes.horizon.health = 240;
 UnitTypes.horizon.armor = 2;
 UnitTypes.horizon.itemCapacity = 30; 
 UnitTypes.horizon.crashDamageMultiplier = 0.5;
 UnitTypes.horizon.weapons.get(0).bullet.splashDamage = 23;
 UnitTypes.horizon.rotateSpeed = 7; //horizon
 
-UnitTypes.zenith.health = 570;
-UnitTypes.zenith.armor = 5;
-UnitTypes.zenith.weapons.get(0).bullet.lifetime = 54;
+UnitTypes.zenith.health = 700;
+UnitTypes.zenith.armor = 4;
+UnitTypes.zenith.weapons.get(0).bullet.lifetime = 53;
 UnitTypes.zenith.crashDamageMultiplier = 0.5;
-UnitTypes.zenith.rotateSpeed = 6;
-UnitTypes.zenith.drag = 0.041; //zenith
+UnitTypes.zenith.rotateSpeed = 5.5;
+UnitTypes.zenith.drag = 0.043; //zenith
 
 UnitTypes.antumbra.health = 7200;
 UnitTypes.antumbra.speed = 1.12;
