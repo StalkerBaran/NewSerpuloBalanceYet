@@ -48,7 +48,7 @@ UnitTypes.pulsar.weapons.get(0).bullet.damage = 12; //pulsar
 
 UnitTypes.quasar.speed = 0.635;
 UnitTypes.quasar.weapons.get(0).reload = 34; 
-UnitTypes.quasar.health = 790;
+UnitTypes.quasar.health = 810;
 UnitTypes.quasar.rotateSpeed = 5.5;
 UnitTypes.quasar.abilities.get(0).cooldown = 180;
 UnitTypes.quasar.abilities.get(0).regen = 0.6;
@@ -85,8 +85,8 @@ UnitTypes.atrax.armor = 2;
 UnitTypes.atrax.rotateSpeed = 7.5; 
 UnitTypes.atrax.weapons.get(0).bullet.damage = 11; // Атрах
 
-UnitTypes.spiroct.speed = 0.98;
-UnitTypes.spiroct.armor = 7;
+UnitTypes.spiroct.speed = 0.96;
+UnitTypes.spiroct.armor = 8;
 UnitTypes.spiroct.health = 1100;
 UnitTypes.spiroct.weapons.get(1).reload = 9;
 UnitTypes.spiroct.rotateSpeed = 7.9; //spiroct
