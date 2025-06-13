@@ -1,11 +1,11 @@
 UnitTypes.dagger.weapons.get(0).reload = 17; 
 UnitTypes.dagger.weapons.get(0).bullet.damage = 12;
-UnitTypes.dagger.speed = 0.694;
+UnitTypes.dagger.speed = 0.71;
 UnitTypes.dagger.health = 130;
 UnitTypes.dagger.armor = 3;
 UnitTypes.dagger.rotateSpeed = 7; //dagger
 
-UnitTypes.mace.speed = 0.67;
+UnitTypes.mace.speed = 0.68;
 UnitTypes.mace.health = 390;
 UnitTypes.mace.armor = 5;
 UnitTypes.mace.weapons.get(0).bullet.damage = 28;
@@ -35,13 +35,13 @@ UnitTypes.reign.weapons.get(0).bullet.lifetime = 17.6;  //reign
 
 UnitTypes.nova.weapons.get(0).bullet.damage = 13;
 UnitTypes.nova.weapons.get(0).reload = 19;
-UnitTypes.nova.speed = 0.694;
+UnitTypes.nova.speed = 0.705;
 UnitTypes.nova.health = 120;
 UnitTypes.nova.armor = 1;
 UnitTypes.nova.abilities.get(0).reload = 90;
 UnitTypes.nova.rotateSpeed = 7; //nova
 
-UnitTypes.pulsar.speed = 0.73; 
+UnitTypes.pulsar.speed = 0.74; 
 UnitTypes.pulsar.health = 280;
 UnitTypes.pulsar.mineSpeed = 3.5;
 UnitTypes.pulsar.weapons.get(0).bullet.damage = 12; //pulsar
