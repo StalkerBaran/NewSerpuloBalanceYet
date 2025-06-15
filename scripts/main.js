@@ -5,11 +5,11 @@ UnitTypes.dagger.health = 130;
 UnitTypes.dagger.armor = 3;
 UnitTypes.dagger.rotateSpeed = 7; //dagger
 
-UnitTypes.mace.speed = 0.695;
-UnitTypes.mace.health = 390;
+UnitTypes.mace.speed = 0.69;
+UnitTypes.mace.health = 510;
 UnitTypes.mace.armor = 5;
-UnitTypes.mace.weapons.get(0).bullet.damage = 28;
-UnitTypes.mace.rotateSpeed = 5.2; //mace
+UnitTypes.mace.weapons.get(0).bullet.damage = 27;
+UnitTypes.mace.rotateSpeed = 5; //mace
 
 UnitTypes.fortress.speed = 0.61;
 UnitTypes.fortress.health = 910;
@@ -41,7 +41,7 @@ UnitTypes.nova.armor = 1;
 UnitTypes.nova.abilities.get(0).reload = 90;
 UnitTypes.nova.rotateSpeed = 7; //nova
 
-UnitTypes.pulsar.speed = 0.75; 
+UnitTypes.pulsar.speed = 0.76; 
 UnitTypes.pulsar.health = 280;
 UnitTypes.pulsar.mineSpeed = 3.5;
 UnitTypes.pulsar.weapons.get(0).bullet.damage = 12; //pulsar
@@ -79,8 +79,8 @@ UnitTypes.corvus.weapons.get(0).shootStatusDuration = 72 * 2; //corvus
 
 UnitTypes.crawler.health = 120;
 
-UnitTypes.atrax.speed = 0.89;
-UnitTypes.atrax.health = 350;
+UnitTypes.atrax.speed = 0.92;
+UnitTypes.atrax.health = 380;
 UnitTypes.atrax.armor = 3;
 UnitTypes.atrax.rotateSpeed = 7.5; 
 UnitTypes.atrax.weapons.get(0).bullet.damage = 11; // Атрах
