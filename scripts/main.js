@@ -5,11 +5,11 @@ UnitTypes.dagger.health = 130;
 UnitTypes.dagger.armor = 3;
 UnitTypes.dagger.rotateSpeed = 7; //dagger
 
-UnitTypes.mace.speed = 0.7;
+UnitTypes.mace.speed = 0.69;
 UnitTypes.mace.health = 510;
 UnitTypes.mace.armor = 5;
 UnitTypes.mace.weapons.get(0).bullet.damage = 27;
-UnitTypes.mace.rotateSpeed = 5; //mace
+UnitTypes.mace.rotateSpeed = 4; //mace
 
 UnitTypes.fortress.speed = 0.61;
 UnitTypes.fortress.health = 910;
@@ -19,7 +19,7 @@ UnitTypes.fortress.weapons.get(0).bullet.speed = 2.5;
 UnitTypes.fortress.weapons.get(0).bullet.lifetime = 96.8; //fortress
 
 UnitTypes.scepter.speed = 0.63;
-UnitTypes.scepter.armor = 12;
+UnitTypes.scepter.armor = 13;
 UnitTypes.scepter.health = 9100;
 UnitTypes.scepter.weapons.get(1).bullet.damage = 70;
 UnitTypes.scepter.weapons.get(1).bullet.lifetime = 56;
@@ -122,11 +122,11 @@ UnitTypes.horizon.crashDamageMultiplier = 0.5;
 UnitTypes.horizon.weapons.get(0).bullet.splashDamage = 23;
 UnitTypes.horizon.rotateSpeed = 7; //horizon
 
-UnitTypes.zenith.health = 700;
-UnitTypes.zenith.armor = 4;
-UnitTypes.zenith.weapons.get(0).bullet.lifetime = 53;
+UnitTypes.zenith.health = 570;
+UnitTypes.zenith.armor = 5;
+UnitTypes.zenith.weapons.get(0).bullet.lifetime = 55;
 UnitTypes.zenith.crashDamageMultiplier = 0.5;
-UnitTypes.zenith.rotateSpeed = 5.5;
+UnitTypes.zenith.rotateSpeed = 5.2;
 UnitTypes.zenith.drag = 0.043; //zenith
 
 UnitTypes.antumbra.health = 7200;
@@ -165,7 +165,7 @@ UnitTypes.mega.rotateSpeed = 7;
 UnitTypes.mega.armor = 2;
 UnitTypes.mega.drag = 0.04; //mega
 
-UnitTypes.quad.speed = 1.49;
+UnitTypes.quad.speed = 1.47;
 UnitTypes.quad.buildSpeed = 3.5;
 UnitTypes.quad.rotateSpeed = 3; //quad
 UnitTypes.quad.crashDamageMultiplier = 0.5;
