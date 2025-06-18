@@ -26,7 +26,7 @@ UnitTypes.scepter.weapons.get(1).bullet.lifetime = 56;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 24;
 UnitTypes.scepter.rotateSpeed = 3.2; //scepter
 
-UnitTypes.reign.speed = 0.605;
+UnitTypes.reign.speed = 0.6;
 UnitTypes.reign.armor = 24;
 UnitTypes.reign.health = 23000;
 UnitTypes.reign.rotateSpeed = 3.1;
@@ -139,13 +139,13 @@ UnitTypes.antumbra.rotateSpeed = 3.6; //antumbra
 
 UnitTypes.eclipse.health = 23000;
 UnitTypes.eclipse.speed = 0.93;
-UnitTypes.eclipse.armor = 22;
+UnitTypes.eclipse.armor = 21;
 UnitTypes.eclipse.rotateSpeed = 3;
 UnitTypes.eclipse.crashDamageMultiplier = 0.5;
 UnitTypes.eclipse.weapons.get(0).bullet.damage = 170;
 UnitTypes.eclipse.weapons.get(1).bullet.damage = 32;
 UnitTypes.eclipse.weapons.get(2).bullet.damage = 32;
-UnitTypes.eclipse.weapons.get(0).bullet.length = 250;
+UnitTypes.eclipse.weapons.get(0).bullet.length = 247;
 UnitTypes.eclipse.weapons.get(1).bullet.lifetime = 57;
 UnitTypes.eclipse.weapons.get(2).bullet.lifetime = 57; //eclipse
 UnitTypes.eclipse.crashDamageMultiplier = 0.5;
@@ -228,7 +228,7 @@ UnitTypes.aegires.rotateSpeed = 3; //aegires
 
 UnitTypes.navanax.speed = 0.74;
 UnitTypes.navanax.health = 27000;
-UnitTypes.navanax.armor = 20;
+UnitTypes.navanax.armor = 23;
 UnitTypes.navanax.rotateSpeed = 3.3;
 UnitTypes.navanax.weapons.get(0).reload = 110;
 UnitTypes.navanax.weapons.get(0).bullet.length = 170;
@@ -449,14 +449,13 @@ Blocks.shockMine.health = 30;
 Events.on(WorldLoadEvent, () => {
   Blocks.additiveReconstructor.consumers[1].items[0] = ItemStack(Items.silicon, 30),
   Blocks.additiveReconstructor.consumers[1].items[1] = ItemStack(Items.graphite, 30),
-  Blocks.airFactory.requirements = [ItemStack(Items.copper, 70), ItemStack(Items.lead, 80), ItemStack(Items.titanium, 40)],
+  Blocks.airFactory.requirements = [ItemStack(Items.copper, 70), ItemStack(Items.lead, 80), ItemStack(Items.titanium, 35)],
   Blocks.groundFactory.requirements = [ItemStack(Items.copper, 50), ItemStack(Items.lead, 70), ItemStack(Items.silicon, 30)],
   Blocks.navalFactory.requirements = [ItemStack(Items.copper, 120), ItemStack(Items.lead, 90), ItemStack(Items.metaglass, 70)],
   Blocks.airFactory.plans.get(0).requirements = [ItemStack(Items.silicon, 20)],
   Blocks.groundFactory.plans.get(2).requirements = [ItemStack(Items.silicon, 25), ItemStack(Items.lead, 10), ItemStack(Items.titanium, 15)],
-  Blocks.salvo.requirements = [ItemStack(Items.copper, 120), ItemStack(Items.graphite, 30), ItemStack(Items.titanium, 35)],
-  Blocks.ripple.requirements = [ItemStack(Items.copper, 175), ItemStack(Items.graphite, 90), ItemStack(Items.titanium, 50)],
-  Blocks.groundFactory.plans.get(2).time = 60 * 25
+  Blocks.salvo.requirements = [ItemStack(Items.copper, 120), ItemStack(Items.graphite, 50), ItemStack(Items.titanium, 35)],
+  Blocks.ripple.requirements = [ItemStack(Items.copper, 175), ItemStack(Items.graphite, 90), ItemStack(Items.titanium, 70)]
  }
 )
 
