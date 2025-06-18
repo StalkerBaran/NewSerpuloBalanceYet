@@ -26,11 +26,11 @@ UnitTypes.scepter.weapons.get(1).bullet.lifetime = 56;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 24;
 UnitTypes.scepter.rotateSpeed = 3.2; //scepter
 
-UnitTypes.reign.speed = 0.6;
+UnitTypes.reign.speed = 0.59;
 UnitTypes.reign.armor = 24;
 UnitTypes.reign.health = 23000;
-UnitTypes.reign.rotateSpeed = 3.1;
-UnitTypes.reign.weapons.get(0).bullet.lifetime = 17.6;  //reign
+UnitTypes.reign.rotateSpeed = 3;
+UnitTypes.reign.weapons.get(0).bullet.lifetime = 17.1;  //reign
 
 
 UnitTypes.nova.weapons.get(0).bullet.damage = 13;
