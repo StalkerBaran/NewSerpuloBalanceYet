@@ -46,10 +46,10 @@ UnitTypes.pulsar.health = 280;
 UnitTypes.pulsar.mineSpeed = 3.5;
 UnitTypes.pulsar.weapons.get(0).bullet.damage = 12; //pulsar
 
-UnitTypes.quasar.speed = 0.635;
-UnitTypes.quasar.weapons.get(0).reload = 34; 
+UnitTypes.quasar.speed = 0.63;
+UnitTypes.quasar.weapons.get(0).reload = 35; 
 UnitTypes.quasar.health = 810;
-UnitTypes.quasar.rotateSpeed = 5.5;
+UnitTypes.quasar.rotateSpeed = 5;
 UnitTypes.quasar.abilities.get(0).cooldown = 180;
 UnitTypes.quasar.abilities.get(0).regen = 0.6;
 UnitTypes.quasar.abilities.get(0).max = 512;//quasar
@@ -122,9 +122,9 @@ UnitTypes.horizon.crashDamageMultiplier = 0.5;
 UnitTypes.horizon.weapons.get(0).bullet.splashDamage = 23;
 UnitTypes.horizon.rotateSpeed = 7; //horizon
 
-UnitTypes.zenith.health = 570;
+UnitTypes.zenith.health = 580;
 UnitTypes.zenith.armor = 5;
-UnitTypes.zenith.weapons.get(0).bullet.lifetime = 55;
+UnitTypes.zenith.weapons.get(0).bullet.lifetime = 56;
 UnitTypes.zenith.crashDamageMultiplier = 0.5;
 UnitTypes.zenith.rotateSpeed = 5.2;
 UnitTypes.zenith.drag = 0.043; //zenith
@@ -228,7 +228,7 @@ UnitTypes.aegires.rotateSpeed = 3; //aegires
 
 UnitTypes.navanax.speed = 0.74;
 UnitTypes.navanax.health = 27000;
-UnitTypes.navanax.armor = 19;
+UnitTypes.navanax.armor = 20;
 UnitTypes.navanax.rotateSpeed = 3.3;
 UnitTypes.navanax.weapons.get(0).reload = 110;
 UnitTypes.navanax.weapons.get(0).bullet.length = 170;
