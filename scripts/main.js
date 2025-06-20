@@ -138,7 +138,7 @@ UnitTypes.antumbra.crashDamageMultiplier = 0.5;
 UnitTypes.antumbra.rotateSpeed = 3.6; //antumbra
 
 UnitTypes.eclipse.health = 21000;
-UnitTypes.eclipse.speed = 0.92;
+UnitTypes.eclipse.speed = 0.91;
 UnitTypes.eclipse.armor = 23;
 UnitTypes.eclipse.rotateSpeed = 3;
 UnitTypes.eclipse.crashDamageMultiplier = 0.5;
@@ -165,7 +165,7 @@ UnitTypes.mega.rotateSpeed = 7;
 UnitTypes.mega.armor = 2;
 UnitTypes.mega.drag = 0.04; //mega
 
-UnitTypes.quad.speed = 1.43;
+UnitTypes.quad.speed = 1.39;
 UnitTypes.quad.buildSpeed = 3.5;
 UnitTypes.quad.rotateSpeed = 3; //quad
 UnitTypes.quad.crashDamageMultiplier = 0.5;
