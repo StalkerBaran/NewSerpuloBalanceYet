@@ -99,7 +99,7 @@ UnitTypes.arkyid.rotateSpeed = 4; //arkyid
 
 UnitTypes.toxopid.speed = 0.88;
 UnitTypes.toxopid.health = 18000;
-UnitTypes.toxopid.armor = 16;
+UnitTypes.toxopid.armor = 15;
 UnitTypes.toxopid.weapons.get(1).bullet.damage = 110;
 UnitTypes.toxopid.weapons.get(1).bullet.lifetime = 72;
 UnitTypes.toxopid.weapons.get(0).bullet.damage = 180;
