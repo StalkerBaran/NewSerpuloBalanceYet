@@ -85,8 +85,8 @@ UnitTypes.atrax.armor = 3;
 UnitTypes.atrax.rotateSpeed = 7.5; 
 UnitTypes.atrax.weapons.get(0).bullet.damage = 11; // Атрах
 
-UnitTypes.spiroct.speed = 0.97;
-UnitTypes.spiroct.armor = 7;
+UnitTypes.spiroct.speed = 0.96;
+UnitTypes.spiroct.armor = 9;
 UnitTypes.spiroct.health = 1100;
 UnitTypes.spiroct.weapons.get(1).reload = 9;
 UnitTypes.spiroct.rotateSpeed = 7.9; //spiroct
