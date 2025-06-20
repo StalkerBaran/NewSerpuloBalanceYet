@@ -460,3 +460,4 @@ Events.on(WorldLoadEvent, () => {
 )
 
 Blocks.coreShard.health = 1800;
+Blocks.repairTurret.repairSpeed = 2;
