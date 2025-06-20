@@ -91,13 +91,13 @@ UnitTypes.spiroct.health = 1100;
 UnitTypes.spiroct.weapons.get(1).reload = 9;
 UnitTypes.spiroct.rotateSpeed = 7.9; //spiroct
 
-UnitTypes.arkyid.speed = 0.93;
+UnitTypes.arkyid.speed = 0.92;
 UnitTypes.arkyid.health = 8200;
 UnitTypes.arkyid.armor = 10;
 UnitTypes.arkyid.weapons.get(3).bullet.splashDamage = 75;
 UnitTypes.arkyid.rotateSpeed = 4; //arkyid
 
-UnitTypes.toxopid.speed = 0.89;
+UnitTypes.toxopid.speed = 0.88;
 UnitTypes.toxopid.health = 18000;
 UnitTypes.toxopid.armor = 16;
 UnitTypes.toxopid.weapons.get(1).bullet.damage = 110;
