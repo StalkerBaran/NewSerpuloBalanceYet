@@ -114,8 +114,8 @@ UnitTypes.flare.rotateSpeed = 9;
 UnitTypes.flare.weapons.get(0).bullet.damage = 8;
 UnitTypes.flare.crashDamageMultiplier = 0.5; //flare
 
-UnitTypes.horizon.speed = 2.22;
-UnitTypes.horizon.health = 240;
+UnitTypes.horizon.speed = 2.23;
+UnitTypes.horizon.health = 230;
 UnitTypes.horizon.armor = 2;
 UnitTypes.horizon.itemCapacity = 30; 
 UnitTypes.horizon.crashDamageMultiplier = 0.5;
@@ -130,7 +130,7 @@ UnitTypes.zenith.rotateSpeed = 5.2;
 UnitTypes.zenith.drag = 0.043; //zenith
 
 UnitTypes.antumbra.health = 7200;
-UnitTypes.antumbra.speed = 1.12;
+UnitTypes.antumbra.speed = 1.11;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamage = 31;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamageRadius = 34;
 UnitTypes.antumbra.weapons.get(0).bullet.lifetime = 56;
@@ -138,7 +138,7 @@ UnitTypes.antumbra.crashDamageMultiplier = 0.5;
 UnitTypes.antumbra.rotateSpeed = 3.6; //antumbra
 
 UnitTypes.eclipse.health = 21000;
-UnitTypes.eclipse.speed = 0.895;
+UnitTypes.eclipse.speed = 0.885;
 UnitTypes.eclipse.armor = 23;
 UnitTypes.eclipse.rotateSpeed = 3;
 UnitTypes.eclipse.crashDamageMultiplier = 0.5;
@@ -165,12 +165,12 @@ UnitTypes.mega.rotateSpeed = 7;
 UnitTypes.mega.armor = 2;
 UnitTypes.mega.drag = 0.04; //mega
 
-UnitTypes.quad.speed = 1.37;
+UnitTypes.quad.speed = 1.34;
 UnitTypes.quad.buildSpeed = 3.5;
 UnitTypes.quad.rotateSpeed = 3; //quad
 UnitTypes.quad.crashDamageMultiplier = 0.5;
 
-UnitTypes.oct.speed = 0.96;
+UnitTypes.oct.speed = 0.95;
 UnitTypes.oct.armor = 15;
 UnitTypes.oct.health = 18000;
 UnitTypes.oct.rotateSpeed = 3;
