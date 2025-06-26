@@ -1,11 +1,11 @@
-UnitTypes.dagger.weapons.get(0).reload = 17; 
-UnitTypes.dagger.weapons.get(0).bullet.damage = 12;
-UnitTypes.dagger.speed = 0.73;
+UnitTypes.dagger.weapons.get(0).reload = 16; 
+UnitTypes.dagger.weapons.get(0).bullet.damage = 10;
+UnitTypes.dagger.speed = 0.70;
 UnitTypes.dagger.health = 130;
 UnitTypes.dagger.armor = 3;
 UnitTypes.dagger.rotateSpeed = 7; //dagger
 
-UnitTypes.mace.speed = 0.69;
+UnitTypes.mace.speed = 0.68;
 UnitTypes.mace.health = 510;
 UnitTypes.mace.armor = 5;
 UnitTypes.mace.weapons.get(0).bullet.damage = 27;
@@ -34,19 +34,19 @@ UnitTypes.reign.weapons.get(0).bullet.lifetime = 17.1;  //reign
 
 
 UnitTypes.nova.weapons.get(0).bullet.damage = 13;
-UnitTypes.nova.weapons.get(0).reload = 19;
-UnitTypes.nova.speed = 0.715;
+UnitTypes.nova.weapons.get(0).reload = 18;
+UnitTypes.nova.speed = 0.71;
 UnitTypes.nova.health = 120;
 UnitTypes.nova.armor = 1;
 UnitTypes.nova.abilities.get(0).reload = 90;
 UnitTypes.nova.rotateSpeed = 7; //nova
 
-UnitTypes.pulsar.speed = 0.76; 
+UnitTypes.pulsar.speed = 0.75; 
 UnitTypes.pulsar.health = 280;
 UnitTypes.pulsar.mineSpeed = 3.5;
 UnitTypes.pulsar.weapons.get(0).bullet.damage = 12; //pulsar
 
-UnitTypes.quasar.speed = 0.63;
+UnitTypes.quasar.speed = 0.62;
 UnitTypes.quasar.weapons.get(0).reload = 35; 
 UnitTypes.quasar.health = 810;
 UnitTypes.quasar.rotateSpeed = 5;
@@ -62,7 +62,7 @@ UnitTypes.vela.weapons.get(1).repairSpeed = 1.94; //vela
 UnitTypes.vela.boostMultiplier = 1.6;
 
 UnitTypes.corvus.speed = 0.4;
-UnitTypes.corvus.rotateSpeed = 2.44;
+UnitTypes.corvus.rotateSpeed = 2.4;
 UnitTypes.corvus.armor = 13;
 UnitTypes.corvus.health = 15000;
 UnitTypes.corvus.weapons.get(0).reload = 540;
@@ -79,13 +79,13 @@ UnitTypes.corvus.weapons.get(0).shootStatusDuration = 72 * 2; //corvus
 
 UnitTypes.crawler.health = 120;
 
-UnitTypes.atrax.speed = 0.92;
-UnitTypes.atrax.health = 380;
+UnitTypes.atrax.speed = 0.91;
+UnitTypes.atrax.health = 370;
 UnitTypes.atrax.armor = 3;
 UnitTypes.atrax.rotateSpeed = 7.5; 
 UnitTypes.atrax.weapons.get(0).bullet.damage = 11; // Атрах
 
-UnitTypes.spiroct.speed = 0.96;
+UnitTypes.spiroct.speed = 0.95;
 UnitTypes.spiroct.armor = 9;
 UnitTypes.spiroct.health = 1100;
 UnitTypes.spiroct.weapons.get(1).reload = 9;
@@ -114,15 +114,15 @@ UnitTypes.flare.rotateSpeed = 9;
 UnitTypes.flare.weapons.get(0).bullet.damage = 8;
 UnitTypes.flare.crashDamageMultiplier = 0.5; //flare
 
-UnitTypes.horizon.speed = 2.23;
-UnitTypes.horizon.health = 230;
-UnitTypes.horizon.armor = 2;
+UnitTypes.horizon.speed = 2.24;
+UnitTypes.horizon.health = 210;
+UnitTypes.horizon.armor = 3;
 UnitTypes.horizon.itemCapacity = 30; 
 UnitTypes.horizon.crashDamageMultiplier = 0.5;
 UnitTypes.horizon.weapons.get(0).bullet.splashDamage = 23;
 UnitTypes.horizon.rotateSpeed = 7; //horizon
 
-UnitTypes.zenith.health = 570;
+UnitTypes.zenith.health = 590;
 UnitTypes.zenith.armor = 5;
 UnitTypes.zenith.weapons.get(0).bullet.lifetime = 57;
 UnitTypes.zenith.crashDamageMultiplier = 0.5;
@@ -138,8 +138,8 @@ UnitTypes.antumbra.crashDamageMultiplier = 0.5;
 UnitTypes.antumbra.rotateSpeed = 3.6; //antumbra
 
 UnitTypes.eclipse.health = 21000;
-UnitTypes.eclipse.speed = 0.885;
-UnitTypes.eclipse.armor = 23;
+UnitTypes.eclipse.speed = 0.88;
+UnitTypes.eclipse.armor = 22;
 UnitTypes.eclipse.rotateSpeed = 3;
 UnitTypes.eclipse.crashDamageMultiplier = 0.5;
 UnitTypes.eclipse.weapons.get(0).bullet.damage = 130;
@@ -154,7 +154,7 @@ UnitTypes.eclipse.crashDamageMultiplier = 0.5;
 UnitTypes.mono.speed = 1.76; //mono
 UnitTypes.mono.crashDamageMultiplier = 0.5;
 
-UnitTypes.poly.health = 230;
+UnitTypes.poly.health = 250;
 UnitTypes.poly.armor = 1; //poly
 UnitTypes.poly.crashDamageMultiplier = 0.5;
 
@@ -428,7 +428,7 @@ StatusEffects.melting.speedMultiplier = 0.7; //melting. Questionable changes
 
 Blocks.coreShard.armor = 3;
 Blocks.coreFoundation.armor = 5;
-Blocks.coreNucleus.armor = 12; //armor 
+Blocks.coreNucleus.armor = 8; //armor 
 
 Blocks.plastaniumWall.health = 640;
 Blocks.plastaniumWallLarge.health = 2560;
@@ -452,7 +452,7 @@ Events.on(WorldLoadEvent, () => {
   Blocks.airFactory.requirements = [ItemStack(Items.copper, 70), ItemStack(Items.lead, 80), ItemStack(Items.titanium, 35)],
   Blocks.groundFactory.requirements = [ItemStack(Items.copper, 50), ItemStack(Items.lead, 70), ItemStack(Items.silicon, 30)],
   Blocks.navalFactory.requirements = [ItemStack(Items.copper, 120), ItemStack(Items.lead, 90), ItemStack(Items.metaglass, 70)],
-  Blocks.airFactory.plans.get(0).requirements = [ItemStack(Items.silicon, 20)],
+  Blocks.airFactory.plans.get(0).requirements = [ItemStack(Items.silicon, 15)],
   Blocks.groundFactory.plans.get(2).requirements = [ItemStack(Items.silicon, 25), ItemStack(Items.lead, 10), ItemStack(Items.titanium, 15)],
   Blocks.salvo.requirements = [ItemStack(Items.copper, 120), ItemStack(Items.graphite, 50), ItemStack(Items.titanium, 35)],
   Blocks.ripple.requirements = [ItemStack(Items.copper, 175), ItemStack(Items.graphite, 90), ItemStack(Items.titanium, 70)]
