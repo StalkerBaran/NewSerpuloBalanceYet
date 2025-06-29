@@ -1,9 +1,10 @@
 UnitTypes.dagger.weapons.get(0).reload = 16; 
 UnitTypes.dagger.weapons.get(0).bullet.damage = 10;
-UnitTypes.dagger.speed = 0.70;
+UnitTypes.dagger.speed = 0.71;
 UnitTypes.dagger.health = 130;
 UnitTypes.dagger.armor = 3;
-UnitTypes.dagger.rotateSpeed = 7; //dagger
+UnitTypes.dagger.rotateSpeed = 7; 
+UnitTypes.dagger.weapons.get(0).bullet.lifetime = 58; //dagger
 
 UnitTypes.mace.speed = 0.68;
 UnitTypes.mace.health = 510;
@@ -240,7 +241,7 @@ UnitTypes.navanax.weapons.get(3).reload = 110;
 UnitTypes.navanax.weapons.get(3).bullet.length = 170;
 UnitTypes.navanax.weapons.get(4).reload = 37;
 UnitTypes.navanax.weapons.get(4).bullet.damage = 80;
-UnitTypes.navanax.weapons.get(4).bullet.splashDamage = 310;//navanax
+UnitTypes.navanax.weapons.get(4).bullet.splashDamage = 210;//navanax
 UnitTypes.navanax.weapons.get(4).bullet.speed = 9;
 UnitTypes.navanax.weapons.get(4).bullet.lifetime = 35;
 
@@ -249,7 +250,7 @@ UnitTypes.navanax.weapons.get(4).bullet.lifetime = 35;
 
 Blocks.duo.ammoTypes.get(Items.copper).damage = 12;
 Blocks.duo.ammoTypes.get(Items.silicon).damage = 15;
-Blocks.duo.ammoTypes.get(Items.graphite).damage = 18; //duo
+Blocks.duo.ammoTypes.get(Items.graphite).damage = 21; //duo
 Blocks.duo.ammoTypes.get(Items.graphite).reloadMultiplier = 0.7;
 
 Blocks.scatter.ammoTypes.get(Items.scrap).splashDamage = 14 * 1.5; 
@@ -280,7 +281,7 @@ Blocks.scorch.ammoTypes.get(Items.coal).damage = 17;
 Blocks.scorch.ammoTypes.get(Items.pyratite).damage = 52;
 Blocks.scorch.range = 72.5; //scorch
 
-Blocks.hail.ammoTypes.get(Items.silicon).splashDamage = 25;
+Blocks.hail.ammoTypes.get(Items.silicon).splashDamage = 27;
 Blocks.hail.ammoTypes.get(Items.pyratite).splashDamageRadius = 31; //hail
 
 Blocks.wave.ammoTypes.get(Liquids.slag).rangeChange = 24;
