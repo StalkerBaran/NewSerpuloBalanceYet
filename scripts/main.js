@@ -166,7 +166,7 @@ UnitTypes.mega.rotateSpeed = 7;
 UnitTypes.mega.armor = 2;
 UnitTypes.mega.drag = 0.04; //mega
 
-UnitTypes.quad.speed = 1.34;
+UnitTypes.quad.speed = 1.23;
 UnitTypes.quad.buildSpeed = 3.5;
 UnitTypes.quad.rotateSpeed = 3; //quad
 UnitTypes.quad.crashDamageMultiplier = 0.5;
