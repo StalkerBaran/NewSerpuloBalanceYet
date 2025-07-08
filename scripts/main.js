@@ -41,12 +41,14 @@ UnitTypes.nova.speed = 0.71;
 UnitTypes.nova.health = 120;
 UnitTypes.nova.armor = 1;
 UnitTypes.nova.abilities.get(0).reload = 90;
-UnitTypes.nova.rotateSpeed = 7; //nova
+UnitTypes.nova.rotateSpeed = 7; 
+UnitTypes.pulsar.weapons.get(0).bullet.healPercent = 3; //nova
 
 UnitTypes.pulsar.speed = 0.75; 
 UnitTypes.pulsar.health = 280;
 UnitTypes.pulsar.mineSpeed = 3.5;
-UnitTypes.pulsar.weapons.get(0).bullet.damage = 12; //pulsar
+UnitTypes.pulsar.weapons.get(0).bullet.damage = 13; 
+UnitTypes.pulsar.weapons.get(0).bullet.healPercent = 1; //pulsar
 
 UnitTypes.quasar.speed = 0.62;
 UnitTypes.quasar.weapons.get(0).reload = 37; 
@@ -54,7 +56,9 @@ UnitTypes.quasar.health = 810;
 UnitTypes.quasar.rotateSpeed = 5;
 UnitTypes.quasar.abilities.get(0).cooldown = 180;
 UnitTypes.quasar.abilities.get(0).regen = 0.6;
-UnitTypes.quasar.abilities.get(0).max = 512;//quasar
+UnitTypes.quasar.abilities.get(0).max = 512;
+UnitTypes.pulsar.weapons.get(0).bullet.healPercent = 3;
+UnitTypes.pulsar.weapons.get(0).bullet.healAmount = 35; //quasar
 
 UnitTypes.vela.health = 7800;
 UnitTypes.vela.speed = 0.63;
@@ -159,13 +163,18 @@ UnitTypes.mono.crashDamageMultiplier = 0.5;
 UnitTypes.poly.health = 250;
 UnitTypes.poly.armor = 1; //poly
 UnitTypes.poly.crashDamageMultiplier = 0.5;
+UnitTypes.poly.weapons.get(0).bullet.healPercent = 4;
 
 UnitTypes.mega.speed = 2.56;
 UnitTypes.mega.health = 370;
 UnitTypes.mega.crashDamageMultiplier = 0.5;
 UnitTypes.mega.rotateSpeed = 7;
 UnitTypes.mega.armor = 2;
-UnitTypes.mega.drag = 0.04; //mega
+UnitTypes.mega.drag = 0.04;
+UnitTypes.mega.weapons.get(0).bullet.healPercent = 3;
+UnitTypes.mega.weapons.get(0).bullet.healAmount = 7.5;
+UnitTypes.mega.weapons.get(1).bullet.healPercent = 2;
+UnitTypes.mega.weapons.get(1).bullet.healAmount = 5.5; //mega
 
 UnitTypes.quad.buildSpeed = 3.5;
 UnitTypes.quad.rotateSpeed = 3; //quad
