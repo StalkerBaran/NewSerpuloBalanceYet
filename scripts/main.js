@@ -1,12 +1,12 @@
-UnitTypes.dagger.weapons.get(0).reload = 16; 
+UnitTypes.dagger.weapons.get(0).reload = 17; 
 UnitTypes.dagger.weapons.get(0).bullet.damage = 10;
-UnitTypes.dagger.speed = 0.71;
+UnitTypes.dagger.speed = 0.7;
 UnitTypes.dagger.health = 130;
-UnitTypes.dagger.armor = 3;
+UnitTypes.dagger.armor = 2;
 UnitTypes.dagger.rotateSpeed = 7; 
-UnitTypes.dagger.weapons.get(0).bullet.lifetime = 58; //dagger
+UnitTypes.dagger.weapons.get(0).bullet.lifetime = 57; //dagger
 
-UnitTypes.mace.speed = 0.68;
+UnitTypes.mace.speed = 0.67;
 UnitTypes.mace.health = 510;
 UnitTypes.mace.armor = 5;
 UnitTypes.mace.weapons.get(0).bullet.damage = 27;
@@ -18,7 +18,7 @@ UnitTypes.fortress.armor = 10;
 UnitTypes.fortress.rotateSpeed = 3.4;
 UnitTypes.fortress.weapons.get(0).bullet.speed = 2.5;
 UnitTypes.fortress.weapons.get(0).bullet.splashDamage = 70;
-UnitTypes.fortress.weapons.get(0).bullet.lifetime = 96.7; //fortress
+UnitTypes.fortress.weapons.get(0).bullet.lifetime = 96.6; //fortress
 
 UnitTypes.scepter.speed = 0.63;
 UnitTypes.scepter.armor = 13;
@@ -28,7 +28,7 @@ UnitTypes.scepter.weapons.get(1).bullet.lifetime = 55;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 24;
 UnitTypes.scepter.rotateSpeed = 3.2; //scepter
 
-UnitTypes.reign.speed = 0.59;
+UnitTypes.reign.speed = 0.58;
 UnitTypes.reign.armor = 24;
 UnitTypes.reign.health = 23000;
 UnitTypes.reign.rotateSpeed = 3;
@@ -46,13 +46,13 @@ UnitTypes.nova.weapons.get(0).bullet.healPercent = 1;
 UnitTypes.nova.weapons.get(0).bullet.healAmount = 10; //nova
 
 UnitTypes.pulsar.speed = 0.75; 
-UnitTypes.pulsar.health = 280;
+UnitTypes.pulsar.health = 270;
 UnitTypes.pulsar.mineSpeed = 3.5;
 UnitTypes.pulsar.weapons.get(0).bullet.damage = 13; 
 UnitTypes.pulsar.weapons.get(0).bullet.healPercent = 0.75; //pulsar
 
-UnitTypes.quasar.speed = 0.62;
-UnitTypes.quasar.weapons.get(0).reload = 37; 
+UnitTypes.quasar.speed = 0.615;
+UnitTypes.quasar.weapons.get(0).reload = 38; 
 UnitTypes.quasar.health = 810;
 UnitTypes.quasar.rotateSpeed = 5;
 UnitTypes.quasar.abilities.get(0).cooldown = 180;
@@ -62,7 +62,7 @@ UnitTypes.quasar.weapons.get(0).bullet.healPercent = 5;
 UnitTypes.quasar.weapons.get(0).bullet.healAmount = 35; //quasar
 
 UnitTypes.vela.health = 7800;
-UnitTypes.vela.speed = 0.63;
+UnitTypes.vela.speed = 0.625;
 UnitTypes.vela.armor = 11;
 UnitTypes.vela.rotateSpeed = 3.5; 
 UnitTypes.vela.weapons.get(1).repairSpeed = 1.94; //vela
