@@ -125,7 +125,7 @@ UnitTypes.horizon.rotateSpeed = 7; //horizon
 
 UnitTypes.zenith.health = 590;
 UnitTypes.zenith.armor = 5;
-UnitTypes.zenith.weapons.get(0).bullet.lifetime = 57;
+UnitTypes.zenith.weapons.get(0).bullet.lifetime = 55;
 UnitTypes.zenith.crashDamageMultiplier = 0.5;
 UnitTypes.zenith.rotateSpeed = 5.2;
 UnitTypes.zenith.drag = 0.043; //zenith
@@ -349,7 +349,8 @@ Blocks.ripple.ammoTypes.get(Items.graphite).knockback = 1.2;
 Blocks.ripple.ammoTypes.get(Items.graphite).width = 16;
 Blocks.ripple.ammoTypes.get(Items.graphite).height = 16; //ripple
 
-Blocks.ripple.ammoTypes.get(Items.plastanium).fragBullets = 8; //ripple
+Blocks.ripple.ammoTypes.get(Items.plastanium).splashDamage = 37; 
+Blocks.ripple.ammoTypes.get(Items.plastanium).fragBullets = 5; //ripple
 
 Blocks.ripple.ammoTypes.get(Items.pyratite).splashDamage = 48;
 Blocks.ripple.ammoTypes.get(Items.pyratite).splashDamageRadius = 38;
@@ -428,8 +429,11 @@ StatusEffects.melting.speedMultiplier = 0.7; //melting. Questionable changes
 
 
 Blocks.coreShard.armor = 3;
+Blocks.coreShard.health = 1700;
 Blocks.coreFoundation.armor = 5;
-Blocks.coreNucleus.armor = 8; //armor 
+Blocks.coreFoundation.health = 3500;
+Blocks.coreNucleus.armor = 8; 
+Blocks.coreNucleus.health = 9000; //core
 
 Blocks.plastaniumWall.health = 640;
 Blocks.plastaniumWallLarge.health = 2560;
@@ -460,5 +464,4 @@ Events.on(WorldLoadEvent, () => {
  }
 )
 
-Blocks.coreShard.health = 1800;
 Blocks.repairTurret.repairSpeed = 2;
