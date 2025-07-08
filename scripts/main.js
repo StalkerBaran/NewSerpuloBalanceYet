@@ -42,6 +42,7 @@ UnitTypes.nova.health = 120;
 UnitTypes.nova.armor = 1;
 UnitTypes.nova.abilities.get(0).reload = 90;
 UnitTypes.nova.rotateSpeed = 7; 
+UnitTypes.nova.weapons.get(0).bullet.healPercent = 1;
 UnitTypes.nova.weapons.get(0).bullet.healAmount = 10; //nova
 
 UnitTypes.pulsar.speed = 0.75; 
