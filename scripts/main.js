@@ -360,6 +360,8 @@ Blocks.tsunami.ammoTypes.get(Liquids.oil).lifetime = 58;
 Blocks.tsunami.ammoTypes.get(Liquids.cryofluid).rangeChange = 20;
 Blocks.tsunami.ammoTypes.get(Liquids.cryofluid).lifetime = 56; //tsunami
 
+Blocks.fuse.maxAmmo = 20;
+
 Blocks.ripple.ammoTypes.get(Items.graphite).splashDamageRadius = 29;
 Blocks.ripple.ammoTypes.get(Items.graphite).knockback = 1.2;
 Blocks.ripple.ammoTypes.get(Items.graphite).width = 16;
