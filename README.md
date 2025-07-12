@@ -13,4 +13,4 @@ A rebalance that changes the stats of units, turrets, and several additional blo
 > What to expect from rebalance/How gameplay will be changed/fixed?
 
 ### Most issues (v7/v8 without rebalance/how it was fixed by me):
-Flare meta. In v7, flares actually one of most powerful T1 unit (except risso) which has insane fall damage amount. Air unit factory request raw (copper and lead) resourses only and flares request silicon only (which making them easiest unit for spam produce), while ground factory request raw resourses + silicone in core, dagger/crawler request silicon + lead/coal. Very early flares are biggest mistake in gameplay because they could be produced on stage where enemy team dont even have enough silicone and titanium for unloader + scatter defense placement. This is a reason why autofill/hand filling turret gameplay (modification which auto filling buildings/turrets with core units (auto taking resourse from core to core unit, and core unit auto filling building/turret)
+I'll start with complex issues and finish with local one
