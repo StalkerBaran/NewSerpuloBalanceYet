@@ -10,7 +10,11 @@
 (Mod designed to be tested on v149)
 A rebalance that changes the stats of units, turrets, and several additional blocks without changing or affecting the eco-production factories (that is, changes aimed purely at the attacking and defensing gameplay). Rebalancing is needed in order to fix both local (meta units, such as flares and zeniths, as well as broken naval tree, and more) with minimal changes; meta turrets, like swarmers and cyclones), and complex (meta mobility, which is the reason for the uselessness of almost all ground units, and overrange, for example omure and corvus (fortresses do not count due to too strong swarmers and low mobility). Rebalance mod designed to improve all gamemods, without breaking campaign or making new issues (btw it should improve campaign too, but I will be honest, rebalance was made from professional player to everyone, so it would request more tests to be sure it doesn't break anything in campaign sectors).
 #
+> How does rebalance work and what is it?
+
+Rebalance was designed for Serpulo for improving RTS gameplay (but RTS is still optional, you could play nearly like Starcraft 2 or be chill and just spam more units, RTS does not become the meaning of the Serpulo, it just allows you to play smart. Most stats were designed to make gameplay more dynamic and 
+#
 > What to expect from rebalance/How gameplay will be changed/fixed?
 
 ### Most issues (v7/v8 without rebalance/how it was fixed by me):
-I'll start with complex issues and finish with local one
+I'll start with complex issues and finish with locals one
