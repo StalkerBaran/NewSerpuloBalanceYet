@@ -473,6 +473,7 @@ Blocks.shockMine.health = 30;
 
 
 Events.on(WorldLoadEvent, () => {
+  SerpuloTechTree.airFactory.requirements = [ItemStack(Items.copper, 900), ItemStack(Items.lead, 1100), ItemStack(Items.titanium, 700)],
   Blocks.additiveReconstructor.consumers[1].items[0] = ItemStack(Items.silicon, 30),
   Blocks.additiveReconstructor.consumers[1].items[1] = ItemStack(Items.graphite, 30),
   Blocks.airFactory.requirements = [ItemStack(Items.copper, 70), ItemStack(Items.lead, 80), ItemStack(Items.titanium, 35)],
