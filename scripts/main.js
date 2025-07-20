@@ -61,8 +61,8 @@ UnitTypes.quasar.abilities.get(0).max = 512;
 UnitTypes.quasar.weapons.get(0).bullet.healPercent = 5;
 UnitTypes.quasar.weapons.get(0).bullet.healAmount = 35; //quasar
 
-UnitTypes.vela.health = 7800;
-UnitTypes.vela.speed = 0.625;
+UnitTypes.vela.health = 7900;
+UnitTypes.vela.speed = 0.60;
 UnitTypes.vela.armor = 11;
 UnitTypes.vela.rotateSpeed = 3.5; 
 UnitTypes.vela.weapons.get(1).repairSpeed = 1.94; //vela
@@ -432,7 +432,8 @@ Blocks.meltdown.shootType.damage = 180; //meltdown
 
 Blocks.foreshadow.reload = 280; 
 Blocks.foreshadow.rotateSpeed = 1.3; //foreshadow
-
+Blocks.foreshadow.rotateSpeed = 1.3;
+Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).buildingDamageMultiplier = 0.5;
 
 
 
@@ -450,7 +451,7 @@ StatusEffects.melting.speedMultiplier = 0.7; //melting. Questionable changes
 
 
 Blocks.coreShard.armor = 3;
-Blocks.coreShard.health = 1700;
+Blocks.coreShard.health = 1800;
 Blocks.coreFoundation.armor = 5;
 Blocks.coreFoundation.health = 3500;
 Blocks.coreNucleus.armor = 8; 
