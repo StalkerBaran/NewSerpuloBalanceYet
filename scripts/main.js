@@ -12,7 +12,7 @@ UnitTypes.mace.armor = 5;
 UnitTypes.mace.weapons.get(0).bullet.damage = 27;
 UnitTypes.mace.rotateSpeed = 4; //mace
 
-UnitTypes.fortress.speed = 0.59;
+UnitTypes.fortress.speed = 0.55;
 UnitTypes.fortress.health = 930;
 UnitTypes.fortress.armor = 10;
 UnitTypes.fortress.rotateSpeed = 3.4;
@@ -51,8 +51,8 @@ UnitTypes.pulsar.mineSpeed = 3.5;
 UnitTypes.pulsar.weapons.get(0).bullet.damage = 13; 
 UnitTypes.pulsar.weapons.get(0).bullet.healPercent = 0.75; //pulsar
 
-UnitTypes.quasar.speed = 0.615;
-UnitTypes.quasar.weapons.get(0).reload = 38; 
+UnitTypes.quasar.speed = 0.58;
+UnitTypes.quasar.weapons.get(0).reload = 37; 
 UnitTypes.quasar.health = 810;
 UnitTypes.quasar.rotateSpeed = 5;
 UnitTypes.quasar.abilities.get(0).cooldown = 180;
