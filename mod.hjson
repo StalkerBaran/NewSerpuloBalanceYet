@@ -3,7 +3,7 @@ displayName: "NewSerpuloBalanceTest"
 author: "blackberry2093 (community help)"
 description: "Test mode for new balance. This banace might be accepted in v8 (after neoplasma)!"
 subtitle: "uwu"
-version: "1.8"
+version: "1.8.1"
 minGameVersion: 149
 hidden: false
 repo: "https://github.com/StalkerBaran/NewSerpuloBalanceYet"
