@@ -431,9 +431,8 @@ Blocks.meltdown.reload = 120;
 Blocks.meltdown.shootType.damage = 180; //meltdown
 
 Blocks.foreshadow.reload = 280; 
-Blocks.foreshadow.rotateSpeed = 1.3; //foreshadow
 Blocks.foreshadow.rotateSpeed = 1.3;
-Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).buildingDamageMultiplier = 0.5;
+Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).buildingDamageMultiplier = 0.5; //foreshadow
 
 
 
