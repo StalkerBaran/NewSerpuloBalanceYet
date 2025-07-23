@@ -12,9 +12,10 @@ A rebalance that changes the stats of units, turrets, and several additional blo
 #
 > How does rebalance work and what is it?
 
-Rebalance was designed for Serpulo for improving RTS gameplay (but RTS is still optional, you could play nearly like Starcraft 2 or be chill and just spam more units, RTS does not become the meaning of the Serpulo, it just allows you to play smart. Most stats were designed to make gameplay more dynamic and 
+Rebalance was designed for Serpulo for improving RTS gameplay (but RTS is still optional, you could play nearly like Starcraft 2 or be chill and just spam more units, RTS does not become the meaning of the Serpulo, it just allows you to play smart. Most stats were designed to make gameplay more dynamic and more diverse (in v7 really usable units for pvp are flares, zeniths and etc. In rebalance making tactics and playing creative is rewardable)
 #
 > What to expect from rebalance/How gameplay will be changed/fixed?
 
-### Most issues (v7/v8 without rebalance/how it was fixed by me):
+### Most issues (how it feels in v7/what how it was fixed/reinforced in v8):
 I'll start with complex issues and finish with locals one
+
