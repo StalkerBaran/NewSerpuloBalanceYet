@@ -92,11 +92,11 @@ UnitTypes.atrax.armor = 3;
 UnitTypes.atrax.rotateSpeed = 7.5; 
 UnitTypes.atrax.weapons.get(0).bullet.damage = 11; // Атрах
 
-UnitTypes.spiroct.speed = 0.95;
-UnitTypes.spiroct.armor = 8;
+UnitTypes.spiroct.speed = 0.93;
+UnitTypes.spiroct.armor = 10;
 UnitTypes.spiroct.health = 1100;
 UnitTypes.spiroct.weapons.get(1).reload = 9;
-UnitTypes.spiroct.rotateSpeed = 7.9; //spiroct
+UnitTypes.spiroct.rotateSpeed = 7.8; //spiroct
 
 UnitTypes.arkyid.speed = 0.92;
 UnitTypes.arkyid.health = 8200;
@@ -308,8 +308,8 @@ Blocks.lancer.shootType.pierceCap = 4;
 Blocks.lancer.shootType.damage = 120; //lancer
 Blocks.lancer.rotateSpeed = 4;
 
-Blocks.arc.shootType.damage = 12;
-Blocks.arc.reload = 31; //arc
+Blocks.arc.shootType.damage = 13;
+Blocks.arc.reload = 32; //arc
 
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamage = 38;
 Blocks.swarmer.ammoTypes.get(Items.blastCompound).splashDamageRadius = 42;
@@ -322,12 +322,12 @@ Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamageRadius = 44;
 Blocks.swarmer.ammoTypes.get(Items.pyratite).ammoMultiplier = 5; //swarmer
  
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamage = 35;
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 34;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 27;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.8;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).ammoMultiplier = 4;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightningDamage = 10;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).damage = 15;
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightning = 3; 
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightning = 2; 
 
 Blocks.swarmer.rotateSpeed = 4;
 Blocks.swarmer.maxAmmo = 20; //swarmer
@@ -397,9 +397,9 @@ Blocks.cyclone.ammoTypes.get(Items.blastCompound).damage = 13;
 Blocks.cyclone.ammoTypes.get(Items.blastCompound).splashDamage = 55; //cyclone
 
 Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.9;
-Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 35;
+Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 33;
 Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).lightning = 3;
-Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).lightningDamage = 14; //cyclone
+Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).lightningDamage = 12; //cyclone
 
 Blocks.cyclone.maxAmmo = 20;
 Blocks.cyclone.rotateSpeed = 7; //cyclone
