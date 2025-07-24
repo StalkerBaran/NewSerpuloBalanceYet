@@ -118,21 +118,18 @@ UnitTypes.flare.weapons.get(0).reload = 15;
 UnitTypes.flare.drag = 0.04;
 UnitTypes.flare.health = 90;
 UnitTypes.flare.rotateSpeed = 9;
-UnitTypes.flare.weapons.get(0).bullet.damage = 8;
-UnitTypes.flare.crashDamageMultiplier = 0.5; //flare
+UnitTypes.flare.weapons.get(0).bullet.damage = 8; //flare
 
 UnitTypes.horizon.speed = 2.24;
-UnitTypes.horizon.health = 210;
+UnitTypes.horizon.health = 230;
 UnitTypes.horizon.armor = 3;
 UnitTypes.horizon.itemCapacity = 30; 
-UnitTypes.horizon.crashDamageMultiplier = 0.5;
 UnitTypes.horizon.weapons.get(0).bullet.splashDamage = 23;
 UnitTypes.horizon.rotateSpeed = 7; //horizon
 
 UnitTypes.zenith.health = 570;
 UnitTypes.zenith.armor = 5;
 UnitTypes.zenith.weapons.get(0).bullet.lifetime = 55;
-UnitTypes.zenith.crashDamageMultiplier = 0.5;
 UnitTypes.zenith.rotateSpeed = 5.2;
 UnitTypes.zenith.drag = 0.043; //zenith
 
@@ -141,7 +138,6 @@ UnitTypes.antumbra.speed = 1.11;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamage = 31;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamageRadius = 34;
 UnitTypes.antumbra.weapons.get(0).bullet.lifetime = 56;
-UnitTypes.antumbra.crashDamageMultiplier = 0.5;
 UnitTypes.antumbra.rotateSpeed = 3.6; //antumbra
 
 UnitTypes.eclipse.health = 21000;
@@ -155,20 +151,17 @@ UnitTypes.eclipse.weapons.get(2).bullet.damage = 35;
 UnitTypes.eclipse.weapons.get(0).bullet.length = 247;
 UnitTypes.eclipse.weapons.get(1).bullet.lifetime = 57;
 UnitTypes.eclipse.weapons.get(2).bullet.lifetime = 57; //eclipse
-UnitTypes.eclipse.crashDamageMultiplier = 0.5;
 
 
 UnitTypes.mono.speed = 1.76; //mono
-UnitTypes.mono.crashDamageMultiplier = 0.5;
 
-UnitTypes.poly.health = 250;
-UnitTypes.poly.armor = 1; //poly
-UnitTypes.poly.crashDamageMultiplier = 0.5;
+UnitTypes.poly.health = 180;
+UnitTypes.poly.armor = 1; 
 UnitTypes.poly.weapons.get(0).bullet.healPercent = 3;
+UnitTypes.poly.abilities.get(0).reload = 112; //poly
 
 UnitTypes.mega.speed = 2.56;
 UnitTypes.mega.health = 370;
-UnitTypes.mega.crashDamageMultiplier = 0.5;
 UnitTypes.mega.rotateSpeed = 7;
 UnitTypes.mega.armor = 2;
 UnitTypes.mega.drag = 0.04;
@@ -179,7 +172,6 @@ UnitTypes.mega.weapons.get(1).bullet.healAmount = 5.5; //mega
 
 UnitTypes.quad.buildSpeed = 3.5;
 UnitTypes.quad.rotateSpeed = 3; //quad
-UnitTypes.quad.crashDamageMultiplier = 0.5;
 
 UnitTypes.oct.speed = 0.95;
 UnitTypes.oct.armor = 15;
@@ -188,7 +180,6 @@ UnitTypes.oct.rotateSpeed = 3;
 UnitTypes.oct.abilities.get(0).regen = 12;
 UnitTypes.oct.abilities.get(0).max = 13000;
 UnitTypes.oct.abilities.get(1).amount = 700; //oct
-UnitTypes.oct.crashDamageMultiplier = 0.5;
 
 
 UnitTypes.risso.speed = 1.03;
@@ -427,7 +418,7 @@ Blocks.spectre.ammoTypes.get(Items.pyratite).pierceCap = 2;
 Blocks.spectre.maxAmmo = 90; //spectre
 
 Blocks.meltdown.rotateSpeed = 1.3;
-Blocks.meltdown.reload = 120;
+Blocks.meltdown.reload = 170;
 Blocks.meltdown.shootType.damage = 180; //meltdown
 
 Blocks.foreshadow.reload = 280; 
