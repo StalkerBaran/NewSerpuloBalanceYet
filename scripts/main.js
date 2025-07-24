@@ -1,12 +1,12 @@
-UnitTypes.dagger.weapons.get(0).reload = 17; 
+UnitTypes.dagger.weapons.get(0).reload = 18; 
 UnitTypes.dagger.weapons.get(0).bullet.damage = 10;
 UnitTypes.dagger.speed = 0.7;
 UnitTypes.dagger.health = 130;
 UnitTypes.dagger.armor = 2;
 UnitTypes.dagger.rotateSpeed = 7; 
-UnitTypes.dagger.weapons.get(0).bullet.lifetime = 57; //dagger
+UnitTypes.dagger.weapons.get(0).bullet.lifetime = 56; //dagger
 
-UnitTypes.mace.speed = 0.67;
+UnitTypes.mace.speed = 0.65;
 UnitTypes.mace.health = 510;
 UnitTypes.mace.armor = 5;
 UnitTypes.mace.weapons.get(0).bullet.damage = 27;
@@ -45,7 +45,7 @@ UnitTypes.nova.rotateSpeed = 7;
 UnitTypes.nova.weapons.get(0).bullet.healPercent = 1;
 UnitTypes.nova.weapons.get(0).bullet.healAmount = 10; //nova
 
-UnitTypes.pulsar.speed = 0.75; 
+UnitTypes.pulsar.speed = 0.74; 
 UnitTypes.pulsar.health = 270;
 UnitTypes.pulsar.mineSpeed = 3.5;
 UnitTypes.pulsar.weapons.get(0).bullet.damage = 13; 
@@ -86,25 +86,25 @@ UnitTypes.corvus.weapons.get(0).shootStatusDuration = 72 * 2; //corvus
 
 UnitTypes.crawler.health = 120;
 
-UnitTypes.atrax.speed = 0.91;
+UnitTypes.atrax.speed = 0.89;
 UnitTypes.atrax.health = 370;
 UnitTypes.atrax.armor = 3;
 UnitTypes.atrax.rotateSpeed = 7.5; 
 UnitTypes.atrax.weapons.get(0).bullet.damage = 11; // Атрах
 
-UnitTypes.spiroct.speed = 0.93;
+UnitTypes.spiroct.speed = 0.9;
 UnitTypes.spiroct.armor = 10;
 UnitTypes.spiroct.health = 1100;
-UnitTypes.spiroct.weapons.get(1).reload = 9;
-UnitTypes.spiroct.rotateSpeed = 7.8; //spiroct
+UnitTypes.spiroct.weapons.get(1).reload = 11;
+UnitTypes.spiroct.rotateSpeed = 7.2; //spiroct
 
-UnitTypes.arkyid.speed = 0.92;
+UnitTypes.arkyid.speed = 0.88;
 UnitTypes.arkyid.health = 8200;
 UnitTypes.arkyid.armor = 10;
 UnitTypes.arkyid.weapons.get(3).bullet.splashDamage = 75;
 UnitTypes.arkyid.rotateSpeed = 4; //arkyid
 
-UnitTypes.toxopid.speed = 0.88;
+UnitTypes.toxopid.speed = 0.865;
 UnitTypes.toxopid.health = 18000;
 UnitTypes.toxopid.armor = 15;
 UnitTypes.toxopid.weapons.get(1).bullet.damage = 110;
