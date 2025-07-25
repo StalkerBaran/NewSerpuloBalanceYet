@@ -12,7 +12,7 @@ UnitTypes.mace.armor = 5;
 UnitTypes.mace.weapons.get(0).bullet.damage = 27;
 UnitTypes.mace.rotateSpeed = 4; //mace
 
-UnitTypes.fortress.speed = 0.55;
+UnitTypes.fortress.speed = 0.54;
 UnitTypes.fortress.health = 930;
 UnitTypes.fortress.armor = 10;
 UnitTypes.fortress.rotateSpeed = 3.4;
@@ -20,15 +20,15 @@ UnitTypes.fortress.weapons.get(0).bullet.speed = 2.5;
 UnitTypes.fortress.weapons.get(0).bullet.splashDamage = 70;
 UnitTypes.fortress.weapons.get(0).bullet.lifetime = 96.6; //fortress
 
-UnitTypes.scepter.speed = 0.57;
+UnitTypes.scepter.speed = 0.56;
 UnitTypes.scepter.armor = 13;
 UnitTypes.scepter.health = 9100;
 UnitTypes.scepter.weapons.get(2).bullet.damage = 30;
-UnitTypes.scepter.weapons.get(1).bullet.lifetime = 55;
-UnitTypes.scepter.weapons.get(0).bullet.lifetime = 25;
+UnitTypes.scepter.weapons.get(1).bullet.lifetime = 56;
+UnitTypes.scepter.weapons.get(0).bullet.lifetime = 25.5;
 UnitTypes.scepter.rotateSpeed = 3.3; //scepter
 
-UnitTypes.reign.speed = 0.58;
+UnitTypes.reign.speed = 0.57;
 UnitTypes.reign.armor = 24;
 UnitTypes.reign.health = 23000;
 UnitTypes.reign.rotateSpeed = 3;
@@ -116,11 +116,11 @@ UnitTypes.toxopid.rotateSpeed = 2.8; //toxopидор
 
 UnitTypes.flare.weapons.get(0).reload = 15;
 UnitTypes.flare.drag = 0.04;
-UnitTypes.flare.health = 90;
+UnitTypes.flare.health = 80;
 UnitTypes.flare.rotateSpeed = 9;
 UnitTypes.flare.weapons.get(0).bullet.damage = 8; //flare
 
-UnitTypes.horizon.speed = 2.24;
+UnitTypes.horizon.speed = 2.25;
 UnitTypes.horizon.health = 230;
 UnitTypes.horizon.armor = 3;
 UnitTypes.horizon.itemCapacity = 30; 
@@ -134,7 +134,7 @@ UnitTypes.zenith.rotateSpeed = 5.2;
 UnitTypes.zenith.drag = 0.043; //zenith
 
 UnitTypes.antumbra.health = 7200;
-UnitTypes.antumbra.speed = 1.11;
+UnitTypes.antumbra.speed = 1.12;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamage = 31;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamageRadius = 34;
 UnitTypes.antumbra.weapons.get(0).bullet.lifetime = 56;
@@ -149,8 +149,8 @@ UnitTypes.eclipse.weapons.get(0).bullet.damage = 130;
 UnitTypes.eclipse.weapons.get(1).bullet.damage = 35;
 UnitTypes.eclipse.weapons.get(2).bullet.damage = 35;
 UnitTypes.eclipse.weapons.get(0).bullet.length = 247;
-UnitTypes.eclipse.weapons.get(1).bullet.lifetime = 57;
-UnitTypes.eclipse.weapons.get(2).bullet.lifetime = 57; //eclipse
+UnitTypes.eclipse.weapons.get(1).bullet.lifetime = 58;
+UnitTypes.eclipse.weapons.get(2).bullet.lifetime = 58; //eclipse
 
 
 UnitTypes.mono.speed = 1.76; //mono
@@ -255,19 +255,19 @@ Blocks.duo.ammoTypes.get(Items.graphite).damage = 21;
 Blocks.duo.ammoTypes.get(Items.graphite).reloadMultiplier = 0.7;
 Blocks.duo.maxAmmo = 20 //duo
 
-Blocks.scatter.ammoTypes.get(Items.scrap).splashDamage = 14 * 1.5; 
-Blocks.scatter.ammoTypes.get(Items.scrap).splashDamageRadius = 27; //scatter
+Blocks.scatter.ammoTypes.get(Items.scrap).splashDamage = 15 * 1.5; 
+Blocks.scatter.ammoTypes.get(Items.scrap).splashDamageRadius = 29; //scatter
 Blocks.scatter.ammoTypes.get(Items.scrap).width = 6;
 Blocks.scatter.ammoTypes.get(Items.scrap).height = 13;
 
-Blocks.scatter.ammoTypes.get(Items.lead).splashDamage = 12  * 1.5; 
-Blocks.scatter.ammoTypes.get(Items.lead).splashDamageRadius = 24; //scatter
+Blocks.scatter.ammoTypes.get(Items.lead).splashDamage = 13  * 1.5; 
+Blocks.scatter.ammoTypes.get(Items.lead).splashDamageRadius = 25; //scatter
 Blocks.scatter.ammoTypes.get(Items.lead).width = 6;
 Blocks.scatter.ammoTypes.get(Items.lead).height = 13;
 Blocks.scatter.ammoTypes.get(Items.lead).ammoMultiplier = 3;
 
-Blocks.scatter.ammoTypes.get(Items.metaglass).splashDamageRadius = 26; 
-Blocks.scatter.ammoTypes.get(Items.metaglass).splashDamage = 11  * 1.5;
+Blocks.scatter.ammoTypes.get(Items.metaglass).splashDamageRadius = 27; 
+Blocks.scatter.ammoTypes.get(Items.metaglass).splashDamage = 12  * 1.5;
 Blocks.scatter.ammoTypes.get(Items.metaglass).fragBullet.damage = 5; 
 Blocks.scatter.ammoTypes.get(Items.metaglass).fragBullets = 4;
 Blocks.scatter.ammoTypes.get(Items.metaglass).width = 6;
@@ -286,8 +286,8 @@ Blocks.scorch.ammoTypes.get(Items.pyratite).damage = 52;
 Blocks.scorch.range = 72.5; 
 Blocks.scorch.maxAmmo = 18; //scorch
 
-Blocks.hail.ammoTypes.get(Items.silicon).splashDamage = 27;
-Blocks.hail.ammoTypes.get(Items.pyratite).splashDamageRadius = 31; 
+Blocks.hail.ammoTypes.get(Items.silicon).splashDamage = 28;
+Blocks.hail.ammoTypes.get(Items.pyratite).splashDamageRadius = 32; 
 Blocks.hail.maxAmmo = 12; //hail
 
 Blocks.wave.ammoTypes.get(Liquids.slag).rangeChange = 24;
@@ -467,8 +467,8 @@ Events.on(WorldLoadEvent, () => {
   Blocks.additiveReconstructor.consumers[1].items[0] = ItemStack(Items.silicon, 30),
   Blocks.additiveReconstructor.consumers[1].items[1] = ItemStack(Items.graphite, 30),
   Blocks.airFactory.requirements = [ItemStack(Items.copper, 70), ItemStack(Items.lead, 80), ItemStack(Items.titanium, 35)],
-  Blocks.groundFactory.requirements = [ItemStack(Items.copper, 50), ItemStack(Items.lead, 70), ItemStack(Items.silicon, 30)],
-  Blocks.navalFactory.requirements = [ItemStack(Items.copper, 120), ItemStack(Items.lead, 90), ItemStack(Items.metaglass, 70)],
+  Blocks.groundFactory.requirements = [ItemStack(Items.copper, 80), ItemStack(Items.lead, 70), ItemStack(Items.silicon, 50)],
+  Blocks.navalFactory.requirements = [ItemStack(Items.copper, 120), ItemStack(Items.lead, 90), ItemStack(Items.metaglass, 75)],
   Blocks.airFactory.plans.get(0).requirements = [ItemStack(Items.silicon, 15)],
   Blocks.groundFactory.plans.get(2).requirements = [ItemStack(Items.silicon, 25), ItemStack(Items.lead, 10), ItemStack(Items.titanium, 15)],
   Blocks.salvo.requirements = [ItemStack(Items.copper, 120), ItemStack(Items.graphite, 50), ItemStack(Items.titanium, 35)],
