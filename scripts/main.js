@@ -1,7 +1,7 @@
-UnitTypes.dagger.weapons.get(0).reload = 19; 
+UnitTypes.dagger.weapons.get(0).reload = 18; 
 UnitTypes.dagger.weapons.get(0).bullet.damage = 10;
 UnitTypes.dagger.speed = 0.7;
-UnitTypes.dagger.health = 125;
+UnitTypes.dagger.health = 120;
 UnitTypes.dagger.armor = 2;
 UnitTypes.dagger.rotateSpeed = 7; 
 UnitTypes.dagger.weapons.get(0).bullet.lifetime = 56; //dagger
@@ -84,7 +84,7 @@ UnitTypes.corvus.weapons.get(0).bullet.lifetime = 47;
 UnitTypes.corvus.weapons.get(0).shootStatusDuration = 72 * 2; //corvus
 
 
-UnitTypes.crawler.health = 120;
+UnitTypes.crawler.health = 110;
 
 UnitTypes.atrax.speed = 0.89;
 UnitTypes.atrax.health = 370;
@@ -98,9 +98,9 @@ UnitTypes.spiroct.health = 1100;
 UnitTypes.spiroct.weapons.get(1).reload = 11;
 UnitTypes.spiroct.rotateSpeed = 7.2; //spiroct
 
-UnitTypes.arkyid.speed = 0.88;
-UnitTypes.arkyid.health = 8200;
-UnitTypes.arkyid.armor = 10;
+UnitTypes.arkyid.speed = 0.89;
+UnitTypes.arkyid.health = 8300;
+UnitTypes.arkyid.armor = 12;
 UnitTypes.arkyid.weapons.get(3).bullet.splashDamage = 75;
 UnitTypes.arkyid.rotateSpeed = 4; //arkyid
 
@@ -116,9 +116,9 @@ UnitTypes.toxopid.rotateSpeed = 2.8; //toxopидор
 
 UnitTypes.flare.weapons.get(0).reload = 15;
 UnitTypes.flare.drag = 0.04;
-UnitTypes.flare.health = 30;
+UnitTypes.flare.health = 70;
 UnitTypes.flare.rotateSpeed = 9;
-UnitTypes.flare.weapons.get(0).bullet.damage = 9; //flare
+UnitTypes.flare.weapons.get(0).bullet.damage = 8; //flare
 
 UnitTypes.horizon.speed = 2.25;
 UnitTypes.horizon.health = 230;
@@ -255,12 +255,12 @@ Blocks.duo.ammoTypes.get(Items.graphite).damage = 21;
 Blocks.duo.ammoTypes.get(Items.graphite).reloadMultiplier = 0.7;
 Blocks.duo.maxAmmo = 20 //duo
 
-Blocks.scatter.ammoTypes.get(Items.scrap).splashDamage = 15 * 1.5; 
+Blocks.scatter.ammoTypes.get(Items.scrap).splashDamage = 13 * 1.5; 
 Blocks.scatter.ammoTypes.get(Items.scrap).splashDamageRadius = 29; //scatter
 Blocks.scatter.ammoTypes.get(Items.scrap).width = 6;
 Blocks.scatter.ammoTypes.get(Items.scrap).height = 13;
 
-Blocks.scatter.ammoTypes.get(Items.lead).splashDamage = 13  * 1.5; 
+Blocks.scatter.ammoTypes.get(Items.lead).splashDamage = 7  * 1.5; 
 Blocks.scatter.ammoTypes.get(Items.lead).splashDamageRadius = 25; //scatter
 Blocks.scatter.ammoTypes.get(Items.lead).width = 6;
 Blocks.scatter.ammoTypes.get(Items.lead).height = 13;
@@ -312,7 +312,7 @@ Blocks.swarmer.ammoTypes.get(Items.pyratite).splashDamageRadius = 44;
 Blocks.swarmer.ammoTypes.get(Items.pyratite).ammoMultiplier = 5; //swarmer
  
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamage = 35;
-Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 27;
+Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 26;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.8;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).ammoMultiplier = 4;
 Blocks.swarmer.ammoTypes.get(Items.surgeAlloy).lightningDamage = 10;
@@ -426,15 +426,13 @@ Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).buildingDamageMultiplier = 0.5
 
 
 
+
 StatusEffects.wet.transitionDamage = 12; //shocked
 
 StatusEffects.freezing.transitionDamage = 13; //freezing
 
 StatusEffects.burning.reloadMultiplier = 0.9;
 StatusEffects.burning.speedMultiplier = 0.9; //burning
-
-StatusEffects.melting.healthMultiplier = 0.7;
-StatusEffects.melting.speedMultiplier = 0.7; //melting. Questionable changes
 
 
 
