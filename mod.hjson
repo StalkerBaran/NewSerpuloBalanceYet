@@ -4,6 +4,6 @@ author: "blackberry2093 (community help)"
 description: "Test mode for new balance. This banace might be accepted in v8 (after neoplasma)!"
 subtitle: "uwu"
 version: "1.9.2"
-minGameVersion: 150
+minGameVersion: 150.1
 hidden: false
 repo: "https://github.com/StalkerBaran/NewSerpuloBalanceYet"
