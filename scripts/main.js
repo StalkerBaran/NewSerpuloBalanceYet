@@ -86,16 +86,16 @@ UnitTypes.corvus.weapons.get(0).shootStatusDuration = 72 * 2; //corvus
 
 UnitTypes.crawler.health = 110;
 
-UnitTypes.atrax.speed = 0.89;
-UnitTypes.atrax.health = 370;
+UnitTypes.atrax.speed = 0.9;
+UnitTypes.atrax.health = 390;
 UnitTypes.atrax.armor = 3;
 UnitTypes.atrax.rotateSpeed = 7.5; 
 UnitTypes.atrax.weapons.get(0).bullet.damage = 11; // Атрах
 
-UnitTypes.spiroct.speed = 0.9;
+UnitTypes.spiroct.speed = 0.91;
 UnitTypes.spiroct.armor = 10;
 UnitTypes.spiroct.health = 1100;
-UnitTypes.spiroct.weapons.get(1).reload = 11;
+UnitTypes.spiroct.weapons.get(1).reload = 14;
 UnitTypes.spiroct.rotateSpeed = 7.2; //spiroct
 
 UnitTypes.arkyid.speed = 0.89;
