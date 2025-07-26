@@ -116,9 +116,9 @@ UnitTypes.toxopid.rotateSpeed = 2.8; //toxopидор
 
 UnitTypes.flare.weapons.get(0).reload = 15;
 UnitTypes.flare.drag = 0.04;
-UnitTypes.flare.health = 80;
+UnitTypes.flare.health = 30;
 UnitTypes.flare.rotateSpeed = 9;
-UnitTypes.flare.weapons.get(0).bullet.damage = 8; //flare
+UnitTypes.flare.weapons.get(0).bullet.damage = 9; //flare
 
 UnitTypes.horizon.speed = 2.25;
 UnitTypes.horizon.health = 230;
@@ -275,7 +275,6 @@ Blocks.scatter.ammoTypes.get(Items.metaglass).height = 13;
 Blocks.scatter.ammoTypes.get(Items.metaglass).reloadMultiplier = 0.7 //scatter
 
 Blocks.scatter.coolantMultiplier = 7.5;
-Blocks.scatter.reload = 18;
 Blocks.scatter.shoot.shots = 3;
 Blocks.scatter.shoot.shotDelay = 4;
 Blocks.scatter.rotateSpeed = 10;
@@ -466,8 +465,8 @@ Blocks.shockMine.health = 30;
 Events.on(WorldLoadEvent, () => {
   Blocks.additiveReconstructor.consumers[1].items[0] = ItemStack(Items.silicon, 30),
   Blocks.additiveReconstructor.consumers[1].items[1] = ItemStack(Items.graphite, 30),
-  Blocks.airFactory.requirements = [ItemStack(Items.copper, 70), ItemStack(Items.lead, 80), ItemStack(Items.titanium, 35)],
-  Blocks.groundFactory.requirements = [ItemStack(Items.copper, 80), ItemStack(Items.lead, 70), ItemStack(Items.silicon, 50)],
+  Blocks.airFactory.requirements = [ItemStack(Items.copper, 110), ItemStack(Items.lead, 80), ItemStack(Items.titanium, 35)],
+  Blocks.groundFactory.requirements = [ItemStack(Items.copper, 120), ItemStack(Items.lead, 70), ItemStack(Items.silicon, 60)],
   Blocks.navalFactory.requirements = [ItemStack(Items.copper, 120), ItemStack(Items.lead, 90), ItemStack(Items.metaglass, 75)],
   Blocks.airFactory.plans.get(0).requirements = [ItemStack(Items.silicon, 15)],
   Blocks.groundFactory.plans.get(2).requirements = [ItemStack(Items.silicon, 25), ItemStack(Items.lead, 10), ItemStack(Items.titanium, 15)],
