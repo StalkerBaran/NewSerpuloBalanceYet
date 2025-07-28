@@ -120,8 +120,8 @@ UnitTypes.flare.health = 50;
 UnitTypes.flare.rotateSpeed = 9;
 UnitTypes.flare.weapons.get(0).bullet.damage = 10; //flare
 
-UnitTypes.horizon.speed = 2.25;
-UnitTypes.horizon.health = 230;
+UnitTypes.horizon.speed = 2.26;
+UnitTypes.horizon.health = 210;
 UnitTypes.horizon.armor = 3;
 UnitTypes.horizon.itemCapacity = 30; 
 UnitTypes.horizon.weapons.get(0).bullet.splashDamage = 23;
@@ -155,7 +155,7 @@ UnitTypes.eclipse.weapons.get(2).bullet.lifetime = 58; //eclipse
 
 UnitTypes.mono.speed = 1.76; //mono
 
-UnitTypes.poly.health = 180;
+UnitTypes.poly.health = 170;
 UnitTypes.poly.armor = 1; 
 UnitTypes.poly.weapons.get(0).bullet.healPercent = 3;
 UnitTypes.poly.abilities.get(0).reload = 112; //poly
@@ -413,7 +413,7 @@ Blocks.spectre.ammoTypes.get(Items.pyratite).knockback = 0.7;
 Blocks.spectre.ammoTypes.get(Items.pyratite).pierceCap = 2;
 
 Blocks.spectre.maxAmmo = 90;
-Blocks.spectre.coolantMultiplier = 1.5; //spectre
+// I'll change later Blocks.spectre.coolantMultiplier = 1.5; //spectre
 
 Blocks.meltdown.rotateSpeed = 1.3;
 Blocks.meltdown.reload = 170;
