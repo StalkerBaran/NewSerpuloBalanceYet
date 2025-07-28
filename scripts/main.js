@@ -1,5 +1,5 @@
-UnitTypes.dagger.weapons.get(0).reload = 18; 
-UnitTypes.dagger.weapons.get(0).bullet.damage = 10;
+UnitTypes.dagger.weapons.get(0).reload = 19; 
+UnitTypes.dagger.weapons.get(0).bullet.damage = 12;
 UnitTypes.dagger.speed = 0.7;
 UnitTypes.dagger.health = 120;
 UnitTypes.dagger.armor = 2;
@@ -116,9 +116,9 @@ UnitTypes.toxopid.rotateSpeed = 2.8; //toxopидор
 
 UnitTypes.flare.weapons.get(0).reload = 15;
 UnitTypes.flare.drag = 0.04;
-UnitTypes.flare.health = 70;
+UnitTypes.flare.health = 50;
 UnitTypes.flare.rotateSpeed = 9;
-UnitTypes.flare.weapons.get(0).bullet.damage = 8; //flare
+UnitTypes.flare.weapons.get(0).bullet.damage = 10; //flare
 
 UnitTypes.horizon.speed = 2.25;
 UnitTypes.horizon.health = 230;
@@ -256,12 +256,12 @@ Blocks.duo.ammoTypes.get(Items.graphite).reloadMultiplier = 0.7;
 Blocks.duo.maxAmmo = 20 //duo
 
 Blocks.scatter.ammoTypes.get(Items.scrap).splashDamage = 13 * 1.5; 
-Blocks.scatter.ammoTypes.get(Items.scrap).splashDamageRadius = 29; //scatter
+Blocks.scatter.ammoTypes.get(Items.scrap).splashDamageRadius = 33; //scatter
 Blocks.scatter.ammoTypes.get(Items.scrap).width = 6;
 Blocks.scatter.ammoTypes.get(Items.scrap).height = 13;
 
 Blocks.scatter.ammoTypes.get(Items.lead).splashDamage = 7  * 1.5; 
-Blocks.scatter.ammoTypes.get(Items.lead).splashDamageRadius = 25; //scatter
+Blocks.scatter.ammoTypes.get(Items.lead).splashDamageRadius = 28; //scatter
 Blocks.scatter.ammoTypes.get(Items.lead).width = 6;
 Blocks.scatter.ammoTypes.get(Items.lead).height = 13;
 Blocks.scatter.ammoTypes.get(Items.lead).ammoMultiplier = 3;
@@ -275,8 +275,6 @@ Blocks.scatter.ammoTypes.get(Items.metaglass).height = 13;
 Blocks.scatter.ammoTypes.get(Items.metaglass).reloadMultiplier = 0.7 //scatter
 
 Blocks.scatter.coolantMultiplier = 7.5;
-Blocks.scatter.shoot.shots = 3;
-Blocks.scatter.shoot.shotDelay = 4;
 Blocks.scatter.rotateSpeed = 10;
 Blocks.scatter.maxAmmo = 15 //scatter
 
@@ -414,7 +412,8 @@ Blocks.spectre.ammoTypes.get(Items.pyratite).splashDamage = 30;
 Blocks.spectre.ammoTypes.get(Items.pyratite).knockback = 0.7;
 Blocks.spectre.ammoTypes.get(Items.pyratite).pierceCap = 2;
 
-Blocks.spectre.maxAmmo = 90; //spectre
+Blocks.spectre.maxAmmo = 90;
+Blocks.spectre.coolantMultiplier = 1.5; //spectre
 
 Blocks.meltdown.rotateSpeed = 1.3;
 Blocks.meltdown.reload = 170;
