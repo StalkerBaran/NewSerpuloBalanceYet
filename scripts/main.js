@@ -1,4 +1,4 @@
-UnitTypes.dagger.weapons.get(0).reload = 19; 
+UnitTypes.dagger.weapons.get(0).reload = 20; 
 UnitTypes.dagger.weapons.get(0).bullet.damage = 12;
 UnitTypes.dagger.speed = 0.7;
 UnitTypes.dagger.health = 120;
