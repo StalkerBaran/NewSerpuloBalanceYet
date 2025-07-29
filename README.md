@@ -16,6 +16,6 @@ Rebalance was designed for Serpulo for improving RTS gameplay (but RTS is still 
 #
 > What to expect from rebalance/How gameplay will be changed/fixed?
 
-### Most issues (how it feels in v7/what how it was fixed/reinforced in v8):
+### Most issues (how it feels in v7/v8/how I fixed them):
 I'll start with complex issues and finish with locals one
 
