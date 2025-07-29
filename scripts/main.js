@@ -413,16 +413,16 @@ Blocks.spectre.ammoTypes.get(Items.pyratite).knockback = 0.7;
 Blocks.spectre.ammoTypes.get(Items.pyratite).pierceCap = 2;
 
 Blocks.spectre.maxAmmo = 90;
-Blocks.spectre.coolantMultiplier = 1.1; //spectre
+Blocks.spectre.coolantMultiplier = 1.0; //spectre
 
 Blocks.meltdown.rotateSpeed = 1.3;
 Blocks.meltdown.reload = 170;
 Blocks.meltdown.shootType.damage = 180; //meltdown
 
-Blocks.foreshadow.reload = 280; 
+Blocks.foreshadow.reload = 270; 
 Blocks.foreshadow.rotateSpeed = 1.3;
-Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).buildingDamageMultiplier = 0.5; //foreshadow
-
+Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).buildingDamageMultiplier = 0.5; 
+Blocks.foreshadow.coolantMultiplier = 1.0; //foreshadow
 
 
 
