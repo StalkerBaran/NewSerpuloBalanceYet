@@ -392,9 +392,11 @@ Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).lightningDamage = 12; //cyclone
 Blocks.cyclone.maxAmmo = 20;
 Blocks.cyclone.rotateSpeed = 7; //cyclone
 
-Blocks.spectre.reload = 7;
+Blocks.spectre.reload = 7.5;
 Blocks.spectre.rotateSpeed = 1.3;
-Blocks.spectre.range = 273; //spectre
+Blocks.spectre.range = 273; 
+Blocks.spectre.maxAmmo = 90;
+Blocks.spectre.coolantMultiplier = 1.0; //spectre
 
 Blocks.spectre.ammoTypes.get(Items.graphite).ammoMultiplier = 3;
 Blocks.spectre.ammoTypes.get(Items.graphite).damage = 80;
@@ -410,16 +412,13 @@ Blocks.spectre.ammoTypes.get(Items.pyratite).damage = 110;
 Blocks.spectre.ammoTypes.get(Items.pyratite).ammoMultiplier = 3;
 Blocks.spectre.ammoTypes.get(Items.pyratite).splashDamage = 30;
 Blocks.spectre.ammoTypes.get(Items.pyratite).knockback = 0.7;
-Blocks.spectre.ammoTypes.get(Items.pyratite).pierceCap = 2;
-
-Blocks.spectre.maxAmmo = 90;
-Blocks.spectre.coolantMultiplier = 1.0; //spectre
+Blocks.spectre.ammoTypes.get(Items.pyratite).pierceCap = 2;  //spectre
 
 Blocks.meltdown.rotateSpeed = 1.3;
 Blocks.meltdown.reload = 170;
 Blocks.meltdown.shootType.damage = 180; //meltdown
 
-Blocks.foreshadow.reload = 270; 
+Blocks.foreshadow.reload = 280; 
 Blocks.foreshadow.rotateSpeed = 1.3;
 Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).buildingDamageMultiplier = 0.5; 
 Blocks.foreshadow.coolantMultiplier = 1.0; //foreshadow
