@@ -413,7 +413,7 @@ Blocks.spectre.ammoTypes.get(Items.pyratite).knockback = 0.7;
 Blocks.spectre.ammoTypes.get(Items.pyratite).pierceCap = 2;
 
 Blocks.spectre.maxAmmo = 90;
-// I'll change later Blocks.spectre.coolantMultiplier = 1.5; //spectre
+Blocks.spectre.coolantMultiplier = 1.3; //spectre
 
 Blocks.meltdown.rotateSpeed = 1.3;
 Blocks.meltdown.reload = 170;
