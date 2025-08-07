@@ -1,12 +1,12 @@
 UnitTypes.dagger.weapons.get(0).reload = 20; 
 UnitTypes.dagger.weapons.get(0).bullet.damage = 12;
-UnitTypes.dagger.speed = 0.68;
+UnitTypes.dagger.speed = 0.685;
 UnitTypes.dagger.health = 120;
 UnitTypes.dagger.armor = 2;
 UnitTypes.dagger.rotateSpeed = 7; 
 UnitTypes.dagger.weapons.get(0).bullet.lifetime = 56; //dagger
 
-UnitTypes.mace.speed = 0.62;
+UnitTypes.mace.speed = 0.625;
 UnitTypes.mace.health = 510;
 UnitTypes.mace.armor = 5;
 UnitTypes.mace.weapons.get(0).bullet.damage = 27;
