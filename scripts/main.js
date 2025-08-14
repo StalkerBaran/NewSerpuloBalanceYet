@@ -30,7 +30,7 @@ UnitTypes.scepter.rotateSpeed = 3.3; //scepter
 
 UnitTypes.reign.speed = 0.56;
 UnitTypes.reign.armor = 25;
-UnitTypes.reign.health = 23000;
+UnitTypes.reign.health = 24000;
 UnitTypes.reign.rotateSpeed = 3;
 UnitTypes.reign.weapons.get(0).bullet.lifetime = 17.1;  //reign
 
