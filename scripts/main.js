@@ -140,7 +140,7 @@ UnitTypes.antumbra.weapons.get(0).bullet.splashDamage = 31;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamageRadius = 33;
 UnitTypes.antumbra.weapons.get(0).bullet.lifetime = 59;
 UnitTypes.antumbra.weapons.get(1).bullet.lifetime = 59;
-UnitTypes.antumbra.weapons.get(2).bullet.lifetime = 33;
+UnitTypes.antumbra.weapons.get(2).bullet.lifetime = 35;
 UnitTypes.antumbra.rotateSpeed = 3.2; //antumbra
 
 UnitTypes.eclipse.health = 23000;
