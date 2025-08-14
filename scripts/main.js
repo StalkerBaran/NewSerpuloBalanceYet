@@ -151,8 +151,8 @@ UnitTypes.eclipse.weapons.get(0).bullet.damage = 130;
 UnitTypes.eclipse.weapons.get(1).bullet.damage = 35;
 UnitTypes.eclipse.weapons.get(2).bullet.damage = 35;
 UnitTypes.eclipse.weapons.get(0).bullet.length = 257;
-UnitTypes.eclipse.weapons.get(1).bullet.lifetime = 63;
-UnitTypes.eclipse.weapons.get(2).bullet.lifetime = 63; //eclipse
+UnitTypes.eclipse.weapons.get(1).bullet.lifetime = 65;
+UnitTypes.eclipse.weapons.get(2).bullet.lifetime = 65; //eclipse
 
 
 UnitTypes.mono.speed = 1.76; //mono
