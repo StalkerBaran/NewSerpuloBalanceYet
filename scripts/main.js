@@ -145,14 +145,14 @@ UnitTypes.antumbra.rotateSpeed = 3.2; //antumbra
 
 UnitTypes.eclipse.health = 23000;
 UnitTypes.eclipse.speed = 0.8;
-UnitTypes.eclipse.armor = 22;
+UnitTypes.eclipse.armor = 21;
 UnitTypes.eclipse.rotateSpeed = 2.7;
 UnitTypes.eclipse.weapons.get(0).bullet.damage = 130;
 UnitTypes.eclipse.weapons.get(1).bullet.damage = 35;
 UnitTypes.eclipse.weapons.get(2).bullet.damage = 35;
 UnitTypes.eclipse.weapons.get(0).bullet.length = 257;
-UnitTypes.eclipse.weapons.get(1).bullet.lifetime = 60;
-UnitTypes.eclipse.weapons.get(2).bullet.lifetime = 60; //eclipse
+UnitTypes.eclipse.weapons.get(1).bullet.lifetime = 61;
+UnitTypes.eclipse.weapons.get(2).bullet.lifetime = 61; //eclipse
 
 
 UnitTypes.mono.speed = 1.76; //mono
