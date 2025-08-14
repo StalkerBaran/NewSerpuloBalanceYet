@@ -134,7 +134,6 @@ UnitTypes.zenith.rotateSpeed = 5.2;
 UnitTypes.zenith.drag = 0.043; //zenith
 
 UnitTypes.antumbra.health = 7100;
-UnitTypes.antumbra.speed = 1;
 UnitTypes.antumbra.armor = 10;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamage = 31;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamageRadius = 33;
@@ -144,15 +143,15 @@ UnitTypes.antumbra.weapons.get(2).bullet.lifetime = 33;
 UnitTypes.antumbra.rotateSpeed = 3.6; //antumbra
 
 UnitTypes.eclipse.health = 23000;
-UnitTypes.eclipse.speed = 0.835;
+UnitTypes.eclipse.speed = 0.8;
 UnitTypes.eclipse.armor = 22;
 UnitTypes.eclipse.rotateSpeed = 3;
 UnitTypes.eclipse.weapons.get(0).bullet.damage = 130;
 UnitTypes.eclipse.weapons.get(1).bullet.damage = 35;
 UnitTypes.eclipse.weapons.get(2).bullet.damage = 35;
-UnitTypes.eclipse.weapons.get(0).bullet.length = 253;
-UnitTypes.eclipse.weapons.get(1).bullet.lifetime = 59;
-UnitTypes.eclipse.weapons.get(2).bullet.lifetime = 59; //eclipse
+UnitTypes.eclipse.weapons.get(0).bullet.length = 257;
+UnitTypes.eclipse.weapons.get(1).bullet.lifetime = 59.5;
+UnitTypes.eclipse.weapons.get(2).bullet.lifetime = 59.5; //eclipse
 
 
 UnitTypes.mono.speed = 1.76; //mono
