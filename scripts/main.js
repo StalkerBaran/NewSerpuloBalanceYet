@@ -175,12 +175,11 @@ UnitTypes.mega.weapons.get(1).bullet.healAmount = 5.5; //mega
 UnitTypes.quad.buildSpeed = 3.5;
 UnitTypes.quad.rotateSpeed = 3; //quad
 
-UnitTypes.oct.speed = 0.95;
 UnitTypes.oct.armor = 15;
 UnitTypes.oct.health = 18000;
 UnitTypes.oct.rotateSpeed = 3;
-UnitTypes.oct.abilities.get(0).regen = 12;
-UnitTypes.oct.abilities.get(0).max = 13000;
+UnitTypes.oct.abilities.get(0).regen = 10;
+UnitTypes.oct.abilities.get(0).max = 12000;
 UnitTypes.oct.abilities.get(1).amount = 700; //oct
 
 
