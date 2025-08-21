@@ -51,9 +51,11 @@ UnitTypes.pulsar.mineSpeed = 3.5;
 UnitTypes.pulsar.weapons.get(0).bullet.damage = 13; 
 UnitTypes.pulsar.weapons.get(0).bullet.healPercent = 0.75; //pulsar
 
-UnitTypes.quasar.speed = 0.58;
+UnitTypes.quasar.speed = 0.565;
+UnitTypes.quasar.armor = 8;
 UnitTypes.quasar.weapons.get(0).reload = 37; 
-UnitTypes.quasar.health = 810;
+UnitTypes.quasar.health = 750;
+UnitTypes.quasar.boostMultiplier = 1.8;
 UnitTypes.quasar.rotateSpeed = 5;
 UnitTypes.quasar.abilities.get(0).cooldown = 180;
 UnitTypes.quasar.abilities.get(0).regen = 0.6;
