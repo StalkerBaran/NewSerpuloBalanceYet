@@ -277,8 +277,7 @@ Blocks.scatter.ammoTypes.get(Items.metaglass).height = 13;
 Blocks.scatter.ammoTypes.get(Items.metaglass).reloadMultiplier = 0.7 //scatter
 
 Blocks.scatter.coolantMultiplier = 7.5;
-Blocks.scatter.rotateSpeed = 10;
-Blocks.scatter.ammoTypes.get(Items.lead).ammoMultiplier = 4; //scatter
+Blocks.scatter.rotateSpeed = 10; //scatter
 
 Blocks.scorch.ammoTypes.get(Items.coal).damage = 17;
 Blocks.scorch.ammoTypes.get(Items.pyratite).damage = 52;
