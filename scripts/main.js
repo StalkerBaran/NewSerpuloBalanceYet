@@ -255,8 +255,7 @@ UnitTypes.navanax.weapons.get(4).bullet.lifetime = 35;
 Blocks.duo.ammoTypes.get(Items.copper).damage = 13;
 Blocks.duo.ammoTypes.get(Items.silicon).damage = 15;
 Blocks.duo.ammoTypes.get(Items.graphite).damage = 21; 
-Blocks.duo.ammoTypes.get(Items.graphite).reloadMultiplier = 0.7;
-Blocks.duo.maxAmmo = 20 //duo
+Blocks.duo.ammoTypes.get(Items.graphite).reloadMultiplier = 0.7; //duo
 
 Blocks.scatter.ammoTypes.get(Items.scrap).splashDamage = 13 * 1.5; 
 Blocks.scatter.ammoTypes.get(Items.scrap).splashDamageRadius = 33; //scatter
@@ -279,7 +278,6 @@ Blocks.scatter.ammoTypes.get(Items.metaglass).reloadMultiplier = 0.7 //scatter
 
 Blocks.scatter.coolantMultiplier = 7.5;
 Blocks.scatter.rotateSpeed = 10;
-Blocks.scatter.maxAmmo = 20;
 Blocks.scatter.ammoTypes.get(Items.lead).ammoMultiplier = 4; //scatter
 
 Blocks.scorch.ammoTypes.get(Items.coal).damage = 17;
