@@ -101,8 +101,8 @@ UnitTypes.spiroct.health = 1100;
 UnitTypes.spiroct.weapons.get(1).reload = 15;
 UnitTypes.spiroct.rotateSpeed = 7.2; //spiroct
 
-UnitTypes.arkyid.speed = 0.87;
-UnitTypes.arkyid.health = 7300;
+UnitTypes.arkyid.speed = 0.865;
+UnitTypes.arkyid.health = 7200;
 UnitTypes.arkyid.armor = 11;
 UnitTypes.arkyid.weapons.get(3).bullet.splashDamage = 75;
 UnitTypes.arkyid.rotateSpeed = 4; //arkyid
@@ -365,7 +365,7 @@ Blocks.ripple.ammoTypes.get(Items.blastCompound).width = 18;
 Blocks.ripple.ammoTypes.get(Items.blastCompound).height = 18;
 Blocks.ripple.ammoTypes.get(Items.blastCompound).splashDamageRadius = 42;
 Blocks.ripple.ammoTypes.get(Items.blastCompound).splashDamage = 75;
-Blocks.ripple.ammoTypes.get(Items.blastCompound).reloadMultiplier = 0.8; //ripple
+Blocks.ripple.ammoTypes.get(Items.blastCompound).reloadMultiplier = 0.7; //ripple
 
 
 Blocks.cyclone.ammoTypes.get(Items.metaglass).damage = 13;
