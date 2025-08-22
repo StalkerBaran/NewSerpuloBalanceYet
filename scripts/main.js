@@ -20,9 +20,9 @@ UnitTypes.fortress.weapons.get(0).bullet.speed = 2.5;
 UnitTypes.fortress.weapons.get(0).bullet.splashDamage = 70;
 UnitTypes.fortress.weapons.get(0).bullet.lifetime = 96.6; //fortress
 
-UnitTypes.scepter.speed = 0.535;
-UnitTypes.scepter.armor = 13;
-UnitTypes.scepter.health = 9100;
+UnitTypes.scepter.speed = 0.53;
+UnitTypes.scepter.armor = 12;
+UnitTypes.scepter.health = 8100;
 UnitTypes.scepter.weapons.get(2).bullet.damage = 30;
 UnitTypes.scepter.weapons.get(1).bullet.lifetime = 55;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 22;
@@ -88,21 +88,21 @@ UnitTypes.corvus.weapons.get(0).shootStatusDuration = 72 * 2; //corvus
 
 UnitTypes.crawler.health = 110;
 
-UnitTypes.atrax.speed = 0.835;
+UnitTypes.atrax.speed = 0.84;
 UnitTypes.atrax.health = 390;
 UnitTypes.atrax.armor = 3;
 UnitTypes.atrax.rotateSpeed = 7.5; 
 UnitTypes.atrax.weapons.get(0).bullet.damage = 11; // Атрах
 
-UnitTypes.spiroct.speed = 0.88;
+UnitTypes.spiroct.speed = 0.885;
 UnitTypes.spiroct.armor = 10;
 UnitTypes.spiroct.health = 1100;
 UnitTypes.spiroct.weapons.get(1).reload = 15;
 UnitTypes.spiroct.rotateSpeed = 7.2; //spiroct
 
-UnitTypes.arkyid.speed = 0.86;
-UnitTypes.arkyid.health = 8100;
-UnitTypes.arkyid.armor = 12;
+UnitTypes.arkyid.speed = 0.87;
+UnitTypes.arkyid.health = 7300;
+UnitTypes.arkyid.armor = 11;
 UnitTypes.arkyid.weapons.get(3).bullet.splashDamage = 75;
 UnitTypes.arkyid.rotateSpeed = 4; //arkyid
 
@@ -353,18 +353,18 @@ Blocks.ripple.ammoTypes.get(Items.graphite).width = 16;
 Blocks.ripple.ammoTypes.get(Items.graphite).height = 16; //ripple
 
 Blocks.ripple.ammoTypes.get(Items.plastanium).splashDamage = 32; 
-Blocks.ripple.ammoTypes.get(Items.plastanium).fragBullets = 4; //ripple
+Blocks.ripple.ammoTypes.get(Items.plastanium).fragBullets = 7; //ripple
 
 Blocks.ripple.ammoTypes.get(Items.pyratite).splashDamage = 48;
 Blocks.ripple.ammoTypes.get(Items.pyratite).splashDamageRadius = 38;
 Blocks.ripple.ammoTypes.get(Items.pyratite).width = 18;
 Blocks.ripple.ammoTypes.get(Items.pyratite).height = 18; //ripple
 
-Blocks.ripple.ammoTypes.get(Items.blastCompound).width = 17;
-Blocks.ripple.ammoTypes.get(Items.blastCompound).height = 17;
-Blocks.ripple.ammoTypes.get(Items.blastCompound).splashDamageRadius = 35;
+Blocks.ripple.ammoTypes.get(Items.blastCompound).width = 18;
+Blocks.ripple.ammoTypes.get(Items.blastCompound).height = 18;
+Blocks.ripple.ammoTypes.get(Items.blastCompound).splashDamageRadius = 42;
 Blocks.ripple.ammoTypes.get(Items.blastCompound).splashDamage = 75;
-Blocks.ripple.ammoTypes.get(Items.blastCompound).reloadMultiplier = 0.7; //ripple
+Blocks.ripple.ammoTypes.get(Items.blastCompound).reloadMultiplier = 0.8; //ripple
 
 
 Blocks.cyclone.ammoTypes.get(Items.metaglass).damage = 13;
@@ -381,10 +381,9 @@ Blocks.cyclone.ammoTypes.get(Items.plastanium).damage = 15; //cyclone
 Blocks.cyclone.ammoTypes.get(Items.blastCompound).damage = 13;
 Blocks.cyclone.ammoTypes.get(Items.blastCompound).splashDamage = 55; //cyclone
 
-Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.9;
-Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 33;
+Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).splashDamageRadius = 35;
 Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).lightning = 3;
-Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).lightningDamage = 12; //cyclone
+Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).lightningDamage = 15; //cyclone
 
 Blocks.cyclone.rotateSpeed = 7; //cyclone
 
@@ -449,7 +448,7 @@ Blocks.surgeWallLarge.health = 3920; //walls
 
 
 
-Blocks.shockMine.damage = 12;
+Blocks.shockMine.damage = 13;
 Blocks.shockMine.tendrils = 7;
 Blocks.shockMine.health = 30;
 
