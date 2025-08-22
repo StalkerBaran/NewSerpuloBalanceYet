@@ -1,10 +1,10 @@
 UnitTypes.dagger.weapons.get(0).reload = 20; 
 UnitTypes.dagger.weapons.get(0).bullet.damage = 12;
-UnitTypes.dagger.speed = 0.685;
+UnitTypes.dagger.speed = 0.68;
 UnitTypes.dagger.health = 120;
 UnitTypes.dagger.armor = 2;
 UnitTypes.dagger.rotateSpeed = 7; 
-UnitTypes.dagger.weapons.get(0).bullet.lifetime = 56; //dagger
+UnitTypes.dagger.weapons.get(0).bullet.lifetime = 56.5; //dagger
 
 UnitTypes.mace.speed = 0.625;
 UnitTypes.mace.health = 510;
@@ -23,12 +23,13 @@ UnitTypes.fortress.weapons.get(0).bullet.lifetime = 96.6; //fortress
 UnitTypes.scepter.speed = 0.53;
 UnitTypes.scepter.armor = 12;
 UnitTypes.scepter.health = 8100;
-UnitTypes.scepter.weapons.get(2).bullet.damage = 30;
+UnitTypes.scepter.weapons.get(2).bullet.damage = 20;
+UnitTypes.scepter.weapons.get(0).bullet.damage = 70;
 UnitTypes.scepter.weapons.get(1).bullet.lifetime = 55;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 22;
 UnitTypes.scepter.rotateSpeed = 3.2; //scepter
 
-UnitTypes.reign.speed = 0.56;
+UnitTypes.reign.speed = 0.535;
 UnitTypes.reign.armor = 25;
 UnitTypes.reign.health = 24000;
 UnitTypes.reign.rotateSpeed = 3;
@@ -46,7 +47,7 @@ UnitTypes.nova.weapons.get(0).bullet.healPercent = 1;
 UnitTypes.nova.weapons.get(0).bullet.healAmount = 10; //nova
 
 UnitTypes.pulsar.speed = 0.73; 
-UnitTypes.pulsar.health = 270;
+UnitTypes.pulsar.health = 290;
 UnitTypes.pulsar.mineSpeed = 3.5;
 UnitTypes.pulsar.weapons.get(0).bullet.damage = 13; 
 UnitTypes.pulsar.weapons.get(0).bullet.healPercent = 0.75; //pulsar
@@ -64,8 +65,8 @@ UnitTypes.quasar.weapons.get(0).bullet.healPercent = 5;
 UnitTypes.quasar.weapons.get(0).bullet.healAmount = 35; //quasar
 
 UnitTypes.vela.health = 7300;
-UnitTypes.vela.speed = 0.59;
-UnitTypes.vela.armor = 11;
+UnitTypes.vela.speed = 0.575;
+UnitTypes.vela.armor = 12;
 UnitTypes.vela.rotateSpeed = 3.5; 
 UnitTypes.vela.weapons.get(1).repairSpeed = 1.94; //vela
 UnitTypes.vela.boostMultiplier = 1.6;
@@ -323,7 +324,7 @@ Blocks.salvo.ammoTypes.get(Items.copper).knockback = 0.6;
 
 Blocks.salvo.ammoTypes.get(Items.graphite).damage = 23;
 Blocks.salvo.ammoTypes.get(Items.graphite).reloadMultiplier = 0.7;
-Blocks.salvo.ammoTypes.get(Items.graphite).knockback = 1.1;
+Blocks.salvo.ammoTypes.get(Items.graphite).knockback = 1.2;
 
 Blocks.salvo.ammoTypes.get(Items.pyratite).damage = 25;
 Blocks.salvo.ammoTypes.get(Items.pyratite).knockback = 0.7;
@@ -334,7 +335,7 @@ Blocks.salvo.ammoTypes.get(Items.silicon).knockback = 0.3;
 
 Blocks.salvo.ammoTypes.get(Items.thorium).damage = 31;
 Blocks.salvo.ammoTypes.get(Items.thorium).reloadMultiplier = 0.7;
-Blocks.salvo.ammoTypes.get(Items.thorium).knockback = 1.3;
+Blocks.salvo.ammoTypes.get(Items.thorium).knockback = 1.5;
  
 Blocks.salvo.reload = 32;
 Blocks.salvo.inaccuracy = 5; //salvo 
@@ -421,9 +422,9 @@ Blocks.foreshadow.coolantMultiplier = 1.0; //foreshadow
 
 
 
-StatusEffects.wet.transitionDamage = 12; //shocked
+StatusEffects.wet.transitionDamage = 13; //shocked
 
-StatusEffects.freezing.transitionDamage = 13; //freezing
+StatusEffects.freezing.transitionDamage = 15; //freezing
 
 StatusEffects.burning.reloadMultiplier = 0.9;
 StatusEffects.burning.speedMultiplier = 0.9; //burning
