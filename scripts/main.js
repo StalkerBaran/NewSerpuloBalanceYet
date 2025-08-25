@@ -20,8 +20,8 @@ UnitTypes.fortress.weapons.get(0).bullet.speed = 2.5;
 UnitTypes.fortress.weapons.get(0).bullet.splashDamage = 70;
 UnitTypes.fortress.weapons.get(0).bullet.lifetime = 96.6; //fortress
 
-UnitTypes.scepter.speed = 0.53;
-UnitTypes.scepter.armor = 12;
+UnitTypes.scepter.speed = 0.525;
+UnitTypes.scepter.armor = 13;
 UnitTypes.scepter.health = 9100;
 UnitTypes.scepter.weapons.get(2).bullet.damage = 30;
 UnitTypes.scepter.weapons.get(0).bullet.damage = 70;
@@ -64,20 +64,20 @@ UnitTypes.quasar.abilities.get(0).max = 512;
 UnitTypes.quasar.weapons.get(0).bullet.healPercent = 5;
 UnitTypes.quasar.weapons.get(0).bullet.healAmount = 35; //quasar
 
-UnitTypes.vela.health = 7300;
-UnitTypes.vela.speed = 0.575;
+UnitTypes.vela.health = 7500;
+UnitTypes.vela.speed = 0.53;
 UnitTypes.vela.armor = 11;
 UnitTypes.vela.rotateSpeed = 3.5; 
 UnitTypes.vela.weapons.get(1).repairSpeed = 1.94; //vela
 UnitTypes.vela.boostMultiplier = 1.6;
 
-UnitTypes.corvus.speed = 0.4;
+UnitTypes.corvus.speed = 0.39;
 UnitTypes.corvus.rotateSpeed = 2.4;
 UnitTypes.corvus.armor = 13;
 UnitTypes.corvus.health = 15000;
 UnitTypes.corvus.weapons.get(0).reload = 540;
 UnitTypes.corvus.weapons.get(0).shoot.shots = 3;
-UnitTypes.corvus.weapons.get(0).shoot.shotDelay = 29;
+UnitTypes.corvus.weapons.get(0).shoot.shotDelay = 30;
 UnitTypes.corvus.weapons.get(0).bullet.damage = 74;
 UnitTypes.corvus.weapons.get(0).bullet.lightningDamage = 17;
 UnitTypes.corvus.weapons.get(0).bullet.buildingDamageMultiplier = 3;
@@ -136,7 +136,7 @@ UnitTypes.zenith.weapons.get(0).bullet.lifetime = 55;
 UnitTypes.zenith.rotateSpeed = 5.2;
 UnitTypes.zenith.drag = 0.043; //zenith
 
-UnitTypes.antumbra.health = 7100;
+UnitTypes.antumbra.health = 7200;
 UnitTypes.antumbra.armor = 10;
 UnitTypes.antumbra.speed = 0.747;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamage = 31;
