@@ -101,8 +101,8 @@ UnitTypes.spiroct.health = 1100;
 UnitTypes.spiroct.weapons.get(1).reload = 15;
 UnitTypes.spiroct.rotateSpeed = 7.2; //spiroct
 
-UnitTypes.arkyid.speed = 0.9;
-UnitTypes.arkyid.health = 7200;
+UnitTypes.arkyid.speed = 0.92;
+UnitTypes.arkyid.health = 7100;
 UnitTypes.arkyid.armor = 11;
 UnitTypes.arkyid.weapons.get(3).bullet.splashDamage = 75;
 UnitTypes.arkyid.rotateSpeed = 4; //arkyid
@@ -111,10 +111,9 @@ UnitTypes.toxopid.speed = 0.84;
 UnitTypes.toxopid.health = 19000;
 UnitTypes.toxopid.armor = 15;
 UnitTypes.toxopid.weapons.get(1).bullet.damage = 110;
-UnitTypes.toxopid.weapons.get(1).bullet.lifetime = 72;
+UnitTypes.toxopid.weapons.get(1).bullet.lifetime = 73;
 UnitTypes.toxopid.weapons.get(0).bullet.damage = 180;
 UnitTypes.toxopid.rotateSpeed = 2.8; //toxopидор
-
 
 
 UnitTypes.flare.weapons.get(0).reload = 15;
@@ -258,19 +257,19 @@ Blocks.duo.ammoTypes.get(Items.silicon).damage = 15;
 Blocks.duo.ammoTypes.get(Items.graphite).damage = 21; 
 Blocks.duo.ammoTypes.get(Items.graphite).reloadMultiplier = 0.7; //duo
 
-Blocks.scatter.ammoTypes.get(Items.scrap).splashDamage = 13 * 1.5; 
+Blocks.scatter.ammoTypes.get(Items.scrap).splashDamage = 15 * 1.5; 
 Blocks.scatter.ammoTypes.get(Items.scrap).splashDamageRadius = 33; //scatter
 Blocks.scatter.ammoTypes.get(Items.scrap).width = 6;
 Blocks.scatter.ammoTypes.get(Items.scrap).height = 13;
 
-Blocks.scatter.ammoTypes.get(Items.lead).splashDamage = 7  * 1.5; 
+Blocks.scatter.ammoTypes.get(Items.lead).splashDamage = 11  * 1.5; 
 Blocks.scatter.ammoTypes.get(Items.lead).splashDamageRadius = 28; //scatter
 Blocks.scatter.ammoTypes.get(Items.lead).width = 6;
 Blocks.scatter.ammoTypes.get(Items.lead).height = 13;
 Blocks.scatter.ammoTypes.get(Items.lead).ammoMultiplier = 3;
 
 Blocks.scatter.ammoTypes.get(Items.metaglass).splashDamageRadius = 27; 
-Blocks.scatter.ammoTypes.get(Items.metaglass).splashDamage = 12  * 1.5;
+Blocks.scatter.ammoTypes.get(Items.metaglass).splashDamage = 13  * 1.5;
 Blocks.scatter.ammoTypes.get(Items.metaglass).fragBullet.damage = 5; 
 Blocks.scatter.ammoTypes.get(Items.metaglass).fragBullets = 4;
 Blocks.scatter.ammoTypes.get(Items.metaglass).width = 6;
@@ -397,8 +396,7 @@ Blocks.spectre.coolantMultiplier = 1.0; //spectre
 
 Blocks.spectre.ammoTypes.get(Items.graphite).ammoMultiplier = 3;
 Blocks.spectre.ammoTypes.get(Items.graphite).damage = 80;
-Blocks.spectre.ammoTypes.get(Items.graphite).knockback = 1;
-Blocks.spectre.ammoTypes.get(Items.graphite).pierceCap = 2; //spectre
+Blocks.spectre.ammoTypes.get(Items.graphite).knockback = 1; //spectre
 
 Blocks.spectre.ammoTypes.get(Items.thorium).damage = 120;
 Blocks.spectre.ammoTypes.get(Items.thorium).ammoMultiplier = 2;
