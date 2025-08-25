@@ -22,8 +22,8 @@ UnitTypes.fortress.weapons.get(0).bullet.lifetime = 96.6; //fortress
 
 UnitTypes.scepter.speed = 0.53;
 UnitTypes.scepter.armor = 12;
-UnitTypes.scepter.health = 8100;
-UnitTypes.scepter.weapons.get(2).bullet.damage = 20;
+UnitTypes.scepter.health = 9100;
+UnitTypes.scepter.weapons.get(2).bullet.damage = 30;
 UnitTypes.scepter.weapons.get(0).bullet.damage = 70;
 UnitTypes.scepter.weapons.get(1).bullet.lifetime = 55;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 22;
@@ -66,7 +66,7 @@ UnitTypes.quasar.weapons.get(0).bullet.healAmount = 35; //quasar
 
 UnitTypes.vela.health = 7300;
 UnitTypes.vela.speed = 0.575;
-UnitTypes.vela.armor = 12;
+UnitTypes.vela.armor = 11;
 UnitTypes.vela.rotateSpeed = 3.5; 
 UnitTypes.vela.weapons.get(1).repairSpeed = 1.94; //vela
 UnitTypes.vela.boostMultiplier = 1.6;
@@ -101,14 +101,14 @@ UnitTypes.spiroct.health = 1100;
 UnitTypes.spiroct.weapons.get(1).reload = 15;
 UnitTypes.spiroct.rotateSpeed = 7.2; //spiroct
 
-UnitTypes.arkyid.speed = 0.865;
-UnitTypes.arkyid.health = 7200;
+UnitTypes.arkyid.speed = 0.86;
+UnitTypes.arkyid.health = 7300;
 UnitTypes.arkyid.armor = 11;
 UnitTypes.arkyid.weapons.get(3).bullet.splashDamage = 75;
 UnitTypes.arkyid.rotateSpeed = 4; //arkyid
 
-UnitTypes.toxopid.speed = 0.845;
-UnitTypes.toxopid.health = 18000;
+UnitTypes.toxopid.speed = 0.84;
+UnitTypes.toxopid.health = 19000;
 UnitTypes.toxopid.armor = 15;
 UnitTypes.toxopid.weapons.get(1).bullet.damage = 110;
 UnitTypes.toxopid.weapons.get(1).bullet.lifetime = 72;
