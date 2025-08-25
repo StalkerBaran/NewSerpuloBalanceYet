@@ -64,8 +64,8 @@ UnitTypes.quasar.abilities.get(0).max = 512;
 UnitTypes.quasar.weapons.get(0).bullet.healPercent = 5;
 UnitTypes.quasar.weapons.get(0).bullet.healAmount = 35; //quasar
 
-UnitTypes.vela.health = 7500;
-UnitTypes.vela.speed = 0.53;
+UnitTypes.vela.health = 7800;
+UnitTypes.vela.speed = 0.54;
 UnitTypes.vela.armor = 11;
 UnitTypes.vela.rotateSpeed = 3.5; 
 UnitTypes.vela.weapons.get(1).repairSpeed = 1.94; //vela
