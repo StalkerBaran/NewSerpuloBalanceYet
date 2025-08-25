@@ -95,14 +95,14 @@ UnitTypes.atrax.armor = 3;
 UnitTypes.atrax.rotateSpeed = 7.5; 
 UnitTypes.atrax.weapons.get(0).bullet.damage = 11; // Атрах
 
-UnitTypes.spiroct.speed = 0.885;
+UnitTypes.spiroct.speed = 0.895;
 UnitTypes.spiroct.armor = 10;
 UnitTypes.spiroct.health = 1100;
 UnitTypes.spiroct.weapons.get(1).reload = 15;
 UnitTypes.spiroct.rotateSpeed = 7.2; //spiroct
 
-UnitTypes.arkyid.speed = 0.86;
-UnitTypes.arkyid.health = 7300;
+UnitTypes.arkyid.speed = 0.9;
+UnitTypes.arkyid.health = 7200;
 UnitTypes.arkyid.armor = 11;
 UnitTypes.arkyid.weapons.get(3).bullet.splashDamage = 75;
 UnitTypes.arkyid.rotateSpeed = 4; //arkyid
@@ -136,18 +136,18 @@ UnitTypes.zenith.weapons.get(0).bullet.lifetime = 55;
 UnitTypes.zenith.rotateSpeed = 5.2;
 UnitTypes.zenith.drag = 0.043; //zenith
 
-UnitTypes.antumbra.health = 7200;
+UnitTypes.antumbra.health = 8300;
 UnitTypes.antumbra.armor = 10;
-UnitTypes.antumbra.speed = 0.747;
+UnitTypes.antumbra.speed = 0.73;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamage = 31;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamageRadius = 33;
-UnitTypes.antumbra.weapons.get(0).bullet.lifetime = 60;
-UnitTypes.antumbra.weapons.get(1).bullet.lifetime = 60;
+UnitTypes.antumbra.weapons.get(0).bullet.lifetime = 62;
+UnitTypes.antumbra.weapons.get(1).bullet.lifetime = 63;
 UnitTypes.antumbra.weapons.get(2).bullet.lifetime = 32.5;
 UnitTypes.antumbra.rotateSpeed = 3.2; //antumbra
 
 UnitTypes.eclipse.health = 23000;
-UnitTypes.eclipse.speed = 0.8;
+UnitTypes.eclipse.speed = 0.7;
 UnitTypes.eclipse.armor = 21;
 UnitTypes.eclipse.rotateSpeed = 2.7;
 UnitTypes.eclipse.weapons.get(0).bullet.damage = 130;
