@@ -12,7 +12,7 @@ UnitTypes.mace.armor = 5;
 UnitTypes.mace.weapons.get(0).bullet.damage = 27;
 UnitTypes.mace.rotateSpeed = 4; //mace
 
-UnitTypes.fortress.speed = 0.52;
+UnitTypes.fortress.speed = 0.51;
 UnitTypes.fortress.health = 930;
 UnitTypes.fortress.armor = 10;
 UnitTypes.fortress.rotateSpeed = 3.4;
@@ -20,7 +20,7 @@ UnitTypes.fortress.weapons.get(0).bullet.speed = 2.5;
 UnitTypes.fortress.weapons.get(0).bullet.splashDamage = 70;
 UnitTypes.fortress.weapons.get(0).bullet.lifetime = 96.6; //fortress
 
-UnitTypes.scepter.speed = 0.53;
+UnitTypes.scepter.speed = 0.52;
 UnitTypes.scepter.armor = 13;
 UnitTypes.scepter.health = 9100;
 UnitTypes.scepter.weapons.get(2).bullet.damage = 30;
@@ -29,7 +29,7 @@ UnitTypes.scepter.weapons.get(1).bullet.lifetime = 55;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 22;
 UnitTypes.scepter.rotateSpeed = 3.2; //scepter
 
-UnitTypes.reign.speed = 0.535;
+UnitTypes.reign.speed = 0.4933;
 UnitTypes.reign.armor = 25;
 UnitTypes.reign.health = 24000;
 UnitTypes.reign.rotateSpeed = 3;
@@ -38,7 +38,7 @@ UnitTypes.reign.weapons.get(0).bullet.lifetime = 17.1;  //reign
 
 UnitTypes.nova.weapons.get(0).bullet.damage = 12;
 UnitTypes.nova.weapons.get(0).reload = 18;
-UnitTypes.nova.speed = 0.69;
+UnitTypes.nova.speed = 0.6933;
 UnitTypes.nova.health = 90;
 UnitTypes.nova.armor = 1;
 UnitTypes.nova.abilities.get(0).reload = 90;
@@ -46,7 +46,7 @@ UnitTypes.nova.rotateSpeed = 7;
 UnitTypes.nova.weapons.get(0).bullet.healPercent = 1;
 UnitTypes.nova.weapons.get(0).bullet.healAmount = 10; //nova
 
-UnitTypes.pulsar.speed = 0.73; 
+UnitTypes.pulsar.speed = 0.7293; 
 UnitTypes.pulsar.health = 290;
 UnitTypes.pulsar.mineSpeed = 3.5;
 UnitTypes.pulsar.weapons.get(0).bullet.damage = 13; 
@@ -65,15 +65,14 @@ UnitTypes.quasar.weapons.get(0).bullet.healPercent = 5;
 UnitTypes.quasar.weapons.get(0).bullet.healAmount = 35; //quasar
 
 UnitTypes.vela.health = 7800;
-UnitTypes.vela.speed = 0.545;
+UnitTypes.vela.speed = 0.546;
 UnitTypes.vela.armor = 11;
 UnitTypes.vela.rotateSpeed = 3.5; 
 UnitTypes.vela.weapons.get(1).repairSpeed = 1.94; //vela
 UnitTypes.vela.boostMultiplier = 1.6;
 
-UnitTypes.corvus.speed = 0.39;
-UnitTypes.corvus.rotateSpeed = 2.4;
-UnitTypes.corvus.armor = 13;
+UnitTypes.corvus.speed = 0.36;
+UnitTypes.corvus.armor = 12;
 UnitTypes.corvus.health = 15000;
 UnitTypes.corvus.weapons.get(0).reload = 540;
 UnitTypes.corvus.weapons.get(0).shoot.shots = 3;
@@ -89,7 +88,7 @@ UnitTypes.corvus.weapons.get(0).shootStatusDuration = 72 * 2; //corvus
 
 UnitTypes.crawler.health = 110;
 
-UnitTypes.atrax.speed = 0.855;
+UnitTypes.atrax.speed = 0.853;
 UnitTypes.atrax.health = 370;
 UnitTypes.atrax.armor = 3;
 UnitTypes.atrax.rotateSpeed = 7.5; 
