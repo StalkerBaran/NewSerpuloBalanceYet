@@ -43,7 +43,7 @@ UnitTypes.nova.health = 90;
 UnitTypes.nova.armor = 1;
 UnitTypes.nova.abilities.get(0).reload = 90;
 UnitTypes.nova.rotateSpeed = 7; 
-UnitTypes.nova.weapons.get(0).bullet.healPercent = 1;
+UnitTypes.nova.weapons.get(0).bullet.healPercent = 2;
 UnitTypes.nova.weapons.get(0).bullet.healAmount = 10; //nova
 
 UnitTypes.pulsar.speed = 0.732; 
@@ -67,7 +67,7 @@ UnitTypes.quasar.weapons.get(0).bullet.healAmount = 35; //quasar
 UnitTypes.vela.health = 7800;
 UnitTypes.vela.speed = 0.56;
 UnitTypes.vela.armor = 11;
-UnitTypes.vela.rotateSpeed = 3.5; 
+UnitTypes.vela.rotateSpeed = 3.2; 
 UnitTypes.vela.weapons.get(1).repairSpeed = 1.94; //vela
 UnitTypes.vela.boostMultiplier = 1.6;
 
