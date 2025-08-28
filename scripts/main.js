@@ -15,24 +15,24 @@ UnitTypes.mace.rotateSpeed = 4; //mace
 UnitTypes.fortress.speed = 0.51;
 UnitTypes.fortress.health = 930;
 UnitTypes.fortress.armor = 10;
-UnitTypes.fortress.rotateSpeed = 3.4;
+UnitTypes.fortress.rotateSpeed = 3.2;
 UnitTypes.fortress.weapons.get(0).bullet.speed = 2.5;
 UnitTypes.fortress.weapons.get(0).bullet.splashDamage = 70;
-UnitTypes.fortress.weapons.get(0).bullet.lifetime = 96.6; //fortress
+UnitTypes.fortress.weapons.get(0).bullet.lifetime = 96.5; //fortress
 
 UnitTypes.scepter.speed = 0.52;
 UnitTypes.scepter.armor = 13;
 UnitTypes.scepter.health = 9100;
-UnitTypes.scepter.weapons.get(2).bullet.damage = 30;
+UnitTypes.scepter.weapons.get(2).bullet.damage = 23;
 UnitTypes.scepter.weapons.get(0).bullet.damage = 70;
 UnitTypes.scepter.weapons.get(1).bullet.lifetime = 55;
 UnitTypes.scepter.weapons.get(0).bullet.lifetime = 22;
-UnitTypes.scepter.rotateSpeed = 3.2; //scepter
+UnitTypes.scepter.rotateSpeed = 3; //scepter
 
 UnitTypes.reign.speed = 0.4933;
 UnitTypes.reign.armor = 25;
 UnitTypes.reign.health = 24000;
-UnitTypes.reign.rotateSpeed = 3;
+UnitTypes.reign.rotateSpeed = 2.6;
 UnitTypes.reign.weapons.get(0).bullet.lifetime = 17.1;  //reign
 
 
