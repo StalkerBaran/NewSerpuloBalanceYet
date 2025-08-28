@@ -38,7 +38,7 @@ UnitTypes.reign.weapons.get(0).bullet.lifetime = 17.1;  //reign
 
 UnitTypes.nova.weapons.get(0).bullet.damage = 12;
 UnitTypes.nova.weapons.get(0).reload = 18;
-UnitTypes.nova.speed = 0.6933;
+UnitTypes.nova.speed = 0.7;
 UnitTypes.nova.health = 90;
 UnitTypes.nova.armor = 1;
 UnitTypes.nova.abilities.get(0).reload = 90;
@@ -46,7 +46,7 @@ UnitTypes.nova.rotateSpeed = 7;
 UnitTypes.nova.weapons.get(0).bullet.healPercent = 1;
 UnitTypes.nova.weapons.get(0).bullet.healAmount = 10; //nova
 
-UnitTypes.pulsar.speed = 0.7293; 
+UnitTypes.pulsar.speed = 0.732; 
 UnitTypes.pulsar.health = 290;
 UnitTypes.pulsar.mineSpeed = 3.5;
 UnitTypes.pulsar.weapons.get(0).bullet.damage = 13; 
@@ -65,7 +65,7 @@ UnitTypes.quasar.weapons.get(0).bullet.healPercent = 5;
 UnitTypes.quasar.weapons.get(0).bullet.healAmount = 35; //quasar
 
 UnitTypes.vela.health = 7800;
-UnitTypes.vela.speed = 0.546;
+UnitTypes.vela.speed = 0.56;
 UnitTypes.vela.armor = 11;
 UnitTypes.vela.rotateSpeed = 3.5; 
 UnitTypes.vela.weapons.get(1).repairSpeed = 1.94; //vela
@@ -88,7 +88,7 @@ UnitTypes.corvus.weapons.get(0).shootStatusDuration = 72 * 2; //corvus
 
 UnitTypes.crawler.health = 110;
 
-UnitTypes.atrax.speed = 0.853;
+UnitTypes.atrax.speed = 0.84;
 UnitTypes.atrax.health = 370;
 UnitTypes.atrax.armor = 3;
 UnitTypes.atrax.rotateSpeed = 7.5; 
@@ -100,7 +100,7 @@ UnitTypes.spiroct.health = 1100;
 UnitTypes.spiroct.weapons.get(1).reload = 15;
 UnitTypes.spiroct.rotateSpeed = 7.2; //spiroct
 
-UnitTypes.arkyid.speed = 0.913;
+UnitTypes.arkyid.speed = 0.92;
 UnitTypes.arkyid.health = 7200;
 UnitTypes.arkyid.armor = 11;
 UnitTypes.arkyid.weapons.get(3).bullet.splashDamage = 75;
@@ -121,7 +121,7 @@ UnitTypes.flare.health = 30;
 UnitTypes.flare.rotateSpeed = 9;
 UnitTypes.flare.weapons.get(0).bullet.damage = 10; //flare
 
-UnitTypes.horizon.speed = 2.26;
+UnitTypes.horizon.speed = 2.2;
 UnitTypes.horizon.health = 210;
 UnitTypes.horizon.armor = 3;
 UnitTypes.horizon.itemCapacity = 30; 
@@ -136,7 +136,7 @@ UnitTypes.zenith.drag = 0.043; //zenith
 
 UnitTypes.antumbra.health = 8300;
 UnitTypes.antumbra.armor = 10;
-UnitTypes.antumbra.speed = 0.73;
+UnitTypes.antumbra.speed = 0.72;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamage = 31;
 UnitTypes.antumbra.weapons.get(0).bullet.splashDamageRadius = 33;
 UnitTypes.antumbra.weapons.get(0).bullet.lifetime = 62;
