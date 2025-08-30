@@ -1,9 +1,9 @@
 name: "NewSerpuloBalanceTest"
 displayName: "NewSerpuloBalanceTest"
 author: "blackberry2093 (community help)"
-description: "Test mode for new balance. This banace might be accepted in v8 (after neoplasma)!"
+description: "Test rebalance mod. Fully finished, also search custom jar!"
 subtitle: "uwu"
-version: "1.10.1"
+version: "1.11"
 minGameVersion: 151
 hidden: false
 repo: "https://github.com/StalkerBaran/NewSerpuloBalanceYet"
