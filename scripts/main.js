@@ -258,25 +258,19 @@ Blocks.duo.ammoTypes.get(Items.graphite).reloadMultiplier = 0.7; //duo
 
 Blocks.scatter.ammoTypes.get(Items.scrap).splashDamage = 15 * 1.5; 
 Blocks.scatter.ammoTypes.get(Items.scrap).splashDamageRadius = 33; //scatter
-Blocks.scatter.ammoTypes.get(Items.scrap).width = 6;
-Blocks.scatter.ammoTypes.get(Items.scrap).height = 13;
 
 Blocks.scatter.ammoTypes.get(Items.lead).splashDamage = 11  * 1.5; 
 Blocks.scatter.ammoTypes.get(Items.lead).splashDamageRadius = 28; //scatter
-Blocks.scatter.ammoTypes.get(Items.lead).width = 6;
-Blocks.scatter.ammoTypes.get(Items.lead).height = 13;
 Blocks.scatter.ammoTypes.get(Items.lead).ammoMultiplier = 3;
 
 Blocks.scatter.ammoTypes.get(Items.metaglass).splashDamageRadius = 27; 
 Blocks.scatter.ammoTypes.get(Items.metaglass).splashDamage = 13  * 1.5;
 Blocks.scatter.ammoTypes.get(Items.metaglass).fragBullet.damage = 5; 
 Blocks.scatter.ammoTypes.get(Items.metaglass).fragBullets = 4;
-Blocks.scatter.ammoTypes.get(Items.metaglass).width = 6;
-Blocks.scatter.ammoTypes.get(Items.metaglass).height = 13; 
 Blocks.scatter.ammoTypes.get(Items.metaglass).reloadMultiplier = 0.7 //scatter
 
 Blocks.scatter.coolantMultiplier = 7.5;
-Blocks.scatter.rotateSpeed = 10; //scatter
+Blocks.scatter.rotateSpeed = 12; //scatter
 
 Blocks.scorch.ammoTypes.get(Items.coal).damage = 17;
 Blocks.scorch.ammoTypes.get(Items.pyratite).damage = 52;
@@ -352,12 +346,13 @@ Blocks.ripple.ammoTypes.get(Items.graphite).width = 16;
 Blocks.ripple.ammoTypes.get(Items.graphite).height = 16; //ripple
 
 Blocks.ripple.ammoTypes.get(Items.plastanium).splashDamage = 32; 
-Blocks.ripple.ammoTypes.get(Items.plastanium).fragBullets = 7; //ripple
+Blocks.ripple.ammoTypes.get(Items.plastanium).fragBullets = 5;
+Blocks.ripple.ammoTypes.get(Items.plastanium).damage = 12;//ripple
 
 Blocks.ripple.ammoTypes.get(Items.pyratite).splashDamage = 48;
 Blocks.ripple.ammoTypes.get(Items.pyratite).splashDamageRadius = 38;
-Blocks.ripple.ammoTypes.get(Items.pyratite).width = 18;
-Blocks.ripple.ammoTypes.get(Items.pyratite).height = 18; //ripple
+Blocks.ripple.ammoTypes.get(Items.pyratite).width = 17;
+Blocks.ripple.ammoTypes.get(Items.pyratite).height = 17; //ripple
 
 Blocks.ripple.ammoTypes.get(Items.blastCompound).width = 18;
 Blocks.ripple.ammoTypes.get(Items.blastCompound).height = 18;
@@ -412,7 +407,7 @@ Blocks.meltdown.rotateSpeed = 1.3;
 Blocks.meltdown.reload = 170;
 Blocks.meltdown.shootType.damage = 180; //meltdown
 
-Blocks.foreshadow.reload = 280; 
+Blocks.foreshadow.reload = 270; 
 Blocks.foreshadow.rotateSpeed = 1.3;
 Blocks.foreshadow.ammoTypes.get(Items.surgeAlloy).buildingDamageMultiplier = 0.5; 
 Blocks.foreshadow.coolantMultiplier = 1.0; //foreshadow
@@ -446,7 +441,7 @@ Blocks.surgeWallLarge.health = 3920; //walls
 
 
 
-Blocks.shockMine.damage = 13;
+Blocks.shockMine.damage = 15;
 Blocks.shockMine.tendrils = 7;
 Blocks.shockMine.health = 30;
 
@@ -456,10 +451,11 @@ Events.on(WorldLoadEvent, () => {
   Blocks.additiveReconstructor.consumers[1].items[0] = ItemStack(Items.silicon, 30),
   Blocks.additiveReconstructor.consumers[1].items[1] = ItemStack(Items.graphite, 30),
   Blocks.airFactory.requirements = [ItemStack(Items.copper, 110), ItemStack(Items.lead, 80), ItemStack(Items.titanium, 35)],
-  Blocks.groundFactory.requirements = [ItemStack(Items.copper, 120), ItemStack(Items.lead, 70), ItemStack(Items.silicon, 60)],
-  Blocks.navalFactory.requirements = [ItemStack(Items.copper, 120), ItemStack(Items.lead, 90), ItemStack(Items.metaglass, 75)],
+  Blocks.groundFactory.requirements = [ItemStack(Items.copper, 120), ItemStack(Items.lead, 70), ItemStack(Items.silicon, 80)],
+  Blocks.navalFactory.requirements = [ItemStack(Items.copper, 120), ItemStack(Items.lead, 130), ItemStack(Items.metaglass, 75)],
   Blocks.airFactory.plans.get(0).requirements = [ItemStack(Items.silicon, 15)],
   Blocks.groundFactory.plans.get(2).requirements = [ItemStack(Items.silicon, 25), ItemStack(Items.lead, 10), ItemStack(Items.titanium, 15)],
+  Blocks.groundFactory.plans.get(0).requirements = [ItemStack(Items.silicon, 12), ItemStack(Items.lead, 10)],
   Blocks.salvo.requirements = [ItemStack(Items.copper, 120), ItemStack(Items.graphite, 50), ItemStack(Items.titanium, 35)],
   Blocks.ripple.requirements = [ItemStack(Items.copper, 175), ItemStack(Items.graphite, 90), ItemStack(Items.titanium, 70)]
  }
