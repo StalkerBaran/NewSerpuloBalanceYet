@@ -453,7 +453,7 @@ Events.on(WorldLoadEvent, () => {
   Blocks.navalFactory.requirements = [ItemStack(Items.copper, 120), ItemStack(Items.lead, 130), ItemStack(Items.metaglass, 75)],
   Blocks.airFactory.plans.get(0).requirements = [ItemStack(Items.silicon, 15)],
   Blocks.groundFactory.plans.get(2).requirements = [ItemStack(Items.silicon, 25), ItemStack(Items.lead, 10), ItemStack(Items.titanium, 15)],
-  Blocks.groundFactory.plans.get(0).requirements = [ItemStack(Items.silicon, 12), ItemStack(Items.lead, 10)],
+  Blocks.groundFactory.plans.get(0).requirements = [ItemStack(Items.silicon, 15), ItemStack(Items.lead, 10)],
   Blocks.salvo.requirements = [ItemStack(Items.copper, 120), ItemStack(Items.graphite, 50), ItemStack(Items.titanium, 35)],
   Blocks.ripple.requirements = [ItemStack(Items.copper, 175), ItemStack(Items.graphite, 90), ItemStack(Items.titanium, 70)]
  }
