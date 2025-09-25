@@ -1,7 +1,7 @@
 UnitTypes.dagger.weapons.get(0).reload = 20; 
 UnitTypes.dagger.weapons.get(0).bullet.damage = 12;
-UnitTypes.dagger.speed = 0.68;
-UnitTypes.dagger.health = 120;
+UnitTypes.dagger.speed = 0.64;
+UnitTypes.dagger.health = 110;
 UnitTypes.dagger.armor = 2;
 UnitTypes.dagger.rotateSpeed = 7; 
 UnitTypes.dagger.weapons.get(0).bullet.lifetime = 56; //dagger
@@ -12,8 +12,8 @@ UnitTypes.mace.armor = 5;
 UnitTypes.mace.weapons.get(0).bullet.damage = 27;
 UnitTypes.mace.rotateSpeed = 4; //mace
 
-UnitTypes.fortress.speed = 0.51;
-UnitTypes.fortress.health = 930;
+UnitTypes.fortress.speed = 0.5;
+UnitTypes.fortress.health = 910;
 UnitTypes.fortress.armor = 10;
 UnitTypes.fortress.rotateSpeed = 3.2;
 UnitTypes.fortress.weapons.get(0).bullet.speed = 2.5;
@@ -36,9 +36,9 @@ UnitTypes.reign.rotateSpeed = 2.6;
 UnitTypes.reign.weapons.get(0).bullet.lifetime = 17.1;  //reign
 
 
-UnitTypes.nova.weapons.get(0).bullet.damage = 12;
-UnitTypes.nova.weapons.get(0).reload = 18;
-UnitTypes.nova.speed = 0.7;
+UnitTypes.nova.weapons.get(0).bullet.damage = 15;
+UnitTypes.nova.weapons.get(0).reload = 24;
+UnitTypes.nova.speed = 0.68;
 UnitTypes.nova.health = 90;
 UnitTypes.nova.armor = 1;
 UnitTypes.nova.abilities.get(0).reload = 90;
@@ -117,7 +117,7 @@ UnitTypes.toxopid.rotateSpeed = 2.8; //toxopидор
 
 UnitTypes.flare.weapons.get(0).reload = 15;
 UnitTypes.flare.drag = 0.04;
-UnitTypes.flare.health = 30;
+UnitTypes.flare.health = 35;
 UnitTypes.flare.rotateSpeed = 9;
 UnitTypes.flare.weapons.get(0).bullet.damage = 10; //flare
 
@@ -451,6 +451,7 @@ Events.on(WorldLoadEvent, () => {
   Blocks.airFactory.requirements = [ItemStack(Items.copper, 110), ItemStack(Items.lead, 80), ItemStack(Items.titanium, 35)],
   Blocks.groundFactory.requirements = [ItemStack(Items.copper, 120), ItemStack(Items.lead, 70), ItemStack(Items.silicon, 80)],
   Blocks.navalFactory.requirements = [ItemStack(Items.copper, 120), ItemStack(Items.lead, 130), ItemStack(Items.metaglass, 75)],
+  Blocks.airFactory.plans.get(0).time = 60 * 30,
   Blocks.airFactory.plans.get(0).requirements = [ItemStack(Items.silicon, 15)],
   Blocks.groundFactory.plans.get(2).requirements = [ItemStack(Items.silicon, 25), ItemStack(Items.lead, 10), ItemStack(Items.titanium, 15)],
   Blocks.groundFactory.plans.get(0).requirements = [ItemStack(Items.silicon, 15), ItemStack(Items.lead, 10)],
