@@ -214,7 +214,7 @@ UnitTypes.omura.weapons.get(0).reload = 120;
 
 UnitTypes.retusa.rotateSpeed = 9; //retusa
 
-UnitTypes.oxynoe.weapons.get(0).reload = 16;
+UnitTypes.oxynoe.weapons.get(1).reload = 16;
 UnitTypes.oxynoe.rotateSpeed = 8; //oxynoe
 
 UnitTypes.cyerce.speed = 0.775;
