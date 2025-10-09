@@ -37,3 +37,16 @@ Gonna upload here screenshots before writing changelog (with hidden changes like
 ![Скриншот 09-10-2025 210024](https://github.com/user-attachments/assets/dc54ceee-cf4e-46cd-b41b-15b42a9a552b)
 
 ## Units 
+![Скриншот 09-10-2025 210642](https://github.com/user-attachments/assets/923d79b5-6f9b-4a33-bdcb-34233af821e7)
+![Скриншот 09-10-2025 210549](https://github.com/user-attachments/assets/7854df4d-22c3-4015-9522-990a2de4f166)
+![Скриншот 09-10-2025 210547](https://github.com/user-attachments/assets/61fcff2c-7c00-4e22-8c92-c1ca032449f1)
+![Скриншот 09-10-2025 210542](https://github.com/user-attachments/assets/ec8c718a-257f-45e0-86a4-6c75c210c9d1)
+![Скриншот 09-10-2025 210539](https://github.com/user-attachments/assets/4f584c8d-a6ef-40d5-9f00-bce2c01d389d)
+![Скриншот 09-10-2025 210527](https://github.com/user-attachments/assets/fe976a52-e53f-4e28-ad6e-ccd51e8cf76d)
+![Скриншот 09-10-2025 210521](https://github.com/user-attachments/assets/31b03d24-a5ba-45ef-9122-019e456836bd)
+![Скриншот 09-10-2025 210511](https://github.com/user-attachments/assets/29644c8f-e332-48e8-9728-feb52e7389cf)
+![Скриншот 09-10-2025 210507](https://github.com/user-attachments/assets/f8773a24-2096-4e9b-9f71-21523572daa6)
+![Скриншот 09-10-2025 210503](https://github.com/user-attachments/assets/96843421-c786-4216-acd3-dfe50f26a4cd)
+![Скриншот 09-10-2025 210459](https://github.com/user-attachments/assets/fb68a560-5b5c-4ce3-9f0a-1aebb7d6838a)
+![Скриншот 09-10-2025 210647](https://github.com/user-attachments/assets/bd15971e-3de3-4c3d-b0f7-951ffac16cad)
+
