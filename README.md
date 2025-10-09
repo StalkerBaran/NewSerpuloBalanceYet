@@ -37,31 +37,3 @@ Gonna upload here screenshots before writing changelog (with hidden changes like
 ![Скриншот 09-10-2025 210024](https://github.com/user-attachments/assets/dc54ceee-cf4e-46cd-b41b-15b42a9a552b)
 
 ## Units 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
