@@ -103,13 +103,13 @@ Flare Tree
 ![Скриншот 09-10-2025 212334](https://github.com/user-attachments/assets/b708fb7e-2a76-4b6f-8554-1137c64fc157)
 ![Скриншот 09-10-2025 212339](https://github.com/user-attachments/assets/a1e860a2-195c-4501-8d54-c1c90ae1cafe)
 ![Скриншот 09-10-2025 212344](https://github.com/user-attachments/assets/b15538a3-7672-49aa-a896-c17c6841d9ed)
-![Скриншот 14-10-2025 221757](https://github.com/user-attachments/assets/f42d73fc-087d-4270-8b07-1727862a90f9)
+![Скриншот 14-10-2025 221814](https://github.com/user-attachments/assets/56299ff6-e0b7-4a75-8fa2-b7b4f0b66eab)
 
 Mono Tree
 ![Скриншот 09-10-2025 212611](https://github.com/user-attachments/assets/31d0eb7e-9e5e-4ed4-be16-608c2a64f2cd)
 ![Скриншот 09-10-2025 212619](https://github.com/user-attachments/assets/65839c3f-b8cf-428b-bee5-1ce3040a12e5)
 ![Скриншот 09-10-2025 212628](https://github.com/user-attachments/assets/3d7b80e8-ed78-42c7-afe0-0c70412d3d3c)
-![Скриншот 14-10-2025 221805](https://github.com/user-attachments/assets/e6d25936-2313-489b-9294-05d49d042d64)
+![Скриншот 09-10-2025 212630](https://github.com/user-attachments/assets/88ea11e1-bebd-44a1-8850-6b53d86f61c8)
 ![Скриншот 09-10-2025 212635](https://github.com/user-attachments/assets/d2ca5946-c343-4a8c-8798-73c7d4bed3dc)
 ![Скриншот 09-10-2025 212637](https://github.com/user-attachments/assets/18b3b37c-6da8-4936-b1e3-e1b38585b8d1)
 ![Скриншот 09-10-2025 212738](https://github.com/user-attachments/assets/47b3c19f-8c31-405c-ab33-fe6df3871cfa)
