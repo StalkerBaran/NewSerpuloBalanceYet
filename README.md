@@ -35,6 +35,18 @@ Gonna upload here screenshots before writing changelog (with hidden changes like
 ![Скриншот 09-10-2025 210012](https://github.com/user-attachments/assets/c55af0c1-a388-431b-97cd-25536cad562f)
 ![Скриншот 09-10-2025 210018](https://github.com/user-attachments/assets/e9fc7984-c8a3-4824-a330-c78837d59d55)
 ![Скриншот 09-10-2025 210024](https://github.com/user-attachments/assets/dc54ceee-cf4e-46cd-b41b-15b42a9a552b)
+![Скриншот 14-10-2025 221351](https://github.com/user-attachments/assets/9646ee66-9df9-464f-8e5a-01acd62b9af8)
+![Скриншот 14-10-2025 221358](https://github.com/user-attachments/assets/7fb368b6-a994-437e-b586-de09c4609b1b)
+![Скриншот 14-10-2025 221403](https://github.com/user-attachments/assets/4477dd6d-173c-46c5-a034-203bee9561d0)
+![Скриншот 14-10-2025 221407](https://github.com/user-attachments/assets/60f9315e-6854-4f8d-bbc9-cf05349493b0)
+![Скриншот 14-10-2025 221422](https://github.com/user-attachments/assets/1a460a86-9575-429f-a2e5-9f041603ac0f)
+![Скриншот 14-10-2025 221426](https://github.com/user-attachments/assets/51415e4d-40ac-41f5-a255-a178231ba3a2)
+![Скриншот 14-10-2025 221431](https://github.com/user-attachments/assets/6bb8a675-e493-4b82-adbd-bbb91fd9c105)
+![Скриншот 14-10-2025 221435](https://github.com/user-attachments/assets/3308cc98-ef60-48b7-9369-2125502c70dc)
+![Скриншот 14-10-2025 221440](https://github.com/user-attachments/assets/5923e003-dcbd-4934-8986-e0b4d384bcd0)
+![Скриншот 14-10-2025 221444](https://github.com/user-attachments/assets/27b2efab-f6cc-467b-a6f3-7fcbeaf53c85)
+![Скриншот 14-10-2025 221450](https://github.com/user-attachments/assets/a02d65de-ec3f-48ef-a533-36928058b738)
+![Скриншот 14-10-2025 221454](https://github.com/user-attachments/assets/89a69e1a-012e-46d3-b9a0-5627cb41a89f)
 
 ## Units 
 Dagger Tree
@@ -85,7 +97,7 @@ Flare Tree
 ![Скриншот 09-10-2025 212244](https://github.com/user-attachments/assets/50f2d3cf-1ff5-4163-bc15-f6431cfb9a4d)
 ![Скриншот 09-10-2025 212249](https://github.com/user-attachments/assets/88e8c9b0-2722-4623-b829-17f5052b0700)
 ![Скриншот 09-10-2025 212253](https://github.com/user-attachments/assets/47c9117f-a7d3-4f4c-89bf-839724e1e37e)
-![Скриншот 09-10-2025 212257](https://github.com/user-attachments/assets/f1cff20c-9bac-4101-957d-dc45fecd75cc)
+![Скриншот 14-10-2025 221805](https://github.com/user-attachments/assets/98a98e08-4855-462a-8cea-08049e4b0399)
 ![Скриншот 09-10-2025 212302](https://github.com/user-attachments/assets/65b9767d-4ab8-4619-8623-9b0e8b7404ad)
 ![Скриншот 09-10-2025 212329](https://github.com/user-attachments/assets/28f725cf-c724-4289-8093-e6de90cb0fcf)
 ![Скриншот 09-10-2025 212334](https://github.com/user-attachments/assets/b708fb7e-2a76-4b6f-8554-1137c64fc157)
