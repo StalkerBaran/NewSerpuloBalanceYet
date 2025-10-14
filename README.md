@@ -22,7 +22,7 @@ Gonna upload here screenshots before writing changelog (with hidden changes like
 ![Скриншот 09-10-2025 205819](https://github.com/user-attachments/assets/09fb3ace-98e6-40c6-825e-ead9df992f3d)
 ![Скриншот 09-10-2025 205823](https://github.com/user-attachments/assets/e2859fef-c549-45b5-91ee-da2a473a6238)
 ![Скриншот 09-10-2025 205827](https://github.com/user-attachments/assets/2af80f05-5085-4142-8b33-ad4a8bc49cdf)
-![Скриншот 09-10-2025 205832](https://github.com/user-attachments/assets/52555646-2114-4f93-bbac-8fb5d237ccec)
+![Скриншот 14-10-2025 221730](https://github.com/user-attachments/assets/f863b408-e5b8-4e8d-8482-16addd42b33f)
 ![Скриншот 09-10-2025 205837](https://github.com/user-attachments/assets/0b4ac2be-f9b5-4c68-9682-39efadff2b48)
 ![Скриншот 09-10-2025 205842](https://github.com/user-attachments/assets/2bc57d26-a178-4d25-b981-32e13d882841)
 ![Скриншот 09-10-2025 205936](https://github.com/user-attachments/assets/65d4e211-bf35-4293-8653-4734e7f149d5)
@@ -39,7 +39,7 @@ Gonna upload here screenshots before writing changelog (with hidden changes like
 ## Units 
 Dagger Tree
 ![Скриншот 09-10-2025 210459](https://github.com/user-attachments/assets/0dde8c6f-2600-4ffe-be70-2e6507c2fc1a)
-![Скриншот 09-10-2025 210503](https://github.com/user-attachments/assets/02129406-317e-4e9b-8398-0130fc4990de)
+![Скриншот 14-10-2025 221748](https://github.com/user-attachments/assets/433d484b-11dd-404e-94b0-c62bf35572e6)
 ![Скриншот 09-10-2025 210507](https://github.com/user-attachments/assets/762ebee3-e663-40cc-97e5-3fd0270749d9)
 ![Скриншот 09-10-2025 210511](https://github.com/user-attachments/assets/289c389b-ff49-43d1-88de-efb2d6146c47)
 ![Скриншот 09-10-2025 210521](https://github.com/user-attachments/assets/bf83f813-e6a0-4ab6-bac4-a8c9b473aac3)
@@ -73,7 +73,7 @@ Spooder Tree
 ![Скриншот 09-10-2025 210828](https://github.com/user-attachments/assets/c16f4a88-2f67-44ac-8f50-2c5cbdc4bd4c)
 ![Скриншот 09-10-2025 210832](https://github.com/user-attachments/assets/f5bcc64c-8db6-4a4b-88bf-0970590ae0e6)
 ![Скриншот 09-10-2025 211043](https://github.com/user-attachments/assets/876794df-d821-4d0f-9d13-343dfee4ebe2)
-![Скриншот 09-10-2025 211048](https://github.com/user-attachments/assets/e1e93428-a222-4f91-a127-8890a93532eb)
+![Скриншот 14-10-2025 221757](https://github.com/user-attachments/assets/8fe1408b-b7d3-487e-b006-61417dbafd82)
 ![Скриншот 09-10-2025 211347](https://github.com/user-attachments/assets/4be7e1f0-aacf-4cb8-a099-403062aeb74b)
 ![Скриншот 09-10-2025 211351](https://github.com/user-attachments/assets/98a32d35-18b3-4118-83d2-0b9cb50bb1ad)
 ![Скриншот 09-10-2025 211356](https://github.com/user-attachments/assets/d55331a8-40c8-4667-9a35-94907d945cd1)
@@ -91,19 +91,19 @@ Flare Tree
 ![Скриншот 09-10-2025 212334](https://github.com/user-attachments/assets/b708fb7e-2a76-4b6f-8554-1137c64fc157)
 ![Скриншот 09-10-2025 212339](https://github.com/user-attachments/assets/a1e860a2-195c-4501-8d54-c1c90ae1cafe)
 ![Скриншот 09-10-2025 212344](https://github.com/user-attachments/assets/b15538a3-7672-49aa-a896-c17c6841d9ed)
-![Скриншот 09-10-2025 212350](https://github.com/user-attachments/assets/a5ce4606-a262-49d0-8ee1-d349babe07a0)
+![Скриншот 14-10-2025 221757](https://github.com/user-attachments/assets/f42d73fc-087d-4270-8b07-1727862a90f9)
 
 Mono Tree
 ![Скриншот 09-10-2025 212611](https://github.com/user-attachments/assets/31d0eb7e-9e5e-4ed4-be16-608c2a64f2cd)
 ![Скриншот 09-10-2025 212619](https://github.com/user-attachments/assets/65839c3f-b8cf-428b-bee5-1ce3040a12e5)
 ![Скриншот 09-10-2025 212628](https://github.com/user-attachments/assets/3d7b80e8-ed78-42c7-afe0-0c70412d3d3c)
-![Скриншот 09-10-2025 212630](https://github.com/user-attachments/assets/ac28559d-8e8a-4d52-8b2b-91ccb41c8bcf)
+![Скриншот 14-10-2025 221805](https://github.com/user-attachments/assets/e6d25936-2313-489b-9294-05d49d042d64)
 ![Скриншот 09-10-2025 212635](https://github.com/user-attachments/assets/d2ca5946-c343-4a8c-8798-73c7d4bed3dc)
 ![Скриншот 09-10-2025 212637](https://github.com/user-attachments/assets/18b3b37c-6da8-4936-b1e3-e1b38585b8d1)
 ![Скриншот 09-10-2025 212738](https://github.com/user-attachments/assets/47b3c19f-8c31-405c-ab33-fe6df3871cfa)
 ![Скриншот 09-10-2025 212742](https://github.com/user-attachments/assets/9c5b44fa-8241-4a69-a51c-20a295136e0c)
 ![Скриншот 09-10-2025 212746](https://github.com/user-attachments/assets/eec91bdd-ac8c-4c84-86d4-ec4c88ce50ce)
-![Скриншот 09-10-2025 212750](https://github.com/user-attachments/assets/d89f9552-445b-45b2-9dbf-bad15ecabc51)
+![Скриншот 14-10-2025 221814](https://github.com/user-attachments/assets/60bb0ae6-9a1f-4dca-90a9-5a6dc580b586)
 
 Risso Tree
 ![Скриншот 09-10-2025 213214](https://github.com/user-attachments/assets/899d241f-1e7c-493c-838b-5f3b41ce6736)
