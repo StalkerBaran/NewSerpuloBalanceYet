@@ -183,6 +183,85 @@ Retusa Tree
 ![Скриншот 09-10-2025 215014](https://github.com/user-attachments/assets/a07c5d22-db7d-4145-9b70-f4e85db1eb2f)
 ![Скриншот 09-10-2025 215016](https://github.com/user-attachments/assets/4008f59f-fa42-4ae7-9dfc-992adbbdcb88)
 ![Скриншот 09-10-2025 215020](https://github.com/user-attachments/assets/b352fe04-a599-4254-b71c-708a583364d3)
+
+
+# Changelog: Turrets (Blocks.java 1 → 2) (dont look at this, I didnt redacted)
+
+## Duo
+# Damage 
+
+- copper: = 9 -> 13
+- graphite: 18 -> 21 (+reloadMultiplier = 0.7f)
+- silicon: 12 -> 15
+
+- range: 160 -> 168
+
+## Scatter
+- scrap: splashDamage = 22*1.5 -> 17*1.5, splashDamageRadius = 24 -> 33
+- lead: splashDamage = 27*1.5 -> 12*1.5, splashDamageRadius = 15 -> 28
+- metaglass: splashDamage = 30*1.5 -> 15*1.5, splashDamageRadius = 20 -> 27, fragBullets = 6 -> 4, reloadMultiplier = 0.8f -> 0.7f
+  
+- rotateSpeed: 15f -> 12f
+- added: coolantMultiplier = 7.5f
+
+## Scorch
+# Damage
+- pyratite: 60 -> 52
+
+- range: 60 -> 72.5
+
+## Salvo
+# Damage
+- copper: 11 -> 13
+- graphite: 20 -> 25 (+reloadMultiplier = 0.7f)
+- pyratite: 18 -> 22, splashDamage = 12 -> 15, splashDamageRadius = 22 -> 23, pierceCap = 2, knockback = 0.7f
+- silicon: 15 -> 18, reloadMultiplier = 1.5 -> 1.3, knockback = 0.3f
+- thorium: 29 -> 27, reloadMultiplier = 0.7f, knockback = 1.5f, pierceCap = 2
+
+- reload: 31f -> 32f
+- inaccuracy: 7f -> 5f
+- requirements: copper=100, graphite=80 -> copper=125, graphite=70
+
+## Hail
+# Damage
+- silicone: splashDamage = 33 -> 27, splashDamageRadius = 25 * 0.75 -> 28 * 0.75
+
+## Cyclone
+# Damage
+- metaglass: 6 -> 13, ammoMultiplier = 2 -> 5, reloadMultiplier = 0.8 -> 1.2, splashDamage = 45 -> 32, fragBullets = 4 -> 10
+- blastCompound: 8 -> 12, splashDamage = 45 -> 55
+- plastanium: 8 -> 15, splashDamage = 37.5 -> 35
+- rotateSpeed: 10f -> 7f
+- coolant: 0.3f -> 0.2f
+- shootSound: Sounds.shootSnap (добавлено)
+
+## Foreshadow
+- maxAmmo: добавлено 40
+- ammoPerShot: 5 (без изм.)
+- reload: 200f -> 270f
+- rotateSpeed: 2f -> 1.3f
+- coolantMultiplier: 0.4f -> 1f
+- shootSound: Sounds.railgun (добавлено)
+
+## Spectre
+- graphite: 50 -> 75, ammoMultiplier = 4 -> 3, knockback = 0.3 -> 1
+- thorium: 80 -> 120, knockback = 0.7 -> 1.3, ammoMultiplier = 4 -> 2
+- pyratite: 70 -> 110, splashDamage = 20 -> 32, knockback = 0.6 -> 0.7
+- reload: 7f -> 7.5f
+- rotateSpeed: 1.4f (добавлено)
+- coolantMultiplier: 0.5f -> 1f
+- maxAmmo: добавлено 90
+- range: 260f -> 273f
+
+## Meltdown
+- reload: 90f -> 170f
+- shootType: ContinuousLaserBulletType(78) -> (130)
+- rotateSpeed: 1.3f (добавлено)
+
+---
+
+**Без изменении:**  
+- Все остальные параметры турелей, не упомянутые выше, не изменялись.
 ![Скриншот 09-10-2025 215022](https://github.com/user-attachments/assets/cef425aa-a9da-4af2-8b98-f2f5ea329c81)
 ![Скриншот 09-10-2025 215029](https://github.com/user-attachments/assets/21d5029a-b32a-42c5-8531-48dc5b39b11e)
 ![Скриншот 09-10-2025 215034](https://github.com/user-attachments/assets/46bebb0a-f844-47ff-a31c-9a04764e21ec)
