@@ -210,6 +210,23 @@ Retusa Tree
 
 - range: 60 -> 72.5
 
+## Hail
+- silicone: splashDamage = 33 -> 27, splashDamageRadius = 25 * 0.75 -> 28 * 0.75
+
+## Wave
+- slag: rangeChange = 24; lifetime = 44;
+- cryofluid: rangeChange = 24; lifetime = 44;
+- oil: rangeChange = 24; lifetime = 44;
+
+## Lancer
+damage: 140 -> 120
+rotateSpeed = 4f;
+
+## Arc
+damage: 20 -> 13
+reload = 35f -> 32f
+
+
 ## Salvo
 # Damage
 - copper: 11 -> 13
@@ -222,9 +239,6 @@ Retusa Tree
 - inaccuracy: 7f -> 5f
 - requirements: copper=100, graphite=80 -> copper=125, graphite=70
 
-## Hail
-# Damage
-- silicone: splashDamage = 33 -> 27, splashDamageRadius = 25 * 0.75 -> 28 * 0.75
 
 ## Cyclone
 # Damage
