@@ -188,7 +188,7 @@ Retusa Tree
 # Changelog: Turrets (Blocks.java 1 → 2) (dont look at this, I didnt redacted)
 
 ## Duo
-# Damage 
+### Damage 
 
 - copper: = 9 -> 13
 - graphite: 18 -> 21 (+reloadMultiplier = 0.7f)
@@ -205,8 +205,8 @@ Retusa Tree
 - added: coolantMultiplier = 7.5f
 
 ## Scorch
-# Damage
-- pyratite: 60 -> 52
+### Damage
+- pyratite: 60 -> 35
 
 - range: 60 -> 72.5
 
@@ -226,9 +226,19 @@ rotateSpeed = 4f;
 damage: 20 -> 13
 reload = 35f -> 32f
 
+## Parallax
+No changes /shrug
+
+## Swarmer
+### Damage
+- blastCompound: damage: 10 -> 13; splashdamage: 30 * 1.5 -> 33; splashDamageRadius: 30 -> 42
+- pyratite: damage: (no changes); splashdamage: 30 * 1.5 -> 32; splashDamageRadius: 20 -> 44
+- surgeAlloy: damage: 18 -> 15; splashdamage: 25 * 1.4 -> 35; splashDamageRadius: 25 -> 26
+
+rotarespeed: default -> 4f
 
 ## Salvo
-# Damage
+### Damage
 - copper: 11 -> 13
 - graphite: 20 -> 25 (+reloadMultiplier = 0.7f)
 - pyratite: 18 -> 22, splashDamage = 12 -> 15, splashDamageRadius = 22 -> 23, pierceCap = 2, knockback = 0.7f
@@ -239,9 +249,20 @@ reload = 35f -> 32f
 - inaccuracy: 7f -> 5f
 - requirements: copper=100, graphite=80 -> copper=125, graphite=70
 
+## Segment
+No changes
+
+## Tsunami
+- slag: rangeChange = 32; lifetime = 49 -> 56;
+- cryofluid: rangeChange = 20; lifetime = 49 -> 56;
+- oil: rangeChange = 32; lifetime = 49 -> 56;
+
+## Fuse
+
+## Ripple
 
 ## Cyclone
-# Damage
+### Damage
 - metaglass: 6 -> 13, ammoMultiplier = 2 -> 5, reloadMultiplier = 0.8 -> 1.2, splashDamage = 45 -> 32, fragBullets = 4 -> 10
 - blastCompound: 8 -> 12, splashDamage = 45 -> 55
 - plastanium: 8 -> 15, splashDamage = 37.5 -> 35
