@@ -188,11 +188,10 @@ Retusa Tree
 # Changelog: Turrets (Blocks.java 1 → 2) (dont look at this, I didnt redacted)
 
 ## Duo
-### Damage 
 
-- copper: = 9 -> 13
-- graphite: 18 -> 21 (+reloadMultiplier = 0.7f)
-- silicon: 12 -> 15
+- copper: damage: 9 -> 13
+- graphite: damage: 18 -> 21 (+reloadMultiplier = 0.7f)
+- silicon: damage: 12 -> 15
 
 - range: 160 -> 168
 
@@ -205,8 +204,7 @@ Retusa Tree
 - added: coolantMultiplier = 7.5f
 
 ## Scorch
-### Damage
-- pyratite: 60 -> 35
+- pyratite: damage: 60 -> 35
 
 - range: 60 -> 72.5
 
@@ -219,31 +217,29 @@ Retusa Tree
 - oil: rangeChange = 24; lifetime = 44;
 
 ## Lancer
-damage: 140 -> 120
-rotateSpeed = 4f;
+- damage: 140 -> 120
+- rotateSpeed = 4f;
 
 ## Arc
-damage: 20 -> 13
-reload = 35f -> 32f
+- damage: 20 -> 13
+- reload = 35f -> 32f
 
 ## Parallax
 No changes /shrug
 
 ## Swarmer
-### Damage
 - blastCompound: damage: 10 -> 13; splashdamage: 30 * 1.5 -> 33; splashDamageRadius: 30 -> 42
 - pyratite: damage: (no changes); splashdamage: 30 * 1.5 -> 32; splashDamageRadius: 20 -> 44
 - surgeAlloy: damage: 18 -> 15; splashdamage: 25 * 1.4 -> 35; splashDamageRadius: 25 -> 26
 
-rotarespeed: default -> 4f
+- rotarespeed: default -> 4f
 
 ## Salvo
-### Damage
-- copper: 11 -> 13
-- graphite: 20 -> 25 (+reloadMultiplier = 0.7f)
-- pyratite: 18 -> 22, splashDamage = 12 -> 15, splashDamageRadius = 22 -> 23, pierceCap = 2, knockback = 0.7f
-- silicon: 15 -> 18, reloadMultiplier = 1.5 -> 1.3, knockback = 0.3f
-- thorium: 29 -> 27, reloadMultiplier = 0.7f, knockback = 1.5f, pierceCap = 2
+- copper: damage: 11 -> 13
+- graphite: damage: 20 -> 25 (+reloadMultiplier = 0.7f)
+- pyratite: damage: 18 -> 22, splashDamage = 12 -> 15, splashDamageRadius = 22 -> 23, pierceCap = 2, knockback = 0.7f
+- silicon: damage: 15 -> 18, reloadMultiplier = 1.5 -> 1.3, knockback = 0.3f
+- thorium: damage: 29 -> 27, reloadMultiplier = 0.7f, knockback = 1.5f, pierceCap = 2
 
 - reload: 31f -> 32f
 - inaccuracy: 7f -> 5f
