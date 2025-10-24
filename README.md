@@ -276,22 +276,23 @@ No changes
 ## Foreshadow
 - reload: 0.3 -> 0.22 /todo
 - rotateSpeed: 2f -> 1.3f
-- coolantMultiplier: 0.4f -> 1f
+- coolantMultiplier: 0.4f -> 1f (increased coolant buff (water: 116% -> 140%; cryofluid: 136% -> 190%))
 
 ## Spectre
-- graphite: 50 -> 75, ammoMultiplier = 4 -> 3, knockback = 0.3 -> 1
-- thorium: 80 -> 120, knockback = 0.7 -> 1.3, ammoMultiplier = 4 -> 2
-- pyratite: 70 -> 110, splashDamage = 20 -> 32, knockback = 0.6 -> 0.7
-- reload: 7f -> 7.5f
-- rotateSpeed: 1.4f (добавлено)
-- coolantMultiplier: 0.5f -> 1f
-- maxAmmo: добавлено 90
-- range: 260f -> 273f
+- graphite: damage: 50 -> 75, ammoMultiplier: 4 -> 3, knockback: 0.3 -> 1
+- thorium: damage: 80 -> 120, knockback: 0.7 -> 1.3, ammoMultiplier: 4 -> 2
+- pyratite: damage: 70 -> 110, splashDamage: 20 -> 32, knockback: 0.6 -> 0.7
+
+- reload: 8.57 -> 8
+- rotateSpeed: default -> 1.4f
+- coolantMultiplier: 0.5f -> 1f (increased coolant buff (water: 116% -> 140%; cryofluid: 136% -> 190%))
+- maxAmmo: 30 -> 90
+- range: 32.5 -> 34.1
 
 ## Meltdown
-- reload: 90f -> 170f
-- shootType: ContinuousLaserBulletType(78) -> (130)
-- rotateSpeed: 1.3f (добавлено)
+- damage: 936/sec -> 1560/sec
+- reload: 90f -> 170f, - shootType: ContinuousLaserBulletType(78) -> (130) (firerate: 0.666 -> 0.352)
+- rotateSpeed: default -> 1.3f
 
 ---
 
