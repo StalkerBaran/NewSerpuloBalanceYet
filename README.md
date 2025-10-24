@@ -185,23 +185,23 @@ Retusa Tree
 ![Скриншот 09-10-2025 215020](https://github.com/user-attachments/assets/b352fe04-a599-4254-b71c-708a583364d3)
 
 
-# Changelog: Turrets (Blocks.java 1 → 2) (dont look at this, I didnt redacted)
+# Changelog: Turrets (Blocks.java 1 → 2) (dont look at this, I didnt redacted, ignore text and look at screens only)
 
 ## Duo
 
 - copper: damage: 9 -> 13
-- graphite: damage: 18 -> 21 (+reloadMultiplier = 0.7f)
+- graphite: damage: 18 -> 21, reloadMultiplier = 0.7x
 - silicon: damage: 12 -> 15
 
 - range: 160 -> 168
 
 ## Scatter
-- scrap: splashDamage = 22*1.5 -> 17*1.5, splashDamageRadius = 24 -> 33
-- lead: splashDamage = 27*1.5 -> 12*1.5, splashDamageRadius = 15 -> 28
-- metaglass: splashDamage = 30*1.5 -> 15*1.5, splashDamageRadius = 20 -> 27, fragBullets = 6 -> 4, reloadMultiplier = 0.8f -> 0.7f
+- scrap: splashDamage: 33 -> 25, splashDamageRadius: 3.0 -> 4.1
+- lead: splashDamage: 40 -> 22, splashDamageRadius: 1.8 -> 3.3
+- metaglass: splashDamage: 45 -> 15*1.5, splashDamageRadius: 2.5 -> 3.3, fragBullets: 6 -> 4, reloadMultiplier: 0.8x -> 0.7x
   
 - rotateSpeed: 15f -> 12f
-- added: coolantMultiplier = 7.5f
+- added: coolantMultiplier = 7.5f (increased coolant buff (water: 140% -> 160%; cryofluid: 190% -> 235%))
 
 ## Scorch
 - pyratite: damage: 60 -> 35
@@ -209,12 +209,12 @@ Retusa Tree
 - range: 60 -> 72.5
 
 ## Hail
-- silicone: splashDamage = 33 -> 27, splashDamageRadius = 25 * 0.75 -> 28 * 0.75
+- silicone: splashDamage: 33 -> 27
+- pyratite: splashDamageRadius: 2.3 -> 2.6
 
 ## Wave
-- slag: rangeChange = 24; lifetime = 44;
-- cryofluid: rangeChange = 24; lifetime = 44;
-- oil: rangeChange = 24; lifetime = 44;
+- slag: rangeChange = 24 (+3 range); lifetime = 44;
+- oil: rangeChange = 24 (+3 range); lifetime = 44;
 
 ## Lancer
 - damage: 140 -> 120
@@ -222,57 +222,61 @@ Retusa Tree
 
 ## Arc
 - damage: 20 -> 13
-- reload = 35f -> 32f
+- reload = 1.71 -> 1.87
 
 ## Parallax
 No changes /shrug
 
 ## Swarmer
-- blastCompound: damage: 10 -> 13; splashdamage: 30 * 1.5 -> 33; splashDamageRadius: 30 -> 42
-- pyratite: damage: (no changes); splashdamage: 30 * 1.5 -> 32; splashDamageRadius: 20 -> 44
-- surgeAlloy: damage: 18 -> 15; splashdamage: 25 * 1.4 -> 35; splashDamageRadius: 25 -> 26
+- blastCompound: damage: 10 -> 13; splashdamage: 45 -> 33; splashDamageRadius: 3.7 -> 5.2
+- pyratite: damage: (no changes); splashdamage: 45 -> 32; splashDamageRadius: 2.5 -> 5.5
+- surgeAlloy: damage: 18 -> 15; splashDamageRadius: 3.1 -> 3.2
 
 - rotarespeed: default -> 4f
 
 ## Salvo
 - copper: damage: 11 -> 13
-- graphite: damage: 20 -> 25 (+reloadMultiplier = 0.7f)
-- pyratite: damage: 18 -> 22, splashDamage = 12 -> 15, splashDamageRadius = 22 -> 23, pierceCap = 2, knockback = 0.7f
-- silicon: damage: 15 -> 18, reloadMultiplier = 1.5 -> 1.3, knockback = 0.3f
-- thorium: damage: 29 -> 27, reloadMultiplier = 0.7f, knockback = 1.5f, pierceCap = 2
+- graphite: damage: 20 -> 25, reloadMultiplier = 0.7x
+- pyratite: damage: 18 -> 22, splashDamage = 12 -> 15, splashDamageRadius = 2.7 -> 2.8, pierceCap = 2, knockback = 0.7
+- silicon: damage: 15 -> 18, reloadMultiplier = 1.5 -> 1.3, knockback = 0.3
+- thorium: damage: 29 -> 27, reloadMultiplier = 0.7x, knockback = 1.5, pierceCap = 2
 
 - reload: 31f -> 32f
-- inaccuracy: 7f -> 5f
-- requirements: copper=100, graphite=80 -> copper=125, graphite=70
+- inaccuracy: 7.74 -> 7.5
+- requirements: copper = 100, graphite = 80 -> copper = 125, graphite = 70
 
 ## Segment
 No changes
 
 ## Tsunami
-- slag: rangeChange = 32; lifetime = 49 -> 56;
-- cryofluid: rangeChange = 20; lifetime = 49 -> 56;
-- oil: rangeChange = 32; lifetime = 49 -> 56;
+- slag: rangeChange = 32 (+4 range); lifetime: 49 -> 58;
+- cryofluid: rangeChange = 20 (+2.5 range); lifetime: 49 -> 56;
+- oil: rangeChange = 32 (+4 range); lifetime: 49 -> 58;
 
 ## Fuse
+No changes
 
 ## Ripple
+- plastanium: splashDamage: 45 -> 32, pierceCap = 2, fragBullets: 10 -> 5, fragBulletDamage (idk how it names): 10 -> 12
+- blastCompound: splashDamage: 55 -> 75, splashDamageRadius = 4.2 -> 5.2, reloadMultiplier: 0.7x
+- pyratite: splashDamage: 45 -> 48, splashDamageRadius = 2.3 -> 4.7
+
+
+- requirements: copper = 150, graphite = 135, titanium = 60 -> copper = 175, graphite = 90, titanium = 70
 
 ## Cyclone
-### Damage
-- metaglass: 6 -> 13, ammoMultiplier = 2 -> 5, reloadMultiplier = 0.8 -> 1.2, splashDamage = 45 -> 32, fragBullets = 4 -> 10
-- blastCompound: 8 -> 12, splashDamage = 45 -> 55
-- plastanium: 8 -> 15, splashDamage = 37.5 -> 35
+- metaglass: damage: 6 -> 13, ammoMultiplier: 2x -> 5x, reloadMultiplier: 0.8x -> 1.2x, splashDamage: 45 -> 32, fragBullets: 4 -> 10
+- blastCompound: damage: 8 -> 12, splashDamage: 45 -> 55
+- plastanium: damage: 8 -> 15, splashDamage: 37 -> 35
+- surgeAlloy: splashDamageRadius = 4.7 -> 4.3
+
 - rotateSpeed: 10f -> 7f
-- coolant: 0.3f -> 0.2f
-- shootSound: Sounds.shootSnap (добавлено)
+- coolant: 0.3f -> 0.2f ((decreased coolant buff (water: 160% -> 140%; cryofluid: 235% -> 190%))
 
 ## Foreshadow
-- maxAmmo: добавлено 40
-- ammoPerShot: 5 (без изм.)
-- reload: 200f -> 270f
+- reload: 0.3 -> 0.22 /todo
 - rotateSpeed: 2f -> 1.3f
 - coolantMultiplier: 0.4f -> 1f
-- shootSound: Sounds.railgun (добавлено)
 
 ## Spectre
 - graphite: 50 -> 75, ammoMultiplier = 4 -> 3, knockback = 0.3 -> 1
@@ -291,8 +295,7 @@ No changes
 
 ---
 
-**Без изменении:**  
-- Все остальные параметры турелей, не упомянутые выше, не изменялись.
+
 ![Скриншот 09-10-2025 215022](https://github.com/user-attachments/assets/cef425aa-a9da-4af2-8b98-f2f5ea329c81)
 ![Скриншот 09-10-2025 215029](https://github.com/user-attachments/assets/21d5029a-b32a-42c5-8531-48dc5b39b11e)
 ![Скриншот 09-10-2025 215034](https://github.com/user-attachments/assets/46bebb0a-f844-47ff-a31c-9a04764e21ec)
