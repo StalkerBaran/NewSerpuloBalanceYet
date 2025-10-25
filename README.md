@@ -1,188 +1,1962 @@
 # I will use this project (rebalance mod is outdated, check my custom jar rebalance for playtest: https://github.com/StalkerBaran/Mindustry/releases/tag/mindustry) as draft for future documentation. Eeee, changes before (v152.2) and after (custom balance)!
 
-Gonna upload here screenshots before writing changelog (with hidden changes like rotarespeed/landmine stats/etc)
+# Changedlog (in github way, thanks to Eggo (justacommonegg))
 
-## New core stats (armor suppose to make T1-T2 rushes weaker and more orientir for eco-harass gameplay (like flares, poly and etc). Also increased core health because nerfed heal percentage for most units (poly, mega, pulsars, ...)
-![Скриншот 09-10-2025 205605](https://github.com/user-attachments/assets/ffde1ce9-5bdb-4006-b167-16b98811aab5)
-![Скриншот 09-10-2025 205612](https://github.com/user-attachments/assets/c5e55581-7d47-458a-aeea-78def0757ecd)
-![Скриншот 09-10-2025 205617](https://github.com/user-attachments/assets/e3e4a55f-6ff5-4dd8-9d4a-9483d88d23b3)
-![Скриншот 09-10-2025 205621](https://github.com/user-attachments/assets/90688ed7-481e-4d27-b3e3-a21a3f2e38a5)
-![Скриншот 09-10-2025 205625](https://github.com/user-attachments/assets/ce66c30a-f78e-44f5-a5be-9be0b19c8c30)
-![Скриншот 09-10-2025 205629](https://github.com/user-attachments/assets/1a447ac9-c549-44ad-aec3-974f7b486753)
-
-## Effect status changes (for balancing reactive damage and making burning more useful)
-![Скриншот 09-10-2025 205639](https://github.com/user-attachments/assets/e27c3e02-eb76-4865-9a89-927423857945)
-![Скриншот 09-10-2025 205643](https://github.com/user-attachments/assets/a13e70c2-bb0d-401e-af9a-8ecf04aef7b7)
-![Скриншот 09-10-2025 205649](https://github.com/user-attachments/assets/be12d87a-4264-4ebb-bc34-ebeb2b006679)
-![Скриншот 09-10-2025 205654](https://github.com/user-attachments/assets/d52e76b0-e92d-4f82-8312-6061834d296d)
-![Скриншот 09-10-2025 205700](https://github.com/user-attachments/assets/21bf5958-b496-44f8-a267-eb6e71e0c2a3)
-![Скриншот 09-10-2025 205704](https://github.com/user-attachments/assets/908aa052-a312-4f3b-91fc-3f23454ec493)
-
-## Unit factory cost/buildcost/timeproduction changes 
-![Скриншот 09-10-2025 205819](https://github.com/user-attachments/assets/09fb3ace-98e6-40c6-825e-ead9df992f3d)
-![Скриншот 09-10-2025 205823](https://github.com/user-attachments/assets/e2859fef-c549-45b5-91ee-da2a473a6238)
-![Скриншот 09-10-2025 205827](https://github.com/user-attachments/assets/2af80f05-5085-4142-8b33-ad4a8bc49cdf)
-![Скриншот 14-10-2025 221730](https://github.com/user-attachments/assets/f863b408-e5b8-4e8d-8482-16addd42b33f)
-![Скриншот 09-10-2025 205837](https://github.com/user-attachments/assets/0b4ac2be-f9b5-4c68-9682-39efadff2b48)
-![Скриншот 09-10-2025 205842](https://github.com/user-attachments/assets/2bc57d26-a178-4d25-b981-32e13d882841)
-![Скриншот 09-10-2025 205936](https://github.com/user-attachments/assets/65d4e211-bf35-4293-8653-4734e7f149d5)
-![Скриншот 09-10-2025 205941](https://github.com/user-attachments/assets/b3b27209-523f-41a3-b1fd-969551e5edf6)
-
-## Other non-turret building changes
-![Скриншот 09-10-2025 205954](https://github.com/user-attachments/assets/44570f5c-c52e-4c45-8464-98ab5e104597)
-![Скриншот 09-10-2025 205958](https://github.com/user-attachments/assets/fe7e27ba-ab59-4f2b-92f5-c862f3a2d478)
-![Скриншот 09-10-2025 210008](https://github.com/user-attachments/assets/3e4e1acc-12b7-4287-b4b8-5795afcb0b19)
-![Скриншот 09-10-2025 210012](https://github.com/user-attachments/assets/c55af0c1-a388-431b-97cd-25536cad562f)
-![Скриншот 09-10-2025 210018](https://github.com/user-attachments/assets/e9fc7984-c8a3-4824-a330-c78837d59d55)
-![Скриншот 09-10-2025 210024](https://github.com/user-attachments/assets/dc54ceee-cf4e-46cd-b41b-15b42a9a552b)
-![Скриншот 14-10-2025 221351](https://github.com/user-attachments/assets/9646ee66-9df9-464f-8e5a-01acd62b9af8)
-![Скриншот 14-10-2025 221358](https://github.com/user-attachments/assets/7fb368b6-a994-437e-b586-de09c4609b1b)
-![Скриншот 14-10-2025 221403](https://github.com/user-attachments/assets/4477dd6d-173c-46c5-a034-203bee9561d0)
-![Скриншот 14-10-2025 221407](https://github.com/user-attachments/assets/60f9315e-6854-4f8d-bbc9-cf05349493b0)
-![Скриншот 14-10-2025 221422](https://github.com/user-attachments/assets/1a460a86-9575-429f-a2e5-9f041603ac0f)
-![Скриншот 14-10-2025 221426](https://github.com/user-attachments/assets/51415e4d-40ac-41f5-a255-a178231ba3a2)
-![Скриншот 14-10-2025 221431](https://github.com/user-attachments/assets/6bb8a675-e493-4b82-adbd-bbb91fd9c105)
-![Скриншот 14-10-2025 221435](https://github.com/user-attachments/assets/3308cc98-ef60-48b7-9369-2125502c70dc)
-![Скриншот 14-10-2025 221440](https://github.com/user-attachments/assets/5923e003-dcbd-4934-8986-e0b4d384bcd0)
-![Скриншот 14-10-2025 221444](https://github.com/user-attachments/assets/27b2efab-f6cc-467b-a6f3-7fcbeaf53c85)
-![Скриншот 14-10-2025 221450](https://github.com/user-attachments/assets/a02d65de-ec3f-48ef-a533-36928058b738)
-![Скриншот 14-10-2025 221454](https://github.com/user-attachments/assets/89a69e1a-012e-46d3-b9a0-5627cb41a89f)
-
-## Units 
-Dagger Tree
-![Скриншот 09-10-2025 210459](https://github.com/user-attachments/assets/0dde8c6f-2600-4ffe-be70-2e6507c2fc1a)
-![Скриншот 14-10-2025 221748](https://github.com/user-attachments/assets/433d484b-11dd-404e-94b0-c62bf35572e6)
-![Скриншот 09-10-2025 210507](https://github.com/user-attachments/assets/762ebee3-e663-40cc-97e5-3fd0270749d9)
-![Скриншот 09-10-2025 210511](https://github.com/user-attachments/assets/289c389b-ff49-43d1-88de-efb2d6146c47)
-![Скриншот 09-10-2025 210521](https://github.com/user-attachments/assets/bf83f813-e6a0-4ab6-bac4-a8c9b473aac3)
-![Скриншот 09-10-2025 210527](https://github.com/user-attachments/assets/d5c768da-8e62-4b61-a65f-69ed20115702)
-![Скриншот 09-10-2025 210539](https://github.com/user-attachments/assets/7f186936-57c2-4768-8edf-17d47fb0d125)
-![Скриншот 09-10-2025 210542](https://github.com/user-attachments/assets/1e21033e-ea15-4c48-b48d-a6bb2d72c0df)
-![Скриншот 09-10-2025 210547](https://github.com/user-attachments/assets/314e3c97-2505-444b-8e31-f3fe0085a351)
-![Скриншот 09-10-2025 210549](https://github.com/user-attachments/assets/3f74e562-4562-40d4-9844-20da8bfcb096)
-![Скриншот 09-10-2025 210642](https://github.com/user-attachments/assets/232ee697-5fa9-4a99-a4c5-dc758d2fbb70)
-![Скриншот 09-10-2025 210647](https://github.com/user-attachments/assets/0d6ebcf9-ed48-4927-8779-f31fadea6fc3)
-
-Nova Tree
-![Скриншот 09-10-2025 210710](https://github.com/user-attachments/assets/a3c7bfd4-0a59-4dde-aa15-6db6e757b1ce)
-![Скриншот 09-10-2025 210714](https://github.com/user-attachments/assets/820a8ce4-8719-4681-9e06-6d33fcab6c0f)
-![Скриншот 09-10-2025 210723](https://github.com/user-attachments/assets/98785040-2a11-473b-bb4e-eee147897bb9)
-![Скриншот 09-10-2025 210725](https://github.com/user-attachments/assets/e55fe0de-c8ab-47cf-aec1-068c5dd5d4b5)
-![Скриншот 09-10-2025 210730](https://github.com/user-attachments/assets/942bc0bb-3cf2-417c-97ed-4c76eb50b59a)
-![Скриншот 09-10-2025 210732](https://github.com/user-attachments/assets/0612554a-c196-4f53-acd1-36f0c4ba64cd)
-![Скриншот 09-10-2025 210740](https://github.com/user-attachments/assets/c1c21f6d-ac6c-4a31-9b3d-430d1f9f912d)
-![Скриншот 09-10-2025 210742](https://github.com/user-attachments/assets/b73b36a9-8877-4d26-8cf9-af4461b109e3)
-![Скриншот 09-10-2025 210747](https://github.com/user-attachments/assets/21bd6b04-7675-45fb-a65f-ef5a4ebf470b)
-![Скриншот 09-10-2025 210749](https://github.com/user-attachments/assets/e016544c-e37b-4ab3-9861-13f44b6c3bdd)
-![Скриншот 09-10-2025 210754](https://github.com/user-attachments/assets/e0d88e91-8f80-4b4e-9cb2-612d310c7f61)
-![Скриншот 09-10-2025 210759](https://github.com/user-attachments/assets/47c81868-ef80-4200-82db-598800ad8be2)
-![Скриншот 09-10-2025 210803](https://github.com/user-attachments/assets/9077a270-9b5c-4dd1-b812-3e85f3d14cbc)
-![Скриншот 09-10-2025 210808](https://github.com/user-attachments/assets/b89d3a0a-ec2c-4f6c-9735-cabd02144be1)
-
-Spooder Tree
-![Скриншот 09-10-2025 210814](https://github.com/user-attachments/assets/d976ddb4-6534-4cbc-b5db-fe641ec4acbf)
-![Скриншот 09-10-2025 210819](https://github.com/user-attachments/assets/d229b1a9-78ec-4630-a3ef-1062fbc5d074)
-![Скриншот 09-10-2025 210828](https://github.com/user-attachments/assets/c16f4a88-2f67-44ac-8f50-2c5cbdc4bd4c)
-![Скриншот 09-10-2025 210832](https://github.com/user-attachments/assets/f5bcc64c-8db6-4a4b-88bf-0970590ae0e6)
-![Скриншот 09-10-2025 211043](https://github.com/user-attachments/assets/876794df-d821-4d0f-9d13-343dfee4ebe2)
-![Скриншот 14-10-2025 221757](https://github.com/user-attachments/assets/8fe1408b-b7d3-487e-b006-61417dbafd82)
-![Скриншот 09-10-2025 211347](https://github.com/user-attachments/assets/4be7e1f0-aacf-4cb8-a099-403062aeb74b)
-![Скриншот 09-10-2025 211351](https://github.com/user-attachments/assets/98a32d35-18b3-4118-83d2-0b9cb50bb1ad)
-![Скриншот 09-10-2025 211356](https://github.com/user-attachments/assets/d55331a8-40c8-4667-9a35-94907d945cd1)
-![Скриншот 09-10-2025 211359](https://github.com/user-attachments/assets/232b9352-9bfb-4b80-a9e1-a430e647cc9b)
-![Скриншот 09-10-2025 211609](https://github.com/user-attachments/assets/a911cd9d-b6c9-4cba-bb16-bb5007c016f2)
-![Скриншот 09-10-2025 211616](https://github.com/user-attachments/assets/32cdfd5d-5b29-4244-a89e-a4a396ca15dd)
-
-Flare Tree
-![Скриншот 09-10-2025 212244](https://github.com/user-attachments/assets/50f2d3cf-1ff5-4163-bc15-f6431cfb9a4d)
-![Скриншот 09-10-2025 212249](https://github.com/user-attachments/assets/88e8c9b0-2722-4623-b829-17f5052b0700)
-![Скриншот 09-10-2025 212253](https://github.com/user-attachments/assets/47c9117f-a7d3-4f4c-89bf-839724e1e37e)
-![Скриншот 14-10-2025 221805](https://github.com/user-attachments/assets/98a98e08-4855-462a-8cea-08049e4b0399)
-![Скриншот 09-10-2025 212302](https://github.com/user-attachments/assets/65b9767d-4ab8-4619-8623-9b0e8b7404ad)
-![Скриншот 09-10-2025 212329](https://github.com/user-attachments/assets/28f725cf-c724-4289-8093-e6de90cb0fcf)
-![Скриншот 09-10-2025 212334](https://github.com/user-attachments/assets/b708fb7e-2a76-4b6f-8554-1137c64fc157)
-![Скриншот 09-10-2025 212339](https://github.com/user-attachments/assets/a1e860a2-195c-4501-8d54-c1c90ae1cafe)
-![Скриншот 09-10-2025 212344](https://github.com/user-attachments/assets/b15538a3-7672-49aa-a896-c17c6841d9ed)
-![Скриншот 14-10-2025 221814](https://github.com/user-attachments/assets/56299ff6-e0b7-4a75-8fa2-b7b4f0b66eab)
-
-Mono Tree
-![Скриншот 09-10-2025 212611](https://github.com/user-attachments/assets/31d0eb7e-9e5e-4ed4-be16-608c2a64f2cd)
-![Скриншот 09-10-2025 212619](https://github.com/user-attachments/assets/65839c3f-b8cf-428b-bee5-1ce3040a12e5)
-![Скриншот 09-10-2025 212628](https://github.com/user-attachments/assets/3d7b80e8-ed78-42c7-afe0-0c70412d3d3c)
-![Скриншот 09-10-2025 212630](https://github.com/user-attachments/assets/88ea11e1-bebd-44a1-8850-6b53d86f61c8)
-![Скриншот 09-10-2025 212635](https://github.com/user-attachments/assets/d2ca5946-c343-4a8c-8798-73c7d4bed3dc)
-![Скриншот 09-10-2025 212637](https://github.com/user-attachments/assets/18b3b37c-6da8-4936-b1e3-e1b38585b8d1)
-![Скриншот 09-10-2025 212738](https://github.com/user-attachments/assets/47b3c19f-8c31-405c-ab33-fe6df3871cfa)
-![Скриншот 09-10-2025 212742](https://github.com/user-attachments/assets/9c5b44fa-8241-4a69-a51c-20a295136e0c)
-![Скриншот 09-10-2025 212746](https://github.com/user-attachments/assets/eec91bdd-ac8c-4c84-86d4-ec4c88ce50ce)
-![Скриншот 14-10-2025 221814](https://github.com/user-attachments/assets/60bb0ae6-9a1f-4dca-90a9-5a6dc580b586)
-
-Risso Tree
-![Скриншот 09-10-2025 213214](https://github.com/user-attachments/assets/899d241f-1e7c-493c-838b-5f3b41ce6736)
-![Скриншот 09-10-2025 213221](https://github.com/user-attachments/assets/fdb3670a-ea58-48fa-9ed8-d91f6c0ca872)
-![Скриншот 09-10-2025 213226](https://github.com/user-attachments/assets/8549a3df-e977-49c4-9560-c46ed5f46f62)
-![Скриншот 09-10-2025 213230](https://github.com/user-attachments/assets/43cfcb9a-8b3e-4208-a92d-38f3d94a7264)
-![Скриншот 09-10-2025 213241](https://github.com/user-attachments/assets/9e138e6a-9024-4f9e-aa3f-8a0280a1108b)
-![Скриншот 09-10-2025 213243](https://github.com/user-attachments/assets/bb353da0-3fd4-4127-9e9a-a741d90291b2)
-![Скриншот 09-10-2025 213249](https://github.com/user-attachments/assets/01ce5a32-a3d9-4571-929f-7868cc540043)
-![Скриншот 09-10-2025 213251](https://github.com/user-attachments/assets/e5981fc2-255c-4557-868a-47e5c01f9020)
-![Скриншот 09-10-2025 213422](https://github.com/user-attachments/assets/704f7367-d9d2-4038-ad65-7c4905fde684)
-![Скриншот 09-10-2025 213427](https://github.com/user-attachments/assets/5f655308-02f2-4edd-aaba-a1c480070026)
-![Скриншот 09-10-2025 213431](https://github.com/user-attachments/assets/1e56ecce-f5c3-4763-a1a7-50b7f9614236)
-![Скриншот 09-10-2025 213435](https://github.com/user-attachments/assets/d29dea2e-d985-4293-8a93-1f80cd860be5)
-
-Retusa Tree 
-![Скриншот 09-10-2025 213441](https://github.com/user-attachments/assets/497a8e3c-2dc3-41f3-9c76-2dc0ad9c028d)
-![Скриншот 09-10-2025 213446](https://github.com/user-attachments/assets/ce46f6fc-657d-4cf6-b313-a66a2db20b2b)
-![Скриншот 09-10-2025 213508](https://github.com/user-attachments/assets/15eb5129-146f-452d-a47a-83cf545b7d7f)
-![Скриншот 09-10-2025 213516](https://github.com/user-attachments/assets/26bf16e5-f04a-4e32-aa2b-f5ccdc2eeebc)
-![Скриншот 09-10-2025 213522](https://github.com/user-attachments/assets/2d5eb639-b692-432c-8cd3-9ef035c9a482)
-![Скриншот 09-10-2025 213527](https://github.com/user-attachments/assets/3848dbca-eed0-4820-843b-5d2b4ddd46a4)
-![Скриншот 09-10-2025 213536](https://github.com/user-attachments/assets/1664f356-3353-4f23-8fe8-9aae0bec0ced)
-![Скриншот 09-10-2025 213544](https://github.com/user-attachments/assets/3c931d9f-c26e-4526-bb10-9934eac96e46)
-![Скриншот 09-10-2025 213551](https://github.com/user-attachments/assets/d957f297-34b9-47ad-92ce-8cafe520f6fb)
-![Скриншот 09-10-2025 213554](https://github.com/user-attachments/assets/d540af35-45e6-4043-803e-474ca7263287)
-![Скриншот 09-10-2025 213557](https://github.com/user-attachments/assets/0666e93f-c8fb-48f6-8eca-a4d277a78d00)
-![Скриншот 09-10-2025 213559](https://github.com/user-attachments/assets/0db0baa6-fbc4-426e-b7ee-ffe653d0ac3f)
-
-## Turrets 
-![Скриншот 09-10-2025 213735](https://github.com/user-attachments/assets/f24a0759-e5c8-4c1e-b251-d931b778da1c)
-![Скриншот 09-10-2025 213741](https://github.com/user-attachments/assets/5f6c4521-241b-4ca3-aecb-42f3238ced68)
-![Скриншот 09-10-2025 213750](https://github.com/user-attachments/assets/6a265f9a-ae35-4441-97d7-a391f2c89a7a)
-![Скриншот 09-10-2025 213757](https://github.com/user-attachments/assets/08b7dc83-ed57-4a36-b51b-b6af88205c2a)
-![Скриншот 09-10-2025 213816](https://github.com/user-attachments/assets/b3ae744c-89d8-40c9-a309-0e559c1c5f4e)
-![Скриншот 09-10-2025 213818](https://github.com/user-attachments/assets/96106bdd-3904-42c3-9c98-0cd19bf138fc)
-![Скриншот 09-10-2025 213823](https://github.com/user-attachments/assets/ac3e4e76-3741-47b3-ace9-7df59f03a0c7)
-![Скриншот 09-10-2025 213825](https://github.com/user-attachments/assets/8923d267-df50-4178-96ab-efc71ca773f3)
-![Скриншот 09-10-2025 213831](https://github.com/user-attachments/assets/8295079b-7d48-4779-bd4f-c70242d2e118)
-![Скриншот 09-10-2025 213837](https://github.com/user-attachments/assets/23626e3a-0896-41b2-b1ac-2dfc33afbbeb)
-![Скриншот 09-10-2025 213842](https://github.com/user-attachments/assets/c14cf6a8-448c-4340-a795-531eeec458db)
-![Скриншот 09-10-2025 213847](https://github.com/user-attachments/assets/54435228-fb12-4171-92a7-ea1908ad3c9e)
-![Скриншот 09-10-2025 214014](https://github.com/user-attachments/assets/a089abdf-0e74-49a0-b5ab-73e048225f3f)
-![Скриншот 09-10-2025 214018](https://github.com/user-attachments/assets/ae5f82d3-5669-44d4-81b7-43263e183838)
-![Скриншот 09-10-2025 214024](https://github.com/user-attachments/assets/52f62aa3-331f-498d-afff-3f5786198f38)
-![Скриншот 09-10-2025 214028](https://github.com/user-attachments/assets/2a7f9378-6b34-4529-bcce-ddaee0481f79)
-![Скриншот 09-10-2025 214050](https://github.com/user-attachments/assets/1be4a078-2209-49ca-ae59-96eddc26f764)
-![Скриншот 09-10-2025 214059](https://github.com/user-attachments/assets/31393e0c-6c2b-49f5-9e14-fd8095ee5724)
-![Скриншот 09-10-2025 214106](https://github.com/user-attachments/assets/c09daa6f-af7e-4fc9-bc89-b56528213b29)
-![Скриншот 09-10-2025 214108](https://github.com/user-attachments/assets/63f8ab60-398e-4ab1-9367-da9564243834)
-![Скриншот 09-10-2025 214112](https://github.com/user-attachments/assets/6596053d-6c88-4d67-b648-f5d9fc2fe828)
-![Скриншот 09-10-2025 214114](https://github.com/user-attachments/assets/046943ff-110a-4255-b3b5-ea59c962ad5e)
-![Скриншот 09-10-2025 214234](https://github.com/user-attachments/assets/49038bdf-da45-4d8a-b671-0fd6e8d6e352)
-![Скриншот 09-10-2025 214239](https://github.com/user-attachments/assets/24638306-ffaa-4743-8fdf-85e84b06cfd1)
-![Скриншот 09-10-2025 214457](https://github.com/user-attachments/assets/ef5c85d9-669f-4306-a001-7b49616fd52a)
-![Скриншот 09-10-2025 214500](https://github.com/user-attachments/assets/1b27b730-b173-427f-b3c3-38ee177df811)
-![Скриншот 09-10-2025 214505](https://github.com/user-attachments/assets/e7215f18-1b87-4e52-8a2e-280c80015408)
-![Скриншот 09-10-2025 214507](https://github.com/user-attachments/assets/59975ff3-a5d4-42b2-82f7-04ef1c16bb17)
-![Скриншот 09-10-2025 214945](https://github.com/user-attachments/assets/4f29ccc2-ef1e-480f-b7bd-3c1f4d0211ba)
-![Скриншот 09-10-2025 214947](https://github.com/user-attachments/assets/36dd3700-1c01-4963-9f5b-6167b763ae57)
-![Скриншот 09-10-2025 214955](https://github.com/user-attachments/assets/e8803d50-d580-4b7c-b24e-e44ef9f82b2d)
-![Скриншот 09-10-2025 214957](https://github.com/user-attachments/assets/56759f95-7bce-42eb-869b-61196b3b0232)
-![Скриншот 09-10-2025 215002](https://github.com/user-attachments/assets/cf46f45e-336f-4afe-9135-c7ebf28d67bc)
-![Скриншот 09-10-2025 215006](https://github.com/user-attachments/assets/651e1b0c-8925-4095-a16e-7f9cf01266db)
-![Скриншот 09-10-2025 215014](https://github.com/user-attachments/assets/a07c5d22-db7d-4145-9b70-f4e85db1eb2f)
-![Скриншот 09-10-2025 215016](https://github.com/user-attachments/assets/4008f59f-fa42-4ae7-9dfc-992adbbdcb88)
-![Скриншот 09-10-2025 215020](https://github.com/user-attachments/assets/b352fe04-a599-4254-b71c-708a583364d3)
+ plastaniumWall = new Wall("plastanium-wall"){{
+             requirements(Category.defense, with(Items.plastanium, 5, Items.metaglass, 2));
+-            health = 125 * wallHealthMultiplier;
++            health = 160 * wallHealthMultiplier;
+             insulated = true;
+             absorbLasers = true;
+             schematicPriority = 10;
+@@ -1714,7 +1714,7 @@ public class Blocks{
+ 
+         plastaniumWallLarge = new Wall("plastanium-wall-large"){{
+             requirements(Category.defense, ItemStack.mult(plastaniumWall.requirements, 4));
+-            health = 125 * wallHealthMultiplier * 4;
++            health = 160 * wallHealthMultiplier * 4;
+             size = 2;
+             insulated = true;
+             absorbLasers = true;
+@@ -1734,14 +1734,14 @@ public class Blocks{
+ 
+         phaseWall = new Wall("phase-wall"){{
+             requirements(Category.defense, with(Items.phaseFabric, 6));
+-            health = 150 * wallHealthMultiplier;
++            health = 180 * wallHealthMultiplier;
+             chanceDeflect = 10f;
+             flashHit = true;
+         }};
+ 
+         phaseWallLarge = new Wall("phase-wall-large"){{
+             requirements(Category.defense, ItemStack.mult(phaseWall.requirements, 4));
+-            health = 150 * 4 * wallHealthMultiplier;
++            health = 180 * 4 * wallHealthMultiplier;
+             size = 2;
+             chanceDeflect = 10f;
+             flashHit = true;
+@@ -1749,13 +1749,13 @@ public class Blocks{
+ 
+         surgeWall = new Wall("surge-wall"){{
+             requirements(Category.defense, with(Items.surgeAlloy, 6));
+-            health = 230 * wallHealthMultiplier;
++            health = 245 * wallHealthMultiplier;
+             lightningChance = 0.05f;
+         }};
+ 
+         surgeWallLarge = new Wall("surge-wall-large"){{
+             requirements(Category.defense, ItemStack.mult(surgeWall.requirements, 4));
+-            health = 230 * 4 * wallHealthMultiplier;
++            health = 245 * 4 * wallHealthMultiplier;
+             size = 2;
+             lightningChance = 0.05f;
+         }};
+@@ -1920,15 +1920,15 @@ public class Blocks{
+         }};
+ 
+         overdriveProjector = new OverdriveProjector("overdrive-projector"){{
+-            requirements(Category.effect, with(Items.lead, 100, Items.titanium, 75, Items.silicon, 75, Items.plastanium, 30));
++            requirements(Category.effect, with(Items.lead, 210, Items.titanium, 75, Items.silicon, 75, Items.plastanium, 35));
+             consumePower(3.50f);
+             size = 2;
+             consumeItem(Items.phaseFabric).boost();
+         }};
+ 
+         overdriveDome = new OverdriveProjector("overdrive-dome"){{
+-            requirements(Category.effect, with(Items.lead, 200, Items.titanium, 130, Items.silicon, 130, Items.plastanium, 80, Items.surgeAlloy, 120));
+-            consumePower(10f);
++            requirements(Category.effect, with(Items.lead, 720, Items.titanium, 210, Items.silicon, 170, Items.plastanium, 175, Items.surgeAlloy, 275));
++            consumePower(25f);
+             size = 3;
+             range = 200f;
+             speedBoost = 2.5f;
+@@ -1954,11 +1954,11 @@ public class Blocks{
+         shockMine = new ShockMine("shock-mine"){{
+             requirements(Category.effect, with(Items.lead, 25, Items.silicon, 12));
+             hasShadow = false;
+-            health = 50;
+-            damage = 25;
++            health = 30;
++            damage = 15;
+             tileDamage = 7f;
+             length = 10;
+-            tendrils = 4;
++            tendrils = 7;
+         }};
+ 
+         radar = new Radar("radar"){{
+@@ -3102,7 +3102,8 @@ public class Blocks{
+ 
+             isFirstTier = true;
+             unitType = UnitTypes.alpha;
+-            health = 1100;
++            health = 2000;
++            armor = 3;
+             itemCapacity = 4000;
+             size = 3;
+             buildCostMultiplier = 2f;
+@@ -3115,6 +3116,7 @@ public class Blocks{
+ 
+             unitType = UnitTypes.beta;
+             health = 3500;
++            armor = 5f;
+             itemCapacity = 9000;
+             size = 4;
+             thrusterLength = 34/4f;
+@@ -3127,7 +3129,8 @@ public class Blocks{
+             requirements(Category.effect, with(Items.copper, 8000, Items.lead, 8000, Items.silicon, 5000, Items.thorium, 4000));
+ 
+             unitType = UnitTypes.gamma;
+-            health = 6000;
++            health = 9000;
++            armor = 8f;
+             itemCapacity = 13000;
+             size = 5;
+             thrusterLength = 40/4f;
+@@ -3237,7 +3240,7 @@ public class Blocks{
+         duo = new ItemTurret("duo"){{
+             requirements(Category.turret, with(Items.copper, 35));
+             ammo(
+-                Items.copper,  new BasicBulletType(2.5f, 9){{
++                Items.copper,  new BasicBulletType(2.5f, 13){{
+                     width = 7f;
+                     height = 9f;
+                     lifetime = 60f;
+@@ -3247,9 +3250,10 @@ public class Blocks{
+                     hitColor = backColor = trailColor = Pal.copperAmmoBack;
+                     frontColor = Pal.copperAmmoFront;
+                 }},
+-                Items.graphite, new BasicBulletType(3.5f, 18){{
++                Items.graphite, new BasicBulletType(3.5f, 21){{
+                     width = 9f;
+                     height = 12f;
++                    reloadMultiplier = 0.7f;
+                     ammoMultiplier = 4;
+                     lifetime = 60f;
+                     rangeChange = 16f;
+@@ -3258,7 +3262,7 @@ public class Blocks{
+                     hitColor = backColor = trailColor = Pal.graphiteAmmoBack;
+                     frontColor = Pal.graphiteAmmoFront;
+                 }},
+-                Items.silicon, new BasicBulletType(3f, 12){{
++                Items.silicon, new BasicBulletType(3f, 15){{
+                     width = 7f;
+                     height = 9f;
+                     homingPower = 0.2f;
+@@ -3293,7 +3297,7 @@ public class Blocks{
+             recoil = 0.5f;
+             shootY = 3f;
+             reload = 20f;
+-            range = 160;
++            range = 168;
+             shootCone = 15f;
+             ammoUseEffect = Fx.casing1;
+             health = 250;
+@@ -3316,8 +3320,8 @@ public class Blocks{
+                     width = 6f;
+                     height = 8f;
+                     hitEffect = Fx.flakExplosion;
+-                    splashDamage = 22f * 1.5f;
+-                    splashDamageRadius = 24f;
++                    splashDamage = 17f * 1.5f;
++                    splashDamageRadius = 33f;
+ 
+                     frontColor = Pal.scrapAmmoFront;
+                     backColor = hitColor = Pal.scrapAmmoBack;
+@@ -3330,8 +3334,8 @@ public class Blocks{
+                     width = 6f;
+                     height = 8f;
+                     hitEffect = Fx.flakExplosion;
+-                    splashDamage = 27f * 1.5f;
+-                    splashDamageRadius = 15f;
++                    splashDamage = 12f * 1.5f;
++                    splashDamageRadius = 28f;
+                 }},
+                 Items.metaglass, new FlakBulletType(4f, 3){{
+                     backColor = trailColor = Pal.glassAmmoBack;
+@@ -3341,13 +3345,13 @@ public class Blocks{
+                     lifetime = 60f;
+                     ammoMultiplier = 5f;
+                     shootEffect = Fx.shootSmall;
+-                    reloadMultiplier = 0.8f;
++                    reloadMultiplier = 0.7f;
+                     width = 6f;
+                     height = 8f;
+                     hitEffect = Fx.flakExplosion;
+-                    splashDamage = 30f * 1.5f;
+-                    splashDamageRadius = 20f;
+-                    fragBullets = 6;
++                    splashDamage = 15f * 1.5f;
++                    splashDamageRadius = 27f;
++                    fragBullets = 4;
+                     fragBullet = new BasicBulletType(3f, 5){{
+                         width = 5f;
+                         height = 12f;
+@@ -3378,13 +3382,14 @@ public class Blocks{
+             shoot.shots = 2;
+ 
+             recoil = 1f;
+-            rotateSpeed = 15f;
++            rotateSpeed = 12f;
+             inaccuracy = 17f;
+             shootCone = 35f;
+ 
+             scaledHealth = 200;
+             shootSound = Sounds.shootSnap;
+             coolant = consumeCoolant(0.2f);
++            coolantMultiplier = 7.5f;
+             researchCostMultiplier = 0.05f;
+ 
+             limitRange(2);
+@@ -3407,7 +3412,7 @@ public class Blocks{
+                     keepVelocity = false;
+                     hittable = false;
+                 }},
+-                Items.pyratite, new BulletType(4f, 60f){{
++                Items.pyratite, new BulletType(4f, 35f){{
+                     ammoMultiplier = 6f;
+                     hitSize = 7f;
+                     lifetime = 18f;
+@@ -3424,7 +3429,7 @@ public class Blocks{
+             recoil = 0f;
+             reload = 6f;
+             coolantMultiplier = 1.5f;
+-            range = 60f;
++            range = 72.5f;
+             shootY = 3;
+             shootCone = 50f;
+             targetAir = false;
+@@ -3455,7 +3460,7 @@ public class Blocks{
+                     width = height = 11f;
+                     collidesTiles = false;
+                     splashDamageRadius = 25f * 0.75f;
+-                    splashDamage = 33f;
++                    splashDamage = 27f;
+                     reloadMultiplier = 1.2f;
+                     ammoMultiplier = 3f;
+                     homingPower = 0.08f;
+@@ -3472,9 +3477,9 @@ public class Blocks{
+                     hitEffect = Fx.blastExplosion;
+                     knockback = 0.8f;
+                     lifetime = 80f;
+-                    width = height = 13f;
++                    width = height = 14f;
+                     collidesTiles = false;
+-                    splashDamageRadius = 25f * 0.75f;
++                    splashDamageRadius = 28f * 0.75f;
+                     splashDamage = 45f;
+                     status = StatusEffects.burning;
+                     statusDuration = 60f * 12f;
+@@ -3509,6 +3514,8 @@ public class Blocks{
+                 Liquids.slag, new LiquidBulletType(Liquids.slag){{
+                     damage = 4;
+                     drag = 0.01f;
++                    rangeChange = 24;
++                    lifetime = 44;
+                 }},
+                 Liquids.cryofluid, new LiquidBulletType(Liquids.cryofluid){{
+                     drag = 0.01f;
+@@ -3516,6 +3523,8 @@ public class Blocks{
+                 Liquids.oil, new LiquidBulletType(Liquids.oil){{
+                     drag = 0.01f;
+                     layer = Layer.bullet - 2f;
++                    rangeChange = 24;
++                    lifetime = 44;
+                 }}
+             );
+             size = 2;
+@@ -3538,6 +3547,7 @@ public class Blocks{
+             shoot.firstShotDelay = 40f;
+ 
+             recoil = 2f;
++            rotateSpeed = 4f;
+             reload = 80f;
+             shake = 2f;
+             shootEffect = Fx.lancerLaserShoot;
+@@ -3553,7 +3563,7 @@ public class Blocks{
+ 
+             consumePower(6f);
+ 
+-            shootType = new LaserBulletType(140){{
++            shootType = new LaserBulletType(120){{
+                 colors = new Color[]{Pal.lancerLaser.cpy().a(0.4f), Pal.lancerLaser, Color.white};
+                 //TODO merge
+                 chargeEffect = new MultiEffect(Fx.lancerLaserCharge, Fx.lancerLaserChargeBegin);
+@@ -3573,7 +3583,7 @@ public class Blocks{
+         arc = new PowerTurret("arc"){{
+             requirements(Category.turret, with(Items.copper, 50, Items.lead, 50));
+             shootType = new LightningBulletType(){{
+-                damage = 20;
++                damage = 13f;
+                 lightningLength = 25;
+                 collidesAir = false;
+                 ammoMultiplier = 1f;
+@@ -3593,7 +3603,7 @@ public class Blocks{
+                     shieldDamageMultiplier = 0.2f;
+                 }};
+             }};
+-            reload = 35f;
++            reload = 32f;
+             shootCone = 40f;
+             rotateSpeed = 8f;
+             targetAir = false;
+@@ -3626,12 +3636,12 @@ public class Blocks{
+         swarmer = new ItemTurret("swarmer"){{
+             requirements(Category.turret, with(Items.graphite, 35, Items.titanium, 35, Items.plastanium, 45, Items.silicon, 30));
+             ammo(
+-                Items.blastCompound, new MissileBulletType(3.7f, 10){{
++                Items.blastCompound, new MissileBulletType(3.7f, 13){{
+                     width = 8f;
+                     height = 8f;
+                     shrinkY = 0f;
+-                    splashDamageRadius = 30f;
+-                    splashDamage = 30f * 1.5f;
++                    splashDamageRadius = 42f;
++                    splashDamage = 33f;
+                     ammoMultiplier = 5f;
+                     hitEffect = Fx.blastExplosion;
+                     despawnEffect = Fx.blastExplosion;
+@@ -3648,19 +3658,19 @@ public class Blocks{
+                     height = 8f;
+                     shrinkY = 0f;
+                     homingPower = 0.08f;
+-                    splashDamageRadius = 20f;
+-                    splashDamage = 30f * 1.5f;
++                    splashDamageRadius = 44f;
++                    splashDamage = 32f;
+                     makeFire = true;
+                     ammoMultiplier = 5f;
+                     hitEffect = Fx.blastExplosion;
+                     status = StatusEffects.burning;
+                 }},
+-                Items.surgeAlloy, new MissileBulletType(3.7f, 18){{
++                Items.surgeAlloy, new MissileBulletType(3.7f, 15){{
+                     width = 8f;
+                     height = 8f;
+                     shrinkY = 0f;
+-                    splashDamageRadius = 25f;
+-                    splashDamage = 25f * 1.4f;
++                    splashDamageRadius = 26f;
++                    splashDamage = 35f;
+                     hitEffect = Fx.blastExplosion;
+                     despawnEffect = Fx.blastExplosion;
+                     ammoMultiplier = 4f;
+@@ -3668,6 +3678,8 @@ public class Blocks{
+                     lightning = 2;
+                     lightningLength = 10;
+ 
++                    reloadMultiplier = 0.8f;
++
+                     hitColor = backColor = trailColor = Pal.surgeAmmoBack;
+                     frontColor = Pal.surgeAmmoFront;
+                 }}
+@@ -3692,29 +3704,34 @@ public class Blocks{
+             scaledHealth = 300;
+             shootSound = Sounds.missile;
+             envEnabled |= Env.space;
+-
++            rotateSpeed = 4f;
++            
+             limitRange(5f);
+             coolant = consumeCoolant(0.3f);
+         }};
+ 
+         salvo = new ItemTurret("salvo"){{
+-            requirements(Category.turret, with(Items.copper, 100, Items.graphite, 80, Items.titanium, 50));
++            requirements(Category.turret, with(Items.copper, 125, Items.graphite, 70, Items.titanium, 50));
+             ammo(
+-                Items.copper,  new BasicBulletType(2.5f, 11){{
++                Items.copper,  new BasicBulletType(2.5f, 13){{
+                     width = 7f;
+                     height = 9f;
+                     lifetime = 60f;
+                     ammoMultiplier = 2;
++                    knockback = 0.6f;
+ 
+                     hitEffect = despawnEffect = Fx.hitBulletColor;
+                     hitColor = backColor = trailColor = Pal.copperAmmoBack;
+                     frontColor = Pal.copperAmmoFront;
+                 }},
+-                Items.graphite, new BasicBulletType(3.5f, 20){{
++                Items.graphite, new BasicBulletType(3.5f, 25){{
+                     width = 9f;
+                     height = 12f;
+                     ammoMultiplier = 4;
+                     lifetime = 60f;
++                    
++                    reloadMultiplier = 0.7f;
++                    knockback = 1.2f;
+ 
+                     rangeChange = 4f * 8f;
+ 
+@@ -3722,7 +3739,7 @@ public class Blocks{
+                     hitColor = backColor = trailColor = Pal.graphiteAmmoBack;
+                     frontColor = Pal.graphiteAmmoFront;
+                 }},
+-                Items.pyratite, new BasicBulletType(3.2f, 18){{
++                Items.pyratite, new BasicBulletType(3.2f, 22){{
+                     width = 10f;
+                     height = 12f;
+                     frontColor = hitColor = Pal.lightishOrange;
+@@ -3732,27 +3749,34 @@ public class Blocks{
+ 
+                     ammoMultiplier = 5;
+ 
+-                    splashDamage = 12f;
+-                    splashDamageRadius = 22f;
++                    pierceCap = 2;
++                    pierceBuilding = false;
++
++                    knockback = 0.7f;
++                    
++                    splashDamage = 15f;
++                    splashDamageRadius = 23f;
+ 
+                     makeFire = true;
+                     lifetime = 60f;
+                 }},
+-                Items.silicon, new BasicBulletType(3f, 15, "bullet"){{
++                Items.silicon, new BasicBulletType(3f, 18, "bullet"){{
+                     width = 8f;
+                     height = 10f;
+                     homingPower = 0.2f;
+-                    reloadMultiplier = 1.5f;
++                    reloadMultiplier = 1.3f;
+                     ammoMultiplier = 5;
+                     lifetime = 60f;
+ 
++                    knockback = 0.3f;
++
+                     trailLength = 5;
+                     trailWidth = 1.5f;
+                     hitEffect = despawnEffect = Fx.hitBulletColor;
+                     hitColor = backColor = trailColor = Pal.siliconAmmoBack;
+                     frontColor = Pal.siliconAmmoFront;
+                 }},
+-                Items.thorium, new BasicBulletType(4f, 29, "bullet"){{
++                Items.thorium, new BasicBulletType(4f, 27, "bullet"){{
+                     width = 8f;
+                     height = 13f;
+                     shootEffect = Fx.shootBig;
+@@ -3760,6 +3784,12 @@ public class Blocks{
+                     ammoMultiplier = 4;
+                     lifetime = 60f;
+ 
++                    pierceCap = 2;
++                    pierceBuilding = false;
++
++                    reloadMultiplier = 0.7f;
++                    knockback = 1.5f;
++                    
+                     hitEffect = despawnEffect = Fx.hitBulletColor;
+                     backColor = hitColor = trailColor = Pal.thoriumAmmoBack;
+                     frontColor = Pal.thoriumAmmoFront;
+@@ -3782,9 +3812,10 @@ public class Blocks{
+ 
+             size = 2;
+             range = 190f;
+-            reload = 31f;
++            reload = 32f;
+             consumeAmmoOnce = false;
+             ammoEjectBack = 3f;
++            inaccuracy = 5f;
+             recoil = 0f;
+             shake = 1f;
+             shoot.shots = 4;
+@@ -3828,7 +3859,7 @@ public class Blocks{
+                     layer = Layer.bullet - 2f;
+                 }},
+                 Liquids.slag,  new LiquidBulletType(Liquids.slag){{
+-                    lifetime = 49f;
++                    lifetime = 58f;
+                     speed = 4f;
+                     knockback = 1.3f;
+                     puddleSize = 8f;
+@@ -3837,9 +3868,10 @@ public class Blocks{
+                     drag = 0.001f;
+                     ammoMultiplier = 0.4f;
+                     statusDuration = 60f * 4f;
++                    rangeChange = 32f;
+                 }},
+                 Liquids.cryofluid, new LiquidBulletType(Liquids.cryofluid){{
+-                    lifetime = 49f;
++                    lifetime = 56f;
+                     speed = 4f;
+                     knockback = 1.3f;
+                     puddleSize = 8f;
+@@ -3848,9 +3880,10 @@ public class Blocks{
+                     ammoMultiplier = 0.4f;
+                     statusDuration = 60f * 4f;
+                     damage = 0.2f;
++                    rangeChange = 20f;
+                 }},
+                 Liquids.oil, new LiquidBulletType(Liquids.oil){{
+-                    lifetime = 49f;
++                    lifetime = 58f;
+                     speed = 4f;
+                     knockback = 1.3f;
+                     puddleSize = 8f;
+@@ -3860,6 +3893,7 @@ public class Blocks{
+                     statusDuration = 60f * 4f;
+                     damage = 0.2f;
+                     layer = Layer.bullet - 2f;
++                    rangeChange = 32f;
+                 }}
+             );
+             size = 3;
+@@ -3915,12 +3949,12 @@ public class Blocks{
+         }};
+ 
+         ripple = new ItemTurret("ripple"){{
+-            requirements(Category.turret, with(Items.copper, 150, Items.graphite, 135, Items.titanium, 60));
++            requirements(Category.turret, with(Items.copper, 175, Items.graphite, 90, Items.titanium, 70));
+             ammo(
+                 Items.graphite, new ArtilleryBulletType(3f, 20){{
+-                    knockback = 0.8f;
++                    knockback = 1.2f;
+                     lifetime = 80f;
+-                    width = height = 11f;
++                    width = height = 16f;
+                     collidesTiles = false;
+                     splashDamageRadius = 25f * 0.75f;
+                     splashDamage = 33f;
+@@ -3952,10 +3986,10 @@ public class Blocks{
+                     hitEffect = Fx.blastExplosion;
+                     knockback = 0.8f;
+                     lifetime = 80f;
+-                    width = height = 13f;
++                    width = height = 17f;
+                     collidesTiles = false;
+-                    splashDamageRadius = 25f * 0.75f;
+-                    splashDamage = 45f;
++                    splashDamageRadius = 38f;
++                    splashDamage = 48f;
+                     status = StatusEffects.burning;
+                     statusDuration = 60f * 12f;
+                     frontColor = Pal.lightishOrange;
+@@ -3969,11 +4003,13 @@ public class Blocks{
+                     hitEffect = Fx.blastExplosion;
+                     knockback = 0.8f;
+                     lifetime = 80f;
+-                    width = height = 14f;
++                    width = height = 18f;
+                     collidesTiles = false;
+                     ammoMultiplier = 4f;
+-                    splashDamageRadius = 45f * 0.75f;
+-                    splashDamage = 55f;
++                    splashDamageRadius = 42f;
++                    splashDamage = 75f;
++
++                    reloadMultiplier = 0.7f;
+ 
+                     status = StatusEffects.blasted;
+ 
+@@ -3988,8 +4024,8 @@ public class Blocks{
+                     width = height = 13f;
+                     collidesTiles = false;
+                     splashDamageRadius = 35f * 0.75f;
+-                    splashDamage = 45f;
+-                    fragBullet = new BasicBulletType(2.5f, 10, "bullet"){{
++                    splashDamage = 32f;
++                    fragBullet = new BasicBulletType(2.5f, 12, "bullet"){{
+                         width = 10f;
+                         height = 12f;
+                         shrinkY = 1f;
+@@ -3999,7 +4035,7 @@ public class Blocks{
+                         despawnEffect = Fx.none;
+                         collidesAir = false;
+                     }};
+-                    fragBullets = 10;
++                    fragBullets = 5;
+                     backColor = Pal.plastaniumBack;
+                     frontColor = Pal.plastaniumFront;
+                 }}
+@@ -4028,16 +4064,16 @@ public class Blocks{
+         cyclone = new ItemTurret("cyclone"){{
+             requirements(Category.turret, with(Items.copper, 200, Items.titanium, 125, Items.plastanium, 80));
+             ammo(
+-                Items.metaglass, new FlakBulletType(4f, 6){{
+-                    ammoMultiplier = 2f;
++                Items.metaglass, new FlakBulletType(4f, 13){{
++                    ammoMultiplier = 5f;
+                     shootEffect = Fx.shootSmall;
+-                    reloadMultiplier = 0.8f;
++                    reloadMultiplier = 1.2f;
+                     width = 6f;
+                     height = 11f;
+                     hitEffect = Fx.flakExplosion;
+-                    splashDamage = 45f;
++                    splashDamage = 32f;
+                     splashDamageRadius = 25f;
+-                    fragBullet = new BasicBulletType(3f, 12, "bullet"){{
++                    fragBullet = new BasicBulletType(3f, 8, "bullet"){{
+                         width = 5f;
+                         height = 12f;
+                         shrinkY = 1f;
+@@ -4045,8 +4081,9 @@ public class Blocks{
+                         backColor = Pal.gray;
+                         frontColor = Color.white;
+                         despawnEffect = Fx.none;
++                        buildingDamageMultiplier = 0.3f;
+                     }};
+-                    fragBullets = 4;
++                    fragBullets = 10;
+                     explodeRange = 20f;
+                     collidesGround = true;
+ 
+@@ -4054,10 +4091,10 @@ public class Blocks{
+                     frontColor = Pal.glassAmmoFront;
+                     despawnEffect = Fx.hitBulletColor;
+                 }},
+-                Items.blastCompound, new FlakBulletType(4f, 8){{
++                Items.blastCompound, new FlakBulletType(4f, 12){{
+                     shootEffect = Fx.shootBig;
+                     ammoMultiplier = 5f;
+-                    splashDamage = 45f;
++                    splashDamage = 55f;
+                     splashDamageRadius = 60f;
+                     collidesGround = true;
+ 
+@@ -4067,10 +4104,10 @@ public class Blocks{
+                     frontColor = Pal.blastAmmoFront;
+                     despawnEffect = Fx.hitBulletColor;
+                 }},
+-                Items.plastanium, new FlakBulletType(4f, 8){{
++                Items.plastanium, new FlakBulletType(4f, 15){{
+                     ammoMultiplier = 4f;
+                     splashDamageRadius = 40f;
+-                    splashDamage = 37.5f;
++                    splashDamage = 35f;
+                     fragBullet = new BasicBulletType(2.5f, 12, "bullet"){{
+                         width = 10f;
+                         height = 12f;
+@@ -4092,13 +4129,16 @@ public class Blocks{
+                 Items.surgeAlloy, new FlakBulletType(4.5f, 13){{
+                     ammoMultiplier = 5f;
+                     splashDamage = 50f * 1.5f;
+-                    splashDamageRadius = 38f;
+-                    lightning = 2;
++                    splashDamageRadius = 35f;
++                    lightning = 3;
+                     lightningLength = 7;
++                    lightningDamage = 12;
+                     shootEffect = Fx.shootBig;
+                     collidesGround = true;
+                     explodeRange = 20f;
+ 
++                    reloadMultiplier = 0.8f;
++                    
+                     backColor = hitColor = trailColor = Pal.surgeAmmoBack;
+                     frontColor = Pal.surgeAmmoFront;
+                     despawnEffect = Fx.hitBulletColor;
+@@ -4132,11 +4172,11 @@ public class Blocks{
+             size = 3;
+             recoil = 1.5f;
+             recoilTime = 10;
+-            rotateSpeed = 10f;
++            rotateSpeed = 7f;
+             inaccuracy = 10f;
+             shootCone = 30f;
+             shootSound = Sounds.shootSnap;
+-            coolant = consumeCoolant(0.3f);
++            coolant = consumeCoolant(0.2f);
+ 
+             scaledHealth = 145;
+             limitRange();
+@@ -4156,7 +4196,7 @@ public class Blocks{
+                     despawnEffect = Fx.instBomb;
+                     pointEffectSpace = 20f;
+                     damage = 1350;
+-                    buildingDamageMultiplier = 0.2f;
++                    buildingDamageMultiplier = 0.5f;
+                     maxDamageFraction = 0.6f;
+                     pierceDamageFactor = 1f;
+                     length = brange;
+@@ -4167,8 +4207,8 @@ public class Blocks{
+ 
+             maxAmmo = 40;
+             ammoPerShot = 5;
+-            rotateSpeed = 2f;
+-            reload = 200f;
++            rotateSpeed = 1.3f;
++            reload = 270f;
+             ammoUseEffect = Fx.casing3Double;
+             recoil = 5f;
+             cooldownTime = reload;
+@@ -4179,7 +4219,7 @@ public class Blocks{
+             unitSort = UnitSorts.strongest;
+             envEnabled |= Env.space;
+ 
+-            coolantMultiplier = 0.4f;
++            coolantMultiplier = 1f;
+             scaledHealth = 150;
+ 
+             coolant = consumeCoolant(1f);
+@@ -4189,32 +4229,33 @@ public class Blocks{
+         spectre = new ItemTurret("spectre"){{
+             requirements(Category.turret, with(Items.copper, 900, Items.graphite, 300, Items.surgeAlloy, 250, Items.plastanium, 175, Items.thorium, 250));
+             ammo(
+-                Items.graphite, new BasicBulletType(7.5f, 50){{
++                Items.graphite, new BasicBulletType(7.5f, 75){{
+                     hitSize = 4.8f;
+                     width = 15f;
+                     height = 21f;
+                     shootEffect = Fx.shootBig;
+-                    ammoMultiplier = 4;
++                    ammoMultiplier = 3;
+                     reloadMultiplier = 1.7f;
+-                    knockback = 0.3f;
++                    knockback = 1f;
+ 
+                     hitEffect = despawnEffect = Fx.hitBulletColor;
+                     hitColor = backColor = trailColor = Pal.graphiteAmmoBack;
+                     frontColor = Pal.graphiteAmmoFront;
+                 }},
+-                Items.thorium, new BasicBulletType(8f, 80){{
++                Items.thorium, new BasicBulletType(8f, 120){{
+                     hitSize = 5;
+                     width = 16f;
+                     height = 23f;
+                     shootEffect = Fx.shootBig;
+                     pierceCap = 2;
+                     pierceBuilding = true;
+-                    knockback = 0.7f;
++                    knockback = 1.3f;
++                    ammoMultiplier = 2;
+ 
+                     backColor = hitColor = trailColor = Pal.thoriumAmmoBack;
+                     frontColor = Pal.thoriumAmmoFront;
+                 }},
+-                Items.pyratite, new BasicBulletType(7f, 70){{
++                Items.pyratite, new BasicBulletType(7f, 110){{
+                     hitSize = 5;
+                     width = 16f;
+                     height = 21f;
+@@ -4226,17 +4267,18 @@ public class Blocks{
+                     makeFire = true;
+                     pierceCap = 2;
+                     pierceBuilding = true;
+-                    knockback = 0.6f;
++                    knockback = 0.7f;
+                     ammoMultiplier = 3;
+-                    splashDamage = 20f;
++                    splashDamage = 32f;
+                     splashDamageRadius = 25f;
+                 }}
+             );
+-            reload = 7f;
++            reload = 7.5f;
++            rotateSpeed = 1.4f;
+             recoilTime = reload * 2f;
+-            coolantMultiplier = 0.5f;
++            coolantMultiplier = 1f;
+             ammoUseEffect = Fx.casing3;
+-            range = 260f;
++            range = 273f;
+             inaccuracy = 3f;
+             recoil = 3f;
+             shoot = new ShootAlternate(8f);
+@@ -4245,6 +4287,8 @@ public class Blocks{
+             shootCone = 24f;
+             shootSound = Sounds.shootBig;
+ 
++            maxAmmo = 90;
++
+             scaledHealth = 160;
+             coolant = consumeCoolant(1f);
+ 
+@@ -4255,11 +4299,12 @@ public class Blocks{
+             requirements(Category.turret, with(Items.copper, 1200, Items.lead, 350, Items.graphite, 300, Items.surgeAlloy, 325, Items.silicon, 325));
+             shootEffect = Fx.shootBigSmoke2;
+             shootCone = 40f;
++            rotateSpeed = 1.3f;
+             recoil = 4f;
+             size = 4;
+             shake = 2f;
+             range = 195f;
+-            reload = 90f;
++            reload = 170f;
+             firingMoveFract = 0.5f;
+             shootDuration = 230f;
+             shootSound = Sounds.laserbig;
+@@ -4267,7 +4312,7 @@ public class Blocks{
+             loopSoundVolume = 2f;
+             envEnabled |= Env.space;
+ 
+-            shootType = new ContinuousLaserBulletType(78){{
++            shootType = new ContinuousLaserBulletType(130){{
+                 length = 200f;
+                 hitEffect = Fx.hitMeltdown;
+                 hitColor = Pal.meltdownHit;
+@@ -6145,11 +6190,11 @@ public class Blocks{
+         //region units
+ 
+         groundFactory = new UnitFactory("ground-factory"){{
+-            requirements(Category.units, with(Items.copper, 50, Items.lead, 120, Items.silicon, 80));
++            requirements(Category.units, with(Items.copper, 120, Items.lead, 70, Items.silicon, 80));
+             plans = Seq.with(
+-                new UnitPlan(UnitTypes.dagger, 60f * 15, with(Items.silicon, 10, Items.lead, 10)),
+-                new UnitPlan(UnitTypes.crawler, 60f * 10, with(Items.silicon, 8, Items.coal, 10)),
+-                new UnitPlan(UnitTypes.nova, 60f * 40, with(Items.silicon, 30, Items.lead, 20, Items.titanium, 20))
++                new UnitPlan(UnitTypes.dagger, 60f * 15, with(Items.silicon, 15, Items.lead, 10)),
++                new UnitPlan(UnitTypes.crawler, 60f * 10, with(Items.silicon, 10, Items.coal, 8)),
++                new UnitPlan(UnitTypes.nova, 60f * 40, with(Items.silicon, 25, Items.lead, 10, Items.titanium, 15))
+             );
+             size = 3;
+             consumePower(1.2f);
+@@ -6157,7 +6202,7 @@ public class Blocks{
+         }};
+ 
+         airFactory = new UnitFactory("air-factory"){{
+-            requirements(Category.units, with(Items.copper, 60, Items.lead, 70));
++            requirements(Category.units, with(Items.copper, 110, Items.lead, 80, Items.titanium, 35));
+             plans = Seq.with(
+                 new UnitPlan(UnitTypes.flare, 60f * 15, with(Items.silicon, 15)),
+                 new UnitPlan(UnitTypes.mono, 60f * 35, with(Items.silicon, 30, Items.lead, 15))
+@@ -6171,7 +6216,7 @@ public class Blocks{
+             requirements(Category.units, with(Items.copper, 150, Items.lead, 130, Items.metaglass, 120));
+             plans = Seq.with(
+                 new UnitPlan(UnitTypes.risso, 60f * 45f, with(Items.silicon, 20, Items.metaglass, 35)),
+-                new UnitPlan(UnitTypes.retusa, 60f * 35f, with(Items.silicon, 15, Items.titanium, 20))
++                new UnitPlan(UnitTypes.retusa, 60f * 35f, with(Items.silicon, 15, Items.metaglass, 25, Items.titanium, 20))
+             );
+             size = 3;
+             consumePower(1.2f);
+@@ -6183,7 +6228,7 @@ public class Blocks{
+ 
+             size = 3;
+             consumePower(3f);
+-            consumeItems(with(Items.silicon, 40, Items.graphite, 40));
++            consumeItems(with(Items.silicon, 30, Items.graphite, 30));
+ 
+             constructTime = 60f * 10f;
+ 
+@@ -6275,7 +6320,7 @@ public class Blocks{
+             requirements(Category.units, with(Items.silicon, 90, Items.thorium, 80, Items.plastanium, 60));
+             size = 2;
+             length = 6f;
+-            repairSpeed = 3f;
++            repairSpeed = 1.5f;
+             repairRadius = 145f;
+             powerUse = 5f;
+             beamWidth = 1.1f;
+diff --git a/core/src/mindustry/content/StatusEffects.java b/core/src/mindustry/content/StatusEffects.java
+index 7e9466f2d..8d0cb7495 100644
+--- a/core/src/mindustry/content/StatusEffects.java
++++ b/core/src/mindustry/content/StatusEffects.java
+@@ -20,8 +20,10 @@ public class StatusEffects{
+         burning = new StatusEffect("burning"){{
+             color = Color.valueOf("ffc455");
+             damage = 0.167f;
++            reloadMultiplier = 0.9f;
++            speedMultiplier = 0.9f;
+             effect = Fx.burning;
+-            transitionDamage = 8f;
++            transitionDamage = 12;
+ 
+             init(() -> {
+                 opposite(wet, freezing);
+@@ -38,7 +40,7 @@ public class StatusEffects{
+             speedMultiplier = 0.6f;
+             healthMultiplier = 0.8f;
+             effect = Fx.freezing;
+-            transitionDamage = 18f;
++            transitionDamage = 14;
+ 
+             init(() -> {
+                 opposite(melting, burning);
+@@ -76,7 +78,7 @@ public class StatusEffects{
+             speedMultiplier = 0.94f;
+             effect = Fx.wet;
+             effectChance = 0.09f;
+-            transitionDamage = 14;
++            transitionDamage = 13;
+ 
+             init(() -> {
+                 affinity(shocked, (unit, result, time) -> {
+diff --git a/core/src/mindustry/content/UnitTypes.java b/core/src/mindustry/content/UnitTypes.java
+index 90d83fb03..ac10a9935 100644
+--- a/core/src/mindustry/content/UnitTypes.java
++++ b/core/src/mindustry/content/UnitTypes.java
+@@ -99,28 +99,31 @@ public class UnitTypes{
+ 
+         dagger = new UnitType("dagger"){{
+             researchCostMultiplier = 0.5f;
+-            speed = 0.5f;
++            speed = 0.64f;
+             hitSize = 8f;
+-            health = 150;
++            rotateSpeed = 7f;
++            health = 120;
++            armor = 2f;
+             weapons.add(new Weapon("large-weapon"){{
+-                reload = 13f;
++                reload = 20f;
+                 x = 4f;
+                 y = 2f;
+                 top = false;
+                 ejectEffect = Fx.casing1;
+-                bullet = new BasicBulletType(2.5f, 9){{
++                bullet = new BasicBulletType(2.5f, 12){{
+                     width = 7f;
+                     height = 9f;
+-                    lifetime = 60f;
++                    lifetime = 56f;
+                 }};
+             }});
+         }};
+ 
+         mace = new UnitType("mace"){{
+-            speed = 0.5f;
++            speed = 0.61f;
+             hitSize = 10f;
+-            health = 550;
+-            armor = 4f;
++            rotateSpeed = 4f;
++            health = 510;
++            armor = 5f;
+             ammoType = new ItemAmmoType(Items.coal);
+ 
+             immunities.add(StatusEffects.burning);
+@@ -132,7 +135,7 @@ public class UnitTypes{
+                 reload = 11f;
+                 recoil = 1f;
+                 ejectEffect = Fx.none;
+-                bullet = new BulletType(4.2f, 37f){{
++                bullet = new BulletType(4.2f, 27f){{
+                     ammoMultiplier = 3f;
+                     hitSize = 7f;
+                     lifetime = 13f;
+@@ -151,12 +154,12 @@ public class UnitTypes{
+         }};
+ 
+         fortress = new UnitType("fortress"){{
+-            speed = 0.43f;
++            speed = 0.5f;
+             hitSize = 13f;
+-            rotateSpeed = 3f;
++            rotateSpeed = 3.2f;
+             targetAir = false;
+-            health = 900;
+-            armor = 9f;
++            health = 910;
++            armor = 10f;
+             mechFrontSway = 0.55f;
+             ammoType = new ItemAmmoType(Items.graphite);
+ 
+@@ -169,15 +172,15 @@ public class UnitTypes{
+                 shake = 2f;
+                 ejectEffect = Fx.casing2;
+                 shootSound = Sounds.artillery;
+-                bullet = new ArtilleryBulletType(2f, 20, "shell"){{
++                bullet = new ArtilleryBulletType(2.5f, 20, "shell"){{
+                     hitEffect = Fx.blastExplosion;
+                     knockback = 0.8f;
+-                    lifetime = 120f;
++                    lifetime = 94.8f;
+                     width = height = 14f;
+                     collides = true;
+                     collidesTiles = true;
+                     splashDamageRadius = 35f;
+-                    splashDamage = 80f;
++                    splashDamage = 70f;
+                     backColor = Pal.bulletYellowBack;
+                     frontColor = Pal.bulletYellow;
+                 }};
+@@ -185,11 +188,11 @@ public class UnitTypes{
+         }};
+ 
+         scepter = new UnitType("scepter"){{
+-            speed = 0.36f;
++            speed = 0.52f;
+             hitSize = 22f;
+-            rotateSpeed = 2.1f;
+-            health = 9000;
+-            armor = 10f;
++            rotateSpeed = 3f;
++            health = 9100;
++            armor = 14f;
+             mechFrontSway = 1f;
+             ammoType = new ItemAmmoType(Items.thorium);
+ 
+@@ -200,10 +203,10 @@ public class UnitTypes{
+ 
+             abilities.add(new ShieldRegenFieldAbility(25f, 250f, 60f * 1, 60f));
+ 
+-            BulletType smallBullet = new BasicBulletType(3f, 10){{
++            BulletType smallBullet = new BasicBulletType(3f, 23){{
+                 width = 7f;
+                 height = 9f;
+-                lifetime = 50f;
++                lifetime = 55f;
+             }};
+ 
+             weapons.add(
+@@ -222,10 +225,10 @@ public class UnitTypes{
+                 shoot.shots = 3;
+                 shoot.shotDelay = 4f;
+ 
+-                bullet = new BasicBulletType(8f, 80){{
++                bullet = new BasicBulletType(8f, 70){{
+                     width = 11f;
+                     height = 20f;
+-                    lifetime = 27f;
++                    lifetime = 22f;
+                     shootEffect = Fx.shootBig;
+                     lightning = 2;
+                     lightningLength = 6;
+@@ -255,11 +258,11 @@ public class UnitTypes{
+         }};
+ 
+         reign = new UnitType("reign"){{
+-            speed = 0.4f;
++            speed = 0.48f;
+             hitSize = 30f;
+-            rotateSpeed = 1.65f;
+-            health = 24000;
+-            armor = 18f;
++            rotateSpeed = 2.6f;
++            health = 25000;
++            armor = 27f;
+             mechStepParticles = true;
+             stepShake = 0.75f;
+             drownTimeMultiplier = 1.6f;
+@@ -284,7 +287,7 @@ public class UnitTypes{
+                     pierceCap = 10;
+                     width = 14f;
+                     height = 33f;
+-                    lifetime = 15f;
++                    lifetime = 17.1f;
+                     shootEffect = Fx.shootBig;
+                     fragVelocityMin = 0.4f;
+ 
+@@ -303,7 +306,7 @@ public class UnitTypes{
+                         pierceBuilding = true;
+                         pierceCap = 3;
+ 
+-                        lifetime = 20f;
++                        lifetime = 17f;
+                         hitEffect = Fx.flakExplosion;
+                         splashDamage = 15f;
+                         splashDamageRadius = 10f;
+@@ -320,13 +323,17 @@ public class UnitTypes{
+         nova = new UnitType("nova"){{
+             canBoost = true;
+             boostMultiplier = 1.5f;
+-            speed = 0.55f;
++            speed = 0.68f;
++            rotateSpeed = 7f;
+             hitSize = 8f;
+-            health = 120f;
+-            buildSpeed = 0.3f;
+-            armor = 1f;
++            health = 90f;
++            buildSpeed = 0.5f;
++            armor = 3f;
+ 
+-            abilities.add(new RepairFieldAbility(10f, 60f * 4, 60f));
++            abilities.add(new RepairFieldAbility(10f, 90f, 60f){{
++                sameTypeHealMult = 0.5f;
++            }});
++            
+             ammoType = new PowerAmmoType(1000);
+ 
+             weapons.add(new Weapon("heal-weapon"){{
+@@ -339,9 +346,10 @@ public class UnitTypes{
+                 recoil = 2f;
+                 shootSound = Sounds.lasershoot;
+ 
+-                bullet = new LaserBoltBulletType(5.2f, 13){{
++                bullet = new LaserBoltBulletType(5.2f, 15){{
+                     lifetime = 30f;
+-                    healPercent = 5f;
++                    healPercent = 1f;
++                    healAmount = 10f;
+                     collidesTeam = true;
+                     backColor = Pal.heal;
+                     frontColor = Color.white;
+@@ -352,17 +360,17 @@ public class UnitTypes{
+         pulsar = new UnitType("pulsar"){{
+             canBoost = true;
+             boostMultiplier = 1.6f;
+-            speed = 0.7f;
++            speed = 0.732f;
+             hitSize = 11f;
+-            health = 320f;
++            health = 290f;
+             buildSpeed = 0.5f;
+             armor = 4f;
+             riseSpeed = 0.07f;
+ 
+             mineTier = 2;
+-            mineSpeed = 3f;
++            mineSpeed = 3.5f;
+ 
+-            abilities.add(new ShieldRegenFieldAbility(20f, 40f, 60f * 5, 60f));
++            abilities.add(new ShieldRegenFieldAbility(20f, 40f, 30f * 5, 60f));
+             ammoType = new PowerAmmoType(1300);
+ 
+             weapons.add(new Weapon("heal-shotgun-weapon"){{
+@@ -384,8 +392,8 @@ public class UnitTypes{
+ 
+                 bullet = new LightningBulletType(){{
+                     lightningColor = hitColor = Pal.heal;
+-                    damage = 15f;
+-                    lightningLength = 8;
++                    damage = 13f;
++                    lightningLength = 7;
+                     lightningLengthRand = 7;
+                     shootEffect = Fx.shootHeal;
+                     //Does not actually do anything; Just here to make stats work
+@@ -398,7 +406,7 @@ public class UnitTypes{
+                         status = StatusEffects.shocked;
+                         statusDuration = 10f;
+                         hittable = false;
+-                        healPercent = 1.6f;
++                        healPercent = 0.75f;
+                         collidesTeam = true;
+                     }};
+                 }};
+@@ -407,24 +415,25 @@ public class UnitTypes{
+ 
+         quasar = new UnitType("quasar"){{
+             mineTier = 3;
+-            boostMultiplier = 2f;
+-            health = 640f;
++            boostMultiplier = 1.9f;
++            health = 750f;
+             buildSpeed = 1.1f;
+             canBoost = true;
+-            armor = 9f;
++            armor = 8f;
+             mechLandShake = 2f;
+             riseSpeed = 0.05f;
+ 
+             mechFrontSway = 0.55f;
+             ammoType = new PowerAmmoType(1500);
+ 
+-            speed = 0.5f;
++            speed = 0.535f;
+             hitSize = 13f;
++            rotateSpeed = 5f;
+ 
+             mineSpeed = 4f;
+             drawShields = false;
+ 
+-            abilities.add(new ForceFieldAbility(60f, 0.4f, 500f, 60f * 6));
++            abilities.add(new ForceFieldAbility(60f, 0.3f, 512f, 180f));
+ 
+             weapons.add(new Weapon("beam-weapon"){{
+                 top = false;
+@@ -436,14 +445,15 @@ public class UnitTypes{
+                 shootSound = Sounds.laser;
+ 
+                 bullet = new LaserBulletType(){{
+-                    damage = 45f;
++                    damage = 52f;
+                     recoil = 0f;
+                     sideAngle = 45f;
+                     sideWidth = 1f;
+                     sideLength = 70f;
+-                    healPercent = 10f;
++                    healPercent = 5f;
++                    healAmount = 35f;
+                     collidesTeam = true;
+-                    length = 150f;
++                    length = 135f;
+                     colors = new Color[]{Pal.heal.cpy().a(0.4f), Pal.heal, Color.white};
+                 }};
+             }});
+@@ -452,7 +462,7 @@ public class UnitTypes{
+         vela = new UnitType("vela"){{
+             hitSize = 24f;
+ 
+-            rotateSpeed = 1.8f;
++            rotateSpeed = 3.2f;
+             mechFrontSway = 1f;
+             buildSpeed = 3f;
+ 
+@@ -461,15 +471,15 @@ public class UnitTypes{
+             ammoType = new PowerAmmoType(2500);
+             drownTimeMultiplier = 1.3f;
+ 
+-            speed = 0.44f;
+-            boostMultiplier = 2.4f;
++            speed = 0.56f;
++            boostMultiplier = 1.6f;
+             engineOffset = 12f;
+             engineSize = 6f;
+             lowAltitude = true;
+             riseSpeed = 0.02f;
+ 
+-            health = 8200f;
+-            armor = 9f;
++            health = 7800f;
++            armor = 13f;
+             canBoost = true;
+             mechLandShake = 4f;
+             immunities = ObjectSet.with(StatusEffects.burning);
+@@ -525,7 +535,7 @@ public class UnitTypes{
+                 y = -30f / 4f;
+                 shootY = 6f;
+                 beamWidth = 0.8f;
+-                repairSpeed = 1.4f;
++                repairSpeed = 1.94f;
+ 
+                 bullet = new BulletType(){{
+                     maxRange = 120f;
+@@ -535,8 +545,8 @@ public class UnitTypes{
+ 
+         corvus = new UnitType("corvus"){{
+             hitSize = 29f;
+-            health = 18000f;
+-            armor = 9f;
++            health = 15000f;
++            armor = 12f;
+             stepShake = 1.5f;
+             rotateSpeed = 1.5f;
+             drownTimeMultiplier = 1.6f;
+@@ -551,7 +561,7 @@ public class UnitTypes{
+             ammoType = new PowerAmmoType(4000);
+             groundLayer = Layer.legUnit;
+ 
+-            speed = 0.3f;
++            speed = 0.36f;
+ 
+             drawShields = false;
+ 
+@@ -564,35 +574,40 @@ public class UnitTypes{
+                 shake = 14f;
+                 shootY = 5f;
+                 x = y = 0;
+-                reload = 350f;
++                reload = 540f;
+                 recoil = 0f;
+ 
++                shoot.shots = 3;
++                shoot.shotDelay = 30f;
++                
+                 cooldownTime = 350f;
+ 
+-                shootStatusDuration = 60f * 2f;
++                shootStatusDuration = 72f * 2f;
+                 shootStatus = StatusEffects.unmoving;
+                 shoot.firstShotDelay = Fx.greenLaserCharge.lifetime;
+                 parentizeEffects = true;
+ 
+                 bullet = new LaserBulletType(){{
+-                    length = 460f;
+-                    damage = 560f;
++                    length = 415f;
++                    damage = 74f;
+                     width = 75f;
+ 
+-                    lifetime = 65f;
++                    lifetime = 47f;
++
++                    buildingDamageMultiplier = 3f;
+ 
+                     lightningSpacing = 35f;
+                     lightningLength = 5;
+                     lightningDelay = 1.1f;
+                     lightningLengthRand = 15;
+-                    lightningDamage = 50;
++                    lightningDamage = 17;
+                     lightningAngleRand = 40f;
+                     largeHit = true;
+                     lightColor = lightningColor = Pal.heal;
+ 
+                     chargeEffect = Fx.greenLaserCharge;
+ 
+-                    healPercent = 25f;
++                    healPercent = 18f;
+                     collidesTeam = true;
+ 
+                     sideAngle = 15f;
+@@ -612,7 +627,7 @@ public class UnitTypes{
+ 
+             speed = 1f;
+             hitSize = 8f;
+-            health = 150;
++            health = 110;
+             mechSideSway = 0.25f;
+             range = 40f;
+             ammoType = new ItemAmmoType(Items.coal);
+@@ -645,12 +660,12 @@ public class UnitTypes{
+         }};
+ 
+         atrax = new UnitType("atrax"){{
+-            speed = 0.6f;
++            speed = 0.84f;
+             drag = 0.4f;
+             hitSize = 13f;
+-            rotateSpeed = 3f;
++            rotateSpeed = 7.5f;
+             targetAir = false;
+-            health = 600;
++            health = 370;
+             immunities = ObjectSet.with(StatusEffects.burning, StatusEffects.melting);
+ 
+             legCount = 4;
+@@ -674,7 +689,7 @@ public class UnitTypes{
+                 shootSound = Sounds.flame;
+ 
+                 bullet = new LiquidBulletType(Liquids.slag){{
+-                    damage = 13;
++                    damage = 12;
+                     speed = 2.5f;
+                     drag = 0.009f;
+                     shootEffect = Fx.shootSmall;
+@@ -685,18 +700,18 @@ public class UnitTypes{
+         }};
+ 
+         spiroct = new UnitType("spiroct"){{
+-            speed = 0.54f;
++            speed = 0.828f;
+             drag = 0.4f;
+             hitSize = 15f;
+-            rotateSpeed = 3f;
+-            health = 1000;
++            rotateSpeed = 7f;
++            health = 1100;
+             legCount = 6;
+             legLength = 13f;
+             legForwardScl = 0.8f;
+             legMoveSpace = 1.4f;
+             legBaseOffset = 2f;
+             hovering = true;
+-            armor = 5f;
++            armor = 7f;
+             ammoType = new PowerAmmoType(1000);
+ 
+             shadowElevation = 0.3f;
+@@ -749,12 +764,12 @@ public class UnitTypes{
+ 
+         arkyid = new UnitType("arkyid"){{
+             drag = 0.1f;
+-            speed = 0.62f;
++            speed = 0.92f;
+             hitSize = 23f;
+-            health = 8000;
+-            armor = 6f;
++            health = 7800;
++            armor = 12f;
+ 
+-            rotateSpeed = 2.7f;
++            rotateSpeed = 4f;
+ 
+             legCount = 6;
+             legMoveSpace = 1f;
+@@ -833,7 +848,7 @@ public class UnitTypes{
+                     collidesTiles = true;
+                     ammoMultiplier = 4f;
+                     splashDamageRadius = 70f;
+-                    splashDamage = 65f;
++                    splashDamage = 75f;
+                     backColor = Pal.sapBulletBack;
+                     frontColor = lightningColor = Pal.sapBullet;
+                     lightning = 3;
+@@ -849,13 +864,13 @@ public class UnitTypes{
+ 
+         toxopid = new UnitType("toxopid"){{
+             drag = 0.1f;
+-            speed = 0.5f;
++            speed = 0.68f;
+             hitSize = 26f;
+-            health = 22000;
+-            armor = 13f;
++            health = 21000;
++            armor = 18f;
+             lightRadius = 140f;
+ 
+-            rotateSpeed = 1.9f;
++            rotateSpeed = 1.8f;
+ 
+             legCount = 8;
+             legMoveSpace = 0.8f;
+@@ -894,7 +909,7 @@ public class UnitTypes{
+ 
+                 bullet = new ShrapnelBulletType(){{
+                     length = 90f;
+-                    damage = 110f;
++                    damage = 180f;
+                     width = 25f;
+                     serrationLenScl = 7f;
+                     serrationSpaceOffset = 60f;
+@@ -923,10 +938,10 @@ public class UnitTypes{
+ 
+                 rotationLimit = 80f;
+ 
+-                bullet = new ArtilleryBulletType(3f, 50){{
++                bullet = new ArtilleryBulletType(3f, 110){{
+                     hitEffect = Fx.sapExplosion;
+                     knockback = 0.8f;
+-                    lifetime = 80f;
++                    lifetime = 73f;
+                     width = height = 25f;
+                     collidesTiles = collides = true;
+                     ammoMultiplier = 4f;
+@@ -982,7 +997,8 @@ public class UnitTypes{
+             accel = 0.08f;
+             drag = 0.04f;
+             flying = true;
+-            health = 70;
++            health = 35;
++            rotateSpeed = 9f;
+             engineOffset = 5.75f;
+             //TODO balance
+             //targetAir = false;
+@@ -993,9 +1009,9 @@ public class UnitTypes{
+             weapons.add(new Weapon(){{
+                 y = 0f;
+                 x = 2f;
+-                reload = 20f;
++                reload = 15f;
+                 ejectEffect = Fx.casing1;
+-                bullet = new BasicBulletType(2.5f, 9){{
++                bullet = new BasicBulletType(2.5f, 10){{
+                     width = 7f;
+                     height = 9f;
+                     lifetime = 45f;
+@@ -1008,8 +1024,9 @@ public class UnitTypes{
+         }};
+ 
+         horizon = new UnitType("horizon"){{
+-            health = 340;
+-            speed = 1.65f;
++            health = 240;
++            rotateSpeed = 7f;
++            speed = 2.2f;
+             accel = 0.08f;
+             drag = 0.016f;
+             flying = true;
+@@ -1035,7 +1052,7 @@ public class UnitTypes{
+                 inaccuracy = 15f;
+                 ignoreRotation = true;
+                 shootSound = Sounds.none;
+-                bullet = new BombBulletType(27f, 25f){{
++                bullet = new BombBulletType(23f, 25f){{
+                     width = 10f;
+                     height = 14f;
+                     hitEffect = Fx.flakExplosion;
+@@ -1050,10 +1067,11 @@ public class UnitTypes{
+         }};
+ 
+         zenith = new UnitType("zenith"){{
+-            health = 700;
++            health = 510;
+             speed = 1.7f;
++            rotateSpeed = 5.2f;
+             accel = 0.04f;
+-            drag = 0.016f;
++            drag = 0.043f;
+             flying = true;
+             range = 140f;
+             hitSize = 20f;
+@@ -1085,7 +1103,7 @@ public class UnitTypes{
+                     keepVelocity = false;
+                     splashDamageRadius = 25f;
+                     splashDamage = 15f;
+-                    lifetime = 50f;
++                    lifetime = 55f;
+                     trailColor = Pal.unitBack;
+                     backColor = Pal.unitBack;
+                     frontColor = Pal.unitFront;
+@@ -1098,29 +1116,29 @@ public class UnitTypes{
+         }};
+ 
+         antumbra = new UnitType("antumbra"){{
+-            speed = 0.8f;
++            speed = 0.72f;
+             accel = 0.04f;
+             drag = 0.04f;
+-            rotateSpeed = 1.9f;
++            rotateSpeed = 2.2f;
+             flying = true;
+             lowAltitude = true;
+-            health = 7200;
+-            armor = 9f;
++            health = 8100;
++            armor = 8f;
+             engineOffset = 21;
+             engineSize = 5.3f;
+             hitSize = 46f;
+             targetFlags = new BlockFlag[]{BlockFlag.generator, BlockFlag.core, null};
+             ammoType = new ItemAmmoType(Items.thorium);
+ 
+-            BulletType missiles = new MissileBulletType(2.7f, 18){{
+-                width = 8f;
+-                height = 8f;
++            BulletType missiles = new MissileBulletType(2.7f, 23){{
++                width = 8.5f;
++                height = 8.5f;
+                 shrinkY = 0f;
+                 drag = -0.01f;
+-                splashDamageRadius = 20f;
++                splashDamageRadius = 33f;
+                 splashDamage = 37f;
+                 ammoMultiplier = 4f;
+-                lifetime = 50f;
++                lifetime = 62f;
+                 hitEffect = Fx.blastExplosion;
+                 despawnEffect = Fx.blastExplosion;
+ 
+@@ -1165,7 +1183,7 @@ public class UnitTypes{
+                 bullet = new BasicBulletType(7f, 55){{
+                     width = 12f;
+                     height = 18f;
+-                    lifetime = 25f;
++                    lifetime = 32.5f;
+                     shootEffect = Fx.shootBig;
+                 }};
+             }}
+@@ -1173,27 +1191,27 @@ public class UnitTypes{
+         }};
+ 
+         eclipse = new UnitType("eclipse"){{
+-            speed = 0.54f;
++            speed = 0.66f;
+             accel = 0.04f;
+             drag = 0.04f;
+-            rotateSpeed = 1f;
++            rotateSpeed = 1.9f;
+             flying = true;
+             lowAltitude = true;
+             health = 22000;
+             engineOffset = 38;
+             engineSize = 7.3f;
+             hitSize = 58f;
+-            armor = 13f;
++            armor = 17f;
+             targetFlags = new BlockFlag[]{BlockFlag.reactor, BlockFlag.battery, BlockFlag.core, null};
+             ammoType = new ItemAmmoType(Items.thorium);
+ 
+-            BulletType fragBullet = new FlakBulletType(4f, 15){{
++            BulletType fragBullet = new FlakBulletType(4f, 35){{
+                 shootEffect = Fx.shootBig;
+                 ammoMultiplier = 4f;
+                 splashDamage = 65f;
+                 splashDamageRadius = 25f;
+                 collidesGround = true;
+-                lifetime = 47f;
++                lifetime = 65f;
+ 
+                 status = StatusEffects.blasted;
+                 statusDuration = 60f;
+@@ -1213,12 +1231,12 @@ public class UnitTypes{
+                 rotate = true;
+ 
+                 bullet = new LaserBulletType(){{
+-                    damage = 115f;
++                    damage = 130f;
+                     sideAngle = 20f;
+                     sideWidth = 1.5f;
+                     sideLength = 80f;
+                     width = 25f;
+-                    length = 230f;
++                    length = 257f;
+                     shootEffect = Fx.shockwave;
+                     colors = new Color[]{Color.valueOf("ec7458aa"), Color.valueOf("ff9c5a"), Color.white};
+                 }};
+@@ -1282,8 +1300,9 @@ public class UnitTypes{
+             rotateSpeed = 15f;
+             accel = 0.1f;
+             range = 130f;
+-            health = 400;
+-            buildSpeed = 0.5f;
++            health = 170;
++            armor = 1f;
++            buildSpeed = 0.3f;
+             engineOffset = 6.5f;
+             hitSize = 9f;
+             lowAltitude = true;
+@@ -1292,7 +1311,7 @@ public class UnitTypes{
+             mineTier = 2;
+             mineSpeed = 3.5f;
+ 
+-            abilities.add(new RepairFieldAbility(5f, 60f * 8, 50f));
++            abilities.add(new RepairFieldAbility(5f, 112f, 50f));
+ 
+             weapons.add(new Weapon("poly-weapon"){{
+                 top = false;
+@@ -1318,7 +1337,7 @@ public class UnitTypes{
+                     frontColor = Color.white;
+                     hitSound = Sounds.none;
+ 
+-                    healPercent = 5.5f;
++                    healPercent = 3f;
+                     collidesTeam = true;
+                     reflectable = false;
+                     backColor = Pal.heal;
+@@ -1332,11 +1351,12 @@ public class UnitTypes{
+ 
+             mineTier = 3;
+             mineSpeed = 4f;
+-            health = 460;
+-            armor = 3f;
+-            speed = 2.5f;
++            health = 380;
++            armor = 2f;
++            rotateSpeed = 7f;
++            speed = 2.56f;
+             accel = 0.06f;
+-            drag = 0.017f;
++            drag = 0.04f;
+             lowAltitude = true;
+             flying = true;
+             engineOffset = 10.5f;
+@@ -1358,7 +1378,8 @@ public class UnitTypes{
+                 rotate = true;
+                 bullet = new LaserBoltBulletType(5.2f, 10){{
+                     lifetime = 35f;
+-                    healPercent = 5.5f;
++                    healPercent = 3f;
++                    healAmount = 7.5f;
+                     collidesTeam = true;
+                     backColor = Pal.heal;
+                     frontColor = Color.white;
+@@ -1372,7 +1393,8 @@ public class UnitTypes{
+                 rotate = true;
+                 bullet = new LaserBoltBulletType(5.2f, 8){{
+                     lifetime = 35f;
+-                    healPercent = 3f;
++                    healPercent = 2f;
++                    healAmount = 5.5f;
+                     collidesTeam = true;
+                     backColor = Pal.heal;
+                     frontColor = Color.white;
+@@ -1384,7 +1406,7 @@ public class UnitTypes{
+             armor = 8f;
+             health = 6000;
+             speed = 1.2f;
+-            rotateSpeed = 2f;
++            rotateSpeed = 3f;
+             accel = 0.05f;
+             drag = 0.017f;
+             lowAltitude = false;
+@@ -1396,7 +1418,7 @@ public class UnitTypes{
+             faceTarget = false;
+             hitSize = 36f;
+             payloadCapacity = (3 * 3) * tilePayload;
+-            buildSpeed = 2.5f;
++            buildSpeed = 3.5f;
+             buildBeamOffset = 23;
+             range = 140f;
+             targetAir = false;
+@@ -1456,10 +1478,10 @@ public class UnitTypes{
+         oct = new UnitType("oct"){{
+             aiController = DefenderAI::new;
+ 
+-            armor = 16f;
+-            health = 24000;
++            armor = 15f;
++            health = 18000;
+             speed = 0.8f;
+-            rotateSpeed = 1f;
++            rotateSpeed = 3f;
+             accel = 0.04f;
+             drag = 0.018f;
+             flying = true;
+@@ -1474,19 +1496,19 @@ public class UnitTypes{
+             buildBeamOffset = 43;
+             ammoCapacity = 1;
+ 
+-            abilities.add(new ForceFieldAbility(140f, 4f, 7000f, 60f * 8, 8, 0f), new RepairFieldAbility(130f, 60f * 2, 140f));
++            abilities.add(new ForceFieldAbility(140f, 10f, 12000f, 60f * 8, 8, 0f), new RepairFieldAbility(700f, 60f * 2, 140f));
+         }};
+ 
+         //endregion
+         //region naval attack
+ 
+         risso = new UnitType("risso"){{
+-            speed = 1.1f;
++            speed = 1.03f;
+             drag = 0.13f;
+             hitSize = 10f;
+-            health = 280;
++            health = 220;
+             accel = 0.4f;
+-            rotateSpeed = 3.3f;
++            rotateSpeed = 8f;
+             faceTarget = false;
+ 
+             armor = 2f;
+@@ -1501,7 +1523,7 @@ public class UnitTypes{
+                 bullet = new BasicBulletType(2.5f, 9){{
+                     width = 7f;
+                     height = 9f;
+-                    lifetime = 60f;
++                    lifetime = 48f;
+                     ammoMultiplier = 2;
+                 }};
+             }});
+@@ -1536,13 +1558,13 @@ public class UnitTypes{
+         }};
+ 
+         minke = new UnitType("minke"){{
+-            health = 600;
+-            speed = 0.9f;
++            health = 370;
++            speed = 0.82f;
+             drag = 0.15f;
+             hitSize = 13f;
+             armor = 4f;
+             accel = 0.3f;
+-            rotateSpeed = 2.6f;
++            rotateSpeed = 7f;
+             faceTarget = false;
+             ammoType = new ItemAmmoType(Items.graphite);
+ 
+@@ -1561,7 +1583,7 @@ public class UnitTypes{
+                 ejectEffect = Fx.casing1;
+                 shootSound = Sounds.shoot;
+                 bullet = new FlakBulletType(4.2f, 3){{
+-                    lifetime = 60f;
++                    lifetime = 46f;
+                     ammoMultiplier = 4f;
+                     shootEffect = Fx.shootSmall;
+                     width = 6f;
+@@ -1585,7 +1607,7 @@ public class UnitTypes{
+                 bullet = new ArtilleryBulletType(3f, 20, "shell"){{
+                     hitEffect = Fx.flakExplosion;
+                     knockback = 0.8f;
+-                    lifetime = 80f;
++                    lifetime = 67f;
+                     width = height = 11f;
+                     collidesTiles = false;
+                     splashDamageRadius = 30f * 0.75f;
+@@ -1595,13 +1617,13 @@ public class UnitTypes{
+         }};
+ 
+         bryde = new UnitType("bryde"){{
+-            health = 910;
+-            speed = 0.85f;
++            health = 730;
++            speed = 0.78f;
+             accel = 0.2f;
+-            rotateSpeed = 1.8f;
++            rotateSpeed = 5.5f;
+             drag = 0.17f;
+             hitSize = 20f;
+-            armor = 7f;
++            armor = 9f;
+             faceTarget = false;
+             ammoType = new ItemAmmoType(Items.graphite);
+ 
+@@ -1632,7 +1654,7 @@ public class UnitTypes{
+                     trailMult = 0.8f;
+                     hitEffect = Fx.massiveExplosion;
+                     knockback = 1.5f;
+-                    lifetime = 84f;
++                    lifetime = 75f;
+                     height = 15.5f;
+                     width = 15f;
+                     collidesTiles = false;
+@@ -1692,13 +1714,13 @@ public class UnitTypes{
+ 
+         sei = new UnitType("sei"){{
+             health = 11000;
+-            armor = 12f;
++            armor = 15f;
+ 
+-            speed = 0.73f;
++            speed = 0.76f;
+             drag = 0.17f;
+             hitSize = 39f;
+             accel = 0.2f;
+-            rotateSpeed = 1.3f;
++            rotateSpeed = 3.2f;
+             faceTarget = false;
+             ammoType = new ItemAmmoType(Items.thorium);
+ 
+@@ -1743,7 +1765,7 @@ public class UnitTypes{
+                     keepVelocity = false;
+                     splashDamageRadius = 35f;
+                     splashDamage = 45f;
+-                    lifetime = 62f;
++                    lifetime = 56f;
+                     trailColor = Pal.bulletYellowBack;
+                     backColor = Pal.bulletYellowBack;
+                     frontColor = Pal.bulletYellow;
+@@ -1776,19 +1798,19 @@ public class UnitTypes{
+                     width = 13f;
+                     height = 19f;
+                     shootEffect = Fx.shootBig;
+-                    lifetime = 35f;
++                    lifetime = 32f;
+                 }};
+             }});
+         }};
+ 
+         omura = new UnitType("omura"){{
+-            health = 22000;
+-            speed = 0.62f;
++            health = 21000;
++            speed = 0.53f;
+             drag = 0.18f;
+             hitSize = 58f;
+             armor = 16f;
+             accel = 0.19f;
+-            rotateSpeed = 0.9f;
++            rotateSpeed = 2.4f;
+             faceTarget = false;
+             ammoType = new PowerAmmoType(4000);
+ 
+@@ -1819,7 +1841,7 @@ public class UnitTypes{
+ 
+                 bullet = new RailBulletType(){{
+                     shootEffect = Fx.railShoot;
+-                    length = 500;
++                    length = 410;
+                     pointEffectSpace = 60f;
+                     pierceEffect = Fx.railHit;
+                     pointEffect = Fx.railTrail;
+@@ -1839,7 +1861,7 @@ public class UnitTypes{
+             hitSize = 11f;
+             health = 270;
+             accel = 0.4f;
+-            rotateSpeed = 5f;
++            rotateSpeed = 9f;
+             trailLength = 20;
+             waveTrailX = 5f;
+             trailScl = 1.3f;
+@@ -1945,7 +1967,7 @@ public class UnitTypes{
+             hitSize = 14f;
+             armor = 4f;
+             accel = 0.4f;
+-            rotateSpeed = 4f;
++            rotateSpeed = 8f;
+             faceTarget = false;
+ 
+             trailLength = 22;
+@@ -2001,7 +2023,7 @@ public class UnitTypes{
+                 mirror = false;
+                 x = 0f;
+                 y = 1f;
+-                reload = 9f;
++                reload = 16f;
+                 targetInterval = 10f;
+                 targetSwitchInterval = 15f;
+ 
+@@ -2016,13 +2038,13 @@ public class UnitTypes{
+         }};
+ 
+         cyerce = new UnitType("cyerce"){{
+-            health = 870;
+-            speed = 0.86f;
++            health = 720;
++            speed = 0.775f;
+             accel = 0.22f;
+-            rotateSpeed = 2.6f;
++            rotateSpeed = 6.5f;
+             drag = 0.16f;
+             hitSize = 20f;
+-            armor = 6f;
++            armor = 8f;
+             faceTarget = false;
+             ammoType = new ItemAmmoType(Items.graphite);
+ 
+@@ -2039,7 +2061,7 @@ public class UnitTypes{
+                 y = -10f;
+                 shootY = 6f;
+                 beamWidth = 0.8f;
+-                repairSpeed = 0.7f;
++                repairSpeed = 0.57f;
+ 
+                 bullet = new BulletType(){{
+                     maxRange = 130f;
+@@ -2153,14 +2175,14 @@ public class UnitTypes{
+         }};
+ 
+         aegires = new UnitType("aegires"){{
+-            health = 12000;
++            health = 9000;
+             armor = 12f;
+ 
+-            speed = 0.7f;
++            speed = 0.75f;
+             drag = 0.17f;
+             hitSize = 44f;
+             accel = 0.2f;
+-            rotateSpeed = 1.4f;
++            rotateSpeed = 3f;
+             faceTarget = false;
+             ammoType = new PowerAmmoType(3500);
+             ammoCapacity = 40;
+@@ -2203,13 +2225,13 @@ public class UnitTypes{
+         }};
+ 
+         navanax = new UnitType("navanax"){{
+-            health = 20000;
+-            speed = 0.65f;
++            health = 27000;
++            speed = 0.74f;
+             drag = 0.17f;
+             hitSize = 58f;
+-            armor = 16f;
++            armor = 23f;
+             accel = 0.2f;
+-            rotateSpeed = 1.1f;
++            rotateSpeed = 3.3f;
+             faceTarget = false;
+             ammoType = new PowerAmmoType(4500);
+ 
+@@ -2238,7 +2260,7 @@ public class UnitTypes{
+                         targetSwitchInterval = 35f;
+ 
+                         rotateSpeed = 3.5f;
+-                        reload = 170f;
++                        reload = 110f;
+                         recoil = 1f;
+                         shootSound = Sounds.beam;
+                         continuous = true;
+@@ -2248,7 +2270,7 @@ public class UnitTypes{
+                         bullet = new ContinuousLaserBulletType(){{
+                             maxRange = 90f;
+                             damage = 27f;
+-                            length = 95f;
++                            length = 170f;
+                             hitEffect = Fx.hitMeltHeal;
+                             drawSize = 200f;
+                             lifetime = 155f;
+@@ -2284,7 +2306,7 @@ public class UnitTypes{
+                 x = 70f/4f;
+                 y = -26f/4f;
+ 
+-                reload = 65f;
++                reload = 37f;
+                 shake = 3f;
+                 rotateSpeed = 2f;
+                 shadow = 30f;
+@@ -2304,24 +2326,24 @@ public class UnitTypes{
+                     timeIncrease = 3f;
+                     timeDuration = 60f * 20f;
+                     powerDamageScl = 3f;
+-                    damage = 60;
++                    damage = 70;
+                     hitColor = lightColor = Pal.heal;
+                     lightRadius = 70f;
+                     clipSize = 250f;
+                     shootEffect = Fx.hitEmpSpark;
+                     smokeEffect = Fx.shootBigSmoke2;
+-                    lifetime = 60f;
++                    lifetime = 35f;
+                     sprite = "circle-bullet";
+                     backColor = Pal.heal;
+                     frontColor = Color.white;
+                     width = height = 12f;
+                     shrinkY = 0f;
+-                    speed = 5f;
++                    speed = 9f;
+                     trailLength = 20;
+                     trailWidth = 6f;
+                     trailColor = Pal.heal;
+                     trailInterval = 3f;
+-                    splashDamage = 70f;
++                    splashDamage = 210f;
+                     splashDamageRadius = rad;
+                     hitShake = 4f;
+                     trailRotation = true;
 
 
 # Changelog: Turrets (Blocks.java 1 → 2) (dont look at this, I didnt redacted, ignore text and look at screens only)
@@ -297,6 +2071,4 @@ No changes
 ---
 
 
-![Скриншот 09-10-2025 215022](https://github.com/user-attachments/assets/cef425aa-a9da-4af2-8b98-f2f5ea329c81)
-![Скриншот 09-10-2025 215029](https://github.com/user-attachments/assets/21d5029a-b32a-42c5-8531-48dc5b39b11e)
-![Скриншот 09-10-2025 215034](https://github.com/user-attachments/assets/46bebb0a-f844-47ff-a31c-9a04764e21ec)
+
