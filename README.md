@@ -1,6 +1,6 @@
 # I will use this project (rebalance mod is outdated, check my custom jar rebalance for playtest: https://github.com/StalkerBaran/Mindustry/releases/tag/mindustry) as draft for future documentation. Eeee, changes before (v152.2) and after (custom balance)!
 
-# Changedlog (in github way, thanks to Eggo (justacommonegg))
+## Changedlog (in github way, thanks to Eggo (justacommonegg). Idk how it can be readable, but I wont redact it and do it in my way)
 
  plastaniumWall = new Wall("plastanium-wall"){{
              requirements(Category.defense, with(Items.plastanium, 5, Items.metaglass, 2));
@@ -1958,10 +1958,56 @@ index 90d83fb03..ac10a9935 100644
                      hitShake = 4f;
                      trailRotation = true;
 
+--------------------------------------
 
-# Changelog: Turrets (Blocks.java 1 → 2) (dont look at this, I didnt redacted, ignore text and look at screens only)
+# Real changelog (by blackberry, aka me): 
 
-## Duo
+## Cores
+
+### Shard
+- health: 1100 -> 2000
+- armor: 0 -> 3
+
+### Foundation
+- health: no changes (3500)
+- armor: 0 -> 5
+
+### Nucleus
+- health: health: 6000 -> 9000
+- armor: 0 -> 8
+
+## Walls
+
+### Plastanium Wall
+- health: 500 -> 620
+### Plastanium Wall (Large)
+- health: 2000 -> 2560
+### Phase Wall
+- health: 600 -> 720
+### Phase Wall (Large)
+- health: 2400 -> 2880
+### Surge Wall
+- health: 920 -> 980
+### Surge Wall (Large)
+- health: 3680 -> 3920
+
+## Other non-turret blocks (real)
+
+### Overdrive Projector
+- requirements: Items.lead: 100 -> 210, Items.titanium: 75 (no changes), Items.silicon: 75 (no changes), Items.plastanium: 30 -> 35
+             
+### Overdrive Dome
+- requirements Items.lead: 200 -> 720, Items.titanium: 130 -> 210, Items.silicon: 130 -> 170, Items.plastanium: 80 -> 175, Items.surgeAlloy: 120 -> 275
+- consumePower: 600 pu/sec -> 1500 pu/sec
+            
+### ShockMine
+- health: 50 -> 30
+- tendrils: 4 -> 7
+- damage: 25 -> 15
+
+## Turrets
+
+### Duo
 
 - copper: damage: 9 -> 13
 - graphite: damage: 18 -> 21, reloadMultiplier = 0.7x
@@ -1969,7 +2015,7 @@ index 90d83fb03..ac10a9935 100644
 
 - range: 160 -> 168
 
-## Scatter
+### Scatter
 - scrap: splashDamage: 33 -> 25, splashDamageRadius: 3.0 -> 4.1
 - lead: splashDamage: 40 -> 22, splashDamageRadius: 1.8 -> 3.3
 - metaglass: splashDamage: 45 -> 15*1.5, splashDamageRadius: 2.5 -> 3.3, fragBullets: 6 -> 4, reloadMultiplier: 0.8x -> 0.7x
@@ -1977,38 +2023,38 @@ index 90d83fb03..ac10a9935 100644
 - rotateSpeed: 15f -> 12f
 - added: coolantMultiplier = 7.5f (increased coolant buff (water: 140% -> 160%; cryofluid: 190% -> 235%))
 
-## Scorch
+### Scorch
 - pyratite: damage: 60 -> 35
 
 - range: 60 -> 72.5
 
-## Hail
+### Hail
 - silicone: splashDamage: 33 -> 27
 - pyratite: splashDamageRadius: 2.3 -> 2.6
 
-## Wave
-- slag: rangeChange = 24 (+3 range); lifetime = 44;
-- oil: rangeChange = 24 (+3 range); lifetime = 44;
+### Wave
+- slag: rangeChange = 24 (+3 range); lifetime = 44
+- oil: rangeChange = 24 (+3 range); lifetime = 44
 
-## Lancer
+### Lancer
 - damage: 140 -> 120
-- rotateSpeed = 4f;
+- rotateSpeed = 4f
 
-## Arc
+### Arc
 - damage: 20 -> 13
 - reload = 1.71 -> 1.87
 
-## Parallax
+### Parallax
 No changes /shrug
 
-## Swarmer
+### Swarmer
 - blastCompound: damage: 10 -> 13; splashdamage: 45 -> 33; splashDamageRadius: 3.7 -> 5.2
 - pyratite: damage: (no changes); splashdamage: 45 -> 32; splashDamageRadius: 2.5 -> 5.5
 - surgeAlloy: damage: 18 -> 15; splashDamageRadius: 3.1 -> 3.2
 
 - rotarespeed: default -> 4f
 
-## Salvo
+### Salvo
 - copper: damage: 11 -> 13
 - graphite: damage: 20 -> 25, reloadMultiplier = 0.7x
 - pyratite: damage: 18 -> 22, splashDamage = 12 -> 15, splashDamageRadius = 2.7 -> 2.8, pierceCap = 2, knockback = 0.7
@@ -2019,15 +2065,15 @@ No changes /shrug
 - inaccuracy: 7.74 -> 7.5
 - requirements: copper = 100, graphite = 80 -> copper = 125, graphite = 70
 
-## Segment
+### Segment
 No changes
 
 ## Tsunami
-- slag: rangeChange = 32 (+4 range); lifetime: 49 -> 58;
-- cryofluid: rangeChange = 20 (+2.5 range); lifetime: 49 -> 56;
-- oil: rangeChange = 32 (+4 range); lifetime: 49 -> 58;
+- slag: rangeChange = 32 (+4 range); lifetime: 49 -> 58
+- cryofluid: rangeChange = 20 (+2.5 range); lifetime: 49 -> 56
+- oil: rangeChange = 32 (+4 range); lifetime: 49 -> 58
 
-## Fuse
+### Fuse
 No changes
 
 ## Ripple
@@ -2038,7 +2084,7 @@ No changes
 
 - requirements: copper = 150, graphite = 135, titanium = 60 -> copper = 175, graphite = 90, titanium = 70
 
-## Cyclone
+### Cyclone
 - metaglass: damage: 6 -> 13, ammoMultiplier: 2x -> 5x, reloadMultiplier: 0.8x -> 1.2x, splashDamage: 45 -> 32, fragBullets: 4 -> 10
 - blastCompound: damage: 8 -> 12, splashDamage: 45 -> 55
 - plastanium: damage: 8 -> 15, splashDamage: 37 -> 35
@@ -2047,12 +2093,12 @@ No changes
 - rotateSpeed: 10f -> 7f
 - coolant: 0.3f -> 0.2f ((decreased coolant buff (water: 160% -> 140%; cryofluid: 235% -> 190%))
 
-## Foreshadow
+### Foreshadow
 - reload: 0.3 -> 0.22 /todo
 - rotateSpeed: 2f -> 1.3f
 - coolantMultiplier: 0.4f -> 1f (increased coolant buff (water: 116% -> 140%; cryofluid: 136% -> 190%))
 
-## Spectre
+### Spectre
 - graphite: damage: 50 -> 75, ammoMultiplier: 4 -> 3, knockback: 0.3 -> 1
 - thorium: damage: 80 -> 120, knockback: 0.7 -> 1.3, ammoMultiplier: 4 -> 2
 - pyratite: damage: 70 -> 110, splashDamage: 20 -> 32, knockback: 0.6 -> 0.7
@@ -2063,9 +2109,10 @@ No changes
 - maxAmmo: 30 -> 90
 - range: 32.5 -> 34.1
 
-## Meltdown
+### Meltdown
 - damage: 936/sec -> 1560/sec
-- reload: 90f -> 170f, - shootType: ContinuousLaserBulletType(78) -> (130) (firerate: 0.666 -> 0.352)
+- reload: 90f -> 170f,
+- shootType: ContinuousLaserBulletType(78) -> (130) (firerate: 0.666 -> 0.352)
 - rotateSpeed: default -> 1.3f
 
 ---
