@@ -1993,6 +1993,24 @@ index 90d83fb03..ac10a9935 100644
 
 ## Other non-turret blocks (real)
 
+### Ground Factory
+- requirements: Items.copper: 50 -> 120, Items.lead: 120 -> 70, Items.silicon: (no changes)
+- UnitPlan(UnitTypes.dagger, 60f * 15, with(Items.silicon, 10 -> 15, Items.lead, 10)),
+- UnitPlan(UnitTypes.crawler, 60f * 10, with(Items.silicon, 10, Items.coal, 8)),
+- UnitPlan(UnitTypes.nova, 60f * 40, with(Items.silicon, 30 -> 25, Items.lead, 20 -> 10, Items.titanium, 20 -> 15))
+
+### Air Factory 
+- requirements: Items.copper: 60 -> 110, Items.lead: 70 -> 80, Items.titanium: 0 -> 35)
+                
+### Naval Factory
+- UnitPlan(UnitTypes.retusa, 60f * 35f, with(Items.silicon, 15, Items.titanium, 20, Items.metaglass, 0 -> 25))
+
+### Additive Reconstructor
+- consumeItems: Items.silicon: 40 -> 30, Items.graphite: 40 -> 30
+
+### Repair Turret
+- repairSpeed: 180/sec -> 90/sec
+
 ### Overdrive Projector
 - requirements: Items.lead: 100 -> 210, Items.titanium: 75 (no changes), Items.silicon: 75 (no changes), Items.plastanium: 30 -> 35
              
