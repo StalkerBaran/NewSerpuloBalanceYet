@@ -2031,7 +2031,7 @@ index 90d83fb03..ac10a9935 100644
 - graphite: damage: 18 -> 21, reloadMultiplier = 0.7x
 - silicon: damage: 12 -> 15
 
-- range: 160 -> 168
+- range: 20 -> 21
 
 ### Scatter
 - scrap: splashDamage: 33 -> 25, splashDamageRadius: 3.0 -> 4.1
@@ -2044,7 +2044,7 @@ index 90d83fb03..ac10a9935 100644
 ### Scorch
 - pyratite: damage: 60 -> 35
 
-- range: 60 -> 72.5
+- range: ~7 -> ~9
 
 ### Hail
 - silicone: splashDamage: 33 -> 27
