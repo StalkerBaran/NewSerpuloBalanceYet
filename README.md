@@ -6,97 +6,96 @@ This document details the balance changes between version 152.2 and the custom b
 
 ## Overview
 
-This custom balance mo
+This custom balance mod focuses on rebalancing several key aspects of Mindustry gameplay:
 
-- **Defense Strucents
-ions
-- **Units**: Speed, health, armor, it types
-- **Factories**: Production cost and requirement adjuents
-- **Status Effects**: Damage afications
+- **Defense Structures**: Wall health increases, support structure adjustments
+- **Turrets**: Damage, reload, and ammo type modifications
+- **Units**: Speed, health, armor, and weapon adjustments
+- **Factories**: Production cost and requirement adjustments
+- **Status Effects**: Damage modifications
 
 ## Quick Reference
 
-s:
+For detailed changes, see:
 
+- **[Turret Changes](docs/turrets-changes.md)**
+- **[Unit Changes](docs/units-changes.md)**
+- **[Wall Changes](docs/walls-changes.md)**
 
-- **[Turret Changes](docs
-- **[Unit Changes](docs/unitsns
-
-ghlights
+## Highlights
 
 ### Defense Structures
 
 **Wall Health Increases:**
 - Plastanium Wall: health 125 → 160
 - Phase Wall: health 150 → 180
-- Surge Wall: health 230 → 25
+- Surge Wall: health 230 → 245
 
-**Support Strucents:**
-- Overdrive Proje 210
-- Overdrive Dome:creases
-- Shock Mine: Hea7
+**Support Structures:**
+- Overdrive Projector: Lead requirement 100 → 210
+- Overdrive Dome: Power consumption increases
+- Shock Mine: Health 50 → 30, Tendrils 4 → 7
 
-**Core Armor Additi*
- → 2000
+**Core Armor Additions:**
+- Shard: Health 1100 → 2000, Armor 0 → 3
 - Foundation: Armor 0 → 5
-- Nucleus: Armor 0 → 0 → 9000
+- Nucleus: Health 6000 → 9000, Armor 0 → 8
 
-es
+### Turret Changes
 
-**Light Turret
+**Light Turrets:**
+- Duo: Copper ammo damage 9 → 13
+- Scatter: Rebalanced splash damage and effectiveness
+- Arc: Lightning damage 20 → 13
 
-- Scatter: Rebalanced splash damage and rectiveness
-- Arc: Lightning dama→ 13
-
-urrets:**
-- Lancer: D0 → 120
-s
-- Swarmetypes
+**Medium Turrets:**
+- Lancer: Damage 140 → 120
+- Salvo: Various ammo types rebalanced
+- Swarmer: Improved ammo types
 
 **Heavy Turrets:**
-- Ripple: Cost adjustments, improved Pyratites
-- Cyclone: Major Metaglass amm
-- Spectre: Damage 
+- Ripple: Cost adjustments, improved Pyratite ammo
+- Cyclone: Major Metaglass ammo improvements
+- Spectre: Damage increases across all ammo types
 
-**Super Heav
-- Meltdown: Damage 936/sec → 1560/sec → 0.5x
-- Foreshadow: Improved coolant effe 273
+**Super Heavy Turrets:**
+- Meltdown: Damage 936/sec → 1560/sec, Building damage multiplier 0.2x → 0.5x
+- Foreshadow: Improved coolant effectiveness, Range 260 → 273
 
 ### Unit Changes
 
 **Ground Units:**
-- Generally increased speed and rotatiopeed
+- Generally increased speed and rotation speed
 - Armor additions to most units
-- Dagger: Speed 0.5 → 0.6 added 2
-- Reign: Armor 18 → 27, Health 2000
+- Dagger: Speed 0.5 → 0.64, Armor added 2
+- Reign: Armor 18 → 27, Health 24000 → 25000
 
-s:**
-- Health re
-- Improved rotation speeds acrod
-- Eclipse: Signifi130)
+**Air Units:**
+- Health rebalancing
+- Improved rotation speeds across the board
+- Eclipse: Significant improvements (Damage 115 → 130)
 
 **Naval Units:**
 - Improved rotation speeds for all naval units
- 16 → 23)
-- Corvus:
+- Navanax: Armor 16 → 23, Health 20000 → 27000
+- Corvus: Health 18000 → 15000
 
 **Support Units:**
-- Nova: Improved build speed (0.3 ld range
-- Poly: Health 400 → 170, impcooldown
+- Nova: Improved build speed (0.3 → 0.5), expanded repair field range
+- Poly: Health 400 → 170, improved repair field cooldown
 
+### Factory and Production Changes
 
-### Factory and Productio
+**Ground Factory:**
+- Requirements: Copper 50 → 120, Lead 120 → 70
+- Adjusted production costs for Dagger, Crawler, Nova
 
-actory:**
-- Requir20 → 70
-- Adjusted production costsova
-
-
-- Requiremened
+**Air Factory:**
+- Requirements: Titanium 0 → 35 added
 
 **Reconstructors:**
-- Additive Reconstructor: Reduced consumptioe 40 → 30)
-rs
+- Additive Reconstructor: Reduced consumption (Silicon 40 → 30, Graphite 40 → 30)
+- Repair Point: Repair speed 3 → 1.5
 
 ### Status Effects
 
@@ -106,27 +105,25 @@ rs
 - Transition damage: 8 → 12
 
 **Freezing:**
-4
+- Transition damage: 18 → 14
 
 **Wet:**
 - Transition damage: 14 → 13
 
 ## Implementation Notes
 
-All changes have been carefully bala to:
+All changes have been carefully balanced to:
 - Improve late-game unit viability
-- Increase turret effectiveness agaer units
-- Make support structures more impactful butlier
-- Enhance unit mobility and responsi
-- Create more meaningful ammo type choes
+- Increase turret effectiveness against heavier units
+- Make support structures more impactful but costlier
+- Enhance unit mobility and responsiveness
+- Create more meaningful ammo type choices
 
 ## Backup
 
-A backup of the original README is 
+A backup of the original README is available as README.backup.md
 
 ---
-
-This document provides a comprn ee bveons hati modifica Alltry mod.usMindm o the custoes made tance changall balw of vervieehensive o
 - Thorium ammo: added pierce cap of 2 (cannot pierce buildings)
 - Thorium ammo: reload multiplier 0.7x
 - Thorium ammo: knockback 1.5
