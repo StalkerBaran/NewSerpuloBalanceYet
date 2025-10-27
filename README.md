@@ -763,6 +763,30 @@ No changes
 - **Continuous laser damage**: 78 → 130 (fire rate 0.666 → 0.352)
 - **Rotate speed**: 1.3
 
+### Bryde Changes
+
+**Bryde** (Medium naval unit):
+- Health: 910 → 730
+- Speed: 0.85 → 0.78
+- Rotation speed: 1.8 → 5.5
+- Armor: 7 → 9
+- Artillery weapon lifetime: 84 → 75
+
+### Minke Changes
+
+**Minke** (Light naval unit):
+- Health: 600 → 370
+- Speed: 0.9 → 0.82
+- Rotation speed: 2.6 → 7
+- Flak weapon lifetime: 60 → 46
+- Artillery weapon lifetime: 80 → 67
+
+### Retusa Changes
+
+**Retusa** (Support naval unit):
+- Rotation speed: 4 → 8
+- Weapon reload: 9 → 16
+
 ---
 
 This document provides a comprehensive overview of all balance changes made to the custom Mindustry mod. All modifications have been carefully documented to maintain transparency and allow players to understand how gameplay has been adjusted from the base game.
