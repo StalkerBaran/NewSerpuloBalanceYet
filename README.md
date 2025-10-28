@@ -1,6 +1,11 @@
-# I will use this project (rebalance mod is outdated, check my custom jar rebalance for playtest: https://github.com/StalkerBaran/Mindustry/releases/tag/mindustry) as draft for future documentation. Eeee, changes before (v152.2) and after (custom balance)!
+# eeeeeeee
 
-## Changedlog (in github way, thanks to Eggo (justacommonegg). Idk how it can be readable, but I wont redact it and do it in my way)
+This project serves as documentation for a custom balance modification for Mindustry. The current rebalance mod is outdated. For playtesting, please use the custom JAR rebalance available at: https://github.com/StalkerBaran/Mindustry/releases/tag/mindustry
+
+This document details the balance changes between version 152.2 and the custom balance implementation
+
+
+## Changedlog (in github way, thanks to Eggo (justacommonegg). Idk how it can be readable, but I wont redact it and do it in my way below)
 
  plastaniumWall = new Wall("plastanium-wall"){{
              requirements(Category.defense, with(Items.plastanium, 5, Items.metaglass, 2));
@@ -1960,69 +1965,70 @@ index 90d83fb03..ac10a9935 100644
 
 --------------------------------------
 
-# Real changelog (by blackberry, aka me): 
+# Real changelog (by blackberry, aka me. Thanks for alpfha.) 
 
 ## Cores
 
-### Shard
-- health: 1100 -> 2000
-- armor: 0 -> 3
-
-### Foundation
-- health: no changes (3500)
-- armor: 0 -> 5
-
-### Nucleus
-- health: health: 6000 -> 9000
-- armor: 0 -> 8
+**Core Armor Additions:**
+- Shard: Health 1100 → 2000, Armor 0 → 3
+- Foundation: Armor 0 → 5
+- Nucleus: Health 6000 → 9000, Armor 0 → 8
 
 ## Walls
 
-### Plastanium Wall
-- health: 500 -> 620
-### Plastanium Wall (Large)
-- health: 2000 -> 2560
-### Phase Wall
-- health: 600 -> 720
-### Phase Wall (Large)
-- health: 2400 -> 2880
-### Surge Wall
-- health: 920 -> 980
-### Surge Wall (Large)
-- health: 3680 -> 3920
+**Wall Health Increases:**
+- Plastanium Wall: health: 125 → 160
+- Plastanium Wall (Large): health: 2000 -> 2560
+- Phase Wall: health: 150 → 180
+- Phase Wall: health: 600 -> 720
+- Surge Wall: health: 230 → 245
+- Surge Wall (Large): health: 3680 -> 3920
 
 ## Other non-turret blocks (real)
 
-### Ground Factory
-- requirements: Items.copper: 50 -> 120, Items.lead: 120 -> 70, Items.silicon: (no changes)
-- UnitPlan(UnitTypes.dagger, 60f * 15, with(Items.silicon, 10 -> 15, Items.lead, 10)),
-- UnitPlan(UnitTypes.crawler, 60f * 10, with(Items.silicon, 10, Items.coal, 8)),
-- UnitPlan(UnitTypes.nova, 60f * 40, with(Items.silicon, 30 -> 25, Items.lead, 20 -> 10, Items.titanium, 20 -> 15))
+**Ground Factory:**
+- Requirements: Copper 50 → 120, Lead 120 → 70
+- Adjusted production costs for Dagger, Crawler, Nova
 
-### Air Factory 
-- requirements: Items.copper: 60 -> 110, Items.lead: 70 -> 80, Items.titanium: 0 -> 35)
-                
-### Naval Factory
-- UnitPlan(UnitTypes.retusa, 60f * 35f, with(Items.silicon, 15, Items.titanium, 20, Items.metaglass, 0 -> 25))
+**Air Factory:**
+- Requirements: Titanium 0 → 35 added
 
-### Additive Reconstructor
-- consumeItems: Items.silicon: 40 -> 30, Items.graphite: 40 -> 30
+**Reconstructors:**
+- Additive Reconstructor: Reduced consumption (Silicon 40 → 30, Graphite 40 → 30)
+- Repair Point: Repair speed 3 → 1.5
 
-### Repair Turret
+**Repair Turret**
 - repairSpeed: 180/sec -> 90/sec
 
-### Overdrive Projector
+**Overdrive Projector**
 - requirements: Items.lead: 100 -> 210, Items.titanium: 75 (no changes), Items.silicon: 75 (no changes), Items.plastanium: 30 -> 35
              
-### Overdrive Dome
+**Overdrive Dome**
 - requirements Items.lead: 200 -> 720, Items.titanium: 130 -> 210, Items.silicon: 130 -> 170, Items.plastanium: 80 -> 175, Items.surgeAlloy: 120 -> 275
 - consumePower: 600 pu/sec -> 1500 pu/sec
             
-### ShockMine
+**ShockMine**
 - health: 50 -> 30
 - tendrils: 4 -> 7
 - damage: 25 -> 15
 
+## Effects
+**Burning:**
+- Added reload multiplier: 0.9
+- Added speed multiplier: 0.9
+- Transition damage: 8 → 12
+
+**Freezing:**
+- Transition damage: 18 → 14
+
+**Wet:**
+- Transition damage: 14 → 13
+
+**Freezing Status Effect:**
+- Transition damage: 18 → 14
+
+**Wet Status Effect:**
+- Transition damage: 14 → 13
 ## Turrets
 
 ### Duo
@@ -2136,4 +2142,187 @@ No changes
 ---
 
 
+## Units (headpain)
+### Dagger
+- Speed: 0.5 → 0.64
+- Rotate speed: added 7
+- Health: 150 → 120
+- Armor: added 2
+- Weapon reload: 13 → 20
+- Weapon bullet damage: 9 → 12
+- Weapon bullet lifetime: 60 → 56
 
+### Mace
+- Speed: 0.5 → 0.61
+- Rotate speed: added 4
+- Health: 550 → 510
+- Armor: 4 → 5
+- Flamethrower bullet damage: 37 → 27
+
+### Fortress
+- Speed: 0.43 → 0.5
+- Rotate speed: 3 → 3.2
+- Health: 900 → 910
+- Armor: 9 → 10
+- Artillery bullet speed: 2 → 2.5
+- Artillery bullet lifetime: 120 → 94.8
+- Artillery splash damage: 80 → 70
+
+### Scepter
+- Speed: 0.36 → 0.52
+- Rotate speed: 2.1 → 3
+- Health: 9000 → 9100
+- Armor: 10 → 14
+- Small bullet damage: 10 → 23
+- Small bullet lifetime: 50 → 55
+- Main bullet damage: 80 → 70
+- Main bullet lifetime: 27 → 22
+
+### Reign
+- Speed: 0.4 → 0.48
+- Rotate speed: 1.65 → 2.6
+- Health: 24000 → 25000
+- Armor: 18 → 27
+- Main bullet lifetime: 15 → 17.1
+- Fragment bullet lifetime: 20 → 17
+
+---------------------------
+
+### Nova
+- Speed: 0.55 → 0.68
+- Rotate speed: added 7
+- Health: 120 → 90
+- Build speed: 0.3 → 0.5
+- Armor: 1 → 3
+- Repair field range: 60 → 90
+- Repair field: added same type heal multiplier 0.5
+- Weapon bullet damage: 13 → 15
+
+### Pulsar
+- Speed: 0.7 → 0.732
+- Health: 320 → 290
+- Mine speed: 3 → 3.5
+- Shield Regen Field Ability: range 30 seconds → 150 seconds
+- Heal shotgun weapon bullet:
+  - Heal percent: 5% → 1%
+  - Added heal amount: 10
+- Lightning bullet:
+  - Damage: 15 → 13
+  - Lightning length: 8 → 7
+  - Heal percent: 1.6% → 0.75%
+
+### Quasar
+- Boost multiplier: 2 → 1.9
+- Health: 640 → 750
+- Armor: 9 → 8
+- Speed: 0.5 → 0.535
+- Added rotate speed: 5
+- Mine speed: 4
+- Force Field Ability:
+  - Regen: 0.4 → 0.3
+  - Max: 400 → 512
+  - Cooldown: 360 seconds → 180 seconds
+- Beam weapon laser bullet:
+  - Damage: 45 → 52
+  - Heal percent: 10% → 5%
+  - Added heal amount: 35
+  - Length: 150 → 135
+
+### Vela
+- Rotate speed: 1.8 → 3.2
+- Speed: 0.44 → 0.56
+- Boost multiplier: 2.4 → 1.6
+- Health: 8200 → 7800
+- Armor: 9 → 13
+- Repair beam speed: 1.4 → 1.94
+
+### Corvus
+- Health: 18000 → 15000
+- Armor: 9 → 12
+- Speed: 0.3 → 0.36
+- Main weapon reload time: 350 → 540
+- Weapon now fires 3 shots with 30-frame delay between shots
+- Shoot status duration: 120 frames → 144 frames
+- Laser length: 460 → 415
+- Laser damage: 560 → 74
+- Laser lifetime: 65 → 47
+- Added building damage multiplier: 3x
+- Lightning damage: 50 → 17
+- Heal percentage: 25% → 18%
+
+---------------------------
+
+### Crawler
+- Health: 150 → 110
+
+### Atrax**
+- Speed: 0.6 → 0.84
+- Rotate speed: 3 → 7.5
+- Health: 600 → 370
+- Weapon damage: 13 → 12
+
+### Spiroct
+- Speed: 0.54 → 0.828
+- Rotate speed: 3 → 7
+- Health: 1000 → 1100
+- Armor: 5 → 7
+
+### Arkyid
+- Speed: 0.62 → 0.92
+- Health: 8000 → 7800
+- Armor: 6 → 12
+- Rotate speed: 2.7 → 4
+- Artillery weapon splash damage: 65 → 75
+
+### Toxopid
+- Speed: 0.5 → 0.68
+- Health: 22000 → 21000
+- Armor: 13 → 18
+- Rotate speed: 1.9 → 1.8
+- Shrapnel weapon damage: 110 → 180
+- Artillery weapon damage: 50 → 110
+
+---------------------------
+
+### Flare
+- Projectile lifetime: 80 → 73
+- Health: 70 → 35
+- Rotation speed: added 9
+- Weapon reload: 20 → 15
+- Bullet damage: 9 → 10
+
+### Horizon
+- Health: 340 → 240
+- Rotation speed: added 7
+- Speed: 1.65 → 2.2
+- Bomb projectile speed: 27 → 23
+
+### Zenith
+- Health: 700 → 510
+- Rotation speed: added 5.2
+- Drag: 0.016 → 0.043
+- Missile lifetime: 50 → 55
+
+### Antumbra
+- Speed: 0.8 → 0.72
+- Rotation speed: 1.9 → 2.2
+- Health: 7200 → 8100
+- Armor: 9 → 8
+- Missile damage: 18 → 23
+- Missile width: 8 → 8.5
+- Missile height: 8 → 8.5
+- Missile splash radius: 20 → 33
+
+
+### Eclipse
+- Speed: 0.54 → 0.66
+- Rotation speed: 1.0 → 1.9
+- Armor: 13 → 17
+  
+**Flak bullet**:
+- Damage: 15 → 35
+- Lifetime: 47 → 65
+
+**Laser weapon**:
+- Damage: 115 → 130
+- Length: 230 → 257
