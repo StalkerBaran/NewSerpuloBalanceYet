@@ -2313,7 +2313,6 @@ No changes
 - Missile height: 8 → 8.5
 - Missile splash radius: 20 → 33
 
-
 ### Eclipse
 - Speed: 0.54 → 0.66
 - Rotation speed: 1.0 → 1.9
@@ -2326,3 +2325,38 @@ No changes
 **Laser weapon**:
 - Damage: 115 → 130
 - Length: 230 → 257
+
+---------------------------
+
+### Mono
+no changes
+
+### Poly
+- Health: 400 → 170
+- Armor: 0 → 1
+- Build speed: 0.5 → 0.3
+- Repair field ability cooldown: 480 → 112
+- Heal percent: 5.5% → 3%
+- healAmount: added 7.5
+
+### Mega
+- Health: 460 → 380
+- Armor: 3 → 2
+- Rotation speed: added at 7
+- Speed: 2.5 → 2.56
+- Drag: 0.017 → 0.04
+- Healing laser bolt: healPercent 3% → 2%, healAmount added 5.5
+
+### Quad
+- Rotate speed: 2 → 3
+- Build speed: 2.5 → 3.5
+
+### Oct
+- Armor: 16 → 15
+- Health: 24000 → 18000
+- Rotate speed: 1 → 3
+- Force field ability: regen 4 → 10, max 7000 → 12000
+- Repair field ability: amount 130 → 700
+
+---------------------------
+
