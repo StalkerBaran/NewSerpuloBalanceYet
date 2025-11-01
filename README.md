@@ -1987,8 +1987,9 @@ index 90d83fb03..ac10a9935 100644
 ## Other non-turret blocks (real)
 
 **Ground Factory:**
-- Requirements: Copper 50 → 120, Lead 120 → 70
-- Adjusted production costs for Dagger, Crawler, Nova
+- Requirements: Copper: 50 → 120, Lead: 120 → 70
+- Requirements (dagger): Silicon: 10 → 15, Lead: (no changes)
+- Requirements (crawler): Silicon: 10 → 15, Lead: (no changes)
 
 **Air Factory:**
 - Requirements: Titanium 0 → 35 added
