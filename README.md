@@ -1987,9 +1987,8 @@ index 90d83fb03..ac10a9935 100644
 ## Other non-turret blocks (real)
 
 **Ground Factory:**
-- Requirements: Copper: 50 → 120, Lead: 120 → 70
-- Requirements (dagger): Silicon: 10 → 15, Lead: (no changes)
-- Requirements (crawler): Silicon: 10 → 15, Lead: (no changes)
+- Requirements: Copper 50 → 120, Lead 120 → 70
+- Adjusted production costs for Dagger, Crawler, Nova
 
 **Air Factory:**
 - Requirements: Titanium 0 → 35 added
@@ -2361,3 +2360,38 @@ no changes
 
 ---------------------------
 
+### Risso
+- Speed:
+- Health: 280 -> 220
+- RotateSpeed: 3.3f -> 8f
+
+### Minke
+- Health: 600 -> 370
+- Speed: 0.9 -> 0.82
+- Range: 31 -> 24.6
+
+### Bryde
+- Health: 600 -> 370
+- Speed: 0.9 -> 0.82
+- Range: 31 -> 29.5
+
+### Sei
+- Armor: 12 -> 15
+- Range: 35.2 -> 31.4
+
+### Omura
+- Health: 22000 -> 21000
+- Ramge: 62 -> 50.7
+---------------------------
+
+### Retusa
+Returned metaglass in its cost
+
+### Oxynoe
+Decreased segment-like attack
+
+### Cyerce
+
+### Aegires
+
+### Navanax
