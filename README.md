@@ -2391,7 +2391,19 @@ Returned metaglass in its cost
 Decreased segment-like attack
 
 ### Cyerce
-
+- Health: 870 -> 720
+- Armor: 6 -> 8
+- RepairSpeed: 42 * 2 -> 34 * 2
+- Speed: 6.45 -> 5.81
+  
 ### Aegires
-
+- Health: 12000 -> 9000
+- Speed: 5.25 -> 5.62
+  
 ### Navanax
+- Health: 20000 -> 23000
+- Armor: 16 -> 23
+- Speed: 4.87 -> 5.55
+
+- Removed EMP ally building boost (I mean 200% building boost)
+- Increased firerate (0.46 -> 0.81), damage  cannon 
