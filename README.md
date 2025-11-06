@@ -2145,7 +2145,6 @@ No changes
 ## Units (headpain)
 ### Dagger
 - Speed: 0.5 → 0.64
-- Rotate speed: added 7
 - Health: 150 → 120
 - Armor: added 2
 - Weapon reload: 13 → 20
@@ -2154,14 +2153,12 @@ No changes
 
 ### Mace
 - Speed: 0.5 → 0.61
-- Rotate speed: added 4
 - Health: 550 → 510
 - Armor: 4 → 5
 - Flamethrower bullet damage: 37 → 27
 
 ### Fortress
 - Speed: 0.43 → 0.5
-- Rotate speed: 3 → 3.2
 - Health: 900 → 910
 - Armor: 9 → 10
 - Artillery bullet speed: 2 → 2.5
@@ -2170,7 +2167,6 @@ No changes
 
 ### Scepter
 - Speed: 0.36 → 0.52
-- Rotate speed: 2.1 → 3
 - Health: 9000 → 9100
 - Armor: 10 → 14
 - Small bullet damage: 10 → 23
@@ -2180,7 +2176,6 @@ No changes
 
 ### Reign
 - Speed: 0.4 → 0.48
-- Rotate speed: 1.65 → 2.6
 - Health: 24000 → 25000
 - Armor: 18 → 27
 - Main bullet lifetime: 15 → 17.1
@@ -2190,7 +2185,6 @@ No changes
 
 ### Nova
 - Speed: 0.55 → 0.68
-- Rotate speed: added 7
 - Health: 120 → 90
 - Build speed: 0.3 → 0.5
 - Armor: 1 → 3
@@ -2202,7 +2196,6 @@ No changes
 - Speed: 0.7 → 0.732
 - Health: 320 → 290
 - Mine speed: 3 → 3.5
-- Shield Regen Field Ability: range 30 seconds → 150 seconds
 - Heal shotgun weapon bullet:
   - Heal percent: 5% → 1%
   - Added heal amount: 10
@@ -2229,7 +2222,6 @@ No changes
   - Length: 150 → 135
 
 ### Vela
-- Rotate speed: 1.8 → 3.2
 - Speed: 0.44 → 0.56
 - Boost multiplier: 2.4 → 1.6
 - Health: 8200 → 7800
@@ -2257,13 +2249,11 @@ No changes
 
 ### Atrax**
 - Speed: 0.6 → 0.84
-- Rotate speed: 3 → 7.5
 - Health: 600 → 370
 - Weapon damage: 13 → 12
 
 ### Spiroct
 - Speed: 0.54 → 0.828
-- Rotate speed: 3 → 7
 - Health: 1000 → 1100
 - Armor: 5 → 7
 
@@ -2271,14 +2261,12 @@ No changes
 - Speed: 0.62 → 0.92
 - Health: 8000 → 7800
 - Armor: 6 → 12
-- Rotate speed: 2.7 → 4
 - Artillery weapon splash damage: 65 → 75
 
 ### Toxopid
 - Speed: 0.5 → 0.68
 - Health: 22000 → 21000
 - Armor: 13 → 18
-- Rotate speed: 1.9 → 1.8
 - Shrapnel weapon damage: 110 → 180
 - Artillery weapon damage: 50 → 110
 
@@ -2287,25 +2275,21 @@ No changes
 ### Flare
 - Projectile lifetime: 80 → 73
 - Health: 70 → 35
-- Rotation speed: added 9
 - Weapon reload: 20 → 15
 - Bullet damage: 9 → 10
 
 ### Horizon
 - Health: 340 → 240
-- Rotation speed: added 7
 - Speed: 1.65 → 2.2
 - Bomb projectile speed: 27 → 23
 
 ### Zenith
 - Health: 700 → 510
-- Rotation speed: added 5.2
 - Drag: 0.016 → 0.043
 - Missile lifetime: 50 → 55
 
 ### Antumbra
 - Speed: 0.8 → 0.72
-- Rotation speed: 1.9 → 2.2
 - Health: 7200 → 8100
 - Armor: 9 → 8
 - Missile damage: 18 → 23
@@ -2315,7 +2299,6 @@ No changes
 
 ### Eclipse
 - Speed: 0.54 → 0.66
-- Rotation speed: 1.0 → 1.9
 - Armor: 13 → 17
   
 **Flak bullet**:
@@ -2342,19 +2325,16 @@ no changes
 ### Mega
 - Health: 460 → 380
 - Armor: 3 → 2
-- Rotation speed: added at 7
 - Speed: 2.5 → 2.56
 - Drag: 0.017 → 0.04
 - Healing laser bolt: healPercent 3% → 2%, healAmount added 5.5
 
 ### Quad
-- Rotate speed: 2 → 3
 - Build speed: 2.5 → 3.5
 
 ### Oct
 - Armor: 16 → 15
 - Health: 24000 → 18000
-- Rotate speed: 1 → 3
 - Force field ability: regen 4 → 10, max 7000 → 12000
 - Repair field ability: amount 130 → 700
 
@@ -2363,7 +2343,6 @@ no changes
 ### Risso
 - Speed:
 - Health: 280 -> 220
-- RotateSpeed: 3.3f -> 8f
 
 ### Minke
 - Health: 600 -> 370
@@ -2405,5 +2384,5 @@ Decreased segment-like attack
 - Armor: 16 -> 23
 - Speed: 4.87 -> 5.55
 
-- Removed EMP ally building boost (I mean 200% building boost)
+- Removed EMP ally building boost (I mean overdrive-like boost when navanax shooting to buildings)
 - Increased firerate (0.46 -> 0.81), damage  cannon 
