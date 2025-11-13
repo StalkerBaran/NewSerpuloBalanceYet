@@ -82,7 +82,7 @@
 ### Scorch
 - pyratite: damage: 60 -> 35
 
-- range: 7 -> 9
+- range: 7.5 -> 9
 
 ### Hail
 - silicone: splashDamage: 33 -> 27
@@ -168,56 +168,52 @@ No changes
 
 ## Units (headpain)
 ### Dagger
-- Speed: 0.5 → 0.64
+- Speed: 3.75 → 4.8
 - Health: 150 → 120
-- Armor: added 2
-- Weapon reload: 13 → 20
-- Weapon bullet damage: 9 → 12
-- Weapon bullet lifetime: 60 → 56
+- Armor: 0 -> 2
+- Firerate: 2.3 -> 1.5
+- Damage: 9 → 12
 
 ### Mace
-- Speed: 0.5 → 0.61
+- Speed: 3.75 → 4.575
 - Health: 550 → 510
 - Armor: 4 → 5
-- Flamethrower bullet damage: 37 → 27
+- Damage: 37 → 27
 
 ### Fortress
-- Speed: 0.43 → 0.5
+- Speed: 3.225 → 3.75
 - Health: 900 → 910
 - Armor: 9 → 10
-- Artillery bullet speed: 2 → 2.5
-- Artillery bullet lifetime: 120 → 94.8
-- Artillery splash damage: 80 → 70
-
+- Spldashdamage: 80 → 70
+- Increased fortress speed projectile
+  
 ### Scepter
-- Speed: 0.36 → 0.52
+- Speed: 2.7 → 3.9
 - Health: 9000 → 9100
 - Armor: 10 → 14
 - Small bullet damage: 10 → 23
-- Small bullet lifetime: 50 → 55
 - Main bullet damage: 80 → 70
-- Main bullet lifetime: 27 → 22
+- Range: 26.5 -> 21.5
 
 ### Reign
-- Speed: 0.4 → 0.48
+- Speed: 3 → 3.6
 - Health: 24000 → 25000
 - Armor: 18 → 27
-- Main bullet lifetime: 15 → 17.1
-- Fragment bullet lifetime: 20 → 17
+- Range: 23.8 -> 27.2
 
 ---------------------------
 
 ### Nova
-- Speed: 0.55 → 0.68
+- Speed: 4.125 → 5.1
 - Health: 120 → 90
-- Build speed: 0.3 → 0.5
-- Armor: 1 → 3
+- Build speed: 30% -> 50%
+- Armor: 1 → 3 todo///////////
 - Repair field range: 60 → 90
 - Repair field: added same type heal multiplier 0.5
 - Weapon bullet damage: 13 → 15
 
 ### Pulsar
-- Speed: 0.7 → 0.732
+- Speed: 5.25 → 5.49
 - Health: 320 → 290
 - Mine speed: 3 → 3.5
 - Heal shotgun weapon bullet:
@@ -232,7 +228,7 @@ No changes
 - Boost multiplier: 2 → 1.9
 - Health: 640 → 750
 - Armor: 9 → 8
-- Speed: 0.5 → 0.535
+- Speed: 3.75 → 4.01
 - Added rotate speed: 5
 - Mine speed: 4
 - Force Field Ability:
@@ -246,7 +242,7 @@ No changes
   - Length: 150 → 135
 
 ### Vela
-- Speed: 0.44 → 0.56
+- Speed: 3.3 → 4.2
 - Boost multiplier: 2.4 → 1.6
 - Health: 8200 → 7800
 - Armor: 9 → 13
@@ -255,7 +251,6 @@ No changes
 ### Corvus
 - Health: 18000 → 15000
 - Armor: 9 → 12
-- Speed: 0.3 → 0.36
 - Main weapon reload time: 350 → 540
 - Weapon now fires 3 shots with 30-frame delay between shots
 - Shoot status duration: 120 frames → 144 frames
@@ -272,23 +267,23 @@ No changes
 - Health: 150 → 110
 
 ### Atrax**
-- Speed: 0.6 → 0.84
+- Speed: 4.5 → 6.3
 - Health: 600 → 370
 - Weapon damage: 13 → 12
 
 ### Spiroct
-- Speed: 0.54 → 0.828
+- Speed: 4.05 → 6.21
 - Health: 1000 → 1100
 - Armor: 5 → 7
 
 ### Arkyid
-- Speed: 0.62 → 0.92
+- Speed: 4.65 → 6.9
 - Health: 8000 → 7800
 - Armor: 6 → 12
 - Artillery weapon splash damage: 65 → 75
 
 ### Toxopid
-- Speed: 0.5 → 0.68
+- Speed: 3.75 → 5.1
 - Health: 22000 → 21000
 - Armor: 13 → 18
 - Shrapnel weapon damage: 110 → 180
@@ -297,37 +292,34 @@ No changes
 ---------------------------
 
 ### Flare
-- Projectile lifetime: 80 → 73
 - Health: 70 → 35
-- Weapon reload: 20 → 15
+- Firerate: 1.5 -> 2
 - Bullet damage: 9 → 10
 
 ### Horizon
 - Health: 340 → 240
-- Speed: 1.65 → 2.2
-- Bomb projectile speed: 27 → 23
+- Speed: 12.375 → 16.5
+- Damage: 27 → 23
 
 ### Zenith
 - Health: 700 → 510
-- Drag: 0.016 → 0.043
-- Missile lifetime: 50 → 55
+- Range: 19.6 -> 21.8
 
 ### Antumbra
-- Speed: 0.8 → 0.72
+- Speed: 6 → 5.4
 - Health: 7200 → 8100
 - Armor: 9 → 8
+- Range: 21.3 -> 28.2
 - Missile damage: 18 → 23
-- Missile width: 8 → 8.5
-- Missile height: 8 → 8.5
-- Missile splash radius: 20 → 33
+- Missile splash radius: 2.5 → 4.1
 
 ### Eclipse
-- Speed: 0.54 → 0.66
+- Speed: 4.05 → 4.95
 - Armor: 13 → 17
+- Range: 28.2 -> 29
   
 **Flak bullet**:
 - Damage: 15 → 35
-- Lifetime: 47 → 65
 
 **Laser weapon**:
 - Damage: 115 → 130
@@ -349,7 +341,7 @@ no changes
 ### Mega
 - Health: 460 → 380
 - Armor: 3 → 2
-- Speed: 2.5 → 2.56
+- Speed: **18.75 → 19.2**
 - Drag: 0.017 → 0.04
 - Healing laser bolt: healPercent 3% → 2%, healAmount added 5.5
 
@@ -370,12 +362,12 @@ no changes
 
 ### Minke
 - Health: 600 -> 370
-- Speed: 0.9 -> 0.82
+- Speed: 6.75 -> 6.15
 - Range: 31 -> 24.6
 
 ### Bryde
 - Health: 600 -> 370
-- Speed: 0.9 -> 0.82
+- Speed: 6.37 -> 5.85
 - Range: 31 -> 29.5
 
 ### Sei
@@ -384,14 +376,14 @@ no changes
 
 ### Omura
 - Health: 22000 -> 21000
-- Ramge: 62 -> 50.7
+- Range: 62 -> 50.7
 ---------------------------
 
 ### Retusa
 Returned metaglass in its cost
 
 ### Oxynoe
-Decreased segment-like attack
+Decreased segment-like attack firerate
 
 ### Cyerce
 - Health: 870 -> 720
@@ -409,4 +401,4 @@ Decreased segment-like attack
 - Speed: 4.87 -> 5.55
 
 - Removed EMP ally building boost (I mean overdrive-like boost when navanax shooting to buildings)
-- Increased firerate (0.46 -> 0.81), damage  cannon 
+- Increased firerate (0.46 -> 0.81), damage  cannon
