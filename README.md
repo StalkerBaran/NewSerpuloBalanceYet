@@ -1,4 +1,4 @@
-# Changelog (by blackberry, aka me. Thanks for alpfha.) 
+# Changelog
 
 ## Cores
 
@@ -9,13 +9,12 @@
 
 ## Walls
 
-**Wall Health Increases:**
-- Plastanium Wall: health: 125 → 160
-- Plastanium Wall (Large): health: 2000 -> 2560
-- Phase Wall: health: 150 → 180
-- Phase Wall: health: 600 -> 720
-- Surge Wall: health: 230 → 245
-- Surge Wall (Large): health: 3680 -> 3920
+**Plastanium Wall:**
+- health: 400 (2000 -> 620 (2560)
+**Phase Wall:**
+- health: 600 (2400) → 720 (2880)
+**Surge Wall:**
+- health: 920 (3680) -> 980 (3920)
 
 ## Other non-turret blocks (real)
 
@@ -57,11 +56,6 @@
 **Wet:**
 - Transition damage: 14 → 13
 
-**Freezing Status Effect:**
-- Transition damage: 18 → 14
-
-**Wet Status Effect:**
-- Transition damage: 14 → 13
 ## Turrets
 
 ## Turrets
