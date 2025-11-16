@@ -10,20 +10,26 @@
 ## Walls
 
 **Plastanium Wall:**
-- health: 400 (2000 -> 620 (2560)
+- health: 400 (2000) -> 620 (2560)
 **Phase Wall:**
 - health: 600 (2400) → 720 (2880)
 **Surge Wall:**
 - health: 920 (3680) -> 980 (3920)
+**Scrap Wall:**
+- health: 240 (960, 2160, 3840) -> 200 (800, 1800, 3200) 
 
 ## Other non-turret blocks (real)
 
 **Ground Factory:**
-- Requirements: Copper 50 → 120, Lead 120 → 70
-- Adjusted production costs for Dagger, Crawler, Nova
+- Requirements (block buildcost): Copper 50 → 120, Lead 120 → 70
+
+Unit builcost changes:
+- dagger (10 silicon, 10 lead -> 15 silicom, 10 lead)
+- crawler (8 silicon, 10 coal -> 10 silicon, 8 coal)
+- nova (30 silicon, 20 lead, 20 titanium -> 25 silicon, 10 lead, 15 titanium)
 
 **Air Factory:**
-- Requirements: Titanium 0 → 35 added
+- Requirements (block buildcost): Titanium 0 → 35 added
 
 **Reconstructors:**
 - Additive Reconstructor: Reduced consumption (Silicon 40 → 30, Graphite 40 → 30)
@@ -32,10 +38,10 @@
 - repairSpeed: 180/sec -> 90/sec
 
 **Overdrive Projector**
-- requirements: Items.lead: 100 -> 210, Items.titanium: 75 (no changes), Items.silicon: 75 (no changes), Items.plastanium: 30 -> 35
+- requirements (block buildcost): lead: 100 -> 210, titanium: 75 (no changes), silicon: 75 (no changes), plastanium: 30 -> 35
              
 **Overdrive Dome**
-- requirements Items.lead: 200 -> 720, Items.titanium: 130 -> 210, Items.silicon: 130 -> 170, Items.plastanium: 80 -> 175, Items.surgeAlloy: 120 -> 275
+- requirements (block buildcost): lead: 200 -> 720, titanium: 130 -> 210, silicon: 130 -> 170, plastanium: 80 -> 175, surgeAlloy: 120 -> 275
 - consumePower: 600 pu/sec -> 1500 pu/sec
             
 **ShockMine**
@@ -83,8 +89,8 @@
 - pyratite: splashDamageRadius: 2.3 -> 2.6
 
 ### Wave
-- slag: rangeChange = 24 (+3 range)
-- oil: rangeChange = 24 (+3 range)
+- slag: rangeChange (+3 range)
+- oil: rangeChange (+3 range)
 
 ### Lancer
 - damage: 140 -> 120
@@ -109,7 +115,7 @@ No changes /shrug
 - thorium: damage: 29 -> 27, reloadMultiplier = 0.7x, knockback = 1.5, pierceCap = 2
 
 - reload: 31f -> 32f
-- requirements: copper = 100, graphite = 80 -> copper = 125, graphite = 70
+- requirements (block buildcost): copper = 100, graphite = 80 -> copper = 125, graphite = 70
 
 - added inaccuracy (real)
 
@@ -117,9 +123,9 @@ No changes /shrug
 No changes
 
 ## Tsunami
-- slag: rangeChange = 32 (+4 range);
-- cryofluid: rangeChange = 20 (+2.5 range);
-- oil: rangeChange = 32 (+4 range);
+- slag: rangeChange (+4 range);
+- cryofluid: rangeChange (+2.5 range);
+- oil: rangeChange (+4 range);
 
 ### Fuse
 No changes
@@ -129,7 +135,7 @@ No changes
 - blastCompound: splashDamage: 55 -> 75, splashDamageRadius = 4.2 -> 5.2, reloadMultiplier: 0.7x
 - pyratite: splashDamage: 45 -> 48, splashDamageRadius = 2.3 -> 4.7
 
-- requirements: copper = 150, graphite = 135, titanium = 60 -> copper = 175, graphite = 90, titanium = 70
+- requirements (block buildcost): copper = 150, graphite = 135, titanium = 60 -> copper = 175, graphite = 90, titanium = 70
 
 ### Cyclone
 - metaglass: damage: 6 -> 13, ammoMultiplier: 2x -> 5x, reloadMultiplier: 0.8x -> 1.2x, splashDamage: 45 -> 32, fragBullets: 4 -> 10
@@ -200,17 +206,17 @@ No changes
 ### Nova
 - Speed: 4.125 → 5.1
 - Health: 120 → 90
+- Armor: 1 → 3 
+- Damage: 13 → 15
+
 - Build speed: 30% -> 50%
-- Armor: 1 → 3 todo///////////
-- Repair field range: 60 → 90
-- Repair field: added same type heal multiplier 0.5
-- Weapon bullet damage: 13 → 15
+- Strongly buffed repair field (2.5/sec -> 6.66/sec)
 
 ### Pulsar
 - Speed: 5.25 → 5.49
 - Health: 320 → 290
-- Mine speed: 3 → 3.5
-- Heal shotgun weapon bullet:
+- Mine speed: 300% -> 350%
+- Heal weapon bullet:
   - Heal percent: 5% → 1%
   - Added heal amount: 10
 - Lightning bullet:
@@ -219,40 +225,34 @@ No changes
   - Heal percent: 1.6% → 0.75%
 
 ### Quasar
-- Boost multiplier: 2 → 1.9
 - Health: 640 → 750
 - Armor: 9 → 8
 - Speed: 3.75 → 4.01
-- Added rotate speed: 5
-- Mine speed: 4
+- Range: 18.2 -> 16.3
+  
 - Force Field Ability:
-  - Regen: 0.4 → 0.3
+  - Regen: 24/sec → 18/sec
   - Max: 400 → 512
-  - Cooldown: 360 seconds → 180 seconds
+  - Cooldown: 6 seconds → 3 seconds
 - Beam weapon laser bullet:
   - Damage: 45 → 52
   - Heal percent: 10% → 5%
   - Added heal amount: 35
-  - Length: 150 → 135
 
 ### Vela
-- Speed: 3.3 → 4.2
-- Boost multiplier: 2.4 → 1.6
+- Speed: 3.3 → 4.2 (slighty decreased boost multiplier)
 - Health: 8200 → 7800
 - Armor: 9 → 13
-- Repair beam speed: 1.4 → 1.94
+- Repair beam speed: 84/sec (*2) → 116/sec (*2)
 
 ### Corvus
 - Health: 18000 → 15000
 - Armor: 9 → 12
-- Main weapon reload time: 350 → 540
-- Weapon now fires 3 shots with 30-frame delay between shots
-- Shoot status duration: 120 frames → 144 frames
-- Laser length: 460 → 415
-- Laser damage: 560 → 74
-- Laser lifetime: 65 → 47
+
+- Weapon now fires 3 shots with short delay between shots (instead single beam)
+  
+- Laser damage (per shot): 560 → 74 (or 74 * 3 * 3 = 666 damage per burst (damage to buildings))
 - Added building damage multiplier: 3x
-- Lightning damage: 50 → 17
 - Heal percentage: 25% → 18%
 
 ---------------------------
@@ -274,14 +274,14 @@ No changes
 - Speed: 4.65 → 6.9
 - Health: 8000 → 7800
 - Armor: 6 → 12
-- Artillery weapon splash damage: 65 → 75
+- (Artillery weapon) Splashdamage: 65 → 75
 
 ### Toxopid
 - Speed: 3.75 → 5.1
 - Health: 22000 → 21000
 - Armor: 13 → 18
-- Shrapnel weapon damage: 110 → 180
-- Artillery weapon damage: 50 → 110
+- Shrapnel (fuse-like) weapon damage: 110 → 180
+- Artillery (long cannon) weapon damage: 50 → 110
 
 ---------------------------
 
@@ -293,7 +293,7 @@ No changes
 ### Horizon
 - Health: 340 → 240
 - Speed: 12.375 → 16.5
-- Damage: 27 → 23
+- Damage (splashdamage): 27 → 23
 
 ### Zenith
 - Health: 700 → 510
@@ -317,7 +317,6 @@ No changes
 
 **Laser weapon**:
 - Damage: 115 → 130
-- Length: 230 → 257
 
 ---------------------------
 
@@ -327,31 +326,31 @@ no changes
 ### Poly
 - Health: 400 → 170
 - Armor: 0 → 1
-- Build speed: 0.5 → 0.3
-- Repair field ability cooldown: 480 → 112
+- Build speed: 30% -> 50%
+- buffed repair field (0.62/sec -> 2.67/sec)
 - Heal percent: 5.5% → 3%
 - healAmount: added 7.5
 
 ### Mega
 - Health: 460 → 380
 - Armor: 3 → 2
-- Speed: **18.75 → 19.2**
-- Drag: 0.017 → 0.04
-- Healing laser bolt: healPercent 3% → 2%, healAmount added 5.5
+- Speed: 18.75 → 19.2
+- HealPercent 3% → 2%
+- HealAmount: added 5.5
 
 ### Quad
-- Build speed: 2.5 → 3.5
+- Build speed: 250% → 350%
 
 ### Oct
 - Armor: 16 → 15
 - Health: 24000 → 18000
-- Force field ability: regen 4 → 10, max 7000 → 12000
-- Repair field ability: amount 130 → 700
+- Force field ability: regen 240/sec → 600/sec, max 7000 → 12000
+- Repair field ability: regen 65/sec -> 350/sec
 
 ---------------------------
 
 ### Risso
-- Speed:
+- Speed: 8.25 -> 7.72
 - Health: 280 -> 220
 
 ### Minke
@@ -366,11 +365,13 @@ no changes
 
 ### Sei
 - Armor: 12 -> 15
+- Speed: 5.47 -> 5.7
 - Range: 35.2 -> 31.4
 
 ### Omura
 - Health: 22000 -> 21000
 - Range: 62 -> 50.7
+- Speed: 4.65 -> 3.97
 ---------------------------
 
 ### Retusa
@@ -382,7 +383,7 @@ Decreased segment-like attack firerate
 ### Cyerce
 - Health: 870 -> 720
 - Armor: 6 -> 8
-- RepairSpeed: 42 * 2 -> 34 * 2
+- RepairSpeed: 42 (*2) -> 34 (*2)
 - Speed: 6.45 -> 5.81
   
 ### Aegires
@@ -394,5 +395,5 @@ Decreased segment-like attack firerate
 - Armor: 16 -> 23
 - Speed: 4.87 -> 5.55
 
-- Removed EMP ally building boost (I mean overdrive-like boost when navanax shooting to buildings)
-- Increased firerate (0.46 -> 0.81), damage  cannon
+- Changed main cannon firerate (0.46/sec -> 0.81/sec), damage (60 -> 30), splashdamage (70 -> 210), range (37 -> 34.5)
+- Minor range and firerate buff for scorch-like cannons
