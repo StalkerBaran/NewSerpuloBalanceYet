@@ -80,7 +80,6 @@ UnitTypes.corvus.weapons.get(0).shoot.shotDelay = 30;
 UnitTypes.corvus.weapons.get(0).bullet.damage = 74;
 UnitTypes.corvus.weapons.get(0).bullet.lightningDamage = 17;
 UnitTypes.corvus.weapons.get(0).bullet.buildingDamageMultiplier = 3;
-UnitTypes.corvus.weapons.get(0).bullet.length = 420;
 UnitTypes.corvus.weapons.get(0).bullet.healPercent = 18;
 UnitTypes.corvus.weapons.get(0).bullet.lifetime = 47;
 UnitTypes.corvus.weapons.get(0).shootStatusDuration = 72 * 2; //corvus
