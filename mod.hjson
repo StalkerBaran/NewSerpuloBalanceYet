@@ -3,7 +3,7 @@ displayName: "NewSerpuloBalanceTest"
 author: "blackberry2093 (community help)"
 description: "Test rebalance mod. Fully finished, also search custom jar!"
 subtitle: "uwu"
-version: "1.12"
-minGameVersion: 151
+version: "Beta v1.0"
+minGameVersion: 153
 hidden: false
 repo: "https://github.com/StalkerBaran/NewSerpuloBalanceYet"
