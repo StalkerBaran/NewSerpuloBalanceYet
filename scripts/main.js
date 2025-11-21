@@ -431,10 +431,10 @@ Blocks.phaseWall.health = 720;
 Blocks.phaseWallLarge.health = 2880;
 Blocks.surgeWall.health = 980;
 Blocks.surgeWallLarge.health = 3920;
-Blocks.scrapWall.health = 50 * wallHealthMultiplier;
-Blocks.scrapWallLarge.health = 50 * wallHealthMultiplier * 4;
-Blocks.scrapWallHuge.health = 50 * wallHealthMultiplier * 9;
-Blocks.scrapWallGigantic.health = 50 * wallHealthMultiplier * 16; //walls
+Blocks.scrapWall.health = 200;
+Blocks.scrapWallLarge.health = 800;
+Blocks.scrapWallHuge.health = 1800;
+Blocks.scrapWallGigantic.health = 3200; //walls
 
 
 Blocks.shockMine.damage = 15;
