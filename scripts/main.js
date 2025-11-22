@@ -336,9 +336,9 @@ Blocks.ripple.ammoTypes.get(Items.graphite).knockback = 1.2;
 Blocks.ripple.ammoTypes.get(Items.graphite).width = 16;
 Blocks.ripple.ammoTypes.get(Items.graphite).height = 16; //ripple
 
-Blocks.ripple.ammoTypes.get(Items.plastanium).splashDamage = 32; 
+Blocks.ripple.ammoTypes.get(Items.plastanium).splashDamage = 35; 
 Blocks.ripple.ammoTypes.get(Items.plastanium).fragBullets = 5;
-Blocks.ripple.ammoTypes.get(Items.plastanium).damage = 12;//ripple
+Blocks.ripple.ammoTypes.get(Items.plastanium).damage = 15;//ripple
 
 Blocks.ripple.ammoTypes.get(Items.pyratite).splashDamage = 48;
 Blocks.ripple.ammoTypes.get(Items.pyratite).splashDamageRadius = 38;
