@@ -18,7 +18,7 @@ UnitTypes.fortress.armor = 10;
 UnitTypes.fortress.rotateSpeed = 3.2;
 UnitTypes.fortress.weapons.get(0).bullet.speed = 2.5;
 UnitTypes.fortress.weapons.get(0).bullet.splashDamage = 70;
-UnitTypes.fortress.weapons.get(0).bullet.lifetime = 94; //fortress
+UnitTypes.fortress.weapons.get(0).bullet.lifetime = 93.5; //fortress
 
 UnitTypes.scepter.speed = 0.52;
 UnitTypes.scepter.armor = 14;
