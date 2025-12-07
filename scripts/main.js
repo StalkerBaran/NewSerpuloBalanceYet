@@ -1,7 +1,7 @@
 UnitTypes.dagger.weapons.get(0).reload = 20; 
 UnitTypes.dagger.weapons.get(0).bullet.damage = 12;
 UnitTypes.dagger.speed = 0.64;
-UnitTypes.dagger.health = 110;
+UnitTypes.dagger.health = 120;
 UnitTypes.dagger.armor = 2;
 UnitTypes.dagger.rotateSpeed = 7; 
 UnitTypes.dagger.weapons.get(0).bullet.lifetime = 56; //dagger
@@ -85,7 +85,8 @@ UnitTypes.corvus.weapons.get(0).bullet.lifetime = 47;
 UnitTypes.corvus.weapons.get(0).shootStatusDuration = 72 * 2; //corvus
 
 
-UnitTypes.crawler.health = 110;
+UnitTypes.crawler.health = 120;
+UnitTypes.crawler.speed = 0.8;
 
 UnitTypes.atrax.speed = 0.84;
 UnitTypes.atrax.health = 370;
@@ -113,10 +114,16 @@ UnitTypes.toxopid.weapons.get(0).bullet.damage = 180;
 UnitTypes.toxopid.rotateSpeed = 2.8; //toxopid
 
 
-UnitTypes.flare.weapons.get(0).reload = 15;
+UnitTypes.flare.weapons.get(0).reload = 70;
 UnitTypes.flare.health = 35;
-UnitTypes.flare.rotateSpeed = 9;
-UnitTypes.flare.weapons.get(0).bullet.damage = 10; //flare
+UnitTypes.flare.rotateSpeed = 7;
+UnitTypes.flare.weapons.get(0).bullet.damage = 12; 
+UnitTypes.flare.circleTarget = true;
+UnitTypes.flare.circleTargetRadius = 80;
+UnitTypes.flare.weapons.get(0).shoot.shots = 3;
+UnitTypes.flare.weapons.get(0).shoot.shotDelay = 4;
+UnitTypes.flare.weapons.get(0).mirror = false;
+//flare
 
 UnitTypes.horizon.speed = 2.2;
 UnitTypes.horizon.health = 240;
@@ -334,21 +341,27 @@ Blocks.tsunami.ammoTypes.get(Liquids.cryofluid).lifetime = 56; //tsunami
 
 Blocks.ripple.ammoTypes.get(Items.graphite).knockback = 1.2;
 Blocks.ripple.ammoTypes.get(Items.graphite).width = 16;
-Blocks.ripple.ammoTypes.get(Items.graphite).height = 16; //ripple
+Blocks.ripple.ammoTypes.get(Items.graphite).height = 16; 
+Blocks.ripple.ammoTypes.get(Items.graphite).splashDamage = 75; //ripple
 
-Blocks.ripple.ammoTypes.get(Items.plastanium).splashDamage = 35; 
-Blocks.ripple.ammoTypes.get(Items.plastanium).fragBullets = 5;
-Blocks.ripple.ammoTypes.get(Items.plastanium).damage = 15;//ripple
+Blocks.ripple.ammoTypes.get(Items.silicon).splashDamage = 72; 
+Blocks.ripple.ammoTypes.get(Items.silicon).splashDamageRadius = 25 * 0.75; //ripple
 
-Blocks.ripple.ammoTypes.get(Items.pyratite).splashDamage = 48;
+Blocks.ripple.ammoTypes.get(Items.plastanium).splashDamage = 70; 
+Blocks.ripple.ammoTypes.get(Items.plastanium).fragBullets = 7;
+Blocks.ripple.ammoTypes.get(Items.plastanium).fragBullet.damage = 15; //ripple
+
+Blocks.ripple.ammoTypes.get(Items.pyratite).splashDamage = 90;
 Blocks.ripple.ammoTypes.get(Items.pyratite).splashDamageRadius = 38;
 Blocks.ripple.ammoTypes.get(Items.pyratite).width = 17;
-Blocks.ripple.ammoTypes.get(Items.pyratite).height = 17; //ripple
+Blocks.ripple.ammoTypes.get(Items.pyratite).height = 17; 
+Blocks.ripple.ammoTypes.get(Items.pyratite).ammoMultiplier = 2; //ripple
 
-Blocks.ripple.ammoTypes.get(Items.blastCompound).width = 18;
-Blocks.ripple.ammoTypes.get(Items.blastCompound).height = 18;
+Blocks.ripple.ammoTypes.get(Items.blastCompound).width = 17;
+Blocks.ripple.ammoTypes.get(Items.blastCompound).height = 17;
 Blocks.ripple.ammoTypes.get(Items.blastCompound).splashDamageRadius = 42;
-Blocks.ripple.ammoTypes.get(Items.blastCompound).splashDamage = 75;
+Blocks.ripple.ammoTypes.get(Items.blastCompound).splashDamage = 115;
+Blocks.ripple.ammoTypes.get(Items.blastCompound).ammoMultiplier = 2;
 Blocks.ripple.ammoTypes.get(Items.blastCompound).reloadMultiplier = 0.7; //ripple
 
 
@@ -389,7 +402,7 @@ Blocks.spectre.ammoTypes.get(Items.thorium).knockback = 1.3;
 Blocks.spectre.ammoTypes.get(Items.thorium).pierceCap = 2; //spectre
 
 Blocks.spectre.ammoTypes.get(Items.pyratite).damage = 110;
-Blocks.spectre.ammoTypes.get(Items.pyratite).ammoMultiplier = 3;
+Blocks.spectre.ammoTypes.get(Items.pyratite).ammoMultiplier = 2;
 Blocks.spectre.ammoTypes.get(Items.pyratite).splashDamage = 32;
 Blocks.spectre.ammoTypes.get(Items.pyratite).knockback = 0.7;
 Blocks.spectre.ammoTypes.get(Items.pyratite).pierceCap = 2;  //spectre
@@ -438,7 +451,7 @@ Blocks.scrapWallGigantic.health = 3200; //walls
 
 Blocks.shockMine.damage = 15;
 Blocks.shockMine.tendrils = 7;
-Blocks.shockMine.health = 30;
+Blocks.shockMine.health = 80;
 
 
 Events.on(WorldLoadEvent, () => {
