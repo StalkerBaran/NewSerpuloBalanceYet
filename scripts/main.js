@@ -386,7 +386,7 @@ Blocks.cyclone.ammoTypes.get(Items.surgeAlloy).reloadMultiplier = 0.8; //cyclone
 Blocks.cyclone.rotateSpeed = 7; 
 Blocks.cyclone.coolantMultiplier = 0,875; //cyclone
 
-Blocks.spectre.reload = 7.5;
+Blocks.spectre.reload = 8;
 Blocks.spectre.rotateSpeed = 1.4;
 Blocks.spectre.range = 273; 
 Blocks.spectre.maxAmmo = 90;
